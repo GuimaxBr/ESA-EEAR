@@ -3,120 +3,1178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questoes ESA</title>
+    <title>Questões ESA | Plataforma de preparação ESA e EEAR</title>
+    <meta
+        name="description"
+        content="Questões ESA é uma plataforma de preparação para ESA e EEAR com simulados, progresso, ranking online, metas diárias, sincronização e rotina de estudo."
+    >
     <style>
         :root {
-            color-scheme: light;
-            --bg: #f4efe4;
-            --panel: #ffffff;
-            --ink: #142741;
-            --muted: #54657d;
-            --accent: #1f4e8c;
-            --line: #d8deea;
+            color-scheme: dark;
+            --bg: #06101f;
+            --bg-soft: #0a1930;
+            --panel: rgba(7, 22, 42, 0.74);
+            --panel-strong: rgba(9, 26, 50, 0.92);
+            --card: rgba(14, 37, 70, 0.84);
+            --line: rgba(150, 186, 255, 0.18);
+            --line-strong: rgba(247, 197, 69, 0.35);
+            --ink: #eef5ff;
+            --muted: #9eb5d5;
+            --accent: #f7c545;
+            --accent-soft: #7db4ff;
+            --accent-green: #57d29b;
+            --shadow: 0 32px 90px rgba(0, 0, 0, 0.45);
+            --radius-xl: 30px;
+            --radius-lg: 22px;
+            --radius-md: 18px;
+            --content-width: 1240px;
         }
 
         * {
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
-            background: linear-gradient(180deg, #efe7d7 0%, #f8f5ee 100%);
+            min-height: 100vh;
+            font-family: "Bahnschrift SemiCondensed", "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(28, 84, 168, 0.28), transparent 36%),
+                radial-gradient(circle at 80% 14%, rgba(247, 197, 69, 0.20), transparent 26%),
+                linear-gradient(180deg, #04101f 0%, #071426 28%, #06101f 100%);
             color: var(--ink);
+            overflow-x: hidden;
         }
 
-        main {
-            max-width: 760px;
-            margin: 0 auto;
-            padding: 48px 20px 64px;
+        body::before,
+        body::after {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: -2;
         }
 
-        .hero {
-            background: var(--panel);
-            border: 1px solid var(--line);
-            border-radius: 24px;
-            padding: 28px;
-            box-shadow: 0 18px 45px rgba(20, 39, 65, 0.08);
+        body::before {
+            background:
+                linear-gradient(115deg, rgba(255, 255, 255, 0.03), transparent 28%),
+                linear-gradient(245deg, rgba(247, 197, 69, 0.05), transparent 25%);
         }
 
-        h1 {
-            margin: 0 0 12px;
-            font-size: clamp(2rem, 6vw, 3.2rem);
-            line-height: 1.05;
-        }
-
-        p {
-            margin: 0;
-            color: var(--muted);
-            line-height: 1.65;
-            font-size: 1rem;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 16px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background: rgba(31, 78, 140, 0.06);
-            border: 1px solid rgba(31, 78, 140, 0.14);
-            border-radius: 18px;
-            padding: 18px;
-        }
-
-        .label {
-            display: inline-block;
-            margin-top: 28px;
-            margin-bottom: 12px;
-            padding: 8px 12px;
-            border-radius: 999px;
-            background: rgba(31, 78, 140, 0.1);
-            color: var(--accent);
-            font-size: 0.82rem;
-            font-weight: 700;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-        }
-
-        code {
-            font-family: Consolas, "Courier New", monospace;
-            color: var(--accent);
+        body::after {
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+            background-size: 34px 34px;
+            mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), transparent 92%);
+            z-index: -3;
         }
 
         a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .page-shell {
+            position: relative;
+            isolation: isolate;
+        }
+
+        .page-shell::before {
+            content: "";
+            position: absolute;
+            top: 120px;
+            right: -120px;
+            width: min(52vw, 720px);
+            height: min(52vw, 720px);
+            background: url("./assets/banner-aguia.png") center/contain no-repeat;
+            opacity: 0.10;
+            filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.45));
+            animation: drift 14s ease-in-out infinite;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .container {
+            width: min(var(--content-width), calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            backdrop-filter: blur(18px);
+            background: rgba(4, 13, 26, 0.72);
+            border-bottom: 1px solid rgba(125, 180, 255, 0.10);
+        }
+
+        .topbar-inner {
+            width: min(var(--content-width), calc(100% - 32px));
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            padding: 16px 0;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            min-width: 0;
+        }
+
+        .brand-mark {
+            width: 48px;
+            height: 48px;
+            border-radius: 15px;
+            background:
+                linear-gradient(140deg, rgba(247, 197, 69, 0.24), rgba(125, 180, 255, 0.08)),
+                rgba(8, 21, 42, 0.9);
+            border: 1px solid rgba(247, 197, 69, 0.25);
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+            display: grid;
+            place-items: center;
+            padding: 6px;
+        }
+
+        .brand-title {
+            font-size: 0.86rem;
+            letter-spacing: 0.24em;
+            text-transform: uppercase;
             color: var(--accent);
+            margin-bottom: 3px;
+        }
+
+        .brand-subtitle {
+            font-size: 0.96rem;
+            color: var(--ink);
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 10px 18px;
+            font-size: 0.98rem;
+            color: var(--muted);
+        }
+
+        .nav a {
+            position: relative;
+            transition: color 180ms ease;
+        }
+
+        .nav a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 100%;
+            height: 2px;
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform 180ms ease;
+            background: linear-gradient(90deg, var(--accent), var(--accent-soft));
+        }
+
+        .nav a:hover {
+            color: var(--ink);
+        }
+
+        .nav a:hover::after {
+            transform: scaleX(1);
+        }
+
+        .hero {
+            position: relative;
+            padding: 72px 0 36px;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.16fr) minmax(320px, 0.84fr);
+            gap: 28px;
+            align-items: stretch;
+        }
+
+        .hero-panel,
+        .showcase-panel,
+        .section-shell,
+        .feature-card,
+        .signal-card,
+        .team-card,
+        .glass-card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(22px);
+        }
+
+        .hero-panel {
+            position: relative;
+            overflow: hidden;
+            padding: 34px;
+        }
+
+        .hero-panel::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(120deg, rgba(247, 197, 69, 0.10), transparent 22%),
+                radial-gradient(circle at top right, rgba(125, 180, 255, 0.16), transparent 30%);
+            pointer-events: none;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            border-radius: 999px;
+            background: rgba(247, 197, 69, 0.10);
+            border: 1px solid rgba(247, 197, 69, 0.16);
+            color: var(--accent);
+            font-size: 0.84rem;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        .eyebrow::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--accent), #fff2bd);
+            box-shadow: 0 0 16px rgba(247, 197, 69, 0.75);
+        }
+
+        .hero h1 {
+            margin: 22px 0 18px;
+            max-width: 12ch;
+            font-size: clamp(3rem, 6vw, 6rem);
+            line-height: 0.95;
+            letter-spacing: -0.05em;
+        }
+
+        .hero .lead {
+            max-width: 62ch;
+            color: var(--muted);
+            font-size: 1.16rem;
+            line-height: 1.72;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 28px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            min-height: 52px;
+            padding: 0 20px;
+            border-radius: 16px;
+            font-weight: 800;
+            letter-spacing: 0.03em;
+            transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .button-primary {
+            color: #07111f;
+            background: linear-gradient(135deg, #f7c545 0%, #ffe08e 100%);
+            box-shadow: 0 18px 32px rgba(247, 197, 69, 0.28);
+        }
+
+        .button-secondary {
+            color: var(--ink);
+            background: rgba(125, 180, 255, 0.08);
+            border: 1px solid rgba(125, 180, 255, 0.18);
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 30px;
+        }
+
+        .stat-card {
+            border-radius: 20px;
+            padding: 18px 18px 20px;
+            background: rgba(6, 20, 38, 0.55);
+            border: 1px solid rgba(125, 180, 255, 0.14);
+        }
+
+        .stat-card strong {
+            display: block;
+            font-size: 1.5rem;
+            margin-bottom: 6px;
+            color: var(--ink);
+        }
+
+        .stat-card span {
+            color: var(--muted);
+            font-size: 0.96rem;
+            line-height: 1.4;
+        }
+
+        .showcase-panel {
+            position: relative;
+            overflow: hidden;
+            padding: 24px;
+            background:
+                linear-gradient(180deg, rgba(9, 25, 48, 0.94), rgba(7, 20, 38, 0.95)),
+                url("./assets/bote.jpg") center/cover no-repeat;
+        }
+
+        .showcase-panel::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, rgba(5, 16, 30, 0.28), rgba(5, 16, 30, 0.90)),
+                radial-gradient(circle at 28% 22%, rgba(247, 197, 69, 0.16), transparent 28%);
+        }
+
+        .showcase-stack {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            gap: 18px;
+        }
+
+        .logo-card {
+            padding: 18px;
+            border-radius: 22px;
+            background: rgba(8, 20, 39, 0.58);
+            border: 1px solid rgba(247, 197, 69, 0.18);
+            display: grid;
+            place-items: center;
+            min-height: 260px;
+            overflow: hidden;
+        }
+
+        .logo-card img {
+            width: min(100%, 390px);
+            filter: drop-shadow(0 26px 50px rgba(0, 0, 0, 0.35));
+            transform: translateZ(0);
+        }
+
+        .banner-card {
+            padding: 20px;
+            border-radius: 24px;
+            background: rgba(8, 20, 39, 0.66);
+            border: 1px solid rgba(125, 180, 255, 0.16);
+        }
+
+        .banner-card img {
+            width: 100%;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .showcase-note {
+            display: grid;
+            gap: 10px;
+            padding: 18px 20px;
+            border-radius: 22px;
+            background: rgba(7, 19, 37, 0.78);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .showcase-note strong {
+            font-size: 1.05rem;
+        }
+
+        .showcase-note p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.58;
+        }
+
+        .section {
+            padding: 28px 0;
+        }
+
+        .section-shell {
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        .section-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        .section-heading h2 {
+            margin: 0;
+            font-size: clamp(2rem, 4vw, 3.3rem);
+            line-height: 1;
+            letter-spacing: -0.04em;
+        }
+
+        .section-heading p {
+            margin: 0;
+            max-width: 44ch;
+            color: var(--muted);
+            line-height: 1.66;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        .feature-card {
+            position: relative;
+            padding: 22px;
+            overflow: hidden;
+            min-height: 210px;
+            background:
+                linear-gradient(180deg, rgba(13, 35, 66, 0.88), rgba(7, 20, 39, 0.9));
+        }
+
+        .feature-card::before {
+            content: "";
+            position: absolute;
+            inset: auto -18% -50% auto;
+            width: 180px;
+            height: 180px;
+            border-radius: 999px;
+            background: radial-gradient(circle, rgba(125, 180, 255, 0.20), transparent 70%);
+            pointer-events: none;
+        }
+
+        .feature-card.large {
+            grid-column: span 6;
+        }
+
+        .feature-card.medium {
+            grid-column: span 4;
+        }
+
+        .feature-card.small {
+            grid-column: span 3;
+        }
+
+        .feature-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, rgba(247, 197, 69, 0.20), rgba(125, 180, 255, 0.16));
+            border: 1px solid rgba(247, 197, 69, 0.18);
+            display: grid;
+            place-items: center;
+            margin-bottom: 16px;
+            font-size: 1.2rem;
+        }
+
+        .feature-card h3 {
+            margin: 0 0 10px;
+            font-size: 1.32rem;
+        }
+
+        .feature-card p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.62;
+        }
+
+        .signal-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 20px;
+        }
+
+        .signal-card {
+            position: relative;
+            overflow: hidden;
+            padding: 26px;
+            background:
+                linear-gradient(180deg, rgba(10, 27, 50, 0.92), rgba(6, 19, 37, 0.94));
+        }
+
+        .signal-card.image-card {
+            min-height: 520px;
+            padding: 0;
+        }
+
+        .signal-card.image-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, rgba(4, 13, 25, 0.05), rgba(4, 13, 25, 0.82) 86%),
+                linear-gradient(120deg, rgba(247, 197, 69, 0.12), transparent 30%);
+            z-index: 1;
+        }
+
+        .signal-card.image-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .signal-overlay {
+            position: absolute;
+            inset: auto 26px 26px 26px;
+            z-index: 2;
+            display: grid;
+            gap: 10px;
+        }
+
+        .signal-chip {
+            display: inline-flex;
+            width: fit-content;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 12px;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: rgba(6, 15, 29, 0.68);
+            border: 1px solid rgba(247, 197, 69, 0.20);
+        }
+
+        .signal-overlay h3 {
+            margin: 0;
+            font-size: clamp(1.9rem, 4vw, 3rem);
+            line-height: 0.98;
+            max-width: 11ch;
+        }
+
+        .signal-overlay p {
+            max-width: 42ch;
+            color: #d9e6f9;
+            line-height: 1.62;
+            margin: 0;
+        }
+
+        .signal-copy {
+            display: grid;
+            gap: 18px;
+        }
+
+        .signal-copy h3 {
+            margin: 0;
+            font-size: 2rem;
+            line-height: 1.02;
+        }
+
+        .signal-copy p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.7;
+        }
+
+        .quote {
+            margin-top: 8px;
+            padding: 18px 20px;
+            border-left: 3px solid var(--accent);
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 0 18px 18px 0;
+            color: #edf4ff;
+            font-size: 1.04rem;
+            line-height: 1.68;
+        }
+
+        .app-stack {
+            display: grid;
+            gap: 14px;
+            margin-top: 8px;
+        }
+
+        .app-stack .glass-card {
+            padding: 18px 20px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.035);
+        }
+
+        .app-stack strong {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--ink);
+        }
+
+        .app-stack p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.58;
+        }
+
+        .dev-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .team-card {
+            position: relative;
+            overflow: hidden;
+            background:
+                linear-gradient(180deg, rgba(10, 27, 50, 0.94), rgba(6, 19, 37, 0.98));
+        }
+
+        .team-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, transparent 30%, rgba(3, 11, 21, 0.92) 100%),
+                radial-gradient(circle at top left, rgba(247, 197, 69, 0.10), transparent 28%);
+            z-index: 1;
+        }
+
+        .team-photo {
+            aspect-ratio: 0.78 / 1;
+            overflow: hidden;
+            background: #091424;
+        }
+
+        .team-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.04);
+            transition: transform 450ms ease, filter 450ms ease;
+            filter: saturate(1.05) contrast(1.02);
+        }
+
+        .team-card:hover .team-photo img {
+            transform: scale(1.1);
+            filter: saturate(1.1) contrast(1.08);
+        }
+
+        .team-copy {
+            position: absolute;
+            inset: auto 22px 22px 22px;
+            z-index: 2;
+            display: grid;
+            gap: 10px;
+        }
+
+        .team-role {
+            display: inline-flex;
+            width: fit-content;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-size: 0.74rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            border: 1px solid rgba(247, 197, 69, 0.20);
+            background: rgba(6, 15, 29, 0.62);
+            color: var(--accent);
+        }
+
+        .team-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .team-card p {
+            margin: 0;
+            color: #d1dff3;
+            line-height: 1.58;
+        }
+
+        .closing-grid {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 18px;
+            align-items: center;
+        }
+
+        .closing-copy h2 {
+            margin: 0 0 12px;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 0.98;
+        }
+
+        .closing-copy p {
+            margin: 0;
+            max-width: 54ch;
+            color: var(--muted);
+            line-height: 1.7;
+        }
+
+        .footer-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 22px;
+        }
+
+        .meta-pill {
+            padding: 10px 14px;
+            border-radius: 999px;
+            border: 1px solid rgba(125, 180, 255, 0.16);
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .footer-note {
+            margin-top: 18px;
+            color: #7f98ba;
+            font-size: 0.92rem;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px) scale(0.985);
+            transition:
+                opacity 800ms cubic-bezier(0.22, 1, 0.36, 1),
+                transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .reveal.is-visible {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+
+        .reveal.delay-1 {
+            transition-delay: 80ms;
+        }
+
+        .reveal.delay-2 {
+            transition-delay: 160ms;
+        }
+
+        .reveal.delay-3 {
+            transition-delay: 240ms;
+        }
+
+        @keyframes drift {
+            0%,
+            100% {
+                transform: translate3d(0, 0, 0) scale(1);
+            }
+
+            50% {
+                transform: translate3d(-18px, 16px, 0) scale(1.03);
+            }
+        }
+
+        @media (max-width: 1120px) {
+            .hero-grid,
+            .signal-grid,
+            .closing-grid,
+            .section-heading {
+                grid-template-columns: 1fr;
+            }
+
+            .section-heading {
+                align-items: start;
+            }
+
+            .feature-card.large,
+            .feature-card.medium,
+            .feature-card.small {
+                grid-column: span 6;
+            }
+
+            .dev-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 760px) {
+            .topbar-inner {
+                flex-direction: column;
+                align-items: start;
+            }
+
+            .nav {
+                justify-content: start;
+            }
+
+            .hero {
+                padding-top: 44px;
+            }
+
+            .hero-panel,
+            .showcase-panel,
+            .section-shell {
+                padding: 22px;
+            }
+
+            .hero-stats,
+            .dev-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-card.large,
+            .feature-card.medium,
+            .feature-card.small {
+                grid-column: span 12;
+            }
+
+            .signal-card.image-card {
+                min-height: 420px;
+            }
+
+            .team-photo {
+                aspect-ratio: 1 / 1.06;
+            }
         }
     </style>
 </head>
 <body>
-    <main>
-        <section class="hero">
-            <div class="label">Questoes ESA</div>
-            <h1>Pagina pronta para publicar o app e validar anuncios.</h1>
-            <p>
-                Esta raiz web foi preparada para hospedar o arquivo <code>app-ads.txt</code> do aplicativo
-                Android Questoes ESA. Depois de publicar esta pasta em um dominio ou no GitHub Pages,
-                o AdMob podera validar a autorizacao de anuncios reais.
-            </p>
-
-            <div class="grid">
-                <article class="card">
-                    <strong>App ID</strong>
-                    <p>ca-app-pub-9677072903516668~4339368747</p>
-                </article>
-                <article class="card">
-                    <strong>Publisher ID</strong>
-                    <p>pub-9677072903516668</p>
-                </article>
-                <article class="card">
-                    <strong>Arquivo exigido</strong>
-                    <p><a href="./app-ads.txt">Abrir app-ads.txt</a></p>
-                </article>
+    <div class="page-shell">
+        <header class="topbar">
+            <div class="topbar-inner">
+                <a class="brand" href="#inicio">
+                    <span class="brand-mark">
+                        <img src="./assets/banner-aguia.png" alt="Águia do Questões ESA">
+                    </span>
+                    <span>
+                        <span class="brand-title">QUESTÕES ESA</span>
+                        <span class="brand-subtitle">Preparação de alto nível para ESA e EEAR</span>
+                    </span>
+                </a>
+                <nav class="nav" aria-label="Seções do site">
+                    <a href="#plataforma">Plataforma</a>
+                    <a href="#rotina-papiro">Rotina Papiro</a>
+                    <a href="#funcionalidades">Funcionalidades</a>
+                    <a href="#desenvolvedores">Desenvolvedores</a>
+                    <a href="./app-ads.txt">app-ads.txt</a>
+                </nav>
             </div>
-        </section>
-    </main>
+        </header>
+
+        <main class="container">
+            <section class="hero" id="inicio">
+                <div class="hero-grid">
+                    <article class="hero-panel reveal is-visible">
+                        <span class="eyebrow">Operação aprovação</span>
+                        <h1>A tropa do seu estudo começa aqui.</h1>
+                        <p class="lead">
+                            O Questões ESA foi criado para transformar rotina em progresso real. Simulados por ano e
+                            matéria, ranking online, metas diárias, histórico, sargentômetro, sincronização em nuvem e
+                            uma experiência visual pensada para quem está construindo disciplina, constância e
+                            resultado.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="button button-primary" href="#funcionalidades">Explorar a plataforma</a>
+                            <a class="button button-secondary" href="#desenvolvedores">Conhecer a equipe</a>
+                        </div>
+                        <div class="hero-stats">
+                            <article class="stat-card reveal is-visible delay-1">
+                                <strong>ESA + EEAR</strong>
+                                <span>Estrutura preparada para organizar provas, evolução e constância de estudo.</span>
+                            </article>
+                            <article class="stat-card reveal is-visible delay-2">
+                                <strong>Ranking vivo</strong>
+                                <span>Presença, pontuação e tempo de estudo sincronizados para acompanhar quem está na luta.</span>
+                            </article>
+                            <article class="stat-card reveal is-visible delay-3">
+                                <strong>Rotina forte</strong>
+                                <span>Metas, lembretes e ferramentas diárias para manter o preparo em movimento.</span>
+                            </article>
+                        </div>
+                    </article>
+
+                    <aside class="showcase-panel reveal is-visible delay-1" id="plataforma">
+                        <div class="showcase-stack">
+                            <div class="logo-card">
+                                <img src="./assets/questoes-esa.png" alt="Logo Questões ESA e EEAR">
+                            </div>
+                            <div class="banner-card">
+                                <img src="./assets/banner-rotina-papiro.png" alt="Banner Rotina Papiro">
+                            </div>
+                            <div class="showcase-note">
+                                <strong>Uma identidade de combate, disciplina e evolução.</strong>
+                                <p>
+                                    Cada detalhe desta página foi desenhado para refletir aquilo que o app quer passar:
+                                    presença, constância, foco tático e preparação com identidade própria.
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="section" id="rotina-papiro">
+                <div class="section-shell reveal">
+                    <div class="section-heading">
+                        <div>
+                            <span class="eyebrow">Rotina Papiro</span>
+                            <h2>Uma narrativa visual de disciplina, estrada e conquista.</h2>
+                        </div>
+                        <p>
+                            O app não é só uma lista de questões. Ele organiza a rotina do candidato com clima de
+                            missão, foco de evolução e leitura constante do progresso.
+                        </p>
+                    </div>
+                    <div class="signal-grid">
+                        <article class="signal-card image-card reveal delay-1">
+                            <img src="./assets/bote.jpg" alt="Cena de deslocamento em embarcação ao pôr do sol">
+                            <div class="signal-overlay">
+                                <span class="signal-chip">Cenário de preparo</span>
+                                <h3>Preparação que atravessa o dia até a linha de chegada.</h3>
+                                <p>
+                                    Da primeira meta da manhã ao último simulado da noite, a plataforma foi pensada
+                                    para manter o aluno em movimento com direção e identidade.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="signal-card signal-copy reveal delay-2">
+                            <span class="eyebrow">Missão do app</span>
+                            <h3>Estudar com clareza, acompanhar o progresso e sustentar o ritmo.</h3>
+                            <p>
+                                O Questões ESA centraliza estudo por matérias, desempenho, histórico, presença online,
+                                ranking, metas diárias e acompanhamento de evolução sem diluir a experiência em uma
+                                interface genérica.
+                            </p>
+                            <p>
+                                Aqui a preparação é tratada como processo. Você entra, retoma de onde parou, mede o
+                                que fez, compara seu ritmo e mantém a disciplina da rotina em um único ambiente.
+                            </p>
+                            <div class="quote">
+                                “Sua preparação para ESA e EEAR começa agora. Estude com foco, acompanhe seu
+                                desempenho e evolua todos os dias.”
+                            </div>
+                            <div class="app-stack">
+                                <div class="glass-card">
+                                    <strong>Presença e continuidade</strong>
+                                    <p>Login com Google, sincronização entre dispositivos, histórico salvo e recuperação de conta e progresso.</p>
+                                </div>
+                                <div class="glass-card">
+                                    <strong>Leitura de performance</strong>
+                                    <p>Ranking online, pontuação, tempo de estudo, metas diárias e progresso por matéria em leitura direta.</p>
+                                </div>
+                                <div class="glass-card">
+                                    <strong>Ferramentas de estudo</strong>
+                                    <p>Simulados, revisão, anotações, flash cards, lembretes e sargentômetro em uma jornada só.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="funcionalidades">
+                <div class="section-shell reveal">
+                    <div class="section-heading">
+                        <div>
+                            <span class="eyebrow">Funcionalidades</span>
+                            <h2>Uma plataforma completa para estudar, medir e evoluir.</h2>
+                        </div>
+                        <p>
+                            A arquitetura do app foi construída para dar suporte real à rotina do concurseiro militar,
+                            do primeiro acesso ao acompanhamento avançado de desempenho.
+                        </p>
+                    </div>
+
+                    <div class="feature-grid">
+                        <article class="feature-card large reveal delay-1">
+                            <div class="feature-icon">01</div>
+                            <h3>Simulados por prova, ano e matéria</h3>
+                            <p>
+                                Organização de conteúdo para ESA e EEAR com banco de questões, estrutura por área,
+                                revisão visual e fluxo direto para montar sessões de estudo com mais contexto.
+                            </p>
+                        </article>
+
+                        <article class="feature-card large reveal delay-2">
+                            <div class="feature-icon">02</div>
+                            <h3>Progresso por matéria e histórico de evolução</h3>
+                            <p>
+                                O app consolida tentativas, acertos, histórico de simulados e leitura de avanço para
+                                transformar volume de estudo em visão prática de desempenho.
+                            </p>
+                        </article>
+
+                        <article class="feature-card medium reveal delay-1">
+                            <div class="feature-icon">03</div>
+                            <h3>Ranking online com presença ativa</h3>
+                            <p>
+                                Pontuação, tempo de estudo, presença online e leitura de atividade para criar senso de
+                                ritmo, comparação e constância dentro da comunidade.
+                            </p>
+                        </article>
+
+                        <article class="feature-card medium reveal delay-2">
+                            <div class="feature-icon">04</div>
+                            <h3>Metas diárias e lembretes inteligentes</h3>
+                            <p>
+                                Controle de meta de estudo, lembretes diários e acompanhamento do que foi feito hoje
+                                para manter a rotina viva sem depender de memória ou improviso.
+                            </p>
+                        </article>
+
+                        <article class="feature-card medium reveal delay-3">
+                            <div class="feature-icon">05</div>
+                            <h3>Sargentômetro e motivação visual</h3>
+                            <p>
+                                Elementos próprios da jornada militar para reforçar identidade, acompanhamento de meta
+                                temporal e conexão emocional com o objetivo final.
+                            </p>
+                        </article>
+
+                        <article class="feature-card small reveal delay-1">
+                            <div class="feature-icon">06</div>
+                            <h3>Login Google</h3>
+                            <p>Conta integrada para sincronizar perfil, progresso, ranking e compras entre aparelhos.</p>
+                        </article>
+
+                        <article class="feature-card small reveal delay-2">
+                            <div class="feature-icon">07</div>
+                            <h3>Flash cards</h3>
+                            <p>Ferramentas de retenção para reforçar revisão e consolidar memória de conteúdo.</p>
+                        </article>
+
+                        <article class="feature-card small reveal delay-3">
+                            <div class="feature-icon">08</div>
+                            <h3>Anotações</h3>
+                            <p>Espaço para registrar observações e criar memória operacional do seu próprio estudo.</p>
+                        </article>
+
+                        <article class="feature-card small reveal delay-1">
+                            <div class="feature-icon">09</div>
+                            <h3>Modo escuro</h3>
+                            <p>Experiência visual consistente para estudo prolongado em diferentes horários e contextos.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="desenvolvedores">
+                <div class="section-shell reveal">
+                    <div class="section-heading">
+                        <div>
+                            <span class="eyebrow">Desenvolvedores</span>
+                            <h2>Quem constrói a visão por trás do Questões ESA.</h2>
+                        </div>
+                        <p>
+                            A equipe une operação, vivência militar, execução técnica e leitura real das dificuldades de
+                            quem está se preparando para conquistar a aprovação.
+                        </p>
+                    </div>
+
+                    <div class="dev-grid">
+                        <article class="team-card reveal delay-1">
+                            <div class="team-photo">
+                                <img src="./assets/cb-guimaraes.jpg" alt="Cb Guimarães">
+                            </div>
+                            <div class="team-copy">
+                                <span class="team-role">Cb Guimarães</span>
+                                <h3>Direção, identidade e execução</h3>
+                                <p>
+                                    Responsável por visão de produto, presença visual, organização da experiência e
+                                    condução do projeto com foco em impacto real para o aluno.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="team-card reveal delay-2">
+                            <div class="team-photo">
+                                <img src="./assets/sgt-estevao.png" alt="Sgt Estevão">
+                            </div>
+                            <div class="team-copy">
+                                <span class="team-role">Sgt Estevão</span>
+                                <h3>Referência de formação e direção de conteúdo</h3>
+                                <p>
+                                    Traz vivência direta da ESA, leitura de terreno e profundidade prática para que o
+                                    app fale com propriedade com quem quer chegar mais longe.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="team-card reveal delay-3">
+                            <div class="team-photo">
+                                <img src="./assets/sd-sipriano.png" alt="Sipriano">
+                            </div>
+                            <div class="team-copy">
+                                <span class="team-role">Sipriano</span>
+                                <h3>Base criativa, apoio e energia de construção</h3>
+                                <p>
+                                    Soma ritmo, participação e sustentação ao projeto para que a plataforma siga
+                                    evoluindo com personalidade, presença e continuidade.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-shell reveal">
+                    <div class="closing-grid">
+                        <div class="closing-copy">
+                            <span class="eyebrow">Infra de publicação</span>
+                            <h2>Site público, app pronto e validação já conectada.</h2>
+                            <p>
+                                Esta landing também funciona como raiz oficial para o app-ads.txt, vinculando presença
+                                pública, identidade do projeto e infraestrutura necessária para AdMob e publicação.
+                            </p>
+                            <div class="footer-meta">
+                                <span class="meta-pill">App ID: ca-app-pub-9677072903516668~4339368747</span>
+                                <span class="meta-pill">Publisher ID: pub-9677072903516668</span>
+                                <a class="meta-pill" href="./app-ads.txt">Abrir app-ads.txt</a>
+                            </div>
+                            <p class="footer-note">
+                                Questões ESA | Plataforma Android para ESA e EEAR construída para estudo, ritmo e evolução.
+                            </p>
+                        </div>
+                        <div class="brand-mark" style="width: 96px; height: 96px; border-radius: 28px;">
+                            <img src="./assets/banner-aguia.png" alt="Marca águia do projeto">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                    observer.unobserve(entry.target);
+                }
+            }
+        }, {
+            threshold: 0.18,
+            rootMargin: "0px 0px -50px 0px"
+        });
+
+        document.querySelectorAll(".reveal").forEach((element) => {
+            if (!element.classList.contains("is-visible")) {
+                observer.observe(element);
+            }
+        });
+    </script>
 </body>
 </html>
