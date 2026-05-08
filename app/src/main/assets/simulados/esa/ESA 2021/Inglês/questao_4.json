@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2021) Mark the correct alternative.  <br>“Don’t speak so loud! The baby ________________ now.”",
+  "questionImage": null,
+  "options": [
+    "sleeps.",
+    "are sleeping.",
+    "sleep.",
+    "to sleep.",
+    "is sleeping."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Inglês",
+  "explanation": "A) Incorreto. “Sleeps” está no presente simples, usado para ações habituais, e não para algo que está acontecendo neste exato momento, como indicado pela expressão “now”.<br><br>B) Incorreto. “Are sleeping” está no presente contínuo, mas o sujeito “the baby” é singular. O correto seria usar o verbo auxiliar “is” com sujeitos no singular.<br><br>C) Incorreto. “Sleep” está no infinitivo sem “to” ou no presente simples para sujeitos plurais. Como o sujeito é singular (the baby), além de o tempo estar inadequado, a forma verbal também está incorreta.<br><br>D) Incorreto. “To sleep” é a forma infinitiva do verbo e não pode ser usada como verbo principal em frases afirmativas ou negativas no presente contínuo.<br><br>E) Correto. “Is sleeping” está no presente contínuo, que é usado para descrever ações que estão ocorrendo no momento da fala. A construção está correta: “is” (verbo auxiliar para sujeitos no singular) + “sleeping” (verbo principal com -ing).",
+  "explanationImage": null,
+  "year": 2021
+}

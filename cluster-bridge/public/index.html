@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cluster Bridge</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section id="login-panel" class="panel auth-panel">
+        <div class="eyebrow">Painel Admin</div>
+        <h1>Cluster Bridge</h1>
+        <p class="muted">
+          Painel web para fila de tarefas, dispositivos conectados e uso estimado de carga.
+        </p>
+        <form id="login-form" class="stack">
+          <label>
+            Senha de admin
+            <input id="admin-password" type="password" placeholder="Digite a senha" required />
+          </label>
+          <button type="submit">Entrar</button>
+          <p id="login-error" class="error" hidden></p>
+        </form>
+      </section>
+
+      <section id="dashboard" class="dashboard" hidden>
+        <header class="dashboard-header">
+          <div>
+            <div class="eyebrow">Cluster ativo</div>
+            <h1>Fila distribuida de teste</h1>
+            <p class="muted">
+              O uso de CPU mostrado abaixo e uma estimativa de participacao do worker no cluster.
+            </p>
+          </div>
+          <div class="header-actions">
+            <a class="secondary-link" href="/worker.html" target="_blank" rel="noreferrer">Abrir worker web</a>
+            <button id="logout-button" class="ghost-button" type="button">Sair</button>
+          </div>
+        </header>
+
+        <section class="cards-grid">
+          <article class="panel stat-card">
+            <span class="stat-label">Dispositivos online</span>
+            <strong id="stat-online" class="stat-value">0</strong>
+          </article>
+          <article class="panel stat-card">
+            <span class="stat-label">Chunks na fila</span>
+            <strong id="stat-queued" class="stat-value">0</strong>
+          </article>
+          <article class="panel stat-card">
+            <span class="stat-label">Chunks em execucao</span>
+            <strong id="stat-leased" class="stat-value">0</strong>
+          </article>
+          <article class="panel stat-card">
+            <span class="stat-label">Tarefas concluidas</span>
+            <strong id="stat-completed" class="stat-value">0</strong>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="section-title-row">
+            <div>
+              <div class="eyebrow">Configuracao</div>
+              <h2>Bridge publica</h2>
+            </div>
+          </div>
+          <form id="config-form" class="config-grid">
+            <label>
+              URL publica do bridge
+              <input id="public-base-url" type="url" placeholder="https://seu-dominio.com" />
+            </label>
+            <label>
+              Carga maxima por worker (%)
+              <input id="worker-max-load" type="number" min="1" max="50" />
+            </label>
+            <label>
+              Chunk padrao (bytes)
+              <input id="chunk-size" type="number" min="65536" step="65536" />
+            </label>
+            <label>
+              Timeout do lease (ms)
+              <input id="stale-lease" type="number" min="5000" step="1000" />
+            </label>
+            <button type="submit">Salvar configuracao</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="section-title-row">
+            <div>
+              <div class="eyebrow">Nova tarefa</div>
+              <h2>Compactacao distribuida de teste</h2>
+            </div>
+            <p class="muted compact-note">
+              O arquivo e dividido em partes. Cada worker gera um `.gz` por parte e o resultado final sai como `.clusterzip.zip`.
+            </p>
+          </div>
+          <div id="dropzone" class="dropzone" tabindex="0">
+            Arraste um arquivo aqui ou clique para escolher.
+          </div>
+          <input id="file-input" type="file" hidden />
+          <div class="inline-actions">
+            <button id="choose-file-button" type="button">Escolher arquivo</button>
+            <span id="upload-status" class="muted"></span>
+          </div>
+        </section>
+
+        <section class="table-layout">
+          <article class="panel">
+            <div class="section-title-row">
+              <div>
+                <div class="eyebrow">Workers</div>
+                <h2>Dispositivos conectados</h2>
+              </div>
+            </div>
+            <div id="devices-list" class="list"></div>
+          </article>
+
+          <article class="panel">
+            <div class="section-title-row">
+              <div>
+                <div class="eyebrow">Fila</div>
+                <h2>Tarefas</h2>
+              </div>
+            </div>
+            <div id="jobs-list" class="list"></div>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="section-title-row">
+            <div>
+              <div class="eyebrow">Eventos</div>
+              <h2>Timeline recente</h2>
+            </div>
+          </div>
+          <div id="events-list" class="list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/admin.js" type="module"></script>
+  </body>
+</html>

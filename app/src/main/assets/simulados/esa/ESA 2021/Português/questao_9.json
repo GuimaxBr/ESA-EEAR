@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2021) Observe o enunciado abaixo:<br>De acordo com o texto, analise as afirmações abaixo: <br> <br>I. “O” é um artigo definido e seu valor semântico é de notoriedade. <br>II. “O” é um artigo indefinido e seu valor semântico é de generalização. <br>III. “Ele” é um pronome e o termo “é” é um verbo não nocional. <br>IV.  A expressão “cara” é característica da linguagem informal. <br>Quais estão corretas?",
+  "questionImage": "questao_9_enunciado.png",
+  "options": [
+    "Apenas I, III e IV",
+    "Apenas III e IV.",
+    "I, II, III e IV.",
+    "Apenas II e III.",
+    "Apenas I e IV."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "I. Correto. “O” é um artigo definido e seu valor semântico é de notoriedade. A fim de demonstrar que alguém é muito bom por meio da frase “Ele é o cara”<br><br>II. Incorreto. “O” é um artigo definido e o seu valor semântico é de notoriedade. <br><br>III. Correto. “Ele” é um pronome e o termo “é” é um verbo não nocional.  “Ele” é pronome pessoal do caso reto, enquanto “é” é um verbo de ligação, também chamado de relacional ou não nocional, tendo em vista que nocional é um verbo que indica ação.<br><br>IV. A expressão “cara” é característica da linguagem informal, utilizada no dia a dia pelos falantes da língua portuguesa.",
+  "explanationImage": null,
+  "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2019) Complete the sentence below using the appropriate words: Mr. Harris_________ trains: He is afraid of airplane and________like buses, but ________trains.",
+  "questionImage": null,
+  "options": [
+    "like/do/loves.",
+    "likes/don’t/love.",
+    "like/does/love.",
+    "likes/doesn’t/loves.",
+    "like/don’t/love."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "- Mr. Harris: 3ª pessoa do singular no presente simples, quando em sentenças afirmativas, há o acréscimo de -s ao final do verbo: LIKES<br>- Mr. Harris: 3ª pessoa do singular no presente simples verbo auxiliar para perguntas e negações: DOES/DOESN’T<br>- Mr. Harris: 3ª pessoa do singular no presente simples, quando em sentenças afirmativas, há o acréscimo de -s ao final do verbo: LOVES",
+  "explanationImage": null,
+  "year": 2019
+}

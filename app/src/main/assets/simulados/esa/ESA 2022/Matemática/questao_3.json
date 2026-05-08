@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2022) Em uma instrução de orientação diurna, um aluno da Escola de Sargentos das Armas foi colocado na origem de um sistema cartesiano ortogonal 𝑂𝑥 𝑒 𝑂𝑦. Considerando que ele dê exatamente 4 passos, um de cada vez, nas direções norte (N) ou leste (L), quantas trajetórias ele poderá percorrer?",
+  "questionImage": null,
+  "options": [
+    "32",
+    "12",
+    "4",
+    "36",
+    "16"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "O total de trajetórias que ele poderá percorrer será de: 2⁴ = 16",
+  "explanationImage": null,
+  "year": 2022
+}

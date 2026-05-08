@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2022) Leia o texto abaixo e marque a opção que melhor descreve o assunto abordado. <br> <br>Physical training (PT) is an important part of military life and Company Commander or Platoon Commander organizes PT activities every day. Soldiers run every morning. They go to the gym twice a week or three times a week and do weight lifting, sit-ups and push-ups. They usually go to the swimming pool once a week. Soldiers take a physical test every year. A lot of soldiers usually do more sports in their own time. Many soldiers play football every weekend. Some soldiers play tennis, or do karate or boxing.",
+  "questionImage": null,
+  "options": [
+    "Tecnologia militar",
+    "Cartografia e orientação no terreno",
+    "Treinamento físico militar",
+    "Comunicações no Exército",
+    "Serviço médico em campanha"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) Incorreta: Tecnologia militar<br><br> Comentário:<br>O texto não fala de equipamentos tecnológicos, como armas, radares ou veículos militares.<br><br>Em inglês: military technology = coisas como drones, armas, sistemas de mísseis.<br><br>Nada no texto menciona isso.<br> Exemplo de frase que indicaria essa opção:<br>“The military uses advanced drones and electronic systems.”<br> <br>(B) Incorreta: Cartografia e orientação no terreno<br><br> Comentário:<br>O texto não fala de mapas, bússolas ou técnicas para se orientar no terreno.<br><br>Cartografia = fazer/usar mapas.<br><br>Orientação no terreno = navegar usando pontos de referência.<br> Exemplo de frase que indicaria essa opção:<br>“Soldiers learn to read maps and use compasses to navigate.”<br><br>(C)  Correta: Treinamento físico militar <br><br> Comentário:<br>O texto inteiro descreve atividades físicas: corrida, academia, natação, esportes, testes físicos.<br><br>Explica como o treinamento físico é organizado diariamente.<br><br>Usa várias vezes o termo Physical training (PT).<br><br>Todo o conteúdo gira em torno de rotina de exercícios e preparo físico militar.<br> Explicação para alunos do ensino médio:<br>O tema central é a preparação física no Exército: tipos de exercícios, frequência, importância.<br><br>(D) Incorreta: Comunicações no Exército<br><br> Comentário:<br>Não há nenhuma menção a rádios, códigos, sinais, sistemas de comunicação.<br><br>Comunicações militares = falar por rádio, usar códigos, coordenar operações.<br><br> Exemplo de frase que indicaria essa opção:<br>“Soldiers use radios to coordinate their movements.”<br><br>(E) Incorreta: Serviço médico em campanha<br><br> Comentário:<br>O texto não trata de atendimento médico, primeiros socorros, enfermeiros, ou tratamento de feridos em operações.<br><br>Não há nada sobre cuidado de saúde durante missões.<br><br> Exemplo de frase que indicaria essa opção:<br>“Medics treat wounded soldiers on the battlefield.”",
+  "explanationImage": null,
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2021) São exemplos de verbos irregulares, <b>exceto:</b>",
+  "questionImage": null,
+  "options": [
+    "Restrinjo a passagem de alunos por aqui a partir de hoje.",
+    "Quando tinha três anos, já media um metro.",
+    "Todos os anos, ela me dava um presente.",
+    "Minha mãe faz bolos deliciosos.",
+    "Nós pedimos uma pizza."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "A) Correta. O verbo “restringir” é verbo regular, pois obedece a um padrão de radical e desinências verbais em sua flexão nos tempos e modos verbais. Apesar de haver uma modificação da letra ‘g’ para a letra ‘j’, isso não constitui irregularidade, apenas uma adaptação fônica.<br><br>B) Incorreta. O verbo “medir” é irregular, pois não obedece a um padrão de flexão, por exemplo, a 1ª pessoa do singular do presente do indicativo é \"meço\".<br><br>C) Incorreta. O verbo “dar” apresenta alterações em seu radical e suas desinências. Ex.: Eu dou / Eu dei (houve modificação das desinências esperadas pela 1ª pessoa do presente do indicativo e pretérito perfeito do indicativo).<br><br>D) Incorreta. O verbo “fazer” apresenta alterações em seu radical e suas desinências. Ex.: Eu faço / Eu fiz (houve modificação do radical).<br><br>E) Incorreta. O verbo “pedir” apresenta alterações em seu radical. Ex.: Eu peço / Eu pedi.",
+  "explanationImage": null,
+  "year": 2021
+}

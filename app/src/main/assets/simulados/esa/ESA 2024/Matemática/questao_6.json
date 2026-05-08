@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2024) As figuras abaixo foram desenhadas segundo uma progressão geométrica. Seguindo este padrão, qual é a fração que representa a região não sombreada da FIGURA 8?",
+  "questionImage": "questao_6_enunciado.png",
+  "options": [
+    "1/512",
+    "1/256",
+    "1/128",
+    "127/128",
+    "255/256"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "Adotemos como sendo 𝑙² a área do quadrilátero apresentado (consideremos um quadrado, dada a facilidade da visualização para a resolução). Lembre-se que de que a sequência precisa formar uma PG, logo, deve haver simetria na geração da figura.<br><br>Assim, sobre a área sombreada em cada figura:",
+  "explanationImage": "questao_6_explicacao.jpg",
+  "year": 2024
+}

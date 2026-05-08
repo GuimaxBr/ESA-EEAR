@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2023) Um número que figura entre 1 e 300 é escolhido aleatoriamente. Qual a probabilidade de que ele seja divisível por 3 ou por 5?",
+  "questionImage": null,
+  "options": [
+    "1/3",
+    "1/15",
+    "7/10",
+    "7/12",
+    "7/15"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "De 1, inclusive, a 300, inclusive, (como a banca queria que fosse interpretado), daí, 1 e 300 entram na conta:<br><br>• Contando os múltiplos de 3:<br>300/3 = 100<br><br>• Contando os múltiplos de 5:<br>300/5 = 60<br><br>• Contando os múltiplos de 15:<br>300/15 = 20<br><br>Assim, temos que o caso favorável se dá pela quantidade:<br><br>100 + 60 - 20 = 140<br>A probabiliadade é: P = 140/300 = 7/15",
+  "explanationImage": null,
+  "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2024) Sobre a palavra “completamente”, presente no segundo balão da tira, é <u><b>correto</b></u><b> </b>afirmar que:",
+  "questionImage": "questao_6_enunciado.png",
+  "options": [
+    "Possui um sufixo adverbial.",
+    "É composta por dois afixos.",
+    "Possui um prefixo de origem grega.",
+    "Apresenta uma derivação parassintética.",
+    "Foi formada por meio da derivação prefixal."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "(A) Correta, porque o sufixo “-mente” é tradicionalmente reconhecido como formador de advérbios a partir de adjetivos.<br><br>(B) Incorreta, uma vez que há apenas um sufixo adicionado; o termo não tem dois afixos.<br><br>(C) Incorreta, pois não há prefixo na palavra.<br><br>(D) Incorreta, já que “completamente” não é resultado de derivação parassintética; trata-se de um advérbio formado por sufixação sobre um adjetivo.<br><br>(E) Incorreta, pois a palavra é formada por sufixação (“-mente” adicionado a “completa”), e não apenas por prefixo.",
+  "explanationImage": null,
+  "year": 2024
+}

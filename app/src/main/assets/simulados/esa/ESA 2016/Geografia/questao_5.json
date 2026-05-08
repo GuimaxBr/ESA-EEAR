@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "text": "(ESA 2016) A segunda maior região hidrográfica brasileira em termos de vazão, que apresenta a maior ilha fluvial do mundo - Ilha do Bananal - e a usina hidrelétrica de Tucuruí, é a região hidrográfica do:",
+  "questionImage": null,
+  "options": [
+    "Paraná",
+    "Amazonas",
+    "São Francisco",
+    "Tocantins-Araguaia",
+    "Atlântico Sul"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "A usina de Tucuruí e a Ilha de Bananal estão localizadas na região hidrográfica do Tocantins-Araguaia, sendo a segunda maior em termos de vazão.",
+  "year": 2016
+}

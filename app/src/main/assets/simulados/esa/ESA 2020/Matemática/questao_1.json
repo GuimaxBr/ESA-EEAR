@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2020) Numa enquete foram entrevistados 80 pessoas os meios de transporte que utilizavam para vir ao trabalho e/ou à escola. Quarenta e dois responderam ônibus, 28 responderam carro e 30 responderam moto. Doze utilizavam-se de ônibus e carro, 14 de carro e moto e 18 de ônibus e moto. Cinco utilizavam-se dos três: carro, ônibus e moto. Qual é a probabilidade de que uma dessas pessoas, selecionada ao acaso, utiliza somente carro?",
+  "questionImage": null,
+  "options": [
+    "8,75%",
+    "35%",
+    "23,75%",
+    "33,75%",
+    "21,25%"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_1_explicacao.jpeg",
+  "year": 2020
+}

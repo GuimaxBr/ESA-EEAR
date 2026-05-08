@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2017) O conjunto solução da inequação x² + 5x + 6 &lt; 0, onde x é um número real (x ∈ lR), é:",
+  "questionImage": null,
+  "options": [
+    "{x IR | -3&lt;x&lt;-2}",
+    "{x IR | -2&lt;x&lt;3}",
+    "{x IR | -5&lt;x&lt;-6}",
+    "{x IR | -5&lt;x&lt;1}",
+    "{x IR | -3&lt;x&lt;2}"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.png",
+  "year": 2017
+}

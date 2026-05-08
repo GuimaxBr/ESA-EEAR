@@ -1,0 +1,23 @@
+{
+  "id": 9,
+  "text": "(ESA 2017) Marque a alternativa em que há uma relação de <b>causa</b> e <b>consequência</b> entre as orações.",
+  "questionImage": null,
+  "options": [
+    "A criança era tão determinada como seus pais o foram em seus tempos de escola.",
+    "Como estava dispensado pelo médico, permaneceu o resto do dia em casa.",
+    "Não só faltou a muitas aulas, como deixou de fazer as provas na data prevista.",
+    "Haverá vacinação no próximo mês como foi anunciado pelo Ministério da Saúde.",
+    "Como o motorista conseguiu sobreviver àquele grave acidente?"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "Há nessa alternativa um período composto por subordinação contendo uma oração adverbial causal, seguida da oração principal, que expressa a consequência: “permanecer em casa”.",
+  "year": 2017
+}

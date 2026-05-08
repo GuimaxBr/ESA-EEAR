@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2023) Read the text about The Soldier’s Life: Radio Basics. <br><b>The Soldier’s Life: Radio Basics</b> <br>Radios are vital military tools. They allow soldiers to stay in contact during combat and other operations. Most radios are made to hop frequencies. This system prevents enemy from listening to the full conversations. The SINCGARS (man-pack) and AN/PRC-148 (handheld) are common military radios. <br>Choose the right option to answer the question: What’s the meaning of “<u><b>stay in contact</b></u>” in the text?",
+  "questionImage": null,
+  "options": [
+    "To replace batteries",
+    "To have communication",
+    "To turn off a radio",
+    "To hide from the enemy",
+    "To hop frequencies"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "(A) Incorreta. “Stay in contact” não tem relação com a substituição de baterias em rádios. Trocar baterias é uma ação física e técnica, enquanto “stay in contact” refere-se à comunicação entre pessoas.<br> <br>(B) Correta. No contexto militar e do texto, “stay in contact” significa manter comunicação contínua entre soldados, principalmente em operações e combates. É essencial para coordenar ações e garantir segurança.<br><br>(C) Incorreta. “Stay in contact” não significa desligar o rádio. Pelo contrário, desligar o rádio interromperia a comunicação, o oposto do que a frase expressa.<br><br>(D) Incorreta. Apesar de esconder-se do inimigo ser importante em combate, “stay in contact” não transmite essa ideia. Refere-se à comunicação, não ao ato de se ocultar.<br><br>(E) Incorreta. “Hop frequencies” é uma expressão usada no texto para descrever uma função técnica dos rádios (mudança rápida entre frequências para evitar que o inimigo escute as conversas), mas não equivale ao significado de “stay in contact”.",
+  "explanationImage": null,
+  "year": 2023
+}

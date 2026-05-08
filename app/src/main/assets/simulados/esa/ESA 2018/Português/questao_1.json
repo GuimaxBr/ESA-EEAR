@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2018) Quanto ao processo de formação de palavras, escreva V ou F conforme sejam verdadeiras ou falsas as assertivas abaixo. Logo, assinale a alternativa que tenha a sequência correta.<br><b>I.</b> bicicleta, automóvel, sociologia - Hibridismo.<br><b>II.</b> embora, agricultura, maldizente - Composição.<br><b>III.</b> ponteira, sozinho, bombeiro - Derivação.",
+  "questionImage": null,
+  "options": [
+    "V, V, V.",
+    "F, F, V.",
+    "V, F, F.",
+    "F, V, V.",
+    "V, V, F."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "(I) bicicleta, automóvel, sociologia → exemplos de hibridismo, já que combinam elementos de diferentes línguas (ex.: auto [grego] + móvel [latim]);<br><br>(II) embora, agricultura, maldizente → casos de composição, seja por aglutinação (embora < “em boa hora”), por justaposição (agricultura < agri + cultura) ou por formação composta (maldizente);<br><br>(III) ponteira, sozinho, bombeiro → exemplos de derivação, seja sufixal (ponte + -ira), prefixal (so- + -zinho) ou sufixal (bomba + -eiro).",
+  "explanationImage": null,
+  "year": 2018
+}

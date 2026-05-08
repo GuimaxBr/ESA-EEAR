@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2016) A equação da circunferência de centro (1, 2) e raio 3 é:",
+  "questionImage": null,
+  "options": [
+    "x² + y² - 2x - 4y + 14 = 0",
+    "x² + y² - 2x - 4y - 4 = 0",
+    "x² + y² - 4x - 2y - 4 = 0",
+    "x² + y² - 4x - 2y - 14 = 0",
+    "x² + y² - 2x - 4y - 14 = 0"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "A equação da circunferência é dada por:<br>(x-x₀)² + (y -y₀)² = r²<br>O centro da circunferência é (x₀,y₀) = (1, 2) e o raio r=3, então:<br>(x-1)² + (y-2)² = 3²<br>x²-2x+1+y²-4y+4=9<br>x²+y²-2x-4y-4=0",
+  "year": 2016
+}

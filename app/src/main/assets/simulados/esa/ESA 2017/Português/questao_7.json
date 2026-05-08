@@ -1,0 +1,23 @@
+{
+  "id": 7,
+  "text": "(ESA 2017) Assinale a alternativa que está correta quanto à flexão verbal.",
+  "questionImage": null,
+  "options": [
+    "Quando você vir para a empresa, traga o projeto.",
+    "Quando ele rever o contrato, estaaremos mais seguros.",
+    "Se meu chefe intervisse, talvez eu recebesse aumento salarial.",
+    "Meu chefe interviu por mim junto à diretório.",
+    "Se os chefes virem o projeto, eles aceitarão a minha ideia."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "O verbo ver é irregular e, no futuro do subjuntivo, conjuga-se dessa forma na 3ª pessoa do plural (“chefes” equivalem a eles).",
+  "year": 2017
+}

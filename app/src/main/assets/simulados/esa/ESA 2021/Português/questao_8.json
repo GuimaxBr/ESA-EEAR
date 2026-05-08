@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2021) Dentre as palavras destacadas, é um advérbio:",
+  "questionImage": null,
+  "options": [
+    "Desculpe-me...<u>m͟a͟s͟ </u>sente-se mal?",
+    "Da família, <u>só</u> elas duas estão vivas.",
+    "<u>Afinal</u><u>,</u> não tenho culpa do ocorrido.",
+    "<u>Por que </u>você não veio à festa?",
+    "<u>Até </u>Maria chegou atrasada."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "A) Incorreta. Pode-se ver o ‘mas’ como uma palavra denotativa de situação.<br><br>B) Incorreta. Trata-se de uma palavra denotativa que indica exclusão.<br><br>C) Incorreta. Trata-se de uma palavra denotativa de situação.<br><br>D) Correta. Trata-se de um advérbio interrogativo de causa, ou seja, por qual motivo, por qual razão, você não veio à festa?<br><br>E) Incorreta. Trata-se de uma palavra denotativa de inclusão.",
+  "explanationImage": null,
+  "year": 2021
+}

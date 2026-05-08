@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "Dado o sistema linear abaixo nas incógnitas 𝑥, 𝑦 e 𝑧, determine o(s) valor(es) de 𝒕, tal que 𝒕 ∈ℝ, para que seja um sistema possível e indeterminado (SPI).",
+  "questionImage": "questao_4_enunciado.jpeg",
+  "options": [
+    "𝑡=-5",
+    "𝑡=-1",
+    "𝑡=0",
+    "𝑡=1",
+    "𝑡=5"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.jpg",
+  "year": 2025
+}

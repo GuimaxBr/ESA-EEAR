@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2016) Em todas as alternativas, há Orações Subordinadas Adverbiais, <b>exceto:</b>",
+  "questionImage": null,
+  "options": [
+    "Estude bastante, porque amanhã haverá uma prova.",
+    "Estudou tanto que teve um ótimo desempenho na prova.",
+    "Você terá um excelente desempenho desde que estude.",
+    "Os alunos realizaram a prova assim que chegaram na escola.",
+    "Não compareceu à aula ontem porque viajou."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "A oração iniciada pela conjunção coordenativa “porque” é uma Oração Coordenada Sindética Explicativa, pois está justificando a ideia contida na primeira oração.",
+  "year": 2016
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2021) Complete the blanks with the right articles when necessary. <br><br>Attention: the blank space (________) in the options means no article. <br> <br>“In my cottage there are ________ tables in the dining room and there is _________ armchair in _________ living room.",
+  "questionImage": null,
+  "options": [
+    "a, an, _______.",
+    "_______, a, the.",
+    "a, ____ , ______.",
+    "______ ,an, the.",
+    "a, an, an."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "A primeira lacuna fica sem artigo, porque “tables” está no plural e é uma referência indefinida. A segunda usa “an” antes de “armchair”, que começa com som de vogal. A terceira usa “the” antes de “living room”, pois estamos nos referindo a um local específico dentro da casa.",
+  "explanationImage": null,
+  "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2019) Observe a inequação modular |3x - 2| = 8 + 2x e identifique a alternativa que apresenta uma das possíveis raízes:",
+  "questionImage": null,
+  "options": [
+    "-4",
+    "0",
+    "10",
+    "4",
+    "-3"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "I) Para x≥2/3: <br>|3x - 2| = 8 + 2x<br>3x - 2 = 8 + 2x <br>3x - 2x = 8 + 2 <br>x = 10. <br><br>II) Para x<2/3:<br>-3x+2= 8+2x<br>5x= -6<br>x = - 6/5.",
+  "explanationImage": null,
+  "year": 2019
+}

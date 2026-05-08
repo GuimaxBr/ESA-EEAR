@@ -1,0 +1,18 @@
+[Unit]
+Description=Cluster Bridge HTTP Worker Queue
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/game-server/cluster-bridge
+EnvironmentFile=/opt/game-server/cluster-bridge/.env
+Environment="CLUSTER_ADMIN_PASSWORD=#@!3Bis2025"
+ExecStart=/home/ubuntu/.nvm/versions/node/v20.20.0/bin/node /opt/game-server/cluster-bridge/src/server.js
+Restart=always
+RestartSec=5
+Environment=PATH=/home/ubuntu/.nvm/versions/node/v20.20.0/bin:/usr/bin:/bin
+
+[Install]
+WantedBy=multi-user.target

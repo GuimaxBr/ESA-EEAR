@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2023) Choose the option that correctly corresponds to the blank spaces. <br> <br>“Remember that where ________ courageous soldiers, _________ eternal glory.”",
+  "questionImage": null,
+  "options": [
+    "there’s - there’s",
+    "there is - there",
+    "there are - there’s",
+    "there are - there are",
+    "there - there is"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) Errada. “There’s courageous soldiers” → está gramaticalmente incorreto, porque “there’s” = “there is”, e “soldiers” é plural.<br> <br>(B) Errada. “There is courageous soldiers” → está gramaticalmente incorreto, porque “there’s” = “there is”, e “soldiers” é plural.<br>A segunda lacuna (“there”) está incompleta e sem sentido isoladamente. Falta o verbo ou o restante da estrutura.<br><br>(C) Correto. Por dois motivos:<br>“There are courageous soldiers” → está correto porque “soldiers” está no plural, exigindo “are”.<br>“There’s eternal glory” → está correto porque “glory” é singular, então usamos “there is” (forma contraída = there’s).<br>   Tradução completa:<br>“Lembre-se de que onde houver soldados corajosos, haverá glória eterna.”<br><br>(D) Errada. A primeira parte (“there are courageous soldiers”) está correta.<br>Mas a segunda (“there are eternal glory”) está incorreta, pois “glory” é singular e exige “there is”.<br><br>(E) Errada. “Where there courageous soldiers” → está gramaticalmente incorreto. A expressão precisa de um verbo auxiliar (“are”).<br>A primeira parte não forma uma oração completa.",
+  "explanationImage": null,
+  "year": 2023
+}

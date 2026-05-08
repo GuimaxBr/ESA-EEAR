@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2017) Num grupo de 25 alunos, 15 praticam futebol e 20 praticam voleibol, alguns alunos do grupo praticam futebol e voleibol e todos os alunos praticam algum esporte. Qual a probabilidade de escolhermos um aluno ao acaso e ele praticar futebol e voleibol?",
+  "questionImage": null,
+  "options": [
+    "25%",
+    "30%",
+    "20%",
+    "35%",
+    "40%"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_7_explicacao.jpeg",
+  "year": 2017
+}

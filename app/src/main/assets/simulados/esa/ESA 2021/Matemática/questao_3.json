@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2021) Considere 𝑎 e 𝑏 números reais positivos. Se log𝑎=2 e log 𝑏=3, o valor de log(𝑎.𝑏²) é igual a:",
+  "questionImage": null,
+  "options": [
+    "18",
+    "12",
+    "11",
+    "10",
+    "8"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_3_explicacao.jpeg",
+  "year": 2021
+}

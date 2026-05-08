@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2022) A nova sede da Escola de Sargentos do Exército (ESE) será construída na região metropolitana de Recife-PE. O marco zero dessa belíssima cidade encontra-se na região portuária denominada “Recife Antigo”. Ao realizar a medição em um mapa de escala 1 : 95000 cm, a distância entre o marco zero de Recife e o local de construção da nova sede da ESE, encontramos 55 cm. A distância real, em quilômetros, entre esses dois pontos citados é de:",
+  "questionImage": null,
+  "options": [
+    "45,2 Km",
+    "42,5 Km",
+    "52,25 Km",
+    "5,225 Km",
+    "42,25 Km"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "MATEMÁTICA",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.png",
+  "year": 2022
+}

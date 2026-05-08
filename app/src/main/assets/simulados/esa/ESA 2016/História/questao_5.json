@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "text": "(ESA 2016) A eleição indireta de Getúlio Vargas para a presidência nacional, na qual foi eleito para um mandato de quatro anos, ocorreu no ano de:",
+  "questionImage": null,
+  "options": [
+    "1930",
+    "1934",
+    "1937",
+    "1946",
+    "1950"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "História",
+  "explanation": "Em 1934, a Assembleia Constituinte promulgou uma Constituição. Essa mesma assembleia transformou-se na primeira Câmara dos Deputados com poderes para eleger o presidente da República. Getúlio foi eleito por essa Câmara em julho de 1934, para um mandato de quatro anos.",
+  "year": 2016
+}

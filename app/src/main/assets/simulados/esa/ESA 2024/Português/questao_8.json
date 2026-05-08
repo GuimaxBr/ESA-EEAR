@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2024) <br><b>TEXTO VII </b><br>Uma amizade sincera<br>Não é que fôssemos amigos de longa data. Conhecemo-nos apenas no último ano da escola. Desde esse momento estávamos juntos a qualquer hora. Há tanto tempo precisávamos de um amigo que nada havia que não confiássemos um ao outro. Chegamos a um ponto de amizade que não podíamos mais guardar um pensamento: um telefonava logo ao outro, marcando encontro imediato. Depois da conversa, sentíamo-nos tão contentes como se nós tivéssemos presenteado a nós mesmos. Esse estado de comunicação contínua chegou a tal exaltação que, no dia em que nada tínhamos a nos confiar, procurávamos com alguma aflição um assunto. Só que o assunto havia de ser grave, pois em qualquer um não caberia a veemência de uma sinceridade pela primeira vez experimentada. <br>Já nesse tempo apareceram os primeiros sinais de perturbação entre nós. Às vezes um telefonava, encontrávamo-nos, e nada tínhamos a nos dizer. Éramos muito jovens e não sabíamos ficar calados. De início, quando começou a faltar assunto, tentamos comentar as pessoas. Mas bem sabíamos que já estávamos adulterando o núcleo da amizade. Tentar falar sobre nossas mútuas namoradas também estava fora de cogitação, pois um homem não falava de seus amores. Experimentávamos ficar calados - mas tornávamo-nos inquietos logo depois de nos separarmos.  <br>[...] <br>Observe o trecho a seguir:<br> <br>      “mas tornávamo-<u><b>nos</b></u> inquietos logo depois de nos separarmos.” <br><br>Indique a alternativa que corresponde à classe morfológica do primeiro “nos” no trecho acima:",
+  "questionImage": null,
+  "options": [
+    "Pronome apassivador.",
+    "Pronome pessoal do caso reto.",
+    "Pronome reflexivo.",
+    "Objeto direto.",
+    "Sujeito."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreta, pois o “nos” não está sendo usado como pronome apassivador, já que o verbo não está na voz passiva.<br><br>(B) Incorreta, pois “nos” aqui não tem valor de pronome pessoal do caso reto (como em \"nós\"), mas sim reflexivo.<br><br>(C) Correta, porque o “nos” atua como pronome reflexivo, indicando que a ação verbal recai sobre o próprio sujeito da oração.<br><br>(D) Incorreta, já que o enunciado exige uma classificação morfológica e não função sintática.<br><br>(E) Incorreta, pois o “nos” não é sujeito, mas sim parte do verbo pronominal “tornávamo-nos”.",
+  "explanationImage": null,
+  "year": 2024
+}

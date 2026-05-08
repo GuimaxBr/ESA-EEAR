@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "text": "(ESA 2018) Em uma barraca de cachorro quente, o freguês pode escolher <b>um</b> entre <b>três</b> tipos de pães, <b>u</b><b>ma</b> entre <b>quatro</b> tipos de salsichas e <b>um</b> entre <b>cinco</b> tipos de molhos. Identifique a quantidade de cachorros quentes diferentes que podem ser feitos.",
+  "questionImage": null,
+  "options": [
+    "60",
+    "35",
+    "86",
+    "12",
+    "27"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "Pelo princípio multiplicativo encontramos: 3 x 4 x 5 = 60 cachorros quentes diferentes.",
+  "year": 2018
+}

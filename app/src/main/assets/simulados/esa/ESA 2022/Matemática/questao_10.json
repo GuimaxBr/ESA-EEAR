@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2022) Para avançar ao Rancho, 8 (oito) soldados, entre eles o Sd Alfa e o Sd Bravo, são colocados em fila. Pode-se afirmar que a probabilidade desses dois militares ficarem juntos é de:",
+  "questionImage": null,
+  "options": [
+    "50%",
+    "40%",
+    "25%",
+    "20%",
+    "12,5%"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "MATEMÁTICA",
+  "explanation": "A probabilidade é dada pelos casos favoráveis sobre os casos totais.<br><br>Casos totais:<br>Existem 8! maneiras de ordenar os soldados para formar a fila.<br><br>Casos favoráveis:<br>Uma vez que os soldados Alfa e Bravo estão juntos, vamos contá-los como uma só posição na fila.<br><br>Porém, note que existe duas maneiras dos soldados ficarem juntos: Alfa na frente e Bravo atrás ou Alfa atrás e Bravo na frente.<br><br>Assim, existem 2.(7!) maneiras de ordenar os soldados para formar a fila.<br><br>Portanto, a probabilidade pedida é igual:",
+  "explanationImage": "questao_10_explicacao.png",
+  "year": 2022
+}

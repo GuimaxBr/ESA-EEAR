@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ES 2016) Uma herança de <b>R$ 193.800,00</b> será repartida integralmente entre três herdeiros em partes diretamente proporcionais às suas respectivas idades: <b>30 anos, 35 anos e 37 anos</b>. O herdeiro mais velho receberá:",
+  "questionImage": null,
+  "options": [
+    "R$ 70.500,00",
+    "R$ 70.300,00",
+    "R$ 57.000,00",
+    "R$ 66.500,00",
+    "90.300,00"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_10_explicacao.jpeg",
+  "year": 2016
+}

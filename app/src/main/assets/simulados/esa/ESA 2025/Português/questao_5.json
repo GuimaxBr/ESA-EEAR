@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2025) Analise os trechos abaixo:<br><br>I - “Sabe usar a caixinha<b> de areia</b>!”<br>II - “Eu devo ser <b>um gênio</b>!”<br>Os termos em destaque classificam-se, respectivamente, como:",
+  "questionImage": null,
+  "options": [
+    "Complemento nominal e predicativo do sujeito.",
+    "Adjunto adnominal e predicativo do objeto.",
+    "Adjunto adnominal e predicativo do sujeito.",
+    "Complemento nominal e objeto direto.",
+    "Adjunto adnominal e objeto direto."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreto. Pois o primeiro termo (de areia) não é complemento nominal, já que o substantivo “caixinha” não exige preposição. Além disso, apesar de o segundo termo (um gênio) ser corretamente identificado como predicativo do sujeito, a primeira parte da alternativa a torna errada.<br><br>(B) Incorreto. Pois “de areia” é, de fato, um adjunto adnominal, mas “um gênio” não é predicativo do objeto, visto que a oração não possui objeto - o verbo ser é de ligação e não transitivo.<br><br>(C) Correto. Pois \"de areia\" é um adjunto adnominal, já que especifica o substantivo \"caixinha\", e \"um gênio\" é predicativo do sujeito, atribuindo ao sujeito \"eu\" uma característica por meio do verbo de ligação ser.<br><br>(D) Incorreto. Em “de areia” não há ideia de complemento de um nome que exija preposição. O termo não completa o sentido do substantivo caixinha, apenas o especifica, caracterizando de que tipo de caixinha se trata. Logo, é um adjunto adnominal, e não complemento nominal.<br><br>(E) Incorreta. Embora “de areia” seja realmente um adjunto adnominal, o termo “um gênio” não é objeto direto - ele não completa um verbo transitivo, e sim atribui uma qualidade ao sujeito “eu” por meio do verbo de ligação ser. Assim, trata-se de um predicativo do sujeito, e não objeto direto.",
+  "explanationImage": null,
+  "year": 2025
+}

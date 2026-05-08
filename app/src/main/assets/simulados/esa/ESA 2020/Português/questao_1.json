@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2020) Segundo o acordo ortográfico de 2009/2010, quanto à acentuação, marque a alternativa em que a palavra em <b>negrito</b> está correta.",
+  "questionImage": null,
+  "options": [
+    "Nesta cidade, todos os <b>hoteis</b> são bons.",
+    "Quanto à limpeza, eu sou <b>paranóica.</b>",
+    "Sempre precisamos de novas <b>i</b><b>deias.</b>",
+    "Os docentes não <b>ve</b><b>em</b> com bons olhos a nova proposta de calendário escolar.",
+    "Meu esposo sempre pára o carro para atender o celular"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "Antes a palavra \"ideia\" tinha acento, mas a partir do acordo ortográfico de 2009 essa regra mudou.",
+  "explanationImage": null,
+  "year": 2020
+}

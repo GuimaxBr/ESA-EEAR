@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "text": "(ESA 2016) Marque a única alternativa em que as palavras não se formam pelo processo de composição.",
+  "questionImage": null,
+  "options": [
+    "beija-flor; pernalta",
+    "amanhecer; desalmado",
+    "embora; segunda-feira",
+    "pé-de-meia; aguardente",
+    "tira-teima; madrepérola"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "As palavras “amanhecer” e “desalmado” são formadas pelo processo de derivação parassintética.<br>A palavra “beija-flor” é formada pelo processo de composição (justaposição) e a palavra “pernalta”, por composição (aglutinação).<br>A palavra “embora” é formada pelo processo de composição (aglutinação) e a palavra “segunda-feira”, por processo de composição (justaposição).<br>A palavra “pé-de-meia” é formada pelo processo de composição (justaposição) e a palavra “aguardente”, por composição (aglutinação).<br>As palavras “tira-teima” e “madrepérola” são formadas pelo processo de composição (justaposição).",
+  "year": 2016
+}

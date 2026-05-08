@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "text": "(ESA 2020) A função n(t)=1000 . 2^0,2t indica o número de bactérias existentes em um recipiente, em que t é o número de horas decorridas. Em quantas horas, após o início do experimento, haverá 16000 bactérias?",
+  "questionImage": null,
+  "options": [
+    "20",
+    "50",
+    "15",
+    "30",
+    "10"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_12_explicacao.jpeg",
+  "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2023) Considerando uma Progressão Aritmética (PA) com o primeiro termo igual a 3 e cuja razão é igual a 7, o décimo oitavo termo dessa progressão aritmética é igual a:",
+  "questionImage": null,
+  "options": [
+    "100",
+    "111",
+    "120",
+    "122",
+    "131"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_3_explicacao.jpeg",
+  "year": 2023
+}

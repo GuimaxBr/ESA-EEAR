@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2016) Analisando a dinâmica relativa aos climas que atuam no Brasil, percebe-se que em toda a região Sul ocorre o clima:",
+  "questionImage": null,
+  "options": [
+    "tropical semiárido",
+    "subtropical úmido",
+    "litorâneo úmido.",
+    "equatorial úmido.",
+    "tropical."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Geografia",
+  "explanation": "O clima subtropical úmido, caracterizado, dentre outros aspectos, por significativas amplitudes térmicas anuais e por precipitações bem distribuídas ao longo de todo o ano, predomina nas áreas de latitudes mais elevados do território brasileiro, ocorrendo em toda a Região Sul, bem como na porção meridional dos estados de São Paulo e Mato Grosso do Sul.",
+  "year": 2016
+}

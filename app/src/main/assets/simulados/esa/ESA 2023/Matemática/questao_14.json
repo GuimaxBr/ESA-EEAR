@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "text": "(ESA 2023) Durante a construção de uma ponte pela engenharia militar, o sargento responsável observou que a máquina que preparava concreto enchia uma coluna seguindo a função 𝑉(𝑡)=2(2^(𝑡/12)-1), sendo 𝑉 o volume preenchido em metros cúbicos (𝑚³) e 𝑡 o tempo em minutos. Assinale a alternativa que indica o tempo necessário para o preenchimento de um volume igual a 2𝑚³.",
+  "questionImage": null,
+  "options": [
+    "4",
+    "6",
+    "8",
+    "10",
+    "12"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_14_explicacao.png",
+  "year": 2023
+}

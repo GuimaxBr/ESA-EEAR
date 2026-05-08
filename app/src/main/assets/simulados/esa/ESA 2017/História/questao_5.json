@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2017) Dentre as revoltas ocorridas durante a Primeira República, houve uma na década de 1910, vencida pelas tropas federais, conhecida como:",
+  "questionImage": null,
+  "options": [
+    "Guerra do Contestado",
+    "Revolta da Armada",
+    "Guerra dos Canudos",
+    "Revolta da Vacina",
+    "Revolução Federalista"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "História",
+  "explanation": "Essa é uma questão que requer a memorização dos conflitos das Revoltas da Primeira República. A seguir, listamos cada uma delas e onde ocorreram:",
+  "explanationImage": "questao_5_explicacao.png",
+  "year": 2017
+}

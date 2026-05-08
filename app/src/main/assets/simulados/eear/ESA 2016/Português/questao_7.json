@@ -1,0 +1,23 @@
+{
+  "id": 7,
+  "text": "(ESA 2016) Destaque a alternativa em que o termo sublinhado seja um objeto indireto:",
+  "questionImage": null,
+  "options": [
+    "Vou descobrir <u>mundos.</u>",
+    "Já tenho <u>seis</u> gatos em casa",
+    "Não recebo <u>dinheiro</u> há muito tempo.",
+    "Não quero <u>que fiques triste.</u>",
+    "Cantava <u>para os amigos.</u>"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "A - Objeto direto.<br>B - Objeto direto.<br>C - Objeto direto.<br>D - Oração substantiva.<br>E - O termo sublinhado completa o verbo com o auxílio de uma preposição, sendo, portanto um objeto indireto.",
+  "year": 2016
+}

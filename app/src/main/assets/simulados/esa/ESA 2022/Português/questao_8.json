@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2022)  No trecho: “A rede pública foi a que mais cresceu em número de matrículas”, a palavra que funciona como adjetivo é:",
+  "questionImage": null,
+  "options": [
+    "rede",
+    "pública",
+    "cresceu",
+    "mais",
+    "matrículas"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Incorreta: \"Rede\" é um substantivo, que se refere ao sistema de instituições ou serviços, no caso, o sistema de ensino.<br> <br>(B) Correta: \"Pública\" é um adjetivo, pois qualifica o substantivo \"rede\", indicando a característica de ser pertencente ao setor público.<br><br>(C) Incorreta: \"Cresceu\" é um verbo, que indica a ação de aumentar em número de matrículas.<br><br>(D) Incorreta: \"Mais\" é um advérbio de intensidade, que modifica o verbo \"cresceu\", indicando a quantidade do crescimento.<br><br>(E) Incorreta: \"Matrículas\" é um substantivo, que se refere aos registros de alunos em instituições de ensino.",
+  "explanationImage": null,
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2018) Se a velocidade de um automóvel for aumentada em 60%, o tempo necessário para percorrer um mesmo trajeto, supondo a velocidade constante, diminuirá em:",
+  "questionImage": null,
+  "options": [
+    "62,5%",
+    "40%",
+    "30%",
+    "37,5%",
+    "60%"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_1_explicacao.png",
+  "year": 2018
+}

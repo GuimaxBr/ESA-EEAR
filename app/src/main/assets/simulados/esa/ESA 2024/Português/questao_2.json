@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2024) Observe o trecho abaixo extraído do Texto I: <br> <br>“Venho do além desse monte” <br> <br>Assinale a alternativa que faz a análise morfossintática <u><b>correta</b></u> do trecho:",
+  "questionImage": null,
+  "options": [
+    "O sujeito da oração é indeterminado.",
+    "“Venho do além desse monte” é predicado verbal.",
+    "“além desse monte” é adjunto adverbial.",
+    "“do além” é núcleo do adjunto adverbial.",
+    "“desse” é complemento nominal do adjunto adverbial."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Incorreta, visto que o sujeito é simples e explícito: “eu” (oculto na forma verbal “venho”).<br><br>(B) Correta, pois o período apresenta predicado verbal (núcleo “venho”), com sentido de deslocamento, e o restante é adjunto adverbial de origem.<br><br>(C) Incorreta, pois o adjunto adverbial completo é “do além desse monte”, e não só “além desse monte”.<br><br>(D) Incorreta, já que o núcleo do adjunto adverbial é “monte”, e não “além”.<br><br>(E) Incorreta, pois “desse” funciona como determinante (pronome demonstrativo), não como complemento nominal.",
+  "explanationImage": null,
+  "year": 2024
+}

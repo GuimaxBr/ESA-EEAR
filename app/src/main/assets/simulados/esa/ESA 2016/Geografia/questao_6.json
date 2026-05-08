@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "text": "(ESA 2016) A região brasileira, que desde o final da década de 1960, tornou-se a segunda mais urbana do país é a:",
+  "questionImage": null,
+  "options": [
+    "Região Sudeste.",
+    "Região Sul.",
+    "Região Centro-Oeste.",
+    "Região Nordeste",
+    "Região Norte"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "A) A Região Sudeste é a mais urbanizada do país com 90,5%.<br>B) A Região Sul é a terceira mais urbanizada do país com 80,9%.<br>C) A Região Centro Oeste é a segunda mais urbanizada do país com 86,8%. A urbanização do Centro-Oeste foi impulsionada pela fundação de Brasília, em 1960, pelas rodovias de integração nacional que interligaram a nova capital com o Sudeste, de um lado, e a Amazônia, de outro.<br>D) A Região Nordeste é menos urbanizada do país com 68,1%.<br>E) A Região Norte é a quarta mais urbanizada do país com 69,7%.",
+  "year": 2016
+}

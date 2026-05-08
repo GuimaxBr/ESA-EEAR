@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2022) Read the cartoon and mark the best option that interprets its message.",
+  "questionImage": "questao_7_enunciado.jpeg",
+  "options": [
+    "The son wants to be exactly like his father without any exceptions.",
+    "In fact, the son wants to be different from his father in adulthood.",
+    "The son thinks his father is very tall, smart, thin, rich, handsome and happy.",
+    "The father thinks his son is short, stupid, fat, poor, ugly and miserable.",
+    "The father is teaching his son how to be tall, rich, smart, thin, rich, handsome and happy."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "(A) Errada. O filho não quer ser exatamente como o pai, pois ele afirma querer ser melhor em diversos aspectos: altura, esperteza, magreza, riqueza, beleza e felicidade.<br> <br>(B) Certa. O filho quer ser diferente do pai quando adulto em diversos aspectos: altura, esperteza, magreza, riqueza, beleza e felicidade.<br><br>(C) Errada. O filho não acha que o pai é muito alto, inteligente, magro, rico, bonito e feliz, pois ele que ser melhor em todos esses aspectos.<br><br>(D) Errada. O pai não acha que o filho é baixo, burro, gordo, pobre, feio e infeliz, na verdade, o filho que pensa isso sobre o pai.<br><br>(E) Errada. O pai não está ensinando o filho a ser alto, rico, inteligente, magro, bonito e feliz, o pai sequer fala na tirinha.",
+  "explanationImage": null,
+  "year": 2022
+}

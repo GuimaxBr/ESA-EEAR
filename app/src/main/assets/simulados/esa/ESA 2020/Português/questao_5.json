@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2020) Assinale a alternativa que as palavras preenchem corretamente as lacunas do seguinte período: Os negros que _______ socialmente no Brasil continuam sofrendo ______ de forma _______.",
+  "questionImage": null,
+  "options": [
+    "ascenderam, discriminação, iminente.",
+    "ascenderam, descriminação, eminente.",
+    "ascenderam, discriminação, eminente.",
+    "acender, descriminação, iminente.",
+    "acender, discriminação, eminente."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "Acender - Significa ligar, atear fogo, o que não vem ao caso.<br>Ascender - Significa elevar-se.<br>Descriminação - É o mesmo que descriminalizar, ou seja, retirar o crime, isentar do crime. <br>Discriminação - No sentido de preconceito. <br>Iminente - Algo que está próximo, a ponto de acontecer. Já “eminente” é algo/alguém que se destaca.",
+  "explanationImage": null,
+  "year": 2020
+}

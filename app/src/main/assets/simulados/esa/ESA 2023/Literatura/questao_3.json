@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2023) Marque a alternativa que possui o significado correto das palavras do hino apresentado no Texto IV.",
+  "questionImage": "questao_3_enunciado.jpeg",
+  "options": [
+    "pavilhão: estandarte; verdura: constelação; paira: manter-se no ar.",
+    "vulto: semblante; paira: para; Cruzeiro do Sul: constelação.",
+    "esplendor: auge; juvenil: relativo à jovem; vulto: sombra.",
+    "juvenil: relativo à jovem; formoso: belo; augusto: digno de respeito.",
+    "verdura: referência à cor verde; juvenil: relativo à jovem; vulto: bandeira."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Literatura",
+  "explanation": "(A) Incorreta. Cuidado: o substantivo “pavilhão” até pode se referir a um estandarte, mas, no contexto da música, não tem sentido de lugar físico.<br> <br>(B) Incorreta. O substantivo “vulto” se remete à sombra, e não ao semblante, que é sinônimo de rosto.<br><br>(C) Incorreta. O substantivo “esplendor” denota brilho, suntuosidade, e não necessariamente cume, ápice para significar auge.<br><br>(D) Correta - gabarito. O adjetivo “juvenil”, no verso “Em nosso peito juvenil”, remete-se à qualidade de jovem; o adjetivo “formoso”, no verso “Em teu seio formoso retratas”, refere-se ao caráter de belo; e o adjetivo “augusto”, no verso “Salve, símbolo augusto da paz!”, significa aquilo que é elevado, digno.<br><br>(E) Incorreta. Atenção: o “vulto” no texto diz respeito ao movimento da bandeira, à sua sombra. Não é um sinônimo idêntico para a bandeira propriamente dita.",
+  "explanationImage": null,
+  "year": 2023
+}

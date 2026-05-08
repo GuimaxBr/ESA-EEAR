@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2016) Sejam as funções reais dadas por f(x)=5x+1 e g(x)=3x-2. Se m=f(n), então g(m) vale:",
+  "questionImage": null,
+  "options": [
+    "15n+1",
+    "14n-1",
+    "3n-2",
+    "15n-15",
+    "14n-2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "g(m)= g(f(n))=g(5n+1) = 3(5n+1)-2 = 15n+1",
+  "year": 2016
+}

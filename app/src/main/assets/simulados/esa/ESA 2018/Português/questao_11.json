@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2018) Sobre a pontuação do período: <b>&quot;Nesse julgamento, porém, deve-se considerar até que ponto a imersão digital dos mais jovens compromete sua socialização e, mais importante, o seu rendimento escolar.&quot;</b>, marque a resposta correta.",
+  "questionImage": null,
+  "options": [
+    "&quot;Mais importante&quot; está entre vírgulas por estar na ordem inversa.",
+    "Há vírgula sempre depois da conjunção coordenativa &quot;porém&quot;.",
+    "A vírgula depois da conjunção aditiva &quot;e&quot; marca uma ênfase",
+    "&quot;Porém&quot; está entre vírgulas porque é uma conjunção coordenativa deslocada.",
+    "&quot;Porém&quot; está entre vírgulas porque é uma oração intercalada."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "A) Incorreta, porque “mais importante” não está entre vírgulas por estar em ordem inversa, mas sim por se tratar de um termo intercalado que acrescenta destaque dentro do período.<br><br>B) Incorreta, porque não existe regra que determine o uso obrigatório de vírgula após toda conjunção coordenativa “porém”; o emprego depende da posição e da função no enu<br><br>C) Incorreta, porque a vírgula não aparece por simples ênfase após a conjunção “e”, mas para marcar o isolamento de um elemento intercalado (“mais importante”).<br><br>D) Correta, pois “porém” aparece deslocado no interior da frase, funcionando como conjunção coordenativa adversativa intercalada, razão pela qual deve estar entre vírgulas.<br><br>E) Incorreta, porque “porém” não constitui uma oração inteira para ser considerada intercalada, mas apenas uma conjunção.",
+  "explanationImage": null,
+  "year": 2018
+}

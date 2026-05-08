@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2021) Sejam A e B matrizes de ordem 2 tais que det A = 2 e det B= 5. Marque a alternativa que expressa o valor de det (2AB).",
+  "questionImage": null,
+  "options": [
+    "30",
+    "20",
+    "40",
+    "50",
+    "10"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_9_explicacao.jpeg",
+  "year": 2021
+}

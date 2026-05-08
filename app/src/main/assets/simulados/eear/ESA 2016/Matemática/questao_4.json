@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "text": "(ESA 2016) O grau do polinômio (4x-1).(x²-x-3).(x+1) é:",
+  "questionImage": null,
+  "options": [
+    "6",
+    "5",
+    "3",
+    "4",
+    "2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "(4x-1).(x²-x-3).(x+1)<br>(4x³-4x²-12x-x²+x+3).(x+1)<br>4x⁴-4x³-12x²-x³+x²+3x+4x³-12x-x²+x+3<br>4x⁴-x³-16x²-8x+3<br>O grau do polinômio corresponde ao maior expoente de x. Então o grau desse polinômio é 4.",
+  "year": 2016
+}

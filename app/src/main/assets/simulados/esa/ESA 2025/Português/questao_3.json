@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2025) Marque a alternativa cuja estrutura destacada exerça a mesma função sintática da oração:<br>“(...) 6º Grupo de Artilharia de Costa Motorizado (6º GACosM), <b>localizado em Santo</b>s (...)”.",
+  "questionImage": null,
+  "options": [
+    "“incorporou <u>às fileiras do</u> Exército Brasileiro”.",
+    "“a disciplina e o respeito <u>ao próximo</u>”.",
+    "“afirmou <u>à época</u>”.",
+    "“Copa do Mundo <u>de 1958</u>”",
+    "“Em entrevista <u>à Revista Verde-Oliva</u>”."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "(A) Incorreto. Pois “às fileiras do Exército Brasileiro” completa o verbo “incorporou”, exercendo função de objeto indireto, e não de termo caracterizador de um substantivo.<br><br>(B) Incorreto. Pois “ao próximo” é o complemento nominal do substantivo “respeito”, já que esse nome exige preposição “a” para indicar a quem se dirige o respeito.<br><br>(C) Incorreto. Pois “à época” é adjunto adverbial de tempo, indicando o momento em que a ação verbal “afirmou” ocorreu, e não caracterizando um substantivo.<br><br>(D) Correto. Pois a expressão “de 1958” em “Copa do Mundo de 1958” exerce a mesma função sintática de adjunto adnominal, já que também caracteriza o substantivo “Copa do Mundo”, delimitando-o por meio de uma locução adjetiva.<br><br>(E) Incorreto. Pois “à Revista Verde-Oliva” é complemento do nome “entrevista”, exercendo a função de complemento nominal, e não de adjunto adnominal. Além disso, está ligado por preposição exigida pelo substantivo “entrevista”.",
+  "explanationImage": null,
+  "year": 2025
+}

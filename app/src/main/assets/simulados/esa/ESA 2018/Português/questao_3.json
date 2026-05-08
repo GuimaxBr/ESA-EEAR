@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2018) Quanto ao sujeito, assinale a alternativa cujo termo destacado esteja corretamente identificado.",
+  "questionImage": null,
+  "options": [
+    "Era verão e fazia <b>calor</b><b>.</b> (Sujeito indeterminado)",
+    "<b>Que</b><b>m</b> disse isso?. (Sujeito oculto)",
+    "<b>A menina</b> foi resgatada pelo bombeiro. (Sujeito composto)",
+    "<b>Fi</b><b>camos</b> algum tempo sem falar. (Sujeito simples)",
+    "Falam por mim <b>os abandonados de justiça, os simples de coração. </b>(Sujeito composto)"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "A oração está na ordem indireta, então o sujeito está posposto. Na ordem direta, seria: “os abandonados de justiça, os simples de coração falam por mim”, o que tornaria a identificação do sujeito composto, com dois núcleos - “abandonados” e “simples” - mais evidente.",
+  "explanationImage": null,
+  "year": 2018
+}

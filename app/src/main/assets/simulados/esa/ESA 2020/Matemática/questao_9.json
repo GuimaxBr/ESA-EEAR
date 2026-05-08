@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2020) O lucro de uma empresa é dado por uma lei L(x) = -x² + 8x -  7, em que x é a quantidade vendida (em milhares de unidades) e L é o lucro (em Reais). Qual o valor do lucro máximo, em reais?",
+  "questionImage": null,
+  "options": [
+    "9.000",
+    "7.000.",
+    "6.000.",
+    "8.000.",
+    "10.000."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "Como o enunciado não diz que o lucro está em milhares de reais, não podemos afirmar que 9 será R$9.000, logo a questão deveria ser anulada.",
+  "explanationImage": "questao_9_explicacao.jpeg",
+  "year": 2020
+}

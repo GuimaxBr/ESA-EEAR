@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2019) O valor que deve ser somado ao polinômio 2x³ + 3x² + 8x + 15 para que ele admita 2i como raiz, sendo i a unidade imaginária é:",
+  "questionImage": null,
+  "options": [
+    "3",
+    "12",
+    "-15",
+    "-12",
+    "-3"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "Para que o polinômio admita 2i como raiz, ele deve admitir também -2i como raiz. Assim, o polinômio  deverá ser divisível por (x-2i).(x+2i) = x²+4. Aplique a divisão pelo método da chave, tem-se: -3",
+  "explanationImage": "questao_9_explicacao.jpeg",
+  "year": 2019
+}

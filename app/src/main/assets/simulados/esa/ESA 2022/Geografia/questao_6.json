@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2022) Em uma pesquisa sobre o aproveitamento econômico dos recursos naturais e as questões ambientais, um grupo de alunos da Escola de Sargentos das Armas levantou as seguintes informações: <br> <br>“No panorama global, o Brasil se distingue pela participação muito elevada das fontes renováveis na estrutura de oferta de energia. No Brasil, as fontes renováveis representam perto de 45% do consumo total, resultantes de uma combinação de fatores naturais favoráveis e de políticas energéticas orientadas para fazer uso eficiente dessas vantagens”. (MAGNOLI, Demétrio. Geografia para o Ensino Médio, 2012, p. 335-336). <br> <br>A privilegiada posição brasileira descrita nas informações do texto é fruto do peso excepcional das seguintes fontes:",
+  "questionImage": null,
+  "options": [
+    "energia hidráulica e biomassa",
+    "carvão mineral e etanol",
+    "gás natural e biodiesel",
+    "gás de xisto e energia eólica",
+    "energia nuclear e energia solar"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "(A) Correta: com destaque para as hidrelétricas e do etanol que foram potencializados a partir da década de 1970<br><br>(B) Incorreta: carvão mineral é um combustível fóssil, logo, não é renovável<br><br>(C) Incorreta: gás natural é um combustível fóssil, logo, não é renovável<br><br>(D) Incorreta: xisto é um combustível fóssil, logo, não é renovável<br><br>(E) Incirreta: Energia nuclear não é renovável.",
+  "explanationImage": null,
+  "year": 2022
+}

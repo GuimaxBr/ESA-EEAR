@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2018) No período “Há boas razões para crer que se iniciou uma reação em cadeia”, o <b>se</b> adquire função pronominal. O período em que o <b>se</b> é um elemento com outro valor morfossintático é:",
+  "questionImage": null,
+  "options": [
+    "&quot;Quando muito se compadecem do destino dos ursos polares.&quot;",
+    "&quot;Já a água do mar/.../, escura, absorve radiação e se aquecer.&quot;",
+    "&quot;A muralha de ar  enregelante que se assente sobre o polo.&quot;",
+    "&quot;Numa época em que o sol não se levanta, bateu o recorde de temperaturas positivas.&quot;",
+    "&quot;Se isso não for capaz de chocar o leitor.&quot;"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "A) Incorreta, porque em “Quando muito se compadecem do destino dos ursos polares”, o se funciona como pronome reflexivo, próprio do verbo “compadecer-se”.<br><br>B) Incorreta, porque em “... absorve radiação e se aquece”, o se integra o verbo pronominal “aquecer-se”.<br><br>C) Incorreta, porque em “A muralha de ar enregelante que se assenta sobre o polo”, o se também é pronome integrante de verbo pronominal (“assentar-se”).<br><br>D) Incorreta, porque em “Numa época em que o sol não se levanta”, o se é parte integrante do verbo pronominal “levantar-se”.<br><br>E) Correta, pois em “Se isso não for capaz de chocar o leitor”, o se não tem valor pronominal, mas sim de conjunção subordinativa condicional.",
+  "explanationImage": null,
+  "year": 2018
+}

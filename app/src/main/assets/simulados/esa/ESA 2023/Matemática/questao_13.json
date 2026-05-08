@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "text": "(ESA 2023) Considerando o ponto P (-1,-3) e o ponto Q (3,5), marque a alternativa que expressa a equação da reta que passa pelo ponto P e Q.",
+  "questionImage": null,
+  "options": [
+    "3𝑥-5𝑦+2=0",
+    "2𝑥+𝑦+1=0",
+    "5𝑥+2𝑦-3=0",
+    "2𝑥-𝑦-1=0",
+    "3𝑥-5𝑦-5=0"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_13_explicacao.jpeg",
+  "year": 2023
+}

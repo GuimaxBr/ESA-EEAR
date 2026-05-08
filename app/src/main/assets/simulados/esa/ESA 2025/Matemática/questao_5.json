@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2025) A Seção de Educação Física da ESA elaborou uma pesquisa entre 60 alunos do Curso de Formação e Graduação de Sargentos sobre a preferência entre 3 modalidades esportivas: basquete (B), futebol (F) e vôlei (V). Os dados obtidos foram tabelados como se seguem: Escolhendo-se aleatoriamente um aluno entre os 60 alunos pesquisados, qual a probabilidade de ele preferir, no máximo, uma modalidade esportiva?",
+  "questionImage": "questao_5_enunciado.jpeg",
+  "options": [
+    "0,7333...",
+    "0,7",
+    "0,6555...",
+    "0,4333...",
+    "0,6"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "Queremos escolher uma modalidade esportiva no máximo, precisamos do número de alunos que não fazem alguma modalidade ou que fazem exatamente uma. Dessa forma, pelo enunciado, temos:<br>n(B) = 27, n(F) = 20, n(V) = 25<br>n(B ∩ F) = 5, n(B ∩ V) = 8, n(F ∩ V) = 7 e n(B ∩ F ∩ V) = 2.<br> <br>Dessa forma, temos:<br>n(B ∪ F ∪ V) = n(B) + n(F) + n(V) - [n(B ∩ F) + n(B ∩ V) + n(F ∩ V)] + n(B ∩ F ∩ V)<br>n(B ∪ F ∪ V) = 27 + 20 + 25 - [5 + 8 + 7] + 2 = 27 + 20 + 27 - 20<br>∴ n(B ∪ F ∪ V) = 54,<br><br>Assim, 60-54=6 alunos fazem esporte algum. Além disso, veja que:<br>n(B - (F ∩ V)) = n(B) - n(B ∩ F) - n(B ∩ V) + n(B ∩ F ∩ V) = 27 - 5 - 8 + 2<br><br>n(B - (F ∩ V)) = 16<br><br>n(F - (B ∩ V)) = n(F) - n(B ∩ F) - n(F ∩ V) + n(B ∩ F ∩ V) = 20 - 5 - 7 + 2<br><br>n(F - (B ∩ V)) = 10<br><br>n(V - (B ∩ F)) = n(V) - n(V ∩ F) - n(B ∩ V) + n(B ∩ F ∩ V) = 25 - 8 - 7 + 2<br><br>n(F - (B ∩ V)) = 12<br><br>Finalmente, sendo A nosso espaço de eventos favoráveis, temos #A = 16 + 10 + 12 + 6 = 44",
+  "explanationImage": "questao_5_explicacao.png",
+  "year": 2025
+}

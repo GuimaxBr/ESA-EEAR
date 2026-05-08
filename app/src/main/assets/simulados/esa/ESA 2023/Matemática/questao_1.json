@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2023) Em uma Organização Militar, existe um grupo com 8 militares, sendo 4 militares do segmento masculino e 4 militares do segmento feminino. Desse grupo, o comando decidiu escolher 3 militares para realizar o Estágio de Operações do Pantanal. Qual a probabilidade de exatamente um militar do segmento masculino ser escolhido?",
+  "questionImage": null,
+  "options": [
+    "1/4",
+    "3/4",
+    "3/7",
+    "4/7",
+    "1/2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_1_explicacao.jpg",
+  "year": 2023
+}

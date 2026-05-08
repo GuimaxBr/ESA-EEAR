@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2025) Read the text about soccer in Brazil and choose the <b>false</b> statement. <br> <br>Soccer is the national sport of Brazil. The Brazilian passion for the game leads many observers to describe it as more of a religion than a sport for Brazilians. Intense and often fanatical support of the national team is a force that serves to bridge Brazil&#x27;s ethnic and class divisions. Its national team is the only team that has played in all nineteen World Cup competitions, the sport&#x27;s highest level of international play that are held every four years. Brazil is also the only team to win the tournament five times. Males of all classes and backgrounds play soccer. Its popularity stems partly from its limited equipment demands. The poorest of youth play in the streets because soccer requires just a ball (or even a makeshift ball) and some open space. Peladas, or pick-up games, are common occurrences, especially on Sundays. For spectators, national team games draw the attention of the entire nation. Work essentially halts while Brazilians gather to watch the game in homes, offices, bars, and other venues. Wins in international competition can lead to nationwide partying and parades; losses can lead to widespread disappointment and national debate concerning the team&#x27;s performance and future.",
+  "questionImage": null,
+  "options": [
+    "Soccer has a nearly sacred aura in the Brazilian society.",
+    "People from the upper middle class do not root for the national team.",
+    "The national team never failed to qualify for a World Cup.",
+    "Soccer is an accessible sport to the impoverished.",
+    "The national team’s results interest Brazilians nationwide."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "(A) (O futebol tem uma aura quase sagrada na sociedade brasileira.)<br>Correta.<br>O texto afirma:<br><br>\"Many observers describe it as more of a religion than a sport for Brazilians.\"<br>(Muitos observadores o descrevem mais como uma religião do que como um esporte para os brasileiros.)<br>Assim, o futebol é visto quase como algo sagrado no Brasil.<br><br>(B) (Pessoas da classe média alta não torcem pela seleção nacional.)<br>Incorreta.<br>O texto diz:<br><br>\"Males of all classes and backgrounds play soccer.\"<br>(Homens de todas as classes e origens jogam futebol.)<br>Logo, pessoas de todas as classes, inclusive da classe média alta, participam e torcem pelo futebol. Essa é a afirmativa falsa.<br><br>(C)(A seleção nacional nunca deixou de se classificar para uma Copa do Mundo.)<br>Correta.<br>O texto confirma:<br><br>\"Its national team is the only team that has played in all nineteen World Cup competitions.\"<br>(Sua seleção nacional é a única equipe que participou de todas as dezenove Copas do Mundo.)<br>Portanto, o Brasil sempre se classificou para o torneio.<br><br>(D) (O futebol é um esporte acessível aos pobres.)<br>Correta.<br><br>O texto afirma:<br><br>\"Its popularity stems partly from its limited equipment demands. The poorest of youth play in the streets because soccer requires just a ball (or even a makeshift ball) and some open space.\"<br>(Sua popularidade vem em parte do fato de exigir pouco equipamento. Os jovens mais pobres jogam nas ruas porque o futebol requer apenas uma bola - ou mesmo uma bola improvisada - e algum espaço aberto.)<br>Portanto, o futebol é realmente acessível às pessoas com poucos recursos.<br><br>(E)  (Os resultados da seleção nacional interessam aos brasileiros em todo o país.)<br>Correta.<br>O texto diz:<br><br>\"Work essentially halts while Brazilians gather to watch the game... Wins... can lead to nationwide partying and parades; losses can lead to widespread disappointment...\"<br>(O trabalho basicamente para enquanto os brasileiros se reúnem para assistir ao jogo... As vitórias podem levar a comemorações e desfiles nacionais; as derrotas podem causar decepção generalizada.)<br>Isso mostra que todo o país acompanha e se interessa pelos resultados da seleção.",
+  "explanationImage": null,
+  "year": 2025
+}

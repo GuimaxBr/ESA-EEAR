@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2025) Observe a equação real abaixo, sobre a equação supracitada, pode-se afirmar que:",
+  "questionImage": "questao_8_enunciado.jpeg",
+  "options": [
+    "Seu conjunto solução é o conjunto vazio.",
+    "Seu conjunto solução só possui uma raiz real irracional.",
+    "Seu conjunto solução possui exatamente três raízes reais.",
+    "Seu conjunto solução possui duas raízes reais, uma racional e a outra irracional.",
+    "A soma de suas raízes produz um número real e racional."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.jpg",
+  "year": 2025
+}

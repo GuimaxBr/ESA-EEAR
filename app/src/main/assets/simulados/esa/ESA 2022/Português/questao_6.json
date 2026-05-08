@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2022)  Assinale a alternativa em que está presente a figura de linguagem intitulada ironia.",
+  "questionImage": null,
+  "options": [
+    "Depois de correr por mais de três horas na maratona, o atleta estava morto de fome e cansaço.",
+    "De tanto ele aguentar humilhações calado e baixar a cabeça, todos o acham um verdadeiro banana.",
+    "Que firmeza aquele goleiro tem nas mãos! Ao defenderem os chutes, elas parecem feitas de alface...",
+    "Os gritos silenciosos no olhar do menino não me saem da memória e me cortam o coração.",
+    "Como Yoda falar agora começarei; não entenderem nada todos vocês possível é."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreta: A frase contém uma hipérbole (\"morto de fome e cansaço\"), mas não ironia, já que não há contradição no que é dito.<br> <br>(B) Incorreta: Essa frase usa uma metáfora (chamar alguém de \"banana\" para significar que é fraco ou submisso), mas não contém ironia, que seria afirmar algo contrário ao que se quer dizer.<br><br>(C) Correta: A ironia está presente quando a expressão usada é oposta ao que realmente se quer dizer. Ao afirmar que o goleiro tem firmeza nas mãos, mas comparando-as a alface ao defender os chutes, a frase sugere que o goleiro é ruim, sem firmeza alguma.<br><br>(D) Incorreta: A frase contém oxímoro ou paradoxo (\"gritos silenciosos\" = som e silêncio), mas não ironia, pois não há uma expressão que indique o contrário do que se quer dizer.<br><br>(E) Incorreta: A frase imita o modo de falar do personagem Yoda, de \"Star Wars\", utilizando inversão sintática, mas não contém ironia.",
+  "explanationImage": null,
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2019) Assinale a alternativa em que todas as palavras possuam encontros consonantais:",
+  "questionImage": null,
+  "options": [
+    "samba, clima, apto.",
+    "mnenônico, obturar, subdelegado.",
+    "sucção, istmo, chave",
+    "exceção, mundo, sonda.",
+    "jejum, aquilo, chave."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "A) está incorreta, pois embora apto (pt) e clima (cl) apresentem encontros consonantais, samba não possui encontro consonantal, mas sim dígrafo vocálico (am).<br><br>B) Correta, pois todas as palavras apresentam encontros consonantais: mnemônico (mn), obturar (bt) e subdelegado (bd) mantêm consoantes juntas na mesma palavra, caracterizando encontro consonantal, seja na mesma sílaba ou em sílabas diferentes.<br><br>C) Incorreta, pois sucção apresenta encontro consonantal imperfeito (cç), istmo (stm) também apresenta, mas chave possui apenas dígrafo “ch”, não configurando encontro consonantal.<br><br>D) Incorreta, pois todas as palavras possuem dígrafos. Exceção (dígrafo consonantal xc), mundo (dígrafo vocálico un) e sonda (dígrafo vocálico on).<br><br>E) incorreta, pois nenhuma das palavras (jejum, aquilo, chave) apresenta encontro consonantal; em jejum, “um” é dígrafo vocálico; em chave, a sequência “ch” é dígrafo consonantal; em aquilo “qu” é dígrafo consonantal.",
+  "explanationImage": null,
+  "year": 2019
+}

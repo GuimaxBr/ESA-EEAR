@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2019) Assinale a alternativa em que as regras de acentuação, nos conjuntos de palavras, foram empregadas de acordo com a norma padrão:",
+  "questionImage": null,
+  "options": [
+    "lmã, apto, bíceps.",
+    "panacéia, ápto, décadas.",
+    "herói, jaú, geléia.",
+    "taxímetro, pangeia, baú.",
+    "taínha, juiz, juizes."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "A) Incorreta, pois “ímã” leva acento no i por ser paroxítona terminada em a nasal e está grafada de forma errada na alternativa (“imã”); “apto” e “bíceps” estão corretos.<br><br>B) Incorreta porque “panacéia” está grafada de forma errada. Segundo o Acordo Ortográfico - o correto é “panaceia” (o ditongo aberto ei em palavras paroxítonas não é mais acentuado); “décadas” e “apto” estão corretos, mas a primeira já invalida a alternativa.<br><br>C) Incorreta porque “geléia” está em desacordo com o Acordo Ortográfico, sendo a forma correta “geleia”; “herói” e “jaú” estão corretos, mas o erro na primeira palavra invalida o conjunto.<br><br>D) Correta: “taxímetro” é proparoxítona e todas as proparoxítonas são acentuadas; “pangeia” está grafada corretamente, sem acento, de acordo com a norma vigente; “baú” é oxítona terminada em u tônico precedido de vogal, recebendo acento gráfico pela regra do u tônico.<br><br>E) Incorreta, pois “taínha” está incorretamente acentuada por ser palavra com hiato (i tônico), mas “juiz” não leva acento e “juízes” está correto pela regra do hiato.",
+  "explanationImage": null,
+  "year": 2019
+}

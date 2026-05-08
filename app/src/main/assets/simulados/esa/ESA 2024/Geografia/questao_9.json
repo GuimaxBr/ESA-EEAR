@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2024) A sociedade brasileira vem passando por expressivas mudanças em seu perfil demográfico. Essas alterações na composição etária da população indicam que o país ingressou em um período especial conhecido como <u><b>bônus demográfico</b></u>. Sobre o bônus demográfico, é <u><b>correto</b></u> afirmar que:",
+  "questionImage": null,
+  "options": [
+    "Ocorre quando há predomínio de adultos no conjunto total da população em relação a crianças (0 a 14 anos) e idosos (65 anos ou mais), aumentando o número de pessoas em idade produtiva e diminuindo a quantidade de dependentes, o que favorece o desenvolvimento econômico.",
+    "É o processo pelo qual as sociedades passam do estágio de altas taxas para o de baixas taxas de natalidade e de mortalidade, isto é, tanto o estágio inicial quanto o finalcaracterizam-se pela diferença entre as taxas de natalidade e de mortalidade.",
+    "Corresponde à diferença entre nascimentos (natalidade) e óbitos (mortalidade) verificada na população, somada à diferença entre a entrada e a saída de pessoas no país.",
+    "Trata-se da redução da população economicamente ativa, ou seja, redução de postos de trabalho em virtude das novas formas de organização da produção, tendência verificada especialmente devido à informatização e à robótica.",
+    "Refere-se à distribuição da população brasileira por gênero, apresentando uma parcela ligeiramente maior de população feminina. Há um aumento das mortes de adolescentes e adultos jovens do sexo masculino por causas violentas e acidentes automobilísticos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "(A) Correta: O bônus demográfico ocorre quando há um predomínio de adultos na população total em relação a crianças e idosos, o que reduz a quantidade de dependentes e amplia a população economicamente ativa. Esse cenário pode contribuir para o crescimento econômico se houver políticas adequadas para absorver essa força de trabalho.<br><br>(B) Incorreta: A transição demográfica refere-se à mudança de um padrão de altas taxas de natalidade e mortalidade para um cenário de taxas reduzidas, sendo um processo gradual e de longo prazo. Já o bônus demográfico é um estágio específico dentro dessa transição, quando há um equilíbrio favorável entre a população economicamente ativa e a dependente.<br><br>(C) Incorreta: O conceito de bônus demográfico não está relacionado à diferença entre nascimentos e óbitos. O saldo entre natalidade e mortalidade influencia o crescimento populacional, mas o bônus demográfico refere-se à estrutura etária, e não ao crescimento absoluto da população.<br><br>(D) Incorreta: O bônus demográfico não está relacionado à redução da população economicamente ativa. Pelo contrário, ele ocorre quando há um aumento na proporção de adultos na população. A diminuição da força de trabalho ocorre após o fim do bônus demográfico, quando a população envelhece e há uma maior proporção de idosos.<br><br>(E) Incorreta: O bônus demográfico não se refere à distribuição da população por gênero. Ele está relacionado à estrutura etária da população, ou seja, à proporção de pessoas economicamente ativas em relação aos dependentes (crianças e idosos). A distribuição por gênero e o aumento das mortes por causas violentas não têm relação com esse conceito.",
+  "explanationImage": null,
+  "year": 2024
+}

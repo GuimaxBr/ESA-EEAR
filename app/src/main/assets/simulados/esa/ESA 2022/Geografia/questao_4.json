@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2022) As figuras retratam um problema ou fenômeno climático urbano que afeta diretamente a vida das pessoas, principalmente durante o inverno. A imagem representa:",
+  "questionImage": "questao_4_enunciado.jpeg",
+  "options": [
+    "ilha de calor",
+    "estiagem",
+    "inversão térmica",
+    "chuva de convecção",
+    "abóbada atmosférica"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta: é formada pelo aumento da temperatura (se comparada ao seu entorno) em áreas mais urbanizadas<br> <br>(B) Incorreta: são secas<br><br>(C) Correta: olha o bizu: inverno. Isso acontece porque na estão mais “fria” a superfície também apresenta redução da temperatura, dificultando a circulação do ar<br><br>(D) Incorreta: formadas pela mEc<br><br>(E) Incorreta: é um fenômeno associado à uma alta pressão que dificulta a saída do ar.",
+  "explanationImage": null,
+  "year": 2022
+}

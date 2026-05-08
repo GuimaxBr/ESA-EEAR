@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2021) Observe: <br>“O bom escritor sabe que elementos como a coerência e a coesão são indispensáveis para a inteligibilidade dos textos escritos, bem como o respeito às normas gramaticais.” <br> <br>Se o termo <b>escritor</b> fosse colocado no plural, quantas outras alterações seriam necessárias para manter a correção da frase?",
+  "questionImage": null,
+  "options": [
+    "Duas.",
+    "Três.",
+    "Quatro.",
+    "Uma",
+    "Cinco."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "A alternativa “b” é a única que traz o correto número de palavras que irão para o plural, ou seja, três palavras. Ao colocarmos o substantivo “escritor” para o plural, classes gramaticais como artigos, adjetivos e verbos concordarão com esse substantivo. Desse modo, o artigo “o” se flexionou, o adjetivo “bom” também e o verbo “sabe”, apresentando a seguinte forma: “Os bons escritores sabem…”",
+  "explanationImage": null,
+  "year": 2021
+}

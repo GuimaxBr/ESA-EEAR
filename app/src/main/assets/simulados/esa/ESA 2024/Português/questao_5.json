@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA2024) Observe o período contido no Texto II: “Deve comunicar-se eficazmente e estar sempre pronto<b> </b><u><b>para corrigir com sereno rigor</b></u> [...].”  <br> <br>A oração em destaque é classificada como:",
+  "questionImage": null,
+  "options": [
+    "Oração subordinada adverbial final reduzida de infinitivo.",
+    "Oração subordinada adverbial condicional reduzida de infinitivo.",
+    "Oração subordinada adjetiva restritiva reduzida de infinitivo.",
+    "Oração subordinada substantiva completiva nominal reduzida de infinitivo.",
+    "Oração subordinada substantiva objetiva indireta reduzida de infinitivo."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "(A) Incorreta, pois o valor semântico não é de finalidade (não se trata de “com o objetivo de corrigir”).<br><br>(B) Incorreta, já que não há sentido de condição (caso corrija...) na oração.<br><br>(C) Incorreta, pois a oração não caracteriza um termo antecedente e não é adjetiva.<br><br>(D) Correta, pois a oração reduzida de infinitivo tem valor de complemento do adjetivo “pronto”, funcionando como oração subordinada substantiva completiva nominal.<br><br>(E) Incorreta, pois a oração em destaque não complementa um verbo, mas um nome.",
+  "explanationImage": null,
+  "year": 2024
+}

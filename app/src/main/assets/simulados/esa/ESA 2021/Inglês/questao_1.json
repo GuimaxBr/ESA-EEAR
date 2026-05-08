@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2021) Todas as palavras abaixo formam o plural em inglês como a palavra “photo”, <b>exceto</b>:",
+  "questionImage": null,
+  "options": [
+    "video",
+    "piano",
+    "radio",
+    "hero",
+    "kilo"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "A) Incorreto. Video forma o plural como videos, simplesmente adicionando -s, assim como photo → photos. Segue o padrão regular para palavras terminadas em vogal + “o”.<br><br>B) Incorreto. Piano também segue a mesma regra: piano → pianos. Palavras de origem estrangeira, especialmente italiana, como piano, geralmente formam o plural apenas com -s.<br><br>C) Incorreto. Radio forma o plural como radios, adicionando apenas -s, tal como photo → photos. É uma palavra comum com final em “o” precedido por vogal, que segue o padrão regular.<br><br>D) Correta. Hero foge do padrão das outras. Ela forma o plural como heroes, ou seja, adiciona -es. Isso acontece com várias palavras terminadas em “-o” precedido de consoante, como potato → potatoes, tomato → tomatoes, hero → heroes. <br><br>E) Incorreto. Kilo vira kilos no plural, seguindo o padrão regular com -s, como photo → photos.",
+  "explanationImage": null,
+  "year": 2021
+}

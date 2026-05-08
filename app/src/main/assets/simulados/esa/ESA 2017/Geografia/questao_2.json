@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2017) A Unidade de Proteção Integral que se destina a preservação integral dos atributos naturais existentes em seus limites, sem interferência humana direta, e proibida à visitação pública, com exceção de atividades educacionais corresponde a:",
+  "questionImage": null,
+  "options": [
+    "Parques nacionais",
+    "Reserva extrativista",
+    "Reserva biológica",
+    "Refúgio da vida silvestre",
+    "Monumento natural"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "",
+  "explanationImage": "questao_2_explicacao.jpeg",
+  "year": 2017
+}

@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2022) Mark the option that correctly completes the sentence below <br> <br>“My parents are seriously thinking about _______________ to Canada.”",
+  "questionImage": null,
+  "options": [
+    "moving",
+    "moves",
+    "move",
+    "to move",
+    "moved"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Inglês",
+  "explanation": "(A) Correta: moving<br> → Após a preposição \"about\", o verbo que segue deve estar no gerúndio (-ing):<br>thinking about moving = pensando em se mudar.<br>📌 Regra: verbos que seguem preposições (como about, of, in) devem ficar no gerúndio.<br>📌 Exemplo:<br>She is talking about traveling to Europe.<br>He is thinking about changing jobs.<br>Portanto, gabarito correto: A) moving<br> <br>(B) Incorreta: moves<br>Moves é a forma do presente simples para he/she/it (he moves).<br>Não pode ser usada depois de “thinking about”, pois a gramática exige o gerúndio.<br>📌 Exemplo incorreto: thinking about moves to Canada <br><br>(C) Incorreta: move<br>Move é a forma base do verbo.<br>Também não pode ser usada após “thinking about”.<br>📌 Exemplo incorreto: thinking about move to Canada <br><br>(D) Incorreta: to move<br>To move é o infinitivo.<br>Embora o infinitivo seja comum após alguns verbos (want to move, decide to move), não é usado depois de preposição (about).<br>📌 Correto: want to move<br>📌 Incorreto: thinking about to move <br><br>(E) Incorreta: moved<br>Moved é o passado de move.<br>Não se usa o passado após “thinking about”.<br>📌 Exemplo incorreto: thinking about moved to Canada",
+  "explanationImage": null,
+  "year": 2022
+}

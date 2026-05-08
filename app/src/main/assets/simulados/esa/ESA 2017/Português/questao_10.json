@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2017) Em “<b>Fiz-lhe sinal que se calasse</b>.”, a palavra <u><b>que</b></u> é:",
+  "questionImage": null,
+  "options": [
+    "Pronome",
+    "Advérbio",
+    "Conjunção",
+    "Partícula expletiva",
+    "Preposição"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "“Fiz-lhe sinal que se calasse” o que tem valor de conjunção subordinativa final, equivalente a “para que”, introduzindo uma oração de finalidade (para que se calasse).",
+  "explanationImage": null,
+  "year": 2017
+}

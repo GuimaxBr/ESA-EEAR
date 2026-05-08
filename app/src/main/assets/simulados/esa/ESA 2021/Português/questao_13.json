@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "text": "(ESA 2021) Marque a alternativa que classifica as palavras abaixo quanto à acentuação, respectivamente: <br> <br>Tábua / Céu / Tórax",
+  "questionImage": null,
+  "options": [
+    "Paroxítona / Paroxítona / Paroxítona.",
+    "Oxítona / Monossílabo átono / Paroxítona.",
+    "Paroxítona / Monossílabo tônico / Paroxítona.",
+    "Monossílabo átono / Paroxítona / Oxítona.",
+    "Proparoxítona / Paroxítona / Oxítona."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "Tábua - paroxítona terminada em ditongo crescente (acentuação tônica na penúltima sílaba).<br>Céu - monossílabo tônico, em regra de ditongo aberto \"éu\".<br>Tórax - paroxítona (acentuação tônica na penúltima sílaba).",
+  "explanationImage": null,
+  "year": 2021
+}

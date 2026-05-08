@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2022) O valor da soma dos elementos do conjunto solução da equação |4𝑥-5|= 2𝑥-1, é igual a:",
+  "questionImage": null,
+  "options": [
+    "6",
+    "5",
+    "4",
+    "3",
+    "2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "MATEMÁTICA",
+  "explanation": "Vamos separar em casos.<br>1º caso:<br>4x - 5 ≥ 0 → x ≥ 5/4<br>|4x - 5| = 4x - 5<br>Assim, 4x - 5 = 2x - 1<br>x = 2 , se testarmos, veremos que satisfaz a equação.<br><br>2º caso:  4x - 5 < 0 → x < 5/4<br>|4x - 5| = -4x + 5<br>Assim, -4x + 5 = 2x - 1 <br>x = 1 , se testarmos, veremos que satisfaz a equação. Portanto, a soma das soluções é:<br>2 + 1 = 3",
+  "explanationImage": null,
+  "year": 2022
+}

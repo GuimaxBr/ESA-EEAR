@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2019) Se, para quaisquer valores X₁ e X₂ de um conjunto S (contido no domínio D), com X₁ &lt; X₂, temos f(X₁) &lt; f(X₂), então podemos afirmar que a função f é:",
+  "questionImage": null,
+  "options": [
+    "Inconstante",
+    "Alternada",
+    "Crescente",
+    "Decrescente",
+    "Constante"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "Por definição, a resposta é crescente.",
+  "explanationImage": "questao_7_explicacao.jpeg",
+  "year": 2019
+}

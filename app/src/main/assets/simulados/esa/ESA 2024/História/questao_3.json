@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2024) Durante o primeiro século de colonização portuguesa, o território brasileiro era povoado majoritariamente ao longo de sua faixa litorânea, desde Natal até Cananeia. Foi só a partir do Século XVII que se iniciou um processo de interiorização territorial da colônia, conforme podemos observar nas imagens abaixo:<br>Podemos enumerar como causas que levaram os colonizadores a avançar em direção ao interior, <u><b>exceto</b></u>:",
+  "questionImage": "questao_3_enunciado.png",
+  "options": [
+    "O avanço da pecuária, uma vez que cada vez mais os rebanhos ocupavam áreas interioranas.",
+    "As expedições militares financiadas pela Coroa para expulsar possíveis invasores estrangeiros.",
+    "A busca por novas áreas para o plantio de cana-de-açúcar, já que o solo das regiões litorâneas tinha se mostrado muito improdutivo",
+    "A ação dos jesuítas, que fundavam novos aldeamentos para explorar as riquezas naturais e catequizar os indígenas.",
+    "A ação dos bandeirantes, que avançavam para Oeste à procura de metais preciosos ou à caça de indígenas ou de escravos africanos fugidos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "História",
+  "explanation": "(A) Correta. A atividade pecuária foi uma importante causa da interiorização. Como a cana-de-açúcar ocupava as terras do litoral, a criação de gado se desenvolveu no interior, buscando áreas propícias para o pastoreio, o que resultou na ocupação de regiões mais afastadas da costa.<br><br>(B) Correta. Durante o século XVII, as expedições militares tinham como objetivo principal expulsar invasores estrangeiros, como franceses, holandeses e espanhóis, que ameaçavam o domínio português sobre o território brasileiro. Isso ajudou a promover a interiorização, pois muitas dessas expedições adentraram o território para garantir a presença portuguesa.<br><br>(C) Incorreta. Essa alternativa está incorreta porque, durante o período colonial, o solo litorâneo se mostrou bastante produtivo para o cultivo da cana-de-açúcar, que foi a principal atividade econômica da época. O avanço para o interior não foi motivado pela busca de novas terras para a cana-de-açúcar, mas sim por outros fatores, como mineração, pecuária e missões jesuíticas. As regiões litorâneas continuaram a ser as mais importantes para o plantio da cana.<br><br>(D) Correta. Os jesuítas tiveram um papel significativo na interiorização, fundando aldeamentos e missões para catequizar os indígenas. Além disso, buscavam explorar as riquezas naturais dessas regiões, contribuindo para o estabelecimento de núcleos populacionais no interior do Brasil.<br><br>(E) Correta. Os bandeirantes foram fundamentais para a interiorização do Brasil, adentrando o território em busca de riquezas minerais, como ouro e prata, e também capturando indígenas e escravos africanos fugidos para vendê-los ou utilizá-los como mão de obra. Esse movimento levou ao conhecimento e ocupação de áreas antes desconhecidas pelos colonizadores.",
+  "explanationImage": null,
+  "year": 2024
+}

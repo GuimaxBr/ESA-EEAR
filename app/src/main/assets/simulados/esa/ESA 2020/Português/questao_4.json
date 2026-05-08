@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2020) De acordo com a língua culta, assinale a alternativa <b>correta.</b>",
+  "questionImage": null,
+  "options": [
+    "As esperanças do pai eram Cariota.",
+    "Fazem muitos anos que não jogo xadrez.",
+    "Os Estados Unidos se recusaram a assinar o protocolo de Kioto.",
+    "Minas Gerais são uma das 27 unidades federativas do Brasil.",
+    "Se não houvessem tantas brutalidades, o mundo seria uma maravilha."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A) Incorreta. Sempre que houver elemento humano, a preferência de concordância deve ser com ele. Portanto, deve ser “era”.<br><br>B) Incorreta. O verbo “fazer” no sentido de tempo decorrido é impessoal, portanto, não deve ir para o plural<br><br>C) No caso, está correta a concordância, pois há o artigo definido antes do verbo no plural. Portanto, o verbo deve acompanhar o plural.<br><br>D) Incorreta. Como não tem artigo no plural antes do nome, a concordância do plural não deve ser feita.<br><br>E) Incorreta. O verbo “haver” no sentido de existir é impessoal.",
+  "explanationImage": null,
+  "year": 2020
+}

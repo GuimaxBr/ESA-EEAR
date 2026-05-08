@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2021) Marque a única alternativa correta de acordo com o texto abaixo. <br> <br>The Ovambo people in Namibia traditionally build a house for their children, using wooden poles standing closely together to form circular walls. However, as the region where they live is running short of trees, this enterprising ethnic group is turning to a more abundant building material: the empty beer bottles that litter the roadsides and are cheaply available at local stores.",
+  "questionImage": null,
+  "options": [
+    "Como são um grupo étnico empreendedor, os Ovambos estão se voltando para os investimentos no ramo da construção.",
+    "Na Namíbia, encontra-se o litro da cerveja à venda a preços baixos nas lojas de beira de estrada.",
+    "Em função da escassez de madeira, os Ovambos estão construindo casas com garrafas de cerveja vazias.",
+    "As casas são construídas próximas umas das outras no interior de uma muralha circular feita de madeira.",
+    "O povo Ovambo tem a tradição de construir casas para as crianças utilizando madeira e tijolos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "O texto afirma que, devido à escassez de árvores (\"running short of trees\"), os Ovambos estão usando garrafas de cerveja vazias (\"empty beer bottles\") como material de construção. A alternativa reflete exatamente o conteúdo do texto.",
+  "explanationImage": null,
+  "year": 2021
+}

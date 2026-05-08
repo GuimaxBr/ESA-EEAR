@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2020) “My brother has a new job. He doesn’t like ______ very much.” Fill in the blank with the correct forms of the personal pronoun.",
+  "questionImage": null,
+  "options": [
+    "him.",
+    "it.",
+    "her.",
+    "he.",
+    "she."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "\"Job\" é uma coisa - usamos o pronome objeto \"it\"",
+  "year": 2020
+}

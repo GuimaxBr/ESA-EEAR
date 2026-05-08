@@ -1,0 +1,23 @@
+{
+  "id": 9,
+  "text": "(ESA 2016) Assinale a alternativa que analisa correta, sintática e respectivamente os termos destacados na frase seguinte: “Pertencem-<u><b>te todos os documentos. </b></u>”",
+  "questionImage": null,
+  "options": [
+    "Pronome oblíquo - sujeito",
+    "Objeto direto - objeto indireto",
+    "Objeto indireto - objeto direto",
+    "Objeto direto - sujeito",
+    "Objeto indireto - sujeito"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "1º) O pronome oblíquo “te” pode assumir tanto a função de objeto direto, quanto de objeto indireto. Para chegar à resposta correta, é necessário que o candidato analise a predicação verbal, isto é, verifique se verbo que o pronome está complementando é transitivo direto ou indireto. O verbo “pertencer” é transitivo indireto. Exemplos: O livro pertence à biblioteca. O carro pertence a João.<br>2º) A oração está na ordem indireta. Se a colocarmos na ordem direta, ficará assim: “Todos os documentos pertencem-te. ”. Isso torna mais fácil a identificação do sintagma nominal “Todos os documentos” como sujeito da oração. Outro dado que auxilia a identificação do sujeito é a observação da concordância verbal.",
+  "year": 2016
+}

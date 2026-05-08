@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "text": "(ESA 2024) A figura abaixo ilustra a propriedade refletora da hipérbole. Se um raio partir de um ponto 𝐴 e seguir em direção a 𝐹₁, então ele é refletido pela hipérbole, no ponto 𝑃, e segue em direção a 𝐹₁. Considere a hipérbole 4𝑥²-5𝑦² = 20 de focos 𝐹₁ e 𝐹₂, com 𝐹₁ à esquerda de 𝐹₂. Qual das retas abaixo dá a direção do raio que deve partir do ponto 𝐴(1,3) para ser refletido no ramo da direita da hipérbole e caminhar em direção a 𝐹₁?",
+  "questionImage": "questao_14_enunciado.jpeg",
+  "options": [
+    "3𝑥+2𝑦-9=0",
+    "2𝑥+2𝑦-7=0",
+    "𝑥+2𝑦-8=0",
+    "2𝑥-𝑦+7=0",
+    "𝑥-2𝑦+8=0"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_14_explicacao.jpeg",
+  "year": 2024
+}

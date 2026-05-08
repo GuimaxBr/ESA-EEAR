@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2024) Sobre o estudo da Geometria Espacial de Posição, analise as assertivas abaixo: <br> <br>I- Se duas retas de um plano, distintas e concorrentes, são paralelas a outro plano, então os dois planos são paralelos entre si. <br>II- Se um sistema linear é classificado como possível e indeterminado, então as retas que os constituem são ditas coincidentes. <br>III-  Duas ou mais retas são coplanares quando existe um plano que contém todas elas. <br>IV- Quando uma reta é perpendicular a um plano, todos os planos que a contêm são perpendiculares a este plano.  <br>V- Projeção ortogonal de um segmento sobre um plano: pode ser um segmento ou um ponto. <br> <br>Marque a alternativa <u><b>correta:</b></u>",
+  "questionImage": null,
+  "options": [
+    "Apenas os itens I, II e V são verdadeiros.",
+    "Apenas os itens II e V são falsos.",
+    "Os itens III, IV e V não são verdadeiros.",
+    "Todos os itens são verdadeiros.",
+    "Apenas o item I é verdadeiro."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "I. VERDADEIRA<br>Quando duas retas distintas e concorrentes estão contidas em um plano e são paralelas a outro plano, isso implica que essas duas retas, ao estarem em um mesmo plano e serem paralelas ao outro plano, não podem cruzar ou se encontrar com esse segundo plano. Ou seja, não há como as retas do primeiro plano interseccionarem o segundo plano. Como consequência, se duas retas distintas e concorrentes de um plano são paralelas a outro plano, os dois planos devem ser paralelos entre si.<br><br>II. VERDADEIRA<br>Em um sistema possível e indeterminado, as retas que o constituem coincidem, ou seja, têm todos os pontos em comum, resultando em infinitas soluções.<br><br>III. VERDADEIRA<br>Partindo da própria definição de retas coplanares, duas ou mais retas são chamadas de coplanares se existe um plano que as contém.<br><br>IV. VERDADEIRA<br>Quando uma reta é perpendicular a um plano, todos os planos que contêm essa reta também são perpendiculares ao plano em questão. Isso ocorre porque, para que um plano seja perpendicular a outro plano, ele deve conter uma reta que seja perpendicular ao plano inicial.<br>Portanto, se a reta é perpendicular ao plano e está contida em outro plano, esse plano também será perpendicular ao primeiro plano.<br><br>V. VERDADEIRA<br>A projeção ortogonal de um segmento sobre um plano pode resultar em um segmento (caso o segmento não seja perpendicular ao plano) ou em um ponto (se o segmento for perpendicular ao plano).",
+  "explanationImage": null,
+  "year": 2024
+}

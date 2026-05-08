@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "text": "(ESA 2023) Em um triângulo retângulo ABC, com ângulo reto em C, sabe-se que tgÂ=2. Marque a alternativa que representa o valor de sen Â.",
+  "questionImage": "questao_12_enunciado.jpeg",
+  "options": [
+    "sen Â = 2√5/3",
+    "sen Â = 3√5/5",
+    "sen Â = 2√5/5",
+    "sen Â = 3√5/5",
+    "sen Â = 3√5/7"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_12_explicacao.jpeg",
+  "year": 2023
+}

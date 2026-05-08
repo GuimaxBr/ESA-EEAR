@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2025 ) No trecho “onde realizou um voo no supersônico”, há um pronome relativo, cuja função<br>sintática é a de:",
+  "questionImage": null,
+  "options": [
+    "Conectivo.",
+    "Advérbio de lugar.",
+    "Adjunto adverbial.",
+    "Sujeito.",
+    "Adjunto adnominal."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreto. Já que embora o onde exerça função de elemento de coesão, ligando orações, essa alternativa é muito genérica. O onde não é um simples “conectivo”, e sim um pronome relativo que cumpre função sintática dentro da oração subordinada.<br><br>(B) Incorreto. Pois onde não é um advérbio de lugar - ele é um pronome relativo de valor locativo. Os advérbios não introduzem orações; já o pronome relativo onde exerce papel sintático dentro da oração dependente.<br><br>(C) Correto. Pois o pronome relativo onde exerce a função de adjunto adverbial de lugar, indicando o local em que a ação do verbo realizou ocorreu (“no lugar em que realizou um voo”). Ele introduz uma oração subordinada adjetiva e cumpre papel adverbial dentro dela.<br><br>(D) Incorreto. Pois o pronome relativo onde não exerce a função de sujeito da oração. O sujeito é oculto (“ele” - Ayrton Senna), e o pronome atua como termo acessório que indica circunstância de lugar.<br><br>(E) Incorreto. Pois adjunto adnominal é termo que acompanha um substantivo, determinando-o ou caracterizando-o. O onde não modifica substantivo, e sim indica o lugar em que ocorreu a ação verbal.",
+  "explanationImage": null,
+  "year": 2025
+}

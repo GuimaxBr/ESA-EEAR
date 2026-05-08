@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "text": "(ESA 2017) Vários fatores interferem nas dinâmicas climáticas presentes no território brasileiro. Nesse contexto, identifique a única associação incorreta:",
+  "questionImage": null,
+  "options": [
+    "Regiões de maior latitude- clima subtropical",
+    "Regiões de maiores latitudes- clima tropical semiárido",
+    "Ausência de maritimidade - clima tropical continental",
+    "Regiões de menor latitude- clima equatorial",
+    "Regiões de maiores altitudes- clima tropical de altitude"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Geografia",
+  "explanation": "O clima semiárido, presente em áreas do nordeste brasileiro, enquadra-se como uma variação do clima tropical, sendo, dessa forma, caracterizado como um clima quente e, de forma alguma, originário de regiões de maiores latitudes. Cabe ressaltar que as temperaturas tornam-se cada vez mais baixas na medida em que esse fator aumenta.",
+  "year": 2017
+}

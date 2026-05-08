@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2021) Em uma urna existem 5 bolinhas numeradas de 1 a 5. Quatro dessas bolinhas são retiradas, uma a uma, sem reposição. Qual a probabilidade de que a sequência de números observados, nessas retiradas, seja crescente?",
+  "questionImage": null,
+  "options": [
+    "2/5",
+    "1/5",
+    "1/36",
+    "1/24",
+    "1/12"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "Ao retirar 4 bolinhas, para a ordem ser crescente, devemos escolher a combinação de 4 escolhe 5, pois há uma única ordem favorável. <br>Para todas as escolhas das 4 bolinhas, considera-se o arranjo",
+  "explanationImage": "questao_10_explicacao.jpeg",
+  "year": 2021
+}

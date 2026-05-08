@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "text": "(ESA 2023) A partir do trecho abaixo, retirado do Texto IV: <br>“E o Brasil, por seus filhos amado, <br>Poderoso e feliz há de ser.”<br>Assinale a alternativa que faz a análise sintática correta dos termos do trecho.",
+  "questionImage": null,
+  "options": [
+    "o Brasil - Núcleo do sujeito",
+    "por seus filhos amado - Oração Subordinada Adjetiva reduzida de particípio",
+    "Poderoso e feliz - Oração Subordinada Substantiva predicativa",
+    "o - Adjunto Adverbial do sujeito",
+    "Poderoso - Adjunto Adnominal do predicado"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Incorreta: o Brasil - Núcleo do sujeito. Incorreta: No trecho, \"o Brasil\", apenas “Brasil” possui função de núcleo do sujeito.<br> <br>(B) Correta: por seus filhos amado - Oração Subordinada Adjetiva reduzida de particípio. Correta. A expressão \"por seus filhos amado\" é uma oração subordinada adjetiva reduzida de particípio que modifica \"o Brasil\". Ela explica uma característica do Brasil, sendo \"amado por seus filhos\".<br><br>(C) Incorreta: Poderoso e feliz - Oração Subordinada Substantiva predicativa. Incorreta: \"Poderoso e feliz\" não são orações, mas sim predicativos do sujeito que caracterizam o estado em que o Brasil se encontra. <br><br>(D) Incorreta: o - Adjunto Adverbial do sujeito. Incorreta: \"o\" é um artigo definido e adjunto adnominal que faz parte do sujeito \"o Brasil\" e não um adjunto adverbial. Adjuntos adverbiais são termos que modificam verbos, adjetivos ou outros advérbios, normalmente indicando circunstâncias como tempo, modo, lugar, etc.<br><br>(E) Incorreta: Poderoso - Adjunto Adnominal do predicado. Incorreta: \"Poderoso\" não é um adjunto adnominal do predicado. É um predicativo do sujeito que descreve uma qualidade do sujeito \"Brasil\", associado à locução “há de ser”.",
+  "explanationImage": null,
+  "year": 2023
+}

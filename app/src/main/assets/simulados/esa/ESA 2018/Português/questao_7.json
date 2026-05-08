@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2018) São substituições, gramaticalmente, válidas ao Modo Imperativo, <b>exceto:</b>",
+  "questionImage": null,
+  "options": [
+    "Direita, <u>volver!.</u>",
+    "A senhora me <u>traz</u> o documento amanhã.",
+    "Direi uma palavra aos que me <u>ajudarem.</u>",
+    "Se você se <u>calasse!?</u>",
+    "<u>Mãos ao alto!</u>"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A) Incorreta, porque “Direita, volver!” é um comando no modo imperativo, típico de ordens militares, portanto válido.<br><br>B) Incorreta, porque “A senhora me traz o documento amanhã” pode equivaler a um pedido no modo imperativo, já que a forma verbal do presente do indicativo é usada em valor <br><br>C) Correta, pois “Direi uma palavra aos que me ajudarem” está no futuro do indicativo, não no modo imperativo, logo não é uma substituição válida.<br><br>D) Incorreta, porque “Se você se calasse!?” é uma construção que expressa valor de ordem/desejo, aproximando-se semanticamente do imperativo.<br><br>E) Incorreta, porque “Mãos ao alto!” é uma frase exclamativa usada como ordem, portanto corresponde a valor imperativo.",
+  "explanationImage": null,
+  "year": 2018
+}

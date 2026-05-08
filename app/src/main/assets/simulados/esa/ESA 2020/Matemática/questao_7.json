@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2020) A área da superfície de uma esfera é 144π cm². O volume da esfera é igual a:",
+  "questionImage": null,
+  "options": [
+    "216π cm³",
+    "288π cm³",
+    "2304π cm³",
+    "162π cm³",
+    "72π cm³"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_7_explicacao.jpeg",
+  "year": 2020
+}

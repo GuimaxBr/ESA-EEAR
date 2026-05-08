@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2019) Which sentence is grammatically correct?",
+  "questionImage": null,
+  "options": [
+    "Camila’s dress is cheaper than mine.",
+    "I went to bed more earlier than usual.",
+    "Gustavo is more old than his brother.",
+    "Going by train is expensiver than by car.",
+    "My car is more fast than my sister’s car."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Inglês",
+  "explanation": "A) Correto. Camila’s dress is cheaper than mine. - “Cheaper” é o comparativo regular de “cheap”. A estrutura “X is cheaper than Y” está correta.<br><br>B) Incorreto. I went to bed more earlier than usual. - Errada. “Earlier” já é um comparativo de “early”. Usar “more” com ele é redundante.<br><br>C) Incorreto. Gustavo is more old than his brother. - “Old” tem comparativo irregular: “older”, não “more old”.<br><br>D) Incorreto. Going by train is expensiver than by car. - Errada. “Expensiver” não existe. O correto é “more expensive”.<br><br>E) Incorreto. My car is more fast than my sister’s car. - Errada. “Fast” tem comparativo regular: “faster”. “More fast” está errado.",
+  "explanationImage": null,
+  "year": 2019
+}

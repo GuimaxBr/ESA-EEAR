@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "text": "(ESA 2021) Observe o gráfico da função modular 𝑓:ℝ→ℝ definida pela lei 𝑓(𝑥)=|𝑥|. Nessas condições, assinale a alternativa que ilustra o gráfico da função 𝑔 : ℝ→ℝ definida pela lei 𝑔(𝑥)=|𝑥+1|.",
+  "questionImage": null,
+  "options": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "optionImages": [
+    "questao_12_alt_A.jpeg",
+    "questao_12_alt_B.jpeg",
+    "questao_12_alt_C.png",
+    "questao_12_alt_D.jpeg",
+    "questao_12_alt_E.jpeg"
+  ],
+  "correctOption": 2,
+  "subject": "MATEMATICA",
+  "explanation": "Dada a função 𝑓(𝑥)=|𝑥|, para que se torne 𝑔(𝑥)=|𝑥+1| devemos fazer uma translação do gráfico em uma unidade para a esquerda:",
+  "explanationImage": "questao_12_explicacao.jpeg",
+  "year": 2021
+}

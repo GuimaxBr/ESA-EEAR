@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2017) Determine a distância entre o pontos P(0,0) e Q(2,2).",
+  "questionImage": null,
+  "options": [
+    "√2",
+    "3√2",
+    "√2/3",
+    "√2/2",
+    "2√2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "De acordo com a referência, para calcular a distância solicitada basta aplicar diretamente a fórmula da distância entre dois pontos: <br>d(P,Q) = √[(Xq - Xp)²+(Yq-Yp)²]<br>d(P,Q) = √[(2 - 0)²+(2-0)²]<br>d(P,Q) = √(4+4) = √8 = 2√2",
+  "explanationImage": null,
+  "year": 2017
+}

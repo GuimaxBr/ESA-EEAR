@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2017) O Arcadismo brasileiro originou-se e teve maior expressão em (no):",
+  "questionImage": null,
+  "options": [
+    "Minas gerais",
+    "Ceará",
+    "São Paulo",
+    "Rio de Janeiro",
+    "Mato Grosso do Sul"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Literatura",
+  "explanation": "O movimento árcade no Brasil originou-se em Minas Gerais e teve como grande representante Tomás Antônio Gonzaga e Cláudio Manuel da Costal.",
+  "year": 2017
+}

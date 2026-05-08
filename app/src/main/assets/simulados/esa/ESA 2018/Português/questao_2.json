@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2018) No período “As pessoas que ele vai atender são especiais”, a palavra “que” exerce a função de:",
+  "questionImage": null,
+  "options": [
+    "Pronome relativo",
+    "Conjunção explicativa",
+    "Conjunção aditiva",
+    "Pronome interrogativo",
+    "Pronome indefinido"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "A) Correto. Pois em “As pessoas que ele vai atender são especiais”, o que exerce a função de pronome relativo, retomando “as pessoas” e introduzindo a oração subordinada adjetiva.<br><br>B) Incorreto. Porque o que não introduz explicação, mas sim uma oração subordinada adjetiva, logo não é conjunção explicativa.<br><br>C) Incorreto. Porque não há ideia de adição, então o que não pode ser considerado conjunção aditiva.<br><br>D) Incorreto. Porque o que não introduz uma pergunta, portanto não tem valor de pronome interrogativo.<br><br>E) Incorreto. Porque o que não tem valor genérico de indeterminação, logo não é pronome indefinido.",
+  "explanationImage": null,
+  "year": 2018
+}

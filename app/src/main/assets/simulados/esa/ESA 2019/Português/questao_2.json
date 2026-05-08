@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2019) Assinale a alternativa que apresenta a correta análise dos termos respectivamente destacados na frase: &quot;Beltrano veio <b>no ponto</b>, é o mais brincalhão e comunicativo, <b>unanimidade.&quot;</b>",
+  "questionImage": null,
+  "options": [
+    "objeto indireto e predicativo do sujeito.",
+    "objeto direto e aposto.",
+    "adjunto adverbial e predicativo do sujeito.",
+    "adjunto adverbial e predicativo do objeto.",
+    "adjunto adnominal e aposto"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A) Incorreta, porque “no ponto” não é objeto indireto, e “unanimidade” não é complemento, mas predicativo do sujeito.<br><br>B) Incorreta, pois “no ponto” não é objeto direto (o verbo “vir” é intransitivo nesse contexto) e “unanimidade” não é aposto.<br><br>C) Correta, pois “no ponto” exerce função de adjunto adverbial de modo, e “unanimidade” atua como predicativo do sujeito “Beltrano”, reforçando a ideia de que todos o consideram “o mais brincalhão e comunicativo”.<br><br>D) Incorreta, pois “no ponto” não é predicativo do objeto, mas sim um adjunto adverbial que indica circunstância de modo associada ao verbo “veio”; já “unanimidade” não funciona como predicativo do objeto, mas como predicativo do sujeito.<br><br>E) Incorreta, porque “no ponto” não é adjunto adnominal (não determina substantivo), e “unanimidade” também não exerce função de aposto - aqui, a palavra expressa uma qualidade atribuída a “Beltrano”, funcionando como predicativo do sujeito.",
+  "explanationImage": null,
+  "year": 2019
+}

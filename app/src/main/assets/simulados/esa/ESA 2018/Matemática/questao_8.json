@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2018) Sejam f : {x ∈ IR | x &gt; 0} → g : IR → IR, definidas por f(x)= log₂x e g(x) = 1/4 . 2 ͯ , respectivamente. O valor de f ৹ g(2) é:",
+  "questionImage": null,
+  "options": [
+    "4",
+    "0",
+    "-2",
+    "-4",
+    "2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.jpeg",
+  "year": 2018
+}

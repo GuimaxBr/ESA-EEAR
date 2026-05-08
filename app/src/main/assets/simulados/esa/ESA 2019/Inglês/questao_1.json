@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2019) <br><b>TEXTO  </b><br>February 25, 2019  <br>By LiseAlves, Senior Contribting Reporter  <br>RIO DE JANEIRO, BRAZIL - Exactly one month after Brazil’s most deadly mining disasters, firefighters and volunteers still search for at least 131 people still missing under tons of mud left behind after a dam in the Feijão mining complex, owned by Brazilian giant, vale, gave way on January 25th. So far 179 corpses have been retrieved and identified. <br> “The search starts at 5 am, when at teams get up. At 6:am, we gather for directions, a safety briefing and guidelines of what will be done throughout the day. The teams are then taken into the field,” firefighter Lt. Col. Anderson Passos tells journalist.  <br>“At the end of the day, when the teams return, they give us feedback on how the search went. We then hold meeting to plan the next day and everything repeats itself”, conclueded the official. <br>According to the text, it is correct to say that:",
+  "questionImage": null,
+  "options": [
+    "only firefighters are working to find the missing people.",
+    "firefighters and volunteers are working together to find the missing people.",
+    "firefighters and volunteers are working together to identify the retrieved corpses.",
+    "Vale’s officials are working to retrieve the corpses from the mud.",
+    "only volunteers are working to find the missing people."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "A) Incorreto. Only volunteers... - Contraria diretamente o que o texto afirma.<br><br>B) Correto. Firefighters and volunteers... - O primeiro parágrafo menciona os dois grupos: “firefighters and volunteers still search for…”.<br><br>C) Incorreto. Working together to identify the retrieved corpses - Eles buscam os desaparecidos; a identificação dos corpos não é foco do texto.<br><br>D) Incorreto. Vale’s officials... - Em nenhum momento o texto fala de funcionários da Vale participando das buscas.<br><br>E) Incorreto. Only volunteers... - Contraria diretamente o que o texto afirma.",
+  "explanationImage": null,
+  "year": 2019
+}

@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2016) Duas esferas de raios 3 cm e √51cm fundem-se para formar uma esfera maior. Qual é o raio da nova esfera?",
+  "questionImage": null,
+  "options": [
+    "³√78",
+    "√36",
+    "√68",
+    "√104",
+    "√26"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_3_explicacao.png",
+  "year": 2016
+}

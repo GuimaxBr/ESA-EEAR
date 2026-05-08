@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2021) Read the comic strip and mark the best option about the attitude of the soldier who is giving food to the squirrel.",
+  "questionImage": "questao_7_enunciado.png",
+  "options": [
+    "The soldier intends to kill the squirrel.",
+    "The soldier is suspicious of the quality of the food.",
+    "The soldier wants to know the squirrel’s opinion about the food.",
+    "The soldier loves animals and cares about them.",
+    "The soldier is sure that the food is healthy and delicious."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "A atitude do soldado é implícita na lógica do teste: ele dá o ensopado ao esquilo para verificar se ele fica doente, indicando desconfiança sobre a segurança ou qualidade da comida. O comentário do outro soldado reforça essa ideia ao dizer que, se o esquilo não adoecer, o alimento será seguro.",
+  "explanationImage": null,
+  "year": 2021
+}

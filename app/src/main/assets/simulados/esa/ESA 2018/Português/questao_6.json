@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2018) Na frase &quot;Vive-<b>se</b> uma era na qual se obtém qualquer conteúdo em segundos&quot;, o se ligado ao verbo &quot;viver&quot; tem o mesmo valor em:",
+  "questionImage": null,
+  "options": [
+    "Ele arrependeu-se da vida que levava.",
+    "A mãe queixava-se baixinho.",
+    "Meu pai tranquilizou-se quando cheguei.",
+    "Fez-se novo silêncio dentro do quarto.",
+    "Ainda se via num mundo de incertezas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "A) Incorreta, porque em “Ele arrependeu-se da vida que levava”, o se é parte integrante de verbo pronominal (“arrepender-se”).<br><br>B) Incorreta, porque em “A mãe queixava-se baixinho”, o se também é parte integrante de verbo pronominal (“queixar-se”).<br><br>C) Incorreta, porque em “Meu pai tranquilizou-se quando cheguei”, o se é pronome reflexivo, indicando que o sujeito pratica a ação sobre si.<br><br>D) Correta, pois em “Fez-se novo silêncio dentro do quarto”, o se é partícula apassivadora/índice de indeterminação, em valor impessoal, assim como em “Vive-se uma era…”.<br><br>E) Incorreta, porque em “Ainda se via num mundo de incertezas”, o se é pronome reflexivo, e não com valor impessoal.",
+  "explanationImage": null,
+  "year": 2018
+}

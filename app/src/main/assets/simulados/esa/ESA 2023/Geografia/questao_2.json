@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2023) O Centro de Embarcações do Comando Militar da Amazônia (CECMA) é a Organização Militar responsável pelo transporte fluvial tático e logístico na região. Um dos locais de atuação do CECMA é no encontro das águas dos rios Solimões e Negro, que juntos formam o rio:",
+  "questionImage": null,
+  "options": [
+    "Xingu",
+    "Paraná",
+    "Tapajó",
+    "Amazonas",
+    "Tocantins"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "ALTERNATIVA D<br>São vários os fatores que resultam no encontro das águas entre o Rio Negro e o Rio Solimões: composição das águas, acidez, densidade e temperatura. O Rio Negro possui águas escuras devido aos elevados níveis de ácidos orgânicos que a vegetação solta durante a decomposição. O Rio Solimões, por sua vez, apresenta águas mais claras e temperatura consideravelmente baixa. Todas essas diferenças são responsáveis pelo fenômeno no qual as águas fluem lado a lado até um ponto de equilíbrio, onde é formado o famoso Rio Amazonas.",
+  "explanationImage": null,
+  "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2021) Identifique o ângulo X, em radianos, do intervalo [0 ,2𝜋] cujo sen X é igual ao sen 2X.",
+  "questionImage": null,
+  "options": [
+    "𝜋/9 rad",
+    "𝜋/4 rad",
+    "𝜋/6 rad",
+    "𝜋/2 rad",
+    "𝜋/3 rad"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_2_explicacao.jpeg",
+  "year": 2021
+}

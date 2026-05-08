@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2022) Um pelotão da Brigada Paraquedista realizará um salto na cidade de Rio Branco, capital do Acre, em comemoração aos 119 anos de incorporação daquele estado ao território nacional. O avião conduzindo o pelotão partiu do Rio de Janeiro às 08:00 horas da manhã no horário de Brasília e, após duas horas e meia de vôo, fez uma escala de duas horas em Brasília para abastecimento e  manutenção. Considerando-se o fuso horário brasileiro, e que o tempo de vôo de Brasília até o ponto em que ocorrerá o salto é de três horas e meia, a que horas estará previsto o salto do pelotão no horário local da cidade de Rio Branco?",
+  "questionImage": null,
+  "options": [
+    "16 horas",
+    "15 horas e 30 minutos",
+    "15 horas",
+    "14 horas e 30 minutos",
+    "14 horas"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Geografia",
+  "explanation": "GABARITO: ALTERNATIVA E<br><br>Em vermelho: dados retirados da questão<br><br>Em verde: o que você precisava saber<br><br> FUSO - 5                                                           FUSO - 3<br>                          3H30               2H<br>                        (viagem)      (parada)         <br>Rio Branco       <-----          Brasília   <-----  Rio de Janeiro<br><br>                          8h + 2h30 +2h + 3h30<br>                                            16 <br>Mas as cidades apresentam fusos diferentes!<br>- Qual a diferença de fuso? Como o ponto de partida e ponto de chegada estão no mesmo hemisfério, subtraímos<br><br>        5 (fuso do AC) - 2 (fuso do RJ) = 2<br><br>Atenção: o sinal negativo (-) indica o hemisfério, por isso não fazemos o “jogo de sinais”<br><br>- Como o deslocamento é de leste para oeste: subtraímos a diferença de fuso <br>                    16h - 2 fusos = 14h",
+  "explanationImage": null,
+  "year": 2022
+}

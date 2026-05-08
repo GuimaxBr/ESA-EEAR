@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2019) Para que o z seja um imaginário puro, o valor de <b>&quot;a&quot;</b> deve ser:",
+  "questionImage": "questao_5_enunciado.jpeg",
+  "options": [
+    "-10",
+    "2/5",
+    "-2/5",
+    "0",
+    "10"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_5_explicacao.jpeg",
+  "year": 2019
+}

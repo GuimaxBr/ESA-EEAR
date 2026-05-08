@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2017) Destaque a alternativa em que as regras de acentuação foram empregadas adequadamente.",
+  "questionImage": null,
+  "options": [
+    "heroico, ideia, bocaiúva.",
+    "baiúca, boiuna, perdoo.",
+    "abençoo, heroico, fiéis.",
+    "corro, jiboia, platéia.",
+    "assembléia, caufla, feiúra."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A) heroico, ideia, bocaiúva → errado, porque “bocaiúva” perdeu o acento (hoje é bocaiuva).<br>B) baíuca, boiuna, perdoo → “perdoo” está certo, mas “baíuca” e “boiuna” não são usuais na ortografia padrão.<br>C) abençoo, heroico, fiéis → todas corretas ( gabarito).<br>D) corro, jiboia, platéia → errado, pois “platéia” perdeu o acento (hoje é plateia).<br>E) assembléia, caufla, feiúra → errado, pois “assembleia” e “feiura” perderam o acento.",
+  "explanationImage": null,
+  "year": 2017
+}

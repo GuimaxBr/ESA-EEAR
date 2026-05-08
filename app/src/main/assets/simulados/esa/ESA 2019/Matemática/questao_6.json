@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2019) Um anagrama é uma espécie de jogo de palavras, resultando do rearranjo das letras de uma palavra ou expressão para produzir outras palavras ou expressões, utilizando todas as letras originais exatamente uma vez. Para participar de uma competição uma equipe decide criar uma senha, fazendo um anagrama do nome original da equipe, que é <b>“FOXTROT”.</b> De quantas maneiras diferentes poderá ser criada essa senha?",
+  "questionImage": null,
+  "options": [
+    "5040",
+    "10080",
+    "2520",
+    "1680",
+    "1260"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_6_explicacao.jpeg",
+  "year": 2019
+}

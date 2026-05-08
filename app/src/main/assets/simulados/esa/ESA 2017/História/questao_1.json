@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2017) Assinale, dentre as proposições abaixo, aquela que relaciona as características descritas ao Estado Novo.",
+  "questionImage": null,
+  "options": [
+    "Estabelecimento de eleições diretas para presidente da república; abertura econômica aos produtos estrangeiros; e redução drástica da inflação.",
+    "Instauração do Estado de emergência; diversificação da produção agrícola e estímulo ao desenvolvimento industrial; e uso do populismo para conquistar a simpatia dos trabalhadores.",
+    "Abertura política; reforma econômica conhecida como plano Cruzado; e alto índice de desemprego.",
+    "Exercício da presidência da república por militares; período de desenvolvimento conhecido como &quot;milagre econômico&quot;; e estabelecimento do bipartidarismo.",
+    "Separação entre o Estado e a Igreja; fim da política do café com leite; e implementação da reforma financeira conhecida como &quot;Encilhamento&quot;"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "História",
+  "explanation": "o Estado Novo foi marcado por investimentos do Estado na indústria pesada, com o intuito de estimular a industrialização do Brasil. Além disso, Vargas tomou a questão social como um dos eixos de seu governo, o que permitiu a aproximação com os trabalhadores por meio do reconhecimento de conquistas sociais.",
+  "explanationImage": null,
+  "year": 2017
+}

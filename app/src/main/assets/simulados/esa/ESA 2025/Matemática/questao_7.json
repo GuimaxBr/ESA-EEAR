@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2025) O lado de um quadrado mede 4 cm. Unindo os pontos médios de seus lados, obtém-se um novo quadrado. Unindo os pontos médios do novo quadrado, obtém-se outro quadrado, e assim sucessivamente. Calcule a soma dos perímetros, em centímetros, de todos os quadrados citados:",
+  "questionImage": null,
+  "options": [
+    "8+16√2",
+    "16+8√2",
+    "16+32√2",
+    "32+16√2",
+    "64+32√2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_7_explicacao.jpeg",
+  "year": 2025
+}

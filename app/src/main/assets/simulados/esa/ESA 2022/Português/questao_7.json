@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2022)  Na oração “<b>Me</b> empresta o coturno.” há um clássico desvio da norma culta da Língua Portuguesa. Marque a alternativa que corrige tal desvio e que analisa correta e sintaticamente o vocábulo “<b>me”:</b>",
+  "questionImage": null,
+  "options": [
+    "“Empresta-me o coturno” - objeto indireto",
+    "“Me empreste o coturno” - pronome pessoal oblíquo átono",
+    "“Empreste-me o coturno” - objeto direto e indireto",
+    "“Empresta-me o coturno” - partícula denotativa de pessoa",
+    "“Empreste-me o coturno” - objeto direto"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "(A) Correta: A forma verbal \"Empresta-me\" está correta para a norma culta, e \"me\" é corretamente identificado como objeto indireto (Empresta a mim), que é o complemento do verbo \"emprestar\".<br> <br>(B) Incorreta: Embora \"me\" seja um pronome pessoal oblíquo átono, a estrutura \"Me empreste\" não corrige o desvio da norma culta. Na norma culta, o pronome deve vir após o verbo: \"Empreste-me\". Não podemos iniciar frases com pronomes oblíquos átonos.<br><br>(C) Incorreta: A forma verbal \"Empreste-me\" está correta para a norma culta, mas a análise sintática está errada. \"Me\" é um objeto indireto, não direto e indireto.<br><br>(D) Incorreta: \"Me\" não é uma partícula denotativa de pessoa; é um pronome pessoal oblíquo átono que funciona como objeto indireto.<br><br>(E) Incorreta: \"Me\" não é objeto direto; é objeto indireto. Além disso, a forma \"Me empresta\" não está na norma culta correta. Não podemos iniciar frases com pronomes oblíquos átonos.",
+  "explanationImage": null,
+  "year": 2022
+}

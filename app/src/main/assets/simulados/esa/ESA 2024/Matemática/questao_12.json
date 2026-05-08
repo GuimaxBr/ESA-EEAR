@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "text": "(ESA 2024) Em uma urna existem 10 bolas vermelhas, 06 bolas azuis e 08 bolas brancas. Todas as bolas são idênticas, exceto pela cor. Retirando as bolas da urna, uma a uma, por sorteio e sem reposição, é <u><b>correto</b></u> afirmar que:",
+  "questionImage": null,
+  "options": [
+    "Retirando 11 bolas da urna, certamente uma das bolas sorteadas será vermelha",
+    "Retirando 3/4  das bolas da urna, certamente uma das bolas sorteadas será azul.",
+    "A probabilidade de que as duas primeiras bolas sorteadas sejam brancas é maior que 1/10.",
+    "A probabilidade de que as três primeiras bolas sorteadas tenham cores distintas é de 0,125.",
+    "A probabilidade de que a primeira bola sorteada seja branca é de 1/4."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "Para que as duas primeiras bolas sejam brancas:",
+  "explanationImage": "questao_12_explicacao.jpg",
+  "year": 2024
+}

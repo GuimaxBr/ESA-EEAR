@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2019) Seja <b>A</b> uma matriz de ordem 3 tal que <b>Det (A) = 4</b>. Então <b>Det (2A)</b> vale:",
+  "questionImage": null,
+  "options": [
+    "128",
+    "8",
+    "16",
+    "64",
+    "32"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.jpeg",
+  "year": 2019
+}

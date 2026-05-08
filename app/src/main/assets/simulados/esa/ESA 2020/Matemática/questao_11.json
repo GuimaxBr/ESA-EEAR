@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2020) Um ponto P, de um sistema de coordenadas cartesianas, pertence a reta de equação y = x -  2. Sabe-se que o ponto P é equidistante do eixo das ordenadas e do ponto Q (16, 0). Dessa maneira, um possível valor para as coordenadas do ponto P é:",
+  "questionImage": null,
+  "options": [
+    "P(9, 7)",
+    "P(8, 10)",
+    "P(12, 10)",
+    "P(7, 9)",
+    "P(10, 8)"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.jpeg",
+  "year": 2020
+}

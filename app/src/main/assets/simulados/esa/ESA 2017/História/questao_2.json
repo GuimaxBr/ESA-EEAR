@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2017) Sobre o Plano Real, é correto afirmar que foi lançado durante o governo do seguinte presidente:",
+  "questionImage": null,
+  "options": [
+    "Ernesto Geisel",
+    "Fernando Collor de Mello",
+    "Fernando Henrique Cardoso",
+    "Itamar Franco",
+    "José Sarney"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "História",
+  "explanation": "O Plano Real foi lançado pela equipe econômica do Ministro da Fazenda Fernando Henrique Cardoso, em 1994, no governo de Itamar Franco (1992-1994).",
+  "year": 2017
+}

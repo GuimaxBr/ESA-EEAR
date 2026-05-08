@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "text": "(ESA 2021) O valor de uma viatura militar decresce linearmente com o tempo. Se hoje ela custa 50 mil dólares e daqui a 5 anos vale apenas 10 mil dólares, qual seria o valor da viatura daqui a três anos?",
+  "questionImage": null,
+  "options": [
+    "26 mil",
+    "30 mil",
+    "24 mil",
+    "32 mil",
+    "34 mil"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "MATEMATICA",
+  "explanation": "Temos uma função linear decrescente do tipo: V (t) = mt + n<br>Em que:<br>V(t) é o valor da viatura em milhares de dólares após t anos;<br>t = 0 (hoje) → V(0) = 50;<br>t = 5 → V(5) = 10.<br>Aplicando esses valores para encontrar m e n:<br>V(0) = m.0+n= 50<br>n = 50<br>V(5) = m.5+n = 10<br>5m + 50 = 10<br>m= -8<br>V(t) - 8t + 50<br>V(3) = -8.3+50<br>V(3) = 26<br>Daqui a 3 anos, o valor da viatura será 26 mil dólares.",
+  "explanationImage": null,
+  "year": 2021
+}

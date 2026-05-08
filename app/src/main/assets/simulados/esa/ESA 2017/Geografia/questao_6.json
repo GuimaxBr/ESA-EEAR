@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "text": "(ESA 2017) Em 1966 foi criada uma lei redefinindo a Amazônia Brasileira, em uma região de superfície de mais de 5,2 milhões de Km², cerca de 61% do território nacional. Essa região não coincide com os limites da região Norte, pois compreende também os estados do Mato Grosso e parte do Maranhão. Essa redefinição da Amazônia Brasileira recebeu o nome de:",
+  "questionImage": null,
+  "options": [
+    "Zona Franca de Manaus",
+    "Região Norte",
+    "Floresta Amazônica",
+    "Bioma Amazônico",
+    "Amazônia Legal"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Geografia",
+  "explanation": "A Amazônia Legal é uma região de superfície de mais de 5,2 milhões de Km², cerca de 61% do território nacional. Essa região não coincide com os limites da região Norte, pois compreende também os estados do Mato Grosso e parte do Maranhão.",
+  "year": 2017
+}

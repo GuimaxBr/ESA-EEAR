@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2024) Leia a reportagem a seguir: <br> <br>Treme Cerrado reúne mais de mil militares no Planalto Central<br>O Comando Militar do Planalto realizou o exercício do período de Adestramento Avançado de suas tropas de emprego geral em 2023. A Operação #TremeCerrado ocorreu entre 16 e 20 de outubro, no Campo de Instrução de Formosa (GO), localizado, aproximadamente, 100 km a nordeste de Brasília. Durante os treinamentos operacionais, foram simuladas situações vivenciadas em um combate. Além disso, por meio de Problemas Militares Simulados, os militares em função de comando realizaram estudos de situação para decidir a melhor linha de ação a ser tomada. O Comando Militar do Planalto abrange as áreas do Distrito Federal, Goiás, Triângulo Mineiro e a maior parte do Tocantins.<br>De acordo com as informações mencionadas na reportagem, a região onde ocorreu a Operação Treme Cerrado está inserida em qual grande compartimento do relevo brasileiro, segundo a classificação de Jurandyr L. S. Ross:",
+  "questionImage": null,
+  "options": [
+    "Planaltos e Serras do Atlântico-Leste-Sudeste.",
+    "Planaltos e Serras de Goiás-Minas.",
+    "Planaltos e Serras do Tocantins.",
+    "Planaltos e Tabuleiros Goianos.",
+    "Planalto e Chapada dos Parecis."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta: Os Planalto e Serras do Atlântico-Leste-Sudeste se localizam em uma porção distinta do território brasileiro, abrangendo estados como Espírito Santo, Minas Gerais (porção leste), Rio de Janeiro e São Paulo. Essa unidade geomorfológica não inclui Goiás ou o Triângulo Mineiro, tornando essa alternativa incorreta.<br><br>(B) Correta: O Planalto e Serras de Goiás-Minas corresponde à região onde ocorreu a Operação Treme Cerrado. Essa unidade de relevo engloba uma grande porção do Planalto Central, incluindo Goiás, o Distrito Federal e parte do Triângulo Mineiro, caracterizando-se por relevos suaves, intercalados por serras desgastadas por processos erosivos.<br><br>(C) Incorreta: Os Planalto e Serras do Tocantins não fazem parte do compartimento do relevo que inclui Goiás, o Distrito Federal e o Triângulo Mineiro. Embora o Tocantins tenha áreas inseridas em diferentes compartimentos da superfície, essa alternativa não se refere à unidade geomorfológica correta para a localização mencionada na questão.<br><br>(D) Incorreta: Os Planalto e Tabuleiros Goianos não é uma terminologia adotada por Jurandyr LS Ross. O termo tabuleiro geralmente se refere a relevos sedimentares de menor altitude, mais comuns no litoral brasileiro, e não a compartimentos de relevo no interior do país.<br><br>(E) Incorreta: O Planalto e Chapada dos Parecis está localizado na porção centro-oeste e norte do Mato Grosso , além de partes de Rondônia e Amazonas. Essa região não abrange Goiás nem o Distrito Federal, não sendo a correta para o contexto apresentado na questão.",
+  "explanationImage": null,
+  "year": 2024
+}

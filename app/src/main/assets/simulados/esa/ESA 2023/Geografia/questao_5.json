@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2023) O Brasil, por possuir 92% do território na Zona intertropical do planeta, grande extensão no sentido norte-sul e litoral e com forte influência das massas de ar oceânicas, apresenta predominância de climas quentes e úmidos. Em apenas 8% do território, ao sul do trópico de Capricórnio, ocorre o clima subtropical, que apresenta maior variação térmica e estações do ano mais bem definidas. Ao analisar a atuação das massas de ar que atuam no território brasileiro, podemos afirmar que a:",
+  "questionImage": "questao_5_enunciado.jpeg",
+  "options": [
+    "mEa (Massa Equatorial Atlântica) é quente e seca.",
+    "mEc (Massa Equatorial Continental) é quente e úmida.",
+    "mPa (Massa Polar Atlântica) é fria e seca.",
+    "mTc (Massa Tropical Continental) é fria e seca.",
+    "mTa (Massa Tropical Atlântica) é fria e úmida."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta. Ela é úmida.<br><br>(B) Correta. Ela se forma na maior floresta pluvial e maior bacia hidrográfica do mundo, logo, apesar de ser continental, não teria como ser seca.<br><br>(C) Incorreta. Ela é úmida.<br><br>(D) Incorreta. Ela é quente.<br><br>(E)  Incorreta. Ela é quente.",
+  "explanationImage": null,
+  "year": 2023
+}

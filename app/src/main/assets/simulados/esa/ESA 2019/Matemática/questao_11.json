@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2019) Em um triângulo equilátero ABC inscreve-se um quadrado MNOP de área 3 m². Sabe-se o lado MN está contido em AC, o ponto P pertence a AB e o ponto O pertence a BC. Nessas condições, a área, em m², do triângulo ABC mede:",
+  "questionImage": null,
+  "options": [
+    "(7√3 + 6) / 4",
+    "(7√3 + 6) / 2",
+    "(7√3 + 12) / 4",
+    "(21√3 + 18) / 2",
+    "(21√3 + 36) / 4"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.png",
+  "year": 2019
+}

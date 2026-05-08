@@ -1,0 +1,23 @@
+{
+  "id": 12,
+  "text": "(ESA 2016) Em uma progressão aritmética cujo primeiro termo é 1,87 e a razão é 0,004, temos que a soma dos seus dez primeiros é igual a:",
+  "questionImage": null,
+  "options": [
+    "18,88",
+    "9,5644",
+    "9,5674",
+    "18,9",
+    "18,99"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "Calculando o décimo termo da sequência<br>an = a₁ + (n-1)r <br>a₁₀ = 1,87+(10-1)0,004 <br>1,87+0,076 ⇒ 1,906<br>A soma dos dez termos é dada por<br>Sn=(a₁+an)n/2 <br>S₁₀=(1,87+1,906)10/2<br>S₁₀= 37,76/2 <br>S₁₀= 18,88",
+  "year": 2016
+}

@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2019) Em uma escola particular foi feita uma entrevista com 200 alunos sobre curso de língua estrangeira. 110 alunos responderam que frequentavam um curso de Inglês, 28 alunos responderam que frequentavam somente o curso de espanhol e 20 responderam que frequentavam ambos, inglês e espanhol. Qual a probabilidade de um desses alunos não frequentar nenhum desses dois cursos?",
+  "questionImage": null,
+  "options": [
+    "52%",
+    "55%",
+    "62%",
+    "31%",
+    "42%"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "n (A U B) = n(A) + n(B) - n(A ∩ B), então teremos n(A U B) = 110+48 -20 = 138, ou seja, 138 alunos <br>fazem curso. Como 200 foram entrevistados, temos que 62 não fazem curso de inglês/ espanhol.<br>                                                   P(E)62/200 = 31/100=31%",
+  "year": 2019
+}

@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2025) Na passagem do Texto III - “Em 1987, Ayrton Senna já <b>havia voado</b> nas asas da FAB.”, a locução verbal destacada está conjugada na:",
+  "questionImage": null,
+  "options": [
+    "Terceira pessoa do singular do pretérito perfeito composto.",
+    "Terceira pessoa do singular do pretérito mais-que-perfeito composto.",
+    "Terceira pessoa do singular do presente composto.",
+    "Segunda pessoa do plural do futuro do presente composto.",
+    "Terceira pessoa do singular do futuro do pretérito composto."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Incorreto. Pois o pretérito perfeito composto é formado por tenho/há + particípio (tenho voado, há voado), indicando ação que se repete até o presente - o que não ocorre aqui.<br><br>(B) Correto. Pois havia voado é uma locução verbal no pretérito mais-que-perfeito composto, formada por haver no pretérito imperfeito do indicativo (havia) + o particípio do verbo principal (voado). Esse tempo verbal expressa uma ação anterior a outra já passada, o que se confirma no contexto: em 1987, Senna já havia voado antes do episódio de 1989.<br><br>(C) Incorreto. Pois o presente composto seria tenho voado ou hei voado, indicando ação que começou no passado e se estende até o presente - valor diferente do observado na frase.<br><br>(D) Incorreto. Pois o futuro do presente composto é formado pelo verbo ter ou haver no futuro do presente (terei/haverei) + particípio (voado), o que resultaria em terei voado ou haverei voado. A locução havia voado está no passado, e não no futuro.<br><br>(E) Incorreto. Porque o futuro do pretérito composto seria formado por teria/haveria voado. A forma havia voado não expressa ideia de hipótese ou consequência futura de uma condição, mas sim de ação anterior a outra passada.",
+  "explanationImage": null,
+  "year": 2025
+}

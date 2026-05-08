@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2018) Analise os exemplos que seguem quanto a figura de linguagem e marque a alternativa correta.<br>( 1 ) João é meu irmão. Pedro, primo.<br>( 2 ) Que noite escura!<br>( 3 ) Os brasileiros somos alegres.",
+  "questionImage": null,
+  "options": [
+    "comparação / pleonasmo / onomatopeia",
+    "metáfora / zeugma / silepse",
+    "zeugma / pleonasmo / silepse",
+    "pleonasmo / zeugma / metáfora",
+    "zeugma / antítese / onomatopeia"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(1) ocorre zeugma (omissão do verbo);<br>(2) há pleonasmo (intensificação da escuridão);<br>(3) há silepse de pessoa (“Os brasileiros somos…”: a concordância se dá pelo sentido, não pela forma gramatical).",
+  "explanationImage": null,
+  "year": 2018
+}

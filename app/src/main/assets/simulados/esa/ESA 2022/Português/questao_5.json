@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2022)  O único caso em que a palavra é formada por composição ocorre em:",
+  "questionImage": null,
+  "options": [
+    "amparo",
+    "ensurdecer",
+    "gotícula",
+    "pernalta",
+    "desfazer"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "(A) Incorreta. \"Amparo\" vem do verbo \"amparar\". No caso, trata-se de derivação regressiva.<br> <br>(B) Incorreta. No caso, trata-se de derivação parassintética: en + surd + ecer (acréscimo de prefixo e sufixo).<br><br>(C) Incorreta. No caso, a palavra foi formada por sufixação (\"-ula\"), acrescido ao substantivo \"gota\". Portanto, trata-se de derivação sufixal.<br><br>(D) Correta - gabarito. Essa palavra é formada por composição por aglutinação: perna + alta (junção de dois radicais com perda fonética).<br><br>(E) Incorreta. Essa palavra é formada por derivação prefixal, a partir do acréscimo do prefixo \"des-\".",
+  "explanationImage": null,
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2023) Sendo 𝑥∈ℝ, marque a alternativa que representa o conjunto solução da seguinte inequação: (8-2𝑥)⁴≤ 0.",
+  "questionImage": null,
+  "options": [
+    "𝑆={3}",
+    "𝑆={4}",
+    "𝑆={5}",
+    "𝑆={7}",
+    "𝑆={∅}"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_9_explicacao.jpeg",
+  "year": 2023
+}

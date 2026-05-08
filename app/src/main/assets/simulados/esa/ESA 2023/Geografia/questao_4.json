@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2023) A partir da década de 1960, o Brasil vem registrando uma queda acentuada em suas taxas de natalidade e mortalidade. Tal fato está ligado à criação do Ministério da Saúde na década de 1950, período em que iniciaram as campanhas de combate às doenças endêmicas e a organização de programas de vacinação em âmbito nacional. O gráfico abaixo demonstra a transição demográfica pela qual nosso país vem passando ao longo dos últimos anos, evidenciando em sua dinâmica de crescimento populacional o processo de:",
+  "questionImage": "questao_4_enunciado.jpeg",
+  "options": [
+    "Redução do crescimento vegetativo a partir de 1965.",
+    "Aumento da taxa de mortalidade a partir de 1930.",
+    "Aumento do crescimento vegetativo a partir de 1965.",
+    "Aumento da taxa de natalidade a partir de 1945.",
+    "Redução da expectativa de vida a partir de 1985."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "(A) Correta. A redução do crescimento vegetativo em meados da década de 1960 é reflexo da queda da taxa de natalidade.<br> <br>(B) Incorreta. A taxa de mortalidade apresenta quedas desde o final do século XIX, reflexos de melhorias no setor de saúde e sanitário.<br><br>(C) Incorreta. Existe uma redução no crescimento vegetativo a partir da década de 1960, cenário onde a taxa de natalidade começa apresentar quedas significativas.<br><br>(D) Incorreta. A taxa de natalidade apresenta constância no período elencado.<br><br>(E)  Incorreta. A expectativa de vida não está expressa no gráfico, mas apresenta aumento.",
+  "explanationImage": null,
+  "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2024) Os determinantes são ferramentas com aplicação em diversas áreas de engenharia. Em engenharia de controle, é comum modelar sistemas de controle por meio de matrizes paramétricas. Os engenheiros podem avaliar o comportamento do sistema pelas raízes do polinômio dado pela igualdade det(𝐴-𝜆I)=0, em que 𝐴 é a matriz com os parâmetros do sistema; 𝜆 é a variável a ser analisada, chamada de autovalores; e I a matriz identidade com a mesma dimensão de 𝐴. Dada a equação abaixo, podemos afirmar que os valores de 𝜆 que satisfazem a igualdade são:",
+  "questionImage": "questao_11_enunciado.jpeg",
+  "options": [
+    "𝜆₁=1+2𝑖 ; 𝜆₂=1-2𝑖",
+    "𝜆₁=-2 ; 𝜆₂ =-2",
+    "𝜆₁=1 ; 𝜆₂ = 3",
+    "𝜆₁=2 ; 𝜆₂ = 2",
+    "𝜆₁=1 ; 𝜆₂ = 1"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.jpeg",
+  "year": 2024
+}

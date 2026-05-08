@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2016) A sub-região nordestina que se estende do Rio Grande do Norte até o sul da Bahia, localizada entre o litoral úmido e o semiárido é chamada de:",
+  "questionImage": null,
+  "options": [
+    "Sertão",
+    "Zona da Mata",
+    "Agreste",
+    "Meio Norte",
+    "Recôncavo Baiano"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "A) O Sertão é uma sub-região do semiárido nordestino.<br>B) A Zona da Mata é uma Sub-região litorânea do Nordeste brasileiro.<br>C) O Agreste se situa entre o litoral (Zona da mata) e a região do semiárido (Sertão).<br>D) O Meio Norte é uma sub-região localizada entre o semiárido e a Amazônia.<br>E) O Recôncavo Baiano é uma sub-região localizada nos arredores de Salvador, estando totalmente dentro do estado da Bahia.",
+  "year": 2016
+}

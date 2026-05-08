@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2024) Read the comic strip: <br>The sentence “That girl over there is cute” shows an example of a feminine noun. Choose the  option that <u><b>correctly</b></u> shows masculine and feminine equivalent nouns.",
+  "questionImage": "questao_10_enunciado.png",
+  "options": [
+    "People and peoples",
+    "Big and short.",
+    "Uncle and aunt.",
+    "Cousin and niece.",
+    "Doctor and doctress."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) Errado. People significa “pessoas”, enquanto peoples significa “povos” (plural de people no sentido de “nações”). A diferença entre eles é de número e significado, não de gênero.<br><br>(B) Errado. São adjetivos, não substantivos. A questão pede substantivos que indiquem gêneros masculino e feminino.<br><br>(C) Correto. Uncle significa “tio” (masculino) e aunt significa “tia” (feminino). É o único par que representa claramente substantivos<br><br>(D) Errado. Cousin é um substantivo de gênero comum, ou seja, serve tanto para o masculino quanto para o feminino (primo/prima). Já niece é o feminino de nephew (sobrinha). Portanto, não formam um par de equivalência entre masculino e feminino.<br><br>(E) Errado. Doctress é uma forma antiga e praticamente não usada no inglês moderno. Atualmente, doctor é usado tanto para homens quanto para mulheres. Logo, não se trata de um par masculino/feminino correto.",
+  "explanationImage": null,
+  "year": 2025
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2020) O Brasil devido a sua dimensão geográfica e as suas condições climáticas, possui diversas diversas bacias hidrográficas. Sobre as características dessas bacias, é <b>correto</b> afirmar que:",
+  "questionImage": null,
+  "options": [
+    "A bacia do Rio Paraná é a bacia com maior potencial hidroelétrico disponível no país.",
+    "A bacia do Rio Amazonas apresenta um regime nival e pluvial em toda sua extensão.",
+    "Na bacia do Rio Tocantins Araguaia, localizam -se a hidroelétrica de Belo Monte e também a maior ilha fluvial do mundo, a do Bananal.",
+    "A bacia do Rio São Francisco nasce na Serra da Canastra e atravessa o sertão semiárido. É navegável entre Pirapora-MG e Juazeiro-BA.",
+    "A bacia do Rio Parnaíba é a mais importante da região Nordeste e apresenta afluentes perenes em toda sua área de drenagem."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "A) Incorreto. A bacia do Rio Paraná é a bacia com maior potencial hidroelétrico instalado no país. O maior potencial disponível encontra-se na Bacia Hidrográfica Amazônica.<br><br>B) Incorreto. Cuidado com a palavra \"toda\". Basicamente, a nascente do Rio Amazonas apresenta um regime misto (nival, glacial e pluvial), pois a nascente se encontra na Cordilheira dos Andes.<br><br>C) Incorreto. Belo Monte se localiza na Bacia Hidrográfica Amazônica, no Rio Xingu, no Pará.<br><br>D) Correto. Não é à toa que o Rio São Francisco é chamado de \"Nilo Brasileiro\"<br><br>E) Incorreto. A Bacia Hidrográfica do São Francisco é a mais importante do Nordeste. Além disso, algum afluente é perene. Novamente, cuidado com a palavra \"toda\".",
+  "year": 2020
+}

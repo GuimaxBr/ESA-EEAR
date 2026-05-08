@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2020) Nas últimas décadas, o Brasil vem passando por significativas mudanças estruturais em sua composição demográfica. Sobre esse assunto, assinale a opção <b>correta.</b>",
+  "questionImage": null,
+  "options": [
+    "O envelhecimento da população brasileira se mantém em níveis baixíssimos, seguindo a tendência mundial.",
+    "A taxa de fecundidade, que indica o número de nascidos vivos, tem apresentado expressivo aumento neste século.",
+    "O Brasil permanece como um país cuja maior parte da população vive no campo, onde a taxa de natalidade é muito baixa.",
+    "Os avanços da medicina ainda não foram suficientes para reduzir a taxa de mortalidade ao longo dos anos.",
+    "Paralelamente à redução da natalidade, a esperança de vida ao nascer tem aumentado no Brasil."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Geografia",
+  "explanation": "A) Incorreto. O Brasil está se tornando um país com uma população idosa muito expressiva.<br><br>B) Incorreto. Taxa de fecundidade é o número de crianças que uma mulher terá, em média, ao longo do seu período fértil.<br><br>C) Incorreto. Desde o final da década de 1960, o Brasil é majoritariamente urbano.<br><br>D) Incorreto.  Pelo contrário, os avanços médicos, hospitalares, farmacêuticos, vacinas e sanitários reduziram consideravelmente a mortalidade infantil.<br><br>E) Correto. A cada ano, a população brasileira não cresce nem 1%. Além disso, a expectativa de vida aumenta.",
+  "year": 2020
+}

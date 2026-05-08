@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2023) Which sequence of quantifiers completes the text correctly and meaningfully? <br> <br>“As a soldier you may not make _____ money but you’ll make _____ true friends. Perhaps you’ll have _____ idle time than you expected but you’ll get a lot of glory in serving in your country.”",
+  "questionImage": null,
+  "options": [
+    "many - much - fewer",
+    "much - many - little",
+    "much - much - a little",
+    "much - many - less",
+    "many - much - fewer"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "(A) Errada. many money: incorreto. “Money” é incontável e exige “much”.<br>much true friends: incorreto. “Friends” é contável e exige “many”.<br>fewer idle time: incorreto. “Idle time” é incontável, portanto “fewer” (usado para contáveis) é errado. O comparativo correto para incontáveis é “less”.<br> <br>(B) Errada. much money: correto, pois “money” é incontável.<br>many true friends: correto, “friends” é contável.<br>little idle time: incorreto para esse contexto, pois “little” não é um comparativo; não se usa “little” antes de “than”. O correto seria “less” para expressar comparação de quantidade em incontáveis.<br><br>(C) Errada. much money: correto.<br>much true friends: incorreto, “friends” é contável e exige “many”.<br>a little idle time: incorreto, pois “a little” indica quantidade pequena, não comparativa, e não combina com “than” para comparação.<br><br>(D) Certa. much money: correto.<br>many true friends: correto.<br>less idle time: correto. “Less” é o comparativo adequado para substantivos incontáveis e combina com “than” para estabelecer comparação.<br><br>(E) Errada. many money - Incorreto. O substantivo money é incontável em inglês, portanto, não se usa many com ele. O quantificador correto para substantivos incontáveis como “money” é much.<br>much true friends - Incorreto. O substantivo friends é contável no plural, portanto, o quantificador correto é many, não much.<br>fewer idle time than you expected - Incorreto. Idle time é incontável, e o comparativo para incontáveis é less, não fewer. Fewer é usado para substantivos contáveis.",
+  "explanationImage": null,
+  "year": 2023
+}

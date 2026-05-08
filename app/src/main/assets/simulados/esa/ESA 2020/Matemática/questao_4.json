@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2020) Determine a distância real, em quilômetros, entre duas cidades que se encontram a 18mm de distância em um mapa cuja escala é 1 : 5.000.000.",
+  "questionImage": null,
+  "options": [
+    "9",
+    "90",
+    "900",
+    "9000",
+    "0,9"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.jpeg",
+  "year": 2020
+}

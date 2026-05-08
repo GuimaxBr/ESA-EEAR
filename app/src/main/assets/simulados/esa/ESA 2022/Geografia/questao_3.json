@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2022) O 3º Sargento Carlos, servindo no 1º Batalhão de Engenharia de Construção, foi destacado para montar um acampamento em uma localidade no interior do estado do Ceará, onde o Batalhão irá construir um açude para o abastecimento de água para a população. Ao coletar informações sobre a localidade, o Sargento Carlos anotou a seguinte observação: <br> <br>“O tipo de agricultura que prevalece na localidade é voltado para as necessidades imediatas de consumo alimentar dos próprios agricultores e de seus dependentes. Por falta de assistência técnica e de recursos, ao perceber o esgotamento do solo em uma área cultivada, a família desmata uma área próxima e pratica a queimada para acelerar o plantio, dando início à degradação de uma nova área, que será brevemente abandonada”. <br>O tipo de agricultura observado pelo militar caracteriza-se como:",
+  "questionImage": null,
+  "options": [
+    "agricultura patronal intensiva",
+    "agricultura patronal extensiva",
+    "agricultura itinerante",
+    "agricultura de jardinagem",
+    "“plantation”"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta: o foco é no mercado externo e no elevado uso de tecnologia<br> <br>(B) Incorreta: focada na produção para exportação<br><br>(C) Correta: que no Brasil também é chamado de roça<br><br>(D) Incorreta: não causa a degradação de uma área e depois se dirige à outra<br><br>(E) Incorreta: focada na produção para exportação",
+  "explanationImage": null,
+  "year": 2022
+}

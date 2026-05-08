@@ -1,0 +1,23 @@
+{
+  "id": 9,
+  "text": "(ESA 2024) Uma das atividades previstas para comemorar o aniversário da ESA, foi uma competição de tiro. Essa competição consistia em lançar um alvo móvel e o atirador efetuar um disparo para tentar acertá-lo. Em uma das rodadas, a trajetória do alvo foi dada por 𝑓(𝑡)=−(2/9)t²+4/3 em que 𝑡 é o tempo, em segundos, após o disparo.  A altura do alvo é representada, em km, por 𝑓(𝑡). Após um segundo, e do mesmo local de onde o alvo foi lançado, o atirador inclinou sua arma 45º, realizou um disparo retilíneo e acertou o alvo. Qual a altura do alvo quando ele foi atingido?",
+  "questionImage": null,
+  "options": [
+    "1,6 km",
+    "1,7 km",
+    "1,8 km",
+    "1,9 km",
+    "2,0 km"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "year": 2024
+}

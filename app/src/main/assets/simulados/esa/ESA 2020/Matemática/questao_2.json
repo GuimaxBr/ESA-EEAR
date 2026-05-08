@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2020) Mudando para base 3 o log7, obtemos:",
+  "questionImage": null,
+  "options": [
+    "log₃7/log₃5",
+    "log₇3/log₅3",
+    "log₃5",
+    "log₃7",
+    "log₅3/log₇3"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_2_explicacao.jpeg",
+  "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2025) Marque a alternativa que apresenta forma verbal impessoal, a partir de trechos retirados do texto III:",
+  "questionImage": null,
+  "options": [
+    "“Dois Mirage III do Esquadrão decolavam com o intuito”.",
+    "“o então campeão mundial da Fórmula 1”.",
+    "“Amanhecia dentro das instalações do Esquadrão Jaguar”.",
+    "“onde realizou um voo no supersônico”.",
+    "“inspirando brasileiros”."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreto. Pois o verbo decolavam tem sujeito explícito - “Dois Mirage III do Esquadrão”. A forma verbal concorda com esse sujeito plural, logo é pessoal.<br><br>(B) Incorreto. Porque o trecho destacado não contém verbo; é apenas uma expressão nominal que identifica Ayrton Senna como campeão mundial.<br><br>(C) Correto. Pois o verbo amanhecia é impessoal, uma vez que designa fenômeno da natureza (como chover, nevar, anoitecer). Esses verbos não possuem sujeito, sendo sempre conjugados na 3ª pessoa do singular, independentemente do contexto.<br><br>(D) Incorreto. Pois o verbo realizou tem sujeito explícito - “ele” (Ayrton Senna). Trata-se de uma forma verbal pessoal, já que concorda com o sujeito e indica ação realizada por ele.<br><br>(E) Incorreto. Porque inspirando é uma forma nominal (gerúndio) e, embora não traga sujeito expresso, mantém relação de dependência com o sujeito anterior (“ele”), sendo, portanto, uma forma pessoal, e não impessoal.",
+  "explanationImage": null,
+  "year": 2025
+}

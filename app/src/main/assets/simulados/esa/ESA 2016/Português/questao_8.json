@@ -1,0 +1,23 @@
+{
+  "id": 8,
+  "text": "(ESA 2016) São exemplos de verbos da 2a conjugação:",
+  "questionImage": null,
+  "options": [
+    "cantar, ficar, remar e amar",
+    "compor, depor, dever e temer",
+    "sorrir, partir, dormir",
+    "remar, receber, dever e dormir",
+    "fugir, ir, dormir e sorrir."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "A) todos os verbos citados são da primeira conjugação.<br>B) os verbos compor e depor são derivados de “poer”, portanto pertencem à segunda conjugação como os verbos dever e temer.<br>C) os verbos sorrir, partir e dormir pertencem à terceira conjugação.<br>D) a alternativa mistura verbos de diferentes conjugações.<br>E) os verbos são todos da terceira conjugação.",
+  "year": 2016
+}

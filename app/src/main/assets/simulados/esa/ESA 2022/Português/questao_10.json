@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2022)   De acordo com as regras de acentuação, assinale a alternativa em que as palavras receberam acento gráfico por serem classificadas, respectivamente, como: oxítonas, paroxítonas e proparoxítonas.",
+  "questionImage": null,
+  "options": [
+    "café, alcoólatra, escritório",
+    "mocotó, bíceps, exército",
+    "açaí, arquétipo, táctil",
+    "dúvida, rubrica, órfã",
+    "trânsito, baía, ômega"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Incorreta: Café é uma oxítona, alcoólatra é uma proparoxítona e escritório é uma paroxítona terminada em ditongo. A sequência não segue a classificação pedida (oxítonas, paroxítonas e proparoxítonas).<br> <br>(B) Correta: Mocotó é uma oxítona, bíceps é uma paroxítona e exército é uma proparoxítona. A sequência está correta de acordo com a classificação pedida (oxítonas, paroxítonas e proparoxítonas).<br><br>(C) Incorreta: Açaí está acentuada pela regra do “i” tônico, em posição de oxítona, formando hiato com a sílaba anterior, arquétipo é uma proparoxítona, e táctil é uma paroxítona. A classificação não segue a sequência pedida (oxítonas, paroxítonas e proparoxítonas).<br><br>(D) Incorreta: Dúvida é uma proparoxítona, rubrica é uma paroxítona e órfã é uma paroxítona. A sequência não segue a classificação pedida (oxítonas, paroxítonas e proparoxítonas).<br><br>(E) Incorreta: Trânsito é uma proparoxítona, baía é uma paroxítona acentuada pela regra do “i” tônico, formando hiato com a sílaba anterior e ômega é uma proparoxítona. A sequência não segue a classificação pedida (oxítonas, paroxítonas e proparoxítonas).",
+  "explanationImage": null,
+  "year": 2022
+}

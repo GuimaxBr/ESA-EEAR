@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2022)<b> Número de idosos matriculados em cursos de graduação aumenta 46,3%</b><br>[...] <br>Aos 71 anos, José Ignácio Castro da Silva está cursando o segundo ano de 0licenciatura a distância em História. Ele faz parte do grupo das 7.813 pessoas com 65 anos ou mais matriculadas num curso de graduação no país, segundo o Censo da Educação Superior do Instituto Nacional de Estudos e Pesquisas Educacionais (Inep). <br>O número pode parecer pequeno no universo de matrículas na educação superior - cerca de 8,2 milhões -, no entanto, esta é a faixa etária que apresentou maior crescimento desde 2013: 46,3%. No mesmo período, as matrículas de jovens entre 19 e 24 anos, por exemplo, aumentaram 15,4%, atingindo a marca de 3,9 milhões em 2017. O crescimento médio, considerando todas as faixas etárias, foi de 13,2%. <br>[...] <br>“A presença de idosos está se tornando comum, especialmente nos cursos a distância, e deverá aumentar em decorrência do envelhecimento da população brasileira”, analisa Simone Telles, diretora acadêmica da Universidade Virtual do Estado de São Paulo (Univesp). A rede pública foi a que mais cresceu em número de matrículas: <br>Projeções do IBGE (Instituto Brasileiro de Geografia e Estatística) indicam que, em 2030, a população de pessoas com 60 anos ou mais será maior do que a de crianças com até 14 anos. <br>Em 2017, eles chegaram a 30,2 milhões, revelou a Pesquisa Nacional por Amostra de Domicílios Contínua (Pnad Contínua / IBGE). As mulheres são maioria expressiva nesse grupo, com 16,9 milhões (56%). <br>[...] <br>AVANCINI, Marta. Disponível em: https://revistaensinosuperior.com.br/idosos ensino-superior/. Acesso em 16 nov. 2021. <br>De acordo com a leitura do texto, pode-se afirmar que:",
+  "questionImage": null,
+  "options": [
+    "O número de idosos matriculados na educação superior supera a quantidade de jovens.",
+    "Não há um motivo que justifique o aumento de matrícula dos idosos nos cursos de graduação.",
+    "Os idosos que se matriculam no ensino superior optam, especialmente, pelos cursos a distância.",
+    "No grupo de idosos, as mulheres são a maioria no ensino superior.",
+    "O envelhecimento da população brasileira não tem relação com o aumento de  matrículas de idosos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreta. Apesar do crescimento, tal número ainda é pequeno. Portanto, ainda não existe essa superação.<br> <br>(B) Incorreta. Há motivo que justifique, sim. Segundo o texto, a projeção irá aumentar.<br><br>(C) Correta - gabarito. É o que se infere do trecho: \"A presença de idosos está se tornando comum, especialmente nos cursos a distância\".<br><br>(D) Incorreta. Cuidado com informações extratextuais. O texto não diz isso diretamente.<br><br>(E) Incorreta. Tem relação direta com o problema, sim.",
+  "explanationImage": null,
+  "year": 2022
+}

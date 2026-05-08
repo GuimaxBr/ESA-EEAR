@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2019) As medidas, em centímetros, dos lados de um triângulo são expressas por x+1, 2x e x²-5 e estão em progressão aritmética, nessa ordem. Calcule o perímetro do triângulo.",
+  "questionImage": null,
+  "options": [
+    "18 cm",
+    "25 cm",
+    "15 cm",
+    "20 cm",
+    "24 cm"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_3_explicacao.jpeg",
+  "year": 2019
+}

@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2019)  Assinale a alternativa em que todas as palavras são consideradas paroxítonas na escrita:",
+  "questionImage": null,
+  "options": [
+    "publica - astronauta - viajaram - história",
+    "Brasília -Amazônia - Califórnia- Júpiter.",
+    "universidade - significado-Singapura - país.",
+    "Paris - Brasil - Londres - Munique",
+    "rubrica - satélites - fenômeno - planetário"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "A) Correta, pois todas as palavras são paroxítonas na escrita. Publica (forma do verbo publicar, sem acento, com penúltima sílaba tônica: pu-BLI-ca), astronauta (as-tro-NAU-ta), viajaram (vi- a-JA-ram) e história (his-TÓ-ria) apresentam tonicidade na penúltima sílaba, enquadrando-se como paroxítonas.<br><br>B) Incorreta, pois embora Brasília, Amazônia e Califórnia sejam paroxítonas, Júpiter é proparoxítona (ju-pi-ter), com tonicidade na antepenúltima sílaba.<br><br>C) Incorreta, pois universidade, significado e Singapura são paroxítonas, mas país é oxítona, com tonicidade na última sílaba (pa-ís).<br><br>D) Incorreta, pois Paris, Brasil, Londres e Munique não são todas paroxítonas: Paris e Brasil são oxítonas (penúltima sílaba átona), Londres e Munique são paroxítonas.<br><br>E) Incorreta, pois rubrica é paroxítona, satélites e fenômeno são proparoxítonas, e planetário é paroxítona, logo não há uniformidade de classificação.",
+  "explanationImage": null,
+  "year": 2019
+}

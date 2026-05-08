@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2022) Na figura, ∆𝐴BC é um triângulo retângulo, Q é o ponto médio de 𝐴B. 𝑄P é paralelo a BC. Sendo 𝐴C = 30𝑐m, qual é a medida de PO?",
+  "questionImage": "questao_8_enunciado.jpeg",
+  "options": [
+    "15 cm",
+    "5 cm",
+    "10 cm",
+    "7 cm",
+    "6 cm"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "MATEMÁTICA",
+  "explanation": "Perceba que o triângulo AQP é semelhante ao triângulo ABC.<br>A razão de proporcionalidade é dada por:<br>AQ/AB = 1/2<br>Com isso, as medidas dos lados de AQP valem metade das medidas dos lados de ABC.<br>Assim, AP = AC/2 ⇒ AP = 30/2 ⇒ 15<br><br>Note, então, que P é ponto médio de AC. Com isso, BP é mediana do triângulo ABC relativa à hipotenusa, ou seja, BP também vale 15. Perceba também que CQ é mediana, uma vez que Q é ponto médio de AB. <br>Logo, o ponto O é o encontro de duas mediana, ou seja, O é baricentro do triângulo ABC.<br>Sabemos que o baricentro divide a mediana na razão 2:1, então: <br>(15-x)/x = 2/1 ⇒ x=5",
+  "explanationImage": "questao_8_explicacao.png",
+  "year": 2022
+}

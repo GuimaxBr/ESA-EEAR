@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2017) Com relação às funções <b>injetoras,</b> <b>sobrejetoras</b> e <b>bijetoras</b> podemos afirmar que:",
+  "questionImage": null,
+  "options": [
+    "se, é injetora e não é sobrejetora, então ela é bijetora.",
+    "se, é injetora e sobrejetora, então ela é bijetora.",
+    "se, é injetora, então ela é sobrejetora.",
+    "se, é sobrejetora, então ela é injetora.",
+    "se, é sobrejetora e não é injetora, então ela é bijetora."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "Diz-se que se uma função f é bijetora se, e somente se, f é sobrejetora e injetora. <br>Diz-se que uma função é sobrejetora se, e somente se, o conjunto imagem é igual ao conjunto contradomínio. <br>Diz-se que uma função é injetora se, e somente se, para quaisquer dois elementos distintos do conjunto domínio temos duas imagens também distintas.",
+  "explanationImage": null,
+  "year": 2017
+}

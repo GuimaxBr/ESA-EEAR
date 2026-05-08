@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "text": "(ESA 2022) A altitude (h) acima do nível do mar, em quilômetros, durante o voo de um avião é dada em função da pressão atmosférica p, em atm, por ℎ(𝑝) = 30.log de (1/p) n a base 10. Em determinado instante, a pressão atmosférica medida pelo altímetro desse avião era de 0,8 atm. Nesse instante, a altitude do avião, em quilômetros, considerando log de 2 na base 10 =0,3, era de:",
+  "questionImage": null,
+  "options": [
+    "2",
+    "3",
+    "6",
+    "8",
+    "9"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "MATEMÁTICA",
+  "explanation": "",
+  "explanationImage": "questao_14_explicacao.png",
+  "year": 2022
+}

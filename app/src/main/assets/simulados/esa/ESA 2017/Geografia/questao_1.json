@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2017) A terceira região ou bacia hidrográfica brasileira em volume de escoamento superficial, com a maior capacidade instalada de geração de energia hidrelétrica é a região hidrográfica:",
+  "questionImage": null,
+  "options": [
+    "Amazônica",
+    "do Tocantins-Araguaia",
+    "do Parnaíba",
+    "do Paraná",
+    "do São Francisco"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "A região hidrográfica do Paraná possui a maior capacidade instalada de geração de energia hidrelétricado Brasil.",
+  "year": 2017
+}

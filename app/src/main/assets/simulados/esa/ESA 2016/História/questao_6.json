@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "text": "(ESA 2016) Qual importante medida administrativa foi tomada em 1834, realizada a partir da modificação na constituição brasileira?",
+  "questionImage": null,
+  "options": [
+    "A Abertura dos Portos às nações amigas.",
+    "A cidade do Rio de Janeiro tornou-se município neutro.",
+    "A assinatura das Tarifas Alves Branco.",
+    "A aprovação da Lei de Terras.",
+    "Assinatura do Tratado de Comércio e Navegação com a Inglaterra."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "História",
+  "explanation": "Os deputados eleitos em 1833, com poderes constituintes, nomearam uma comissão para realizar as reformas constitucionais, integrada por três membros. As modificações foram votadas em 12 de agosto de 1834, e entre elas, estava a transformação da cidade do Rio de Janeiro em município neutro, separado da Província Fluminense, que tinha como capital a cidade de Niterói.",
+  "year": 2016
+}

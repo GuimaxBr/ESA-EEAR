@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2017) Uma pesquisa feita em uma Organização Militar constatou que as idades de 10 militares eram: 25,20 30, 30, 23, 35, 22, 20, 30 e 25. Analisando essas idades, a <b>média aritmética</b>, a <b>moda</b> e a <b>mediana</b>, respectivamente, são:",
+  "questionImage": null,
+  "options": [
+    "26, 30 25",
+    "26, 30, 20",
+    "35, 20, 25",
+    "25, 30, 26",
+    "25, 25, 30"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "Organizando as idades por ordem crescente temos: 20 20 22 23 25 25 30 30 30 35<br>Analisando esse rol temos: <br>Média aritmética = (20+20+22+23+25+25+30+30+30+35)/10 = 26<br>Moda = 30<br>Mediana = (25+25)/2 = 25",
+  "explanationImage": null,
+  "year": 2017
+}

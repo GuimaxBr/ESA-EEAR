@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2017) Em “Você que ama velocidade, agora pode chegar ao <u>finalmente”</u>., a palavra sublinhada foi formada por:",
+  "questionImage": null,
+  "options": [
+    "Derivação prefixal e sufixal.",
+    "Derivação prefixal.",
+    "Derivação imprópria.",
+    "Composição por justaposição.",
+    "Derivação regressiva."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "“ao finalmente” há derivação imprópria (substantivação): a forma usualmente advérbio “finalmente” passa a funcionar como substantivo por força do artigo definido (“ao” = a + o), no sentido de “o fim”, “o desfecho”. Não há mudança morfológica, e sim mudança de classe pelo contexto.",
+  "explanationImage": null,
+  "year": 2017
+}

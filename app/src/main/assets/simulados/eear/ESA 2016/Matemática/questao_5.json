@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "text": "(ESA 2016) Sabendo que x pertence ao 4o quadrante e que cos x = 0,8 , pode-se afirmar que o valor de sen 2x é igual a:",
+  "questionImage": null,
+  "options": [
+    "0,28",
+    "-0,96",
+    "-0,28",
+    "0,96",
+    "1"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "sen²x+cos²x =1<br>sen²x+(0,8)² =1<br>sen²x+0,64 = 1 <br>sen² = 1 - 0,64<br>sen²x = 0,36<br>senx = -0,6 (x ∈ 4ºQ)<br>Logo: <br>sen 2x = 2.senx.cosx = 2.(-0,6).0,8 ⇒ -0,96",
+  "year": 2016
+}

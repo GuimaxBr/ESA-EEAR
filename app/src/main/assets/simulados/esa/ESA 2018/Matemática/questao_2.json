@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2018) Seja a função definida por tal que f : R → R, tal que f(x) = 2 ͯ . Então f(a+1) - f(a) é igual a:",
+  "questionImage": null,
+  "options": [
+    "2 f(a)",
+    "f(a)",
+    "f(1)",
+    "2",
+    "1"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "f(a+1) = 2 ᷧͣ ⁻ ¹ = 2.2ª <br>f(a) = 2ª<br>f(a+1) - f(a) = 2.2ª - 2ª = 2ª ⇒ f(a)",
+  "year": 2018
+}

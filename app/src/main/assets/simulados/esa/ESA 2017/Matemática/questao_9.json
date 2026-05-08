@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2017) Uma caixa d’água, na forma de um paralelepípedo reto de base quadrada, cuja altura é metade do lado da base e tem medida k, está com 80% de sua capacidade máxima ocupada. Sabendo-se que há uma torneira de vazão 50L/min enchendo essa caixa d’água e que após 2h ela estará completamente cheia, qual o volume de uma caixa d’água cúbica de aresta k?",
+  "questionImage": null,
+  "options": [
+    "6.000 L",
+    "6.000 cm³",
+    "7.500 mL",
+    "5.000 mL",
+    "7.500 dm³"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "A caixa d’água possui altura h = k e aresta da base quadrada igual a 2k. Como o volume de um paralelepípedo é V = Área da base x altura, temos: V = (2k)².k = 4k³.<br>Se a torneira tem vazão de 50L/min e após 2h a caixa d’água estará cheia, temos: 2h = 120 min ⇒120 x 50 = 6000 L.<br>Assim, para completar o volume da caixa d’água são necessários 6000 L de água, que correspondem a 20% do volume total , pois a caixa estava com 80% de sua capacidade máxima ocupada. Dessa forma, obtemos:<br>20% de V = 6000 ⇒ (20/100). 4K³ = 6000 ⇒ K³ = 7.500<br><br>Logo, como o volume do cube é (aresta)³, temos para um cubo de aresta k capacidade igual a 7.500L.",
+  "explanationImage": null,
+  "year": 2017
+}

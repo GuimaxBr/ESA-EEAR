@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2019) O Período Regencial Brasileiro foi uma época de agitações e rebeliões regenciais. Indique a alternativa que contém a relação correta entre o movimento e seu local de ocorrência:",
+  "questionImage": null,
+  "options": [
+    "Sabinada - Espírito Santo.",
+    "Balaiada - Ceará.",
+    "Levante Malê - Bahia.",
+    "Cabanagem - Goiás.",
+    "Farroupilha- Paraná."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "História",
+  "explanation": "A) Incorreta, afinal a Sabinada ocorreu em Salvador, sede da província da Bahia.<br><br>B) Incorreta. A Balaiada ocorreu na Província do Maranhão.<br><br>C) Correta. O Levante Malê ocorreu em 1835, em Salvador, província da Bahia.<br><br>D) Incorreta, pois a Cabanagem ocorreu na província do Grão-Pará.<br><br>E) Incorreta, pois a Farroupilha se deu no Rio Grande do Sul e também em Santa Catarina.",
+  "explanationImage": null,
+  "year": 2019
+}

@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2016) O item da pauta de exportação brasileira do Segundo Reinado que foi considerado um importante fator de modernização da economia foi:",
+  "questionImage": null,
+  "options": [
+    "O Tabaco.",
+    "O Café.",
+    "A Cana de Açúcar.",
+    "A Soja.",
+    "O Trigo"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "História",
+  "explanation": "A exportação de Café foi responsável por dar estabilidade política e ser capaz de modernizar a economia brasileira. Açúcar e Tabaco representavam apenas uma pequena parte da pauta de exportações brasileiras no Segundo Reinado. Trigo e Soja não faziam parte considerável e analisável da pauta de exportações.",
+  "year": 2016
+}

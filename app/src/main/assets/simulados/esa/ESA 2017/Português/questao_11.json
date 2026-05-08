@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "text": "(ESA 2017) Em: “...milhares de indivíduos voltam a ver o mundo graças às córneas doadas.”, que tipo de sujeito se manifesta?",
+  "questionImage": null,
+  "options": [
+    "Sujeito inexistente",
+    "Sujeito composto",
+    "Sujeito simples",
+    "Sujeito indeterminado",
+    "Sujeito oculto"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "O sujeito da oração apresenta apenas um núcleo: “milhares”, por isso classifica-se como sujeito simples.",
+  "year": 2017
+}

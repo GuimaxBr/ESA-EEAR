@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2023) Que número deve ser adicionado a 2022² para obter 2023²?",
+  "questionImage": null,
+  "options": [
+    "4045",
+    "4043",
+    "4042",
+    "4048",
+    "4044"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_2_explicacao.jpeg",
+  "year": 2023
+}

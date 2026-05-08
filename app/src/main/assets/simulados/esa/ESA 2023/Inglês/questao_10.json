@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2023) All the statements are correct with one exception. Now mark the only statement that is <u>wrong</u> according to the comic strip.",
+  "questionImage": "questao_10_enunciado.jpeg",
+  "options": [
+    "Lieutenant Fuzz and Private Zero are preparing the efficiency report.",
+    "Lieutenant Fuzz is saying what must be in the efficiency report.",
+    "Private Zero is supposed to write down what must be in the report.",
+    "Private Zero fully understands what he is supposed to do.",
+    "Private Zero is going to meet the captain."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "(A) Errada. Durante toda a tirinha, pode-se perceber que o tenente Fuzz e o soldado Zero estão preparando o rela<br> <br>(B) Errada. O tenente Fuzz está dizendo o que deve constar no relatório de eficiência.<br><br>(C) Errada. O tenente Fuzz diz ao soldado Zero tudo o que ele deve anotar no relatório.<br><br>(D) Certa.  O soldado Zero não entende completamente o que ele deve fazer, pois, na última tirinha, vemos que ele interpretou a orientação de forma literal e anotou a palavra “that” no papel, em vez do seu referente.<br><br>(E) Errada.  O soldado Zero vai se encontrar com o capitão.",
+  "explanationImage": null,
+  "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2024) Tendo em vista o contexto geral da tirinha e o humor provocado, após uma leitura atenta de algumas expressões utilizadas, como “saber disso”, “acham que” e “boa tentativa”, depreende se que o tipo textual predominante na construção persuasiva do discurso é:",
+  "questionImage": "questao_3_enunciado.png",
+  "options": [
+    "Informativo.",
+    "Publicitário.",
+    "Argumentativo",
+    "Expositivo.",
+    "Descritivo."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreta, pois o texto não visa apenas transmitir informações objetivas, mas provocar reflexão e posicionamento.<br><br>(B) Incorreta, já que não há apelo comercial nem intenção de vender um produto, afastando o tipo publicitário.<br><br>(C) Correta, pois a construção do humor e das falas dos personagens parte de uma argumentação implícita, especialmente crítica e reflexiva, o que caracteriza o tipo argumentativo.<br><br>(D) Incorreta, visto que não se trata de um texto que explica de forma didática um conteúdo.<br><br>(E) Incorreta, pois a tirinha não descreve características ou ambientes, como seria típico do texto descritivo.",
+  "explanationImage": null,
+  "year": 2024
+}

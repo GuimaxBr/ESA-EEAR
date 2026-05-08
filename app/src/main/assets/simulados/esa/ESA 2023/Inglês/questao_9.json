@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2023) Complete the text using the articles a, an, the or X (when no article is required): <br> <br>“Bright Star is a joint exercise. It is _____ important part of combat training. <br>Servicemen and women from _____ army, navy and air force participate in _____ exercise. It takes place in _____ north-east of Egypt, near _____ Mediterranean. They practise military skills.”",
+  "questionImage": null,
+  "options": [
+    "an  - the - the - the - the",
+    "an - a  - X  - the  - an",
+    "the - the - an  - X  - the",
+    "X  - an  - a - a  - X",
+    "a - X - the - an  - an"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Inglês",
+  "explanation": "(A) Certa. an - the - the - the - the<br>an important part: correto, pois “important” começa com som de vogal, exige artigo indefinido “an”.<br>the army, navy and air force: correto, pois aqui se refere às Forças Armadas em geral, institucionais e únicas, então usa-se “the”.<br>the exercise: correto, pois já foi mencionada a atividade (Bright Star), então usa-se o artigo definido “the” para retomar o substantivo específico.<br>the north-east of Egypt: correto, quando falamos de regiões geográficas específicas, usa-se “the”.<br>the Mediterranean: correto, nomes de mares e oceanos levam artigo definido “the”.<br> <br>(B) Errada. an - a - X - the - an<br>an important part: correto.<br>a army: incorreto. “Army” é uma instituição específica, que necessita do artigo definido “the”.<br>X exercise (sem artigo): incorreto, pois fala-se de “exercise” específica (Bright Star), deve haver artigo definido “the”.<br>the north-east of Egypt: correto.<br>an Mediterranean: incorreto. “Mediterranean” é um nome próprio (mar), sempre com “the”.<br><br>(C) Errada. the - the - an - X - the<br>the important part: incorreto aqui, pois é a primeira vez que se menciona o conceito de “important part”, o correto é o artigo indefinido “an”.<br>the army, navy and air force: correto.<br>an exercise: incorreto, pois se refere a exercício específico já citado (Bright Star), então deve ser “the exercise”.<br>X north-east of Egypt: incorreto, deve haver artigo definido “the” para regiões geográficas.<br>the Mediterranean: correto.<br><br>(D) Errada. X - an - a - a - X<br>X important part: incorreto, precisa do artigo indefinido “an”.<br>an army: incorreto, como explicado, o correto é “the army”.<br>a exercise: incorreto, “exercise” começa com som de vogal, exigindo “an” e, além disso, deve ser definido “the” porque já é conhecido.<br>a north-east: incorreto, regiões geográficas levam “the”.<br>X Mediterranean: incorreto, precisa do artigo definido “the”.<br><br>(E) Errada. a - X - the - an - an<br>a important part: incorreto, “important” começa com som de vogal, portanto o correto é “an”.<br>X army, navy and air force: incorreto, precisa do artigo definido “the”.<br>the exercise: correto.<br>an north-east of Egypt: incorreto, regiões geográficas usam “the”.<br>an Mediterranean: incorreto, o mar requer “the”.",
+  "explanationImage": null,
+  "year": 2023
+}

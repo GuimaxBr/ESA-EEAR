@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2020) No Barroco, é apresentada uma temática que expressa:",
+  "questionImage": null,
+  "options": [
+    "uma fusão de visões, uma fuga da cidade.",
+    "um dinamismo, uma consciência social.",
+    "uma reflexão sobre a fragilidade humana, um destaque ao contraste.",
+    "um culto do contraste, uma simplicidade acima de tudo.",
+    "um pessimismo, uma idealização da natureza."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Literatura",
+  "explanation": "A) Incorreto. Fusão de visões, não. A visão de mundo era unilateralmente teocêntrica.<br>B) Incorreto. A consciência social não é o ponto central do Barroco.<br>C) Correto. Além do memento mori, o Barroco empregava bastante a noção de vanitas (vaidade).<br>D) Incorreto. A primeira parte está correta. A segunda, não. Existe o culto do contraste, mas não simplicidade.<br>E) Incorreto. Idealização da natureza é característica árcade e não barroca.",
+  "year": 2020
+}

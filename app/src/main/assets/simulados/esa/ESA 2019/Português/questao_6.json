@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2019) Com relação ao plural de adjetivos compostos, assinale a alternativa que apresenta uma forma <b>INCORRETA:</b>",
+  "questionImage": null,
+  "options": [
+    "institutos afro-asiáticos.",
+    "letras anglo-germânicas.",
+    "uniformes verdes-olivas.",
+    "canários amarelo-ouro.",
+    "consultórios médico-cirúrgicos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A) Correta, pois em “afro-asiáticos”, o último elemento do adjetivo composto varia em número e gênero, seguindo a regra geral para adjetivos compostos.<br><br>B) Correta, pois em “anglo-germânicas” o último elemento do adjetivo composto varia em número e gênero, seguindo a regra geral para adjetivos compostos.<br><br>C) Incorreta, pois o correto é “uniformes verde-oliva”: quando o segundo elemento do adjetivo composto é um substantivo (no caso, “oliva”), ele não variará.<br><br>D) Correta, pois “amarelo-ouro” segue a mesma regra de invariabilidade - o segundo elemento é substantivo e o adjetivo permanece invariável, logo “canários amarelo-ouro” está certo.<br><br>E) Correta, já que em “médico-cirúrgicos” o último elemento do adjetivo composto varia em número e gênero, seguindo a regra geral para adjetivos compostos.",
+  "explanationImage": null,
+  "year": 2019
+}

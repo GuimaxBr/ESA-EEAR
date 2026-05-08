@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2022) O relevo não é estático, mas dinâmico. O modelado da crosta sofre contínua transformação. Esse fluxo pode ser muito lento, e quase sempre nossos sentidos são incapazes de captá-lo. As transformações morfológicas são provocadas por dois tipos de forças: os agentes internos ou modeladores e os agentes externos ou esculpidores. Podemos citar como exemplo de agente externo:",
+  "questionImage": null,
+  "options": [
+    "intemperismo",
+    "tectonismo",
+    "abalos sísmicos",
+    "vulcanismo",
+    "terremotos"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "(A) Correta: que pode se dar pela ação das chuvas, dos rios, dos ventos etc<br> <br>(B) Incorreta: esse é um agente interno<br><br>(C) Incorreta: esse é um agente interno<br><br>(D) Incorreta: esse é um agente interno<br><br>(E) Incorreta: esse é um agente interno",
+  "explanationImage": null,
+  "year": 2022
+}

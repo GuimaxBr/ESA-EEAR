@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2019) As primeiras atividades econômicas na América Portuguesa, por parte do governo, concentraram-se na extração de pau-brasil, dentro do regime de:",
+  "questionImage": null,
+  "options": [
+    "doação.",
+    "concessão.",
+    "permissão",
+    "estanco.",
+    "escambo"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "História",
+  "explanation": "Em 1502, os portugueses iniciaram a exploração do pau-Brasil, árvore já utilizada na Europa para a extração de um corante de cor avermelhada, com o qual eram tingidos os tecidos. Tendo em vista seu alto valor comercial, a Coroa estabeleceu o monopólio real sobre a exploração da madeira, chamado de estanco, o que não impediu que navegadores espanhóis, ingleses e franceses desafiassem o Tratado de Tordesilhas para contrabandear o produto para seus respectivos países.",
+  "explanationImage": null,
+  "year": 2019
+}

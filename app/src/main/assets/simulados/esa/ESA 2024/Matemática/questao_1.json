@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2024) Dado o número complexo em que 𝑖 é a unidade imaginária, marque a alternativa que indica a potência z⁴",
+  "questionImage": "questao_1_enunciado.png",
+  "options": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "optionImages": [
+    "questao_1_alt_A.jpeg",
+    "questao_1_alt_B.jpeg",
+    "questao_1_alt_C.jpeg",
+    "questao_1_alt_D.jpeg",
+    "questao_1_alt_E.jpeg"
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_1_explicacao.jpeg",
+  "year": 2024
+}

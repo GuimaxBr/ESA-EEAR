@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2020) Sobre o Parnasianismo, é <b>correto</b> o que se afirma em:",
+  "questionImage": null,
+  "options": [
+    "A valorização da paisagem nacional é tema primordial dos autores brasileiros dessa escola literária.",
+    "Algumas das produções dessa escola viraram cantigas de roda infantil.",
+    "A perfeição das formas poéticas e o rigor estético, permeado por valores clássicos, caracterizam-no.",
+    "Os poetas exploram, unicamente, temas relacionados à emoção, à fantasia e ao sonho.",
+    "Os autores não se preocupam com a metrificação dos poemas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Literatura",
+  "explanation": "O perfeccionismo justificava inclusive o lema parnasiano - \"arte pela arte\" -, baseando-se no esteticismo. No Parnasianismo, o objetivo da obra de arte é ser boa e bela em si mesma. A arte não deve buscar ser didática, sentimental ou pedagógica.",
+  "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2020) A soma dos possíveis valores de x na equação 4 ͯ = 6.2 ͯ - 8",
+  "questionImage": null,
+  "options": [
+    "6",
+    "7",
+    "3",
+    "2",
+    "0"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_6_explicacao.jpeg",
+  "year": 2020
+}

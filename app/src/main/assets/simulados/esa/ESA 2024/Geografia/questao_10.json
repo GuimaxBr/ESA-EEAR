@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2024) A Os Colégios Militares (CM) são Organizações Militares (OM) que funcionam como estabelecimentos de ensino de educação básica, com a finalidade de atender ao Ensino Preparatório e Assistencial. Atualmente existem 15 CM, distribuídos nas cidades conforme o mapa ao lado. Todas as cidades destacadas possuem 1 CM, exceto a cidade do Rio de Janeiro - RJ, que possui 2 CM (Colégio Militar do Rio de Janeiro e o Colégio Militar da Vila Militar). <br> <br> <br>Em relação às cidades onde estão localizados os Colégios Militares do Brasil, assinale a alternativa <u><b>correta</b></u>:",
+  "questionImage": "questao_10_enunciado.png",
+  "options": [
+    "As cidades onde se localizam os colégios militares de Manaus e Belém configuram-se como uma megalópole que dinamiza processos de valorização imobiliária, ligados à concorrência entre diferentes usos do solo. Os usos industriais, residenciais e de lazer, competem entre si e tendem a expulsar os usos agrícolas tradicionais.",
+    "O Colégio Militar de Brasília está localizado numa cidade global do tipo beta, em que está diretamente ligada à noção de poder, pois funciona como centro de gestão de redes mundiais que desempenha funções políticas e econômicas de primeira grandeza.",
+    "Os colégios militares de Campo Grande, Fortaleza e Recife estão localizados em cidades consideradas metrópoles, cujas influências se estendem por vastas áreas do território nacional e que possuem arcos de transmissão e nós de bifurcação, pelo qual circulam fluxos materiais e imateriais.",
+    "O Colégio Militar de São Paulo está localizado em uma cidade global, onde a densidade e a qualidade da infraestrutura, a oferta de bens e serviços e, consequentemente, a capacidade de polarização sobre os fluxos regionais e mundiais, é do tipo alfa.",
+    "Os colégios militares da Região Sul do Brasil estão localizados em cidades de menor porte, com atuação restrita à sua área imediata. Sediam atividades de gestão relativamente pouco complexas, com influências de âmbito regional."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta: Essa alternativa está incorreta por diversos motivos. Primeiro, Belém não aparece no mapa como cidade com Colégio Militar. Segundo, Manaus e Belém não formam uma megalópole, pois esse conceito se refere à união de metrópoles por meio da conurbação e integração funcional (ex: Rio-São Paulo). Além disso, o enunciado mistura conceitos sem relação direta com os colégios militares, extrapolando o escopo da questão.<br><br>(B) Incorreta:  Brasília é, de fato, uma capital política com forte centralidade nacional, mas não aparece no mapa como cidade que possui Colégio Militar. A questão exige que as análises sejam feitas com base nas cidades com colégio militar segundo o mapa apresentado. Como Brasília não está destacada, essa alternativa deve ser descartada.<br><br>(C) Incorreta: Essa alternativa está parcialmente correta, mas contém um erro: Recife não está listada no mapa como uma cidade com colégio militar. Os colégios militares presentes no mapa se localizam em Campo Grande e Fortaleza, sim - que são capitais regionais com relevância econômica e militar<br><br>(D) Correta: São Paulo é considerada uma cidade global do tipo alfa, de acordo com a classificação da Globalization and World Cities Research Network (GaWC).  Possui elevada densidade urbana, infraestrutura de ponta, rede de serviços altamente diversificada e forte inserção em fluxos globais econômicos e informacionais. Sua centralidade permite a atuação sobre territórios em escala nacional e internacional, polarizando diversas atividades.<br><br>(E) Incorreta: Blumenau (SC) e Alegrete (RS) são, de fato, cidades de porte médio a pequeno e com influência regional. No entanto, a cidade de Porto Alegre, também com Colégio Militar segundo o mapa, é uma metrópole regional, com papel relevante na articulação sul-brasileira e integração ao MERCOSUL. Além disso, mesmo cidades de médio porte com presença de colégios militares exercem papéis estratégicos no contexto militar e educacional, não limitados à sua área imediata.",
+  "explanationImage": null,
+  "year": 2024
+}

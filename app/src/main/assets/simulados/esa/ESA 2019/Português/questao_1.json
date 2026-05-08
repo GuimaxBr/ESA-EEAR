@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2019) A respeito da regência verbal dos verbos nacionais na língua portuguesa, sabe-se que alguns possuem dupla regência. Assinale aquele que admite <b>apenas uma</b> regência:",
+  "questionImage": null,
+  "options": [
+    "carecer.",
+    "chamar.",
+    "aspirar.",
+    "assistir.",
+    "esquecer."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "A) Correta, pois o verbo carecer tem apenas uma regência: é transitivo indireto e exige a preposição de (carecer de algo), não variando conforme o sentido.<br><br>B) Incorreta, pois o verbo chamar possui dupla regência, variando de acordo com o sentido: como “dar nome a” ou “apelidar” (transitivo direto ou indireto: chamar alguém de algo ou chamar a alguém de algo) e como “convocar” (transitivo direto: chamar alguém).<br><br>C) Incorreta, pois o verbo aspirar admite dupla regência: como “sorver, inalar” (transitivo direto: aspirar o perfume) e como “almejar, desejar” (transitivo indireto: aspirar a um cargo). <br><br>D) Incorreta, pois o verbo assistir tem múltiplas regências dependendo do sentido: como “ver, presenciar” (transitivo indireto: assistir a um filme), “ajudar” (transitivo direto: assistir o amigo), “caber, competir” (indireto: assiste ao aluno o direito), além do sentido de “residir” (intransitivo: assistir em São Paulo).<br><br>E) Incorreta, pois o verbo esquecer também possui dupla regência: na forma pronominal (esquecer-se de algo, regência indireta) e na forma não pronominal (esquecer algo, regência direta).",
+  "explanationImage": null,
+  "year": 2019
+}

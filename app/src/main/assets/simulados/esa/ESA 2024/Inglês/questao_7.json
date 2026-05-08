@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2024) Avoid repetition in text by replacing the underlined phrases with the right pronouns. <br> <br>MARIA EDUARDA’S CHANGE OF CAREERS <br> <br>Maria Eduarda was an English teacher at a private school in Três Corações. Seven years ago, she saw a military parade on Independence Day and thought about joining the Brazilian Army. At first <u><b>Maria Eduarda’s</b></u> husband didn’t support Maria Eduarda’s radical career change because <u><b>Maria Eduarda’s husband</b></u> was very worried about <u><b>her radical career</b></u><u> </u><u><b>change.</b></u> On the other hand, Maria Eduarda’s mother and father encouraged <b>Maria Eduarda</b> because <u><b>Maria Eduarda’s mother and father </b></u>were very proud of their daughter’s decision. Then Maria Eduarda applied for the Army exam and passed it. Now she is a brilliant English Teacher in the Language Teaching Section of the NCO Academy.",
+  "questionImage": null,
+  "options": [
+    "her - he - it - her - they",
+    "she - he - it - her - they",
+    "her - she - it - him - they",
+    "her - he - its - her - they",
+    "her - he - it - her - them"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Inglês",
+  "explanation": "(A) CORRETO, como os comentários a seguir comprovam:<br><br>Em “At first Maria Eduarda's husband”, devemos substituir por um adjetivo possessivo para indicar de quem é o marido (husband). Devemos empregar HER;<br><br>Em “Maria Eduarda's husband was very worried”, o termo destacado funciona como sujeito de WAS, dessa forma, devemos empregar HE, pois se refere a um homem (husband - marido);<br><br>Em “her radical career change”, está-se tratando de uma coisa após uma preposição, logo devemos empregar o pronome objeto IT;<br><br>Em “Maria Eduarda's mother and father encouraged Maria Eduarda”, o termo destacado funciona com o complemento de ENCOURAGED, logo devemos empregar HER, por se referir a uma mulher;<br><br>Em  “Maria Eduarda's mother and father were very proud”, o termo destacado é sujeito plural, logo devemos empregar THEY.",
+  "explanationImage": null,
+  "year": 2024
+}

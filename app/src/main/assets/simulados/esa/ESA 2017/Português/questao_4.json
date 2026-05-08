@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "text": "(ESA 2017) Assinale a alternativa que contém um advérbio de tempo.",
+  "questionImage": null,
+  "options": [
+    "&quot;Dessa forma, <u>especialmente</u> no dia dedicado à causa das doações,..&quot;",
+    "&quot;...apresenta <u>surpreendentemente</u> taxas de captação de órgãos em crescimento inferiores à observada nos Estados brasileiros líderes.&quot;",
+    "<u>&quot;Atualmente,</u> transplantes de órgãos e tecidos são rotineiros...&quot;",
+    "&quot;...as políticas de saúde devem contemplar <u>enfaticamente</u> as doações...&quot;",
+    "&quot;...transplantes de órgãos e tecidos são rotineiros em todos os países <u>minimamente</u> desenvolvidos.&quot;"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "O advérbio atualmente informa o tempo (momento) em que os transplantes se tornaram rotineiros.",
+  "year": 2017
+}

@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2024) A 1ª Bateria de Obuses (1ª Bia O), do 22º GAC AP, está localizada na cidade de Uruguaiana - RS, região de fronteira do Brasil com a Argentina. Devido à sua localização geográfica, é comum que seus integrantes sejam habilitados em outros idiomas. Em um levantamento feito pelo subtenente Cleber, entre os 120 militares da 1ª Bia O, 50 são habilitados no idioma Inglês, 65 no idioma Espanhol e 20 não são habilitados nem em Inglês e nem em Espanhol. Sorteando aleatoriamente um destes militares, qual probabilidade de se selecionar alguém habilitado em ambos os idiomas?",
+  "questionImage": null,
+  "options": [
+    "0,1",
+    "0,125",
+    "0,15",
+    "0,175",
+    "0,2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "matemática",
+  "explanation": "",
+  "explanationImage": "questao_5_explicacao.jpeg",
+  "year": 2024
+}

@@ -1,0 +1,23 @@
+{
+  "id": 10,
+  "text": "(ESA 2018) Em uma Progressão Aritmética, o décimo termo vale 16 e o nono termo é 6 unidades maior do que o quinto termo. Logo, o décimo segundo termo vale:",
+  "questionImage": null,
+  "options": [
+    "16,5",
+    "17,0",
+    "19,0",
+    "19,5",
+    "17,5"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "A₉ - A₅ = 4r = 6 → r = 1,5<br>A₁₀ = 16 <br>A₁₂ = A₁₀ +2r = 16 +3 ⇒ 19",
+  "year": 2018
+}

@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2021) Complete the sentence below using the appropriate pronoun: <br>“Sometimes, you want a search engine to find pages that have one word on _______ but not another word”.",
+  "questionImage": null,
+  "options": [
+    "They.",
+    "Them.",
+    "Their.",
+    "These.",
+    "There."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "A) Incorreto. “They” é um pronome sujeito (ex.: They are happy), mas na frase, o pronome está sendo usado como objeto da preposição “on”, então “they” não é adequado aqui.<br><br>B) Correto. “Them” é o pronome oblíquo (objeto) correto para substituir “pages” após a preposição “on”. A construção correta da frase é: “…to find pages that have one word on them but not another word.”<br><br>C) Incorreto.“Their” é um pronome possessivo e indicaria posse (ex.: their pages), mas o que se quer aqui é um pronome objetivo, pois se refere ao local onde as palavras aparecem (nas páginas), não a algo que pertence a elas.<br><br>D) Incorreto. “These” é um pronome demonstrativo no plural (ex.: these books), mas não funciona como objeto da preposição “on”. Além disso, não substitui corretamente o substantivo “pages” no contexto da frase.<br><br>E) Incorreto. “There” é um advérbio de lugar (ex.: over there), e não um pronome. Usá-lo aqui resultaria numa frase sem sentido gramatical.",
+  "explanationImage": null,
+  "year": 2021
+}

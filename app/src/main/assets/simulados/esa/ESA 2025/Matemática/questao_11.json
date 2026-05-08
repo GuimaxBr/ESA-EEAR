@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2025) O quadrado externo tem lados de medida 5 u.c. e o segmento indicado mede 𝑥. Marque a alternativa que apresenta o valor mínimo do lado do quadrado que está inscrito.",
+  "questionImage": "questao_11_enunciado.png",
+  "options": [
+    "√2/2",
+    "(5√2)/2",
+    "5/2",
+    "2/5",
+    "1/2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.jpeg",
+  "year": 2025
+}

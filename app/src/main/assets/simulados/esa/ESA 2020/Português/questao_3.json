@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2020) Leia o parágrafo abaixo e, em seguida, marque a alternativa que apresenta, respectivamente, a classificação quanto à classe gramatical das palavras em negrito: <br>“<b>Embora </b>haja um número crescente de estudos <b>sobre</b> o uso de celulares e suas consequências, <b>nenhum</b> deles provou definitivamente que o consumo excessivo do aparelho causa problemas de saúde mental.”",
+  "questionImage": null,
+  "options": [
+    "preposição, pronome e conjunção.",
+    "conjunção, preposição e numeral.",
+    "preposição, preposição e pronome.",
+    "conjunção, conjunção e pronome.",
+    "conjunção, preposição e pronome."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "A) Incorreta. “Embora” é conjunção e não preposição”.<br><br>B) Incorreta. “Nenhum” é pronome e não numeral.<br><br>C) Incorreta. Pelos mesmos motivos da letra B, “embora” é conjunção e não preposição”.<br><br>D) Incorreta. “Sobre” é preposição e não conjunção.<br><br>E) A conjunção subordinativa adverbial é aquela cuja função é ligar as orações e atribuir a elas valor semântico, como \"embora\". Já \"sobre\" é uma das 17 preposições em língua portuguesa. Por fim, \"nenhum\" é pronome indefinido.",
+  "explanationImage": null,
+  "year": 2020
+}

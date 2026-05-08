@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "text": "(ESA 2019) Assinale o item em que a explicação corresponde ao excerto citado:",
+  "questionImage": "questao_11_enunciado.jpeg",
+  "options": [
+    "&quot; ... permitindo que fluísse em silêncio pelos cômodos ... &quot;/ A esposa silencia para agradar o marido.",
+    "&quot;Largou o tecido em uma gaveta, esqueceu o batom.&quot; / Ela não tem mais atitudes humanas por causa da anulação de sua identidade.",
+    "&quot;Uma fina saudade, porém, começou a alinhavar-se em seus dias.&quot;/ A esposa perde a matéria que a torna ser.",
+    "&quot;E continuou andando pela casa de vestido de chita.&quot;/ Reforça a ideia de que o homem não se importava com a esposa.",
+    "“Ninguém a olhava duas vezes.&quot;/ Sua aparência não mais chamava a atenção."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "O fato de ninguém a olhar duas vezes justifica que sua aparência não era percebida.",
+  "year": 2019
+}

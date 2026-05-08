@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2023) O Brigadeiro Antônio de Sampaio nasceu no dia 24 de maio de 1810, em Tamboril-CE. Cedo revelou <u>interesse pela</u> carreira militar, <u>onde</u> galgou <u>postos por merecimento</u> <u>graças a</u> inúmeras <u>demonstrações de bravura, de </u>tenacidade e de inteligência.<br><br>Identifique entre as expressões abaixo que foram destacadas no parágrafo acima, qual <u><b>não está de acordo</b></u> com a norma padrão.",
+  "questionImage": null,
+  "options": [
+    "interesse pela",
+    "onde",
+    "postos por merecimento",
+    "graças a",
+    "demonstrações de bravura, de tenacidade e de inteligência"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Correta. A expressão \"interesse pela\" está gramaticalmente correta. \"Pela\" é a combinação da preposição \"por\" com o pronome \"ela\", que está corretamente empregada aqui para introduzir a palavra \"carreira\".<br> <br>(B) Incorreta. A expressão \"onde\" é usada para se referir a lugares, indicando localização física. No texto, ela é usada em referência a \"carreira militar\", que não é um lugar, mas uma atividade ou condição. O uso de \"onde\" aqui é inadequado; a forma correta poderia ser \"na qual\" para se referir corretamente à carreira como uma situação, não como um lugar.<br><br>(C) Correta. \"Postos por merecimento\" está gramaticalmente correto. A preposição \"por\" é apropriada para indicar a causa ou razão em contextos como este, onde significa que o avanço nos postos ocorreu devido ao merecimento.<br><br>(D) Correta. \"Graças a\" é uma expressão correta que é usada para indicar um agradecimento ou a causa de algo positivo. Ela está corretamente usada para introduzir os motivos pelos quais ele galgou postos no exército. Como está diante de uma palavra no plural e o “a” está no singular, não há ocorrência de crase.<br><br>(E) Correta. Esta expressão é gramaticalmente correta, com a preposição \"de\" usada para ligar os substantivos \"bravura\", \"tenacidade\" e \"inteligência\" ao substantivo \"demonstrações\", indicando as qualidades que foram demonstradas.",
+  "explanationImage": null,
+  "year": 2023
+}

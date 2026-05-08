@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2017) Os ângulos internos de um quadrilátero são inversamente proporcionais aos números 2, 3, 4 e 5. O maior ângulo interno desse quadrilátero mede, aproximadamente",
+  "questionImage": null,
+  "options": [
+    "210°",
+    "90°",
+    "230°",
+    "100°",
+    "140°"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_10_explicacao.jpeg",
+  "year": 2017
+}

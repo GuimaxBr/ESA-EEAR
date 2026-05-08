@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2018) Em uma escola com 180 estudantes, sabe-se que todos os estudantes leem pelo menos um livro. <br>Foi feita uma pesquisa e ficou apurado que:<br>50 alunos leem somente o livro A;<br>30 alunos leem somente o livro B;<br>40 alunos leem somente o livro C;<br>25 alunos leem os livros A e C;<br>40 alunos leem os livros A e B;<br>25 alunos leem os livros B e C.<br>Logo, a quantidade de alunos que leem os livros A, B e C é:",
+  "questionImage": null,
+  "options": [
+    "20",
+    "25",
+    "30",
+    "10",
+    "15"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "50 + 25 - x + x + 40 - x + 30 + 25 - x + 40 = 180<br>-2x + 210 = 180<br>x = 15",
+  "explanationImage": "questao_3_explicacao.jpeg",
+  "year": 2018
+}

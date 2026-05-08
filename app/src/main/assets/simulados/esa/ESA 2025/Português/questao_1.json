@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2025) O Soldado Nascimento (Nr 201) incorporou às fileiras do Exército Brasileiro em 20 de janeiro de 1959, no 6º Grupo de Artilharia de Costa Motorizado (6º GACosM), localizado em Santos, hoje 2º Grupo de Artilharia Antiaérea (2º GAAAe) e atualmente situado em Praia Grande (SP). Durante sua passagem pelo Exército, já campeão Mundial de Futebol na Copa do Mundo de 1958, conquistou o Campeonato Sul-americano de Futebol das Forças Armadas, marcando o gol decisivo no jogo final contra a Seleção Militar da Argentina (Brasil 2 x 1 Argentina).<br><br>“Em entrevista à Revista Verde-Oliva em 2006, <b>Pelé disse que a disciplina e o respeito ao próximo foram os principais ensinamentos que obteve na caserna</b>. &quot;Eu me orgulho muito, porque serviu de base para minha formação e meu caráter. Acho <b>que todos os jovens deveriam passar pelo Exército</b>&quot;, afirmou à época.” Como as orações destacadas podem ser classificadas?",
+  "questionImage": null,
+  "options": [
+    "Oração subordinada substantiva apositiva - Oração subordinada substantiva objetiva direta.",
+    "Oração subordinada substantiva objetiva direta - Oração subordinada substantiva objetiva direta.",
+    "Oração subordinada substantiva objetiva indireta - Oração subordinada substantiva predicativa.",
+    "Oração subordinada substantiva subjetiva - Oração subordinada substantiva predicativa.",
+    "Oração subordinada substantiva completiva nominal - Oração subordinada substantiva objetiva indireta."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) está incorreta, pois nenhuma das duas orações exerce função de aposto. Orações apositivas explicam ou especificam um termo anterior, geralmente separadas por vírgula, o que não ocorre no trecho. As duas orações completam o sentido de verbos declarativos.<br><br>(B) está correta, pois tanto “que a disciplina e o respeito ao próximo foram os principais ensinamentos que obteve na caserna” quanto “que todos os jovens deveriam passar pelo Exército” funcionam como objetos diretos dos verbos disse e afirmou, respectivamente. Ambas, portanto, são orações subordinadas substantivas objetivas diretas.<br><br>(C) está incorreta, pois a primeira oração não é introduzida por preposição e, portanto, não pode ser classificada como objetiva indireta. Além disso, a segunda oração não exerce valor predicativo, e sim completa o sentido do verbo afirmou.<br><br>(D) está incorreta, pois a oração “que a disciplina e o respeito ao próximo foram os principais ensinamentos que obteve na caserna” exerce a função de objeto direto do verbo disse, e não de sujeito. Logo, não é uma oração subordinada substantiva subjetiva. Da mesma forma, a segunda oração (“que todos os jovens deveriam passar pelo Exército”) também é objeto direto do verbo afirmou, e não predicativa.<br><br>(E) está incorreta, pois não há termo nominal que exija complemento introduzido por preposição, o que excluiria a classificação “completiva nominal” e também “objetiva indireta”. Ambas as orações dependem de verbos transitivos diretos (disse e afirmou), portanto não há preposição.",
+  "explanationImage": null,
+  "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2025) Sabendo que uma das raízes é o dobro da outra, marque a alternativa que apresenta o produto do numerador pelo denominador de 𝑚. Considere a equação:",
+  "questionImage": "questao_3_enunciado.jpeg",
+  "options": [
+    "72",
+    "36",
+    "24",
+    "18",
+    "12"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_3_explicacao.jpeg",
+  "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2019) Assinale a alternativa em que a figura de linguagem corresponde à frase relacionada:",
+  "questionImage": null,
+  "options": [
+    "&quot;Preferimos o desconforto do estômago vazio.&quot; (catacrese)",
+    "&quot;Às vezes, dá até vontade de desistir.&quot;(metonímia)",
+    "&quot;Reunir todos é um problema, principalmente no Natal e no Ano Novo.&quot; (ironia)",
+    "&quot;Aquele o surpreendeu e foi morar longe.&quot;(antítese)",
+    "&quot;Família é prato difícil de preparar.&quot; (metáfora)"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "A) Incorreta, pois “Preferimos o desconforto no estômago vazio” não apresenta catacrese, que é o uso de uma palavra fora de seu sentido original por falta de termo específico (como “braço da cadeira” ou “pé da mesa”); nesse caso, trata-se apenas de uma expressão literal.<br><br>B) Incorreta, pois “Às vezes, dá até vontade de desistir” não é metonímia - figura que envolve substituição por contiguidade (parte pelo todo, autor pela obra etc.) -, sendo apenas uma afirmação direta.<br><br>C) Incorreta, porque “Reunir todos é um problema, principalmente no Natal e no Ano Novo” não apresenta ironia, que pressupõe dizer o contrário do que se pensa; aqui, há apenas uma constatação literal.<br><br>D) Incorreta, pois “Aquele o surpreendeu e foi morar longe” não configura antítese, que exige oposição de termos; o enunciado apenas descreve ações sem contraste explícito.<br><br>E) Correta, pois “Família é prato difícil de preparar” estabelece uma relação de semelhança implícita entre dois elementos distintos (família e prato), transferindo características do segundo para o primeiro, o que caracteriza a metáfora.",
+  "explanationImage": null,
+  "year": 2019
+}

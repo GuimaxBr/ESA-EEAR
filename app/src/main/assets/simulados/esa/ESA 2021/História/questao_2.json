@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2021) O primeiro passo da expansão ultramarina portuguesa foi a conquista de:",
+  "questionImage": null,
+  "options": [
+    "Moçambique.",
+    "Senegal.",
+    "Guiné.",
+    "Ceuta.",
+    "Angola."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "HISTORIA",
+  "explanation": "O ponto de partida do processo de expansão de Portugal foi a conquista da cidade de Ceuta, situada no atual Marrocos, em 1415. Liderada pelo infante D. Henrique, filho do rei D. João I, a empreitada pode ter objetivado acessar as rotas comerciais controladas pelos muçulmanos no Norte da África, onde circulava muito ouro, marfim e escravizados. Outras duas razões podem ter influenciado o desejo pela conquista: o fato da cidade ser grande produtora de cereais, que poderiam abastecer Portugal, e dali saírem diversas expedições de piratas de mouros que saqueavam a costa de Portugal.",
+  "explanationImage": null,
+  "year": 2021
+}

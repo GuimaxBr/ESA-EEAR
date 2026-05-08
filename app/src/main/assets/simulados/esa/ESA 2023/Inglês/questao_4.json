@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2023) What are the missing question words in the inquiry made by Sergeant Brooks? <br> <br><b>Sergeant Brooks:</b> Can you tell me _____ you last saw Private Johnson? <br><b>Corporal Diaz:</b> I last saw him in Colonel Grant’s office. <br><b>Sergeant Brooks:</b> _____ did you see him exactly? <br><b>Corporal Diaz:</b> Five minutes before lunch break. <br><b>Sergeant Brooks:</b> And _____ was he doing there? <br><b>Corporal Diaz:</b> He was repairing the colonel’s computer. <br><b>Sergeant Brooks:</b> _____ was he with? <br><b>Corporal Diaz:</b> Nobody. He was alone. <br><b>Sergeant Brooks:</b> _____ did you go to the Colonel’s Office? <br><b>Corporal Diaz:</b> Because I had to take documents to Colonel Grant before he left for lunch.",
+  "questionImage": null,
+  "options": [
+    "where - what - when - who - why",
+    "who - when - what - where - why",
+    "where - when - what - why - who",
+    "where - when - what - who - why",
+    "who - why - what - where - when"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "(D) Certa. Como os comentário a seguir comprovam:<br><br>1) Can you tell me where you last saw Private Johnson?<br><br>Resposta: I last saw him in Colonel Grant’s office.<br><br>Tradução: Eu o vi pela última vez no escritório do Coronel Grant.<br><br>Justificativa: Usa-se \"where\" porque a pergunta exige uma resposta que indique lugar.<br><br>2) When did you see him exactly?<br><br>Resposta: Five minutes before lunch break.<br><br>Tradução: Cinco minutos antes do intervalo para o almoço.<br><br>Justificativa: Usa-se \"when\" porque a pergunta pede uma informação de tempo.<br><br>3) And what was he doing there?<br><br>Resposta: He was repairing the colonel’s computer.<br><br>Tradução: Ele estava consertando o computador do coronel.<br><br>Justificativa: Usa-se \"what\" porque a pergunta busca saber qual atividade estava sendo realizada.<br><br>4) Who was he with?<br><br>Resposta: Nobody. He was alone.<br><br>Tradução: Ninguém. Ele estava sozinho.<br><br>Justificativa: Usa-se \"who\" porque a pergunta quer saber com quem o sujeito estava.<br><br>5) Why did you go to the Colonel’s Office?<br><br>Resposta: Because I had to take documents to Colonel Grant before he left for lunch.<br><br>Tradução: Porque eu precisava levar documentos ao Coronel Grant antes que ele saísse para o almoço.<br><br>Justificativa: Usa-se \"why\" porque a pergunta busca a razão ou motivo da ação.",
+  "explanationImage": null,
+  "year": 2023
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2022) Mark the only correct option according to the text below.<br> <br><b>Cash Flow Problem </b><br>“Honey, you have to tell me how we are spending our money”, said the wife to her husband. “I should know about these things.” <br>“Fine”, said the husband. “we are spending 25 percent on rent, 20 percent on the kids, 30 percent on food, 15 percent on clothes, and 40 percent on the cars.” <br>“But honey, that’s 130 percent.” <br>“I know. That’s the problem”",
+  "questionImage": null,
+  "options": [
+    "The husband is complaining to her wife about her personal expenses.",
+    "The wife is very happy because the couple is saving money.",
+    "The husband wants to know how his wife is spending their money.",
+    "The couple is spending more money than they make.",
+    "The couple is spending as much money as they make."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "(A) The husband is complaining to her wife about her personal expenses. ❌<br>Incorreta porque o marido não está reclamando dos gastos pessoais da esposa.<br>Na verdade, ele está explicando como eles gastam o dinheiro como casal.<br> <br>(B) The wife is very happy because the couple is saving money. ❌<br>Incorreta e totalmente oposta ao sentido do texto.<br>A esposa está preocupada com os gastos.<br>Não há nenhuma menção de economizar ou ficar feliz.<br><br>(C) The husband wants to know how his wife is spending their money.❌<br>Errada, pois quem quer saber é a esposa.<br>O marido está explicando como ele (ou eles) estão gastando.<br><br>(D) The couple is spending more money than they make. ✔️<br>Correta!<br>Eles gastam 130% do que ganham (acima de 100%).<br>Essa é justamente a piada/ironía do diálogo: o problema é estarem gastando mais do que recebem.<br><br>(E) The couple is spending as much money as they make. ❌<br>Errada.<br>Gastar “as much as they make” seria 100%.<br>O problema no diálogo é que ultrapassa (130%).",
+  "explanationImage": null,
+  "year": 2022
+}

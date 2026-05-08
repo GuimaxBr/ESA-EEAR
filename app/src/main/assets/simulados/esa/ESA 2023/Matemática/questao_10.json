@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2023) Considere os seguintes números: 𝑥 = 1+2𝑖 e 𝑦 = 3+4𝑖. Assinale a alternativa que apresenta o valor de 𝜃, sendo 𝜃=𝑥²-𝑦.",
+  "questionImage": null,
+  "options": [
+    "-2",
+    "3",
+    "4",
+    "5",
+    "-6"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "matematica",
+  "explanation": "",
+  "explanationImage": "questao_10_explicacao.jpeg",
+  "year": 2023
+}

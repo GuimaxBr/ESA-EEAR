@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2019) Uma pequena praça tem o formato triangular,  as medidas dos lados desse triângulo são √37m, 4m e 3m. Qual é a medida do ângulo oposto ao maior lado?",
+  "questionImage": null,
+  "options": [
+    "150º",
+    "60º",
+    "90º",
+    "45º",
+    "120º"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.jpeg",
+  "year": 2019
+}

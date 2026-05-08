@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2023) Qual estratégia geopolítica, representada no mapa, foi adotada pela Coroa Portuguesa para ocupar o território amazônico, durante o século XVIII?",
+  "questionImage": "questao_1_enunciado.jpeg",
+  "options": [
+    "Abertura de polos de desenvolvimento",
+    "Incentivo à exploração mineral",
+    "Criação de fortificações militares",
+    "Criação de reservas indígenas",
+    "Desenvolvimento de projetos agropecuários"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "(A) INCORRETA: Abertura de polos de desenvolvimento, como é o caso da Zona Franca de Manaus, é uma realidade típica do século XX<br><br>(B) INCORRETA: O incentivo à exploração mineral na região amazônica é uma realidade do século XX.<br><br>(C) CORRETA: A criação de fortificações foi uma das estratégias traçadas pela coroa portuguesa para estabelecer o seu poder na região amazônica. Foi justamente nos arredores desses fortes que surgiram cidades importantes, como é o caso de Belém (PA) em Manaus (AM)<br><br>(D) INCORRETA: A criação de reservas indígenas nunca foi uma estratégia traçada para assegurar Os territórios na região amazônica<br><br>(E) INCORRETA: Os projetos agropecuários se tornaram uma medida para a ocupação da região amazônica no século XX",
+  "explanationImage": null,
+  "year": 2023
+}

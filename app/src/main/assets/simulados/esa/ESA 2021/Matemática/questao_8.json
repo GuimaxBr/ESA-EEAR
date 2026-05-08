@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2021) Numa PA crescente, os seus dois primeiros termos são as raízes da equação x² - 11x + 24=0. Sabendo que o número de termos dessa PA é igual ao produto dessas raízes, então a soma dos termos dessa progressão é igual a:",
+  "questionImage": null,
+  "options": [
+    "1.100",
+    "1.200",
+    "1.452",
+    "1.350",
+    "1.672"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.jpeg",
+  "year": 2021
+}

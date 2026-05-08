@@ -1,0 +1,7 @@
+﻿<resources>
+    <string name="app_name">Questoes ESA</string>
+    <string name="admob_app_id">ca-app-pub-9677072903516668~4339368747</string>
+    <string name="admob_banner_top_unit_id">ca-app-pub-9677072903516668/7595468923</string>
+    <string name="premium_product_id">esa_premium</string>
+    <string name="premium_fallback_price">R$ 5,00</string>
+</resources>

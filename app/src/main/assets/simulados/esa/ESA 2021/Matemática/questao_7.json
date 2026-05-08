@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2021) Observe o paralelepípedo retorretângulo da figura abaixo. Sobre este sólido, assinale a única alternativa correta.",
+  "questionImage": "questao_7_enunciado.jpeg",
+  "options": [
+    "As retas CD e CG são ortogonais entre si.",
+    "A reta CF é paralela ao plano (ADH).",
+    "As retas AC e HF são paralelas entre si.",
+    "A reta AB é perpendicular ao plano EFG.",
+    "As retas BF e DH são perpendiculares entre si."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "MATEMATICA",
+  "explanation": "Os planos ADH e BFG são paralelos entre si. A reta CF está contida no plano BFG, então CF é paralela ao plano ADH.",
+  "explanationImage": null,
+  "year": 2021
+}

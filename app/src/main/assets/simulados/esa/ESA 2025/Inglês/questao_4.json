@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2025) Which option has the <b>correct</b> statement about what is going on in the comic strip?",
+  "questionImage": "questao_4_enunciado.png",
+  "options": [
+    "The Private has not avoided putting in some physical effort.",
+    "The Private has not given the Sergeant a lousy excuse.",
+    "The Private has hurt his foot.",
+    "The Private’s behavior has pleased the Sergeant.",
+    "The Private has slacked on his duties."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Inglês",
+  "explanation": "(A) Errado.<br>A frase afirma que ele não evitou fazer esforço físico, mas, na realidade, ele está tentando evitar a atividade (a marcha).<br><br>(B) Errado.<br>Ele deu sim uma desculpa ruim (“I lost my other sock”). O enunciado nega isso, então está incorreto.<br><br>(C) Errado.<br>O texto não menciona nenhuma lesão - apenas a perda da meia, usada como pretexto.<br><br>(D) Errado.<br>O sargento não demonstra satisfação; pelo contrário, o tom da pergunta (“What’s your excuse this time?”) mostra impaciência. O silêncio posterior indica desaprovação.<br><br>(E) Correto.<br>“Slacked on his duties” significa relaxar, negligenciar ou evitar suas obrigações.<br>O soldado claramente está evitando o exercício e usando uma desculpa fraca para não marchar.",
+  "explanationImage": null,
+  "year": 2025
+}

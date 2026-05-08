@@ -1,0 +1,23 @@
+{
+  "id": 7,
+  "text": "(ESA 2016) Funções bijetoras possuem função inversa porque elas são invertíveis, mas devemos tomar cuidado com o domínio da nova função obtida. Identifique a alternativa que apresenta a função inversa de f(x) ¯ ¹ = 3x",
+  "questionImage": null,
+  "options": [
+    "f(x) ¯ ¹ = x - 3",
+    "f(x) ¯ ¹ = x +3",
+    "f(x) ¯ ¹ = -x - 3",
+    "f(x) ¯ ¹ = - x + 3",
+    "f(x) ¯ ¹ = 3x"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "f(x) = x + 3 <br> y = x + 3 <br> x = y + 3 <br> x - 3 = y <br> y = x - 3 <br> f(x)-1<br>= x - 3.",
+  "year": 2016
+}

@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2020) The plural forms of table, box, kilo, sky, wife and tooth are respectively",
+  "questionImage": null,
+  "options": [
+    "tables, boxes, kiloes, skies, wives and teeth.",
+    "tables, boxes, kilos, skies, wifes and teeth.",
+    "tables, boxes, kilos, skies, wives and teeth.",
+    "tables, boxes, kilos, skies, wives and tooths.",
+    "tables, boxes, kilos, skys, wives and teeth"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "kiloes - Errada. Palavras terminadas em “o” precedidas por vogal, como “kilo”, formam plural com apena.<br><br>tooths - Errada. “Tooth” tem plural irregular: “teeth”.<br><br>wifes - Errada. Plural de “wife” exige mudança para “wives” (f vira v + es).<br><br>skys - Errada. “Sky” vira “skies” no plural (quando termina em consoante + “y”, muda o “y” para “ies”).<br><br>table - Correto. table → tables",
+  "explanationImage": null,
+  "year": 2020
+}

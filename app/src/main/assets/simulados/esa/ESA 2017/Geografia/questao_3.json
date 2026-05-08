@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2017) A Zona Franca de Manaus nasceu como um porto livre, ou seja, uma zona de armazenamento ou depósito de mercadorias provenientes do estrangeiro destinadas ao consumo interno da Amazônia ou países limítrofes ao Brasil no ano de:",
+  "questionImage": null,
+  "options": [
+    "1933",
+    "1999",
+    "1997",
+    "1957",
+    "1920"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "Foi no ano de 1957 que nasceu, como porto livre, através da Lei No 3.173, de 06 de junho de 1957, a Zona Franca de Manaus.",
+  "year": 2017
+}

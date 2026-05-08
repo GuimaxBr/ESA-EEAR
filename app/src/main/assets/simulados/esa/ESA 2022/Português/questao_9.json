@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2022)  Assinale a alternativa cuja definição da figura de linguagem esteja correta:",
+  "questionImage": null,
+  "options": [
+    "Metáfora é a oposição ou o sentido contrário de palavras ou ideias",
+    "Personificação é uma comparação oculta.",
+    "Hipérbole ocorre quando se usa uma palavra ou expressão exagerada com a intenção de dar mais ênfase.",
+    "Pleonasmo é a suavização da linguagem.",
+    "Hipérbato é a substituição de uma palavra por outra com a qual ela tem semelhança de sentido."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreta: Metáfora é uma figura de linguagem que estabelece uma relação de semelhança entre dois termos sem o uso de conectivos, como em \"Ela é uma flor\". A oposição ou o sentido contrário de palavras é uma antítese; de ideias, um paradoxo ou oxímoro.<br> <br>(B) Incorreta: Personificação (ou prosopopeia) é a atribuição de características humanas a seres inanimados ou abstratos, como em \"O vento sussurrou nos meus ouvidos\". A comparação oculta é uma metáfora.<br><br>(C) Correta: Hipérbole é uma figura de linguagem que consiste no uso de expressões exageradas para dar ênfase a uma ideia, como em \"Estou morrendo de fome\".<br><br>(D) Incorreta: Pleonasmo é a redundância de palavras para enfatizar uma ideia, como em \"subir para cima\" ou \"entrar para dentro\". A suavização da linguagem é chamada eufemismo.<br><br>(E) Incorreta: A definição correta para hipérbato é a inversão da ordem natural das palavras em uma oração. A substituição de uma palavra por outra com semelhança de sentido é uma metonímia.",
+  "explanationImage": null,
+  "year": 2022
+}

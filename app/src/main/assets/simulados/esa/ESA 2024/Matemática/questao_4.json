@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2024) Qual o valor do número natural 𝑛 para que a soma dos coeficientes do polinômio acima seja 729?",
+  "questionImage": "questao_4_enunciado.jpeg",
+  "options": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "7"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.jpeg",
+  "year": 2024
+}

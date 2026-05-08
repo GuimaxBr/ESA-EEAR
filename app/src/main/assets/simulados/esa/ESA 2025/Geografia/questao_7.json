@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2025) Com a nova política industrial, o Brasil dá um passo decisivo em direção à neoindustrialização, a indústria ainda enfrenta, porém, vários problemas que aumentam os custos e dificultam a maior participação no mercado externo, entre eles:<br>1. Flutuação cambial;<br>2. Problemas logísticos;<br>3. Barreiras tarifárias e não tarifárias; e<br>4. Falta de qualificação da força de trabalho.<br>Está <b>correto</b> o contido em:",
+  "questionImage": "questao_7_enunciado.png",
+  "options": [
+    "2 e 3, apenas.",
+    "2 e 4, apenas",
+    "1, 2 e 4, apenas.",
+    "1, 3 e 4, apenas.",
+    "Todas estão corretas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Geografia",
+  "explanation": "Essa questão foi baseada no seguinte trecho do SENE (2018)<br>“A indústria ainda enfrenta, porém, vários problemas que aumentam os custos e dificultam a maior participação no mercado externo, como;<br>preço elevado da energia elétrica;<br><br>flutuação cambial: quando o dólar está alto em relação ao real, isso favorece as exportações de produtos industrializados, porque os exportadores recebem mais, em reais, por unidade vendida; porém, encarece as importações de máquinas e equipamentos para as indústrias. Quando o dólar está baixo, acontece o contrário: isso encarece as exportações, mas barateia as importações; <br><br>problemas de logística, como deficiências e altos preços nos transportes, com predomínio do rodoviário;<br><br>baixo investimento público e privado em desenvolvimento tecnológico;<br><br>insuficiente qualificação da força de trabalho;<br><br>elevada carga tributária;<br><br>barreiras tarifárias e não tarifárias impostas por outros países à importação de produtos brasileiros.",
+  "explanationImage": null,
+  "year": 2025
+}

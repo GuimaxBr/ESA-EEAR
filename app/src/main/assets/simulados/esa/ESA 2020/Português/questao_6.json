@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2020) Assinale a opção em que há <b>erro</b> de acentuação gráfica.",
+  "questionImage": null,
+  "options": [
+    "raízes, sóis.",
+    "mágoa, tênue.",
+    "crisântemo, ônix.",
+    "caquí, caríjos.",
+    "fórceps, têxtil"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "A) Correto. “Raízes” está devidamente acentuada por causa do hiato. Já “sóis” é acentuada por causa da regra de paroxítona terminada em “-is”.<br><br>B) Correto. Ambas as palavras estão devidamente acentuadas, porque são paroxítonas terminadas em ditongo crescente.<br><br>C) Correto. “Crisântemo” é proparoxítona (toda proparoxítona é acentuada). E “ônix” é paroxítona terminada em “-x”. <br><br>D) Incorreto. O correto é “carijós”, porque no caso é uma oxítona terminada em vogal aberta e tônica.<br><br>E) Correto. Ambas as palavras estão devidamente acentuadas, porque são paroxítonas terminadas em “-ps” e “-l”.",
+  "explanationImage": null,
+  "year": 2020
+}

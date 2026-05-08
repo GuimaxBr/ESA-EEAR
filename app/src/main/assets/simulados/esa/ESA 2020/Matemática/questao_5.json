@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2020) A solução da inequação |3x-10 | ≤ 2x é dada por:",
+  "questionImage": null,
+  "options": [
+    "S={x € R | x ≤ 10}.",
+    "S=Ø.",
+    "S={x € R | 2≤×≤ 10}.",
+    "S={x € R | × ≥ 2}.",
+    "S={x € R | x ≤20 ou x ≥ 10}."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_5_explicacao.jpeg",
+  "year": 2020
+}

@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2022) No Rancho de uma unidade militar há a opção de três pratos de proteína (frango, bife e ovo), três pratos de acompanhamento (farofa, arroz e macarrão) e dois pratos de sobremesa (doce de leite e gelatina). Os militares devem pegar apenas um item de cada prato. Desta forma, podem-se montar quantos tipos de refeições distintas?",
+  "questionImage": null,
+  "options": [
+    "10",
+    "12",
+    "14",
+    "16",
+    "18"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "Dos três pratos de proteína, escolhemos 1:<br>3 possibilidades.<br><br>Dos três pratos de acompanhamento, escolhemos 1:<br>3 possibilidades.<br><br>Dos dois pratos de sobremesa, escolhemos 1:<br>2 possibilidades.<br><br>Pelo princípio multiplicativo, a quantidade de maneiras de montar as refeições é:<br><br>3 × 3 × 2 = 18",
+  "explanationImage": null,
+  "year": 2022
+}

@@ -1,0 +1,23 @@
+{
+  "id": 8,
+  "text": "(ESA 2018) Marque a alternativa em que o sinal indicativo da crase foi empregado de acordo com a norma culta da língua portuguesa:",
+  "questionImage": null,
+  "options": [
+    "Ela irá embora daqui à quinze minutos.",
+    "Iremos àquela reunião após o almoço",
+    "Pedi à ela que tivesse calma.",
+    "Ele não fica próximo à pessoas que falam demais.",
+    "Após a gravidez, começou à praticar ioga."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "Haverá crase diante do pronome “aquela” sempre que o termo regente exigir a preposição \"a\". Neste caso, o verbo “ir” é regido pela preposição “a”, por isso, há a junção da preposição ao “a” inicial do pronome “aquela”: “àquela”.",
+  "year": 2018
+}

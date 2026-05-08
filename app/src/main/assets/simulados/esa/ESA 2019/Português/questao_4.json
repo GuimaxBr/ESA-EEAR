@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2019) Na oração: &quot;Conheci, <u><b>pois,</b></u> Ari Ferreira, quando comecei a trabalhar em Clínica Médica, <u><b>portanto</b></u> em 1924&quot;, os termos sublinhados, ambos, têm função morfológica de:",
+  "questionImage": null,
+  "options": [
+    "conjunções aditivas",
+    "conjunções conclusivas",
+    "conjunções adversativas",
+    "conjunções explicativas.",
+    "conjunções alternativas"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "A) Incorreta. Conjunções aditivas indicam soma ou acréscimo de ideias, como “e”, “nem”, “bem como”. As expressões destacadas não somam informações, mas introduzem uma consequência lógica do que foi dito anteriormente.<br><br>B) Correta. Tanto \"pois\" (posposto ao verbo) quanto \"portanto\" são conjunções coordenativas conclusivas, ligando orações de sentido independente e exprimindo a ideia de conclusão, equivalente a “logo” ou “por conseguinte”. No trecho, “pois” confirma a consequência do que se afirmou antes, e “portanto” reforça essa conclusão, mantendo a coesão lógica do enunciado.<br><br>C) Incorreta. Conjunções adversativas expressam contraste, oposição ou compensação de ideias, como “mas”, “porém”, “todavia”, “contudo”. As palavras destacadas não estabelecem contraste, mas consequência.<br><br>D) Incorreta. Conjunções explicativas introduzem uma justificativa ou explicação para a oração anterior, como “porque”, “que”, “porquanto”. No trecho, “pois” e “portanto” não explicam, mas concluem a ideia, sendo, portanto, conclusivas.<br><br>E) Incorreta. Conjunções alternativas indicam alternância ou escolha, como “ou... ou”, “quer... quer”, “ora... ora”, “já... já”. O período não apresenta relação de alternância, e sim de conclusão.",
+  "explanationImage": null,
+  "year": 2019
+}

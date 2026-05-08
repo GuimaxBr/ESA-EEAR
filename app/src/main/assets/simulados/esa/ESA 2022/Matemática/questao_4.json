@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2022) Em um exercício militar, uma Companhia de Engenharia deve construir uma ponte para ligar as margens paralelas de um rio. Para isso, o Cap Delta, engenheiro militar responsável pela missão, fixou um ponto A na margem do rio em que estava, e um ponto B na margem oposta, de forma que AB fosse perpendicular às margens do rio. Para determinar o comprimento da ponte a partir do ponto A, o Cap Delta caminhou 50 metros paralelamente à margem até o ponto C e mediu o ângulo 𝐴CB, obtendo 60°. Considerando √3=1,7. Marque a alternativa que apresenta o comprimento da ponte que deverá ser construída para o exercício.",
+  "questionImage": "questao_4_enunciado.jpeg",
+  "options": [
+    "25 metros",
+    "42,5 metros",
+    "50 metros",
+    "85 metros",
+    "100 metros"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "MATEMÁTICA",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.png",
+  "year": 2022
+}

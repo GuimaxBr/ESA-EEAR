@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2023) Marque a alternativa que apresenta desvio de concordância.",
+  "questionImage": null,
+  "options": [
+    "A maioria dos candidatos se preparou para o certame.",
+    "Eram nove horas quando os portões se abriram.",
+    "Ler e escrever é fundamental para os estudos.",
+    "O candidato, com os pais, viajou cedo.",
+    "Podem haver tumultos, caso haja atraso."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "(A) Correta. Esta frase está correta quanto à concordância verbal. O sujeito \"a maioria dos candidatos\" concorda com o verbo no singular \"se preparou\", que também poderia estar no plural, por se tratar de uma concordância com expressão partitiva.<br> <br>(B) Correta. \"Eram nove horas\" é uma expressão temporal que corretamente usa o verbo \"ser\" no plural para concordar o numeral “nove”, indicador de hora.<br><br>(C) Correta. A expressão \"Ler e escrever\" é tratada como um sujeito composto com sentido de uma única entidade ou atividade conjunta, portanto, o verbo \"é\" no singular está correto ao enfatizar a unidade dessas ações como fundamental.<br><br>(D) Correta. Esta frase está correta. O sujeito da frase é \"O candidato\", e o verbo \"viajou\" está corretamente conjugado no singular. A expressão \"com os pais\" não afeta a concordância do verbo.<br><br>(E) Incorreta. Esta alternativa apresenta um erro de concordância verbal. O verbo haver, quando usado no sentido de existir, deve ficar no singular. A forma correta seria \"Pode haver tumultos\".",
+  "explanationImage": null,
+  "year": 2023
+}

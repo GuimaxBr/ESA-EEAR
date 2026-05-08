@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2017) Se log x representa o logaritmo na base 10 de x, então o valor de k ∈ (0,+∞), tal que log k = 10 - log5 é:",
+  "questionImage": null,
+  "options": [
+    "10⁹",
+    "5.10⁹",
+    "10¹⁰",
+    "2.10⁹",
+    "5.10¹⁰"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_1_explicacao.png",
+  "year": 2017
+}

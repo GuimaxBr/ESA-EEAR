@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2024) A No primeiro ano do Curso de Formação e Graduação de Sargentos (CFGS), os alunos são distribuídos entre as 13 (treze) Unidades Escolares Tecnológicas do Exército (UETE), supervisionadas pela ESA, localizadas de norte a sul do território nacional conforme figura ao lado. <br> <br> <br>O aluno, ao se instalar em uma das UETE, estará inserido, conforme a classificação climática do IBGE (base na medição sistemática da temperatura e nos índices pluviométricos em estações meteorológicas), no seguinte clima zonal:",
+  "questionImage": "questao_8_enunciado.png",
+  "options": [
+    "20° RCB (Campo Grande - MS) no clima zonal Equatorial.",
+    "23° BI (Blumenau - SC) no clima zonal Tropical (sul oriental).",
+    "23° BC (Fortaleza - CE) no clima zonal Tropical (zona equatorial).",
+    "16° BIMTZ (Natal - RN) no clima zonal Tropical (nordeste ocidental).",
+    "41° BIMTZ (Jataí - GO) no clima zonal Temperado."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta: Campo Grande está localizada no estado de Mato Grosso do Sul, uma área tipicamente enquadrada no clima tropical com duas estações bem definidas: seca e chuvosa. Dessa forma, se encontra na zona tropical do Brasil Central<br><br>(B) Incorreta:  Essa alternativa está errada por completo. Blumenau está localizada no estado de Santa Catarina, na região Sul do Brasil, e não pertence à zona tropical. Seu clima é o subtropical úmido, com quatro estações bem definidas e influência de massas de ar frias, como a Massa Polar Atlântica. Assim, essa cidade se encontra no clima zonal temperado.<br><br>(C) Correta: Fortaleza está situada em uma área de clima tropical típico, com temperaturas elevadas durante o ano inteiro e estação chuvosa no primeiro semestre. Sua localização próxima à linha do Equador e a atuação da Zona de Convergência Intertropical (ZCIT) justificam a classificação dentro do clima tropical da zona equatorial, segundo as divisões utilizadas pelo IBGE.<br><br>(D) Incorreta: Natal, localizada no litoral do Rio Grande do Norte, pertence ao clima tropical úmido com forte influência de ventos alísios do Atlântico - ou seja, mais ligado ao setor oriental do Nordeste, e não “ocidental”. A porção nordeste ocidental costuma referir-se à faixa que vai do Maranhão ao oeste da Bahia, mais próxima ao interior.<br><br>(E) Incorreta: Jataí localiza-se em Goiás, região de clima tropical típico, com verões chuvosos e invernos secos. O clima temperado, segundo o IBGE, é restrito às regiões de maior latitude do Brasil, como o sul do país (especialmente parte do RS, SC e PR).<br><br>Atenção: Esse conteúdo aparece apenas uma vez nos livros do edital: um mapa que o SENE nem comenta, apenas “lança” no livro. Pois é, a ESA apelou aqui. A seguir o mapa em questão:",
+  "explanationImage": "questao_8_explicacao.png",
+  "year": 2024
+}

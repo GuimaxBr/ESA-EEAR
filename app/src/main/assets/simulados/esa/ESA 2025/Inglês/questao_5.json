@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2025) Read the text about a military briefing and choose the <b>false</b> statement. <br> <br>Now the platoon commander of No 3 Platoon is briefing his section commanders: <br>‘Pay attention and take notes. The Company Commander is not happy with the standard of map reading. So, next Tuesday, 26th October, the whole platoon is going out on a 24-hour exercise, Exercise &quot;Hot Foot&quot;. The aim of the exercise is to give the platoon practice in compass marching across country. You will move by day and night. The dress for the exercise will be fighting order. You will not carry weapons and ammunition. You are to draw combat rations for your sections from the stores. Do this at 1600 hours on Monday 25th October. Individuals will be responsible for their own meals during the exercise. Each man is to take a protractor, a compass, map sheet 175, map-case, torch and chinagraph pencils. You are responsible for checking this. The platoon is to parade outside the guardroom at 0730 hours on Tuesday 26th October. We shall travel to the exercise area by 4-tonner but we shall march back to camp. Estimated time of return to camp will be 1030 hours on Wednesday 27th October. Make sure you brief your sections. Right, that&#x27;s all. Any questions?’",
+  "questionImage": null,
+  "options": [
+    "The platoon will carry out the activity unarmed.",
+    "The platoon will retrieve their food prior to the exercise.",
+    "The platoon will measure angles during the exercise.",
+    "The platoon will perform the exercise both in daylight and at nighttime.",
+    "The platoon will return to camp on a military vehicle."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Inglês",
+  "explanation": "(A) Correta.<br>Está explícito no trecho: “You will not carry weapons and ammunition.” Portanto, o exercício será realizado sem armamento, focando na técnica de navegação, e não em combate.<br><br>(B) Correta.<br>O texto determina: “Do this at 1600 hours on Monday 25th October.”<br>Isso mostra que a retirada das rações de combate (combat rations) deve ser feita antes do início da atividade, garantindo que cada seção esteja abastecida para o exercício de 24 horas.<br><br>(C) Correta.<br>A instrução “Each man is to take a protractor…” confirma isso.<br>O protractor (transferidor) é instrumento de medição de ângulos, essencial na leitura de mapas e uso de bússolas, reforçando o foco do exercício em map reading e orientation skills.<br><br>(D) Correta.<br>O texto afirma: “You will move by day and night.” Isso indica claramente que o exercício ocorrerá tanto durante o dia quanto à noite<br><br>(E) Falsa.<br>O texto diz: “We shall travel to the exercise area by 4-tonner but we shall march back to camp.”<br>Ou seja, eles irão até o local de caminhão (4-tonner), mas o retorno será feito marchando, a pé.<br>O erro da afirmativa está em sugerir que o retorno também seria de veículo, o que contradiz diretamente a ordem do comandante.",
+  "explanationImage": null,
+  "year": 2025
+}

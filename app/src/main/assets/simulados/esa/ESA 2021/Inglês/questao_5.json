@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2021) Which option has one word out of context?",
+  "questionImage": null,
+  "options": [
+    "shorts - sneakers - swimsuit - cap - T-shirt - skirt.",
+    "short - tall - good-looking - pretty - heavy - thin.",
+    "friendly - serious - funny - nice - smart - shy.",
+    "Brazilian - Russian - New Yorker - France - Spanish - English.",
+    "China - Mexico - Germany - Turkey - India - United Kingdom."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Inglês",
+  "explanation": "A) Incorreto. Todos os itens são peças de roupa ou acessórios usados no corpo, geralmente no contexto de vestir-se: shorts, sneakers (tênis), swimsuit (maiô), cap (boné), T-shirt e skirt. Estão todos no mesmo campo semântico. Nenhuma palavra está fora de contexto.<br><br>B) Incorreto. Todos os termos descrevem características físicas ou de aparência: short (baixo), tall (alto), good-looking (bonito), pretty (bonita), heavy (pesado) e thin (magro). A coerência é mantida.<br><br>C) Incorreto. A lista é composta por adjetivos que descrevem traços de personalidade ou comportamento: friendly, serious, funny, nice, smart e shy. Todos coerentes entre si.<br><br>D) Correto. A maioria dos termos são adjetivos de nacionalidade ou relacionados a origem: Brazilian, Russian, New Yorker, Spanish, English. No entanto, France é um substantivo (nome de país), enquanto os outros são adjetivos ou gentílicos. Isso quebra a lógica do grupo e torna a palavra France fora de contexto.<br><br>E) Incorreto. Todos os termos são nomes de países: China, Mexico, Germany, Turkey, India e United Kingdom. O padrão está coerente.",
+  "explanationImage": null,
+  "year": 2021
+}

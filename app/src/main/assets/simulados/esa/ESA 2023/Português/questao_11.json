@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2023) A partir do <b>texto V</b>, leia as assertivas abaixo e depois responda: <br> <br>I. A tirinha mostra uma ideia de linha do tempo da evolução da comunicação. <br>II. A ironia do texto está no último personagem que se assemelha ao primeiro, <br>embora esteja com um artefato tecnológico moderno em mãos. <br>III. Ao lermos a tirinha, podemos inferir que o homem evoluiu na mesma <br>medida da tecnologia.<br>Diante dos dados, marque o item <u><b>correto</b></u>:",
+  "questionImage": "questao_11_enunciado.jpeg",
+  "options": [
+    "Apenas a assertiva I está correta.",
+    "Apenas a assertiva III está correta.",
+    "Estão corretas as assertivas I e II.",
+    "Estão corretas as assertivas I e III.",
+    "Todas as assertivas estão corretas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "GABARITO: ALTERNATIVA C<br><br>I. A tirinha mostra uma ideia de linha do tempo da evolução da comunicação, a partir do início “Primeira palavra escrita” até redes sociais contemporâneas, como o twitter.<br><br>II. A ironia do texto está no último personagem que se assemelha ao primeiro, embora esteja com um artefato tecnológico moderno em mãos. É exatamente isso que acontece, após uma sequência de personagens com estereótipos diferentes.<br><br>III. Ao lermos a tirinha, não é possível inferir que o homem evoluiu na mesma medida da tecnologia.",
+  "explanationImage": null,
+  "year": 2023
+}

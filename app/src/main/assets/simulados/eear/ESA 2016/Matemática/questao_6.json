@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "text": "(ESA 2016) Sendo n um número natural, n! equivale a n.(n - 1).(n - 2). ... .2.1 e ainda 0! = 1 e 1! = 1, então identifique a afirmativa verdadeira.",
+  "questionImage": null,
+  "options": [
+    "5! = 120",
+    "4! = 10",
+    "3! = 7",
+    "2! = 3",
+    "6! = 600"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "5! = 5.4.3.2.1 = 120.",
+  "year": 2016
+}

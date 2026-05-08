@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "text": "(ESA 2018) Dentre as opções abaixo, a correta ordem crescente da oferta interna de energia por fonte no Brasil é:",
+  "questionImage": null,
+  "options": [
+    "hidráulica; biomassa; carvão mineral.",
+    "derivados de cana-de-açúcar; carvão mineral e hidráulica.",
+    "petróleo, gás e derivados; nuclear.",
+    "hidráulica; petróleo, gás e derivados; nuclear",
+    "carvão mineral; hidráulica; petróleo, gás e derivados."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Geografia",
+  "explanation": "A) Incorreta: A energia hidráulica tem uma participação muito maior do que a biomassa e o carvão mineral na matriz energética brasileira. O carvão mineral tem uma participação reduzida na oferta interna de energia, sendo usado principalmente para a geração térmica. A biomassa, por sua vez, tem mais peso na matriz energética do Brasil do que o carvão.<br><br>B) Incorreta: Os compostos de cana-de-açúcar (biomassa) possuem uma grande participação na matriz energética, superior à do carvão mineral, mas menor que a da energia hidráulica. No entanto, a posição do carvão mineral na sequência está incorreta, pois sua contribuição é menor que a dos biocombustíveis.<br><br>C) Incorreta: A energia hidráulica é a principal fonte da matriz energética brasileira, com uma participação muito maior do que o petróleo e suas derivadas quando se trata de geração de eletricidade. Além disso, a biomassa aparece em menor escala na matriz, mas ainda tem uma presença significativa.<br><br>D) Incorreta: A energia hidráulica representa uma das maiores parcelas da matriz energética brasileira, mas os combustíveis fósseis (petróleo e gás) ainda são a principal fonte de energia no país quando se considera a matriz total (não apenas a eletricidade). A energia nuclear, por sua vez, representa uma fatia muito pequena e não se encaixa na sequência correta. <br><br>E)  Correta: A ordem crescente da oferta de energia no Brasil é a seguinte:<br><br>Carvão mineral - Fonte de energia pouco utilizada no Brasil, representando uma parcela pequena da matriz energética nacional.<br><br>Hidráulica - Principal fonte de energia elétrica do Brasil, responsável por uma grande parte da geração de eletricidade.<br><br>Petróleo, gás e derivados - Apesar de a geração elétrica no Brasil ser predominantemente hidráulica, o petróleo e seus derivados são a principal fonte na matriz energética total, pois são amplamente utilizados no setor de transportes.",
+  "year": 2018
+}

@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2021) Qual é a posição do ponto P(5, 3) em relação à circunferência de centro C(3, 1) e raio igual a 5 unidades?",
+  "questionImage": null,
+  "options": [
+    "Externo.",
+    "Interno, não coincidente com o centro.",
+    "Pertence à circunferência.",
+    "Coincidente com o centro.",
+    "Excêntrico."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_5_explicacao.png",
+  "year": 2021
+}

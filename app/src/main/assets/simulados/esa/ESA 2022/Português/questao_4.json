@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2022) Sobre as questões da linguagem presente no TEXTO I, assinale a alternativa correta:",
+  "questionImage": "questao_4_enunciado.jpeg",
+  "options": [
+    "As palavras que aparecem em volta da personagem nos quadrinhos revelam a diferença da linguagem utilizada na escrita e na fala.",
+    "A personagem utiliza línguas diferentes em cada quadrinho.",
+    "No segundo quadrinho a personagem utiliza a língua padrão.",
+    "Não há variações linguísticas no TEXTO I.",
+    "No primeiro quadrinho a personagem utiliza uma linguagem informal."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "(A) Correta - gabarito. No primeiro quadrinho, a personagem se expressa de forma mais rebuscada. Já a personagem do segundo quadrinho usa linguagem informal.<br> <br>(B) Incorreta. Em ambos os quadrinhos, as personagens falam Língua Portuguesa.<br><br>(C) Incorreta. É o contrário: é a personagem do primeiro quadrinho.<br><br>(D) Incorreta. A personagem no primeiro quadrinho emprega a norma culta da Língua Portuguesa, já a personagem do segundo quadrinho utiliza formas mais despojadas, havendo algumas gírias. No caso, existe variação situacional (o contexto delimita o tipo de situação).<br><br>(E) Incorreta. É o contrário: é o personagem do segundo quadrinho.",
+  "explanationImage": null,
+  "year": 2022
+}

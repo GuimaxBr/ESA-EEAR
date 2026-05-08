@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2022) The plural form of the sentence “the thief is threatening the child with a knife” is:",
+  "questionImage": null,
+  "options": [
+    "The thiefs are threatening the childs with knives.",
+    "The thieves are threatening the childs with knives.",
+    "The thieves are threatening the children with knives.",
+    "The thiefs are threatening the children with knives.",
+    "The thieves is threatening the children with knives."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) The thiefs are threatening the childs with knives.<br>“thiefs”  (erro de plural: correto = thieves)<br>“childs”  (erro de plural: correto = children)<br> <br>(B) The thieves are threatening the childs with knives. <br>“thieves”  (correto)<br>“childs” (erro: deveria ser children)<br><br>(C) The thieves are threatening the children with knives. <br>“thieves”  plural correto de thief<br>“are threatning”  verbo no plural<br>“children”  plural irregular de child<br>“knives”  plural irregular de knife<br> Correta!<br><br>(D) The thiefs are threatening the children with knives. <br>“thiefs”  (erro: deveria ser thieves)<br>“children” ️<br><br>(E) The thieves is threatening the children with knives. <br>“thieves” <br>“is threatening”  (erro de concordância: plural → are threatening)",
+  "explanationImage": null,
+  "year": 2022
+}

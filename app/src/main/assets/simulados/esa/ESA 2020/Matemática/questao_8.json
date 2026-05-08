@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2020) A água utilizada em uma residência é captada e bombeada do rio para uma caixa d&#x27;água localizada a 60 m de distância da bomba. Os ângulos formados pelas direções bomba - caixa d&#x27;água - residência é de 60° e residência - bomba - caixa d&#x27;água é de 75°, conforme mostra a figura abaixo. Para bombear água do mesmo ponto de captação, diretamente para a residência, quantos metros de tubulação são necessários? Use = √6 = 2,4",
+  "questionImage": "questao_8_enunciado.jpeg",
+  "options": [
+    "12,5 metros",
+    "72 metros",
+    "35,29 metros",
+    "21,25 metros",
+    "28 metros"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.jpeg",
+  "year": 2020
+}

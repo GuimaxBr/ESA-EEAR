@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2018) O Governo Castelo Branco buscou resolver os desequilíbrios econômicos dos governos anteriores por meio do PAEG. São ações desse governo, <b>EXCETO</b> :",
+  "questionImage": null,
+  "options": [
+    "Construção de Itaipu",
+    "Banco Central do Brasil",
+    "Fundo de Garantia por tempo de Serviço",
+    "Conselho Monetário Nacional",
+    "Banco Nacional de Habitação"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "História",
+  "explanation": "A) Incorreta. A construção da Usina Hidrelétrica de Itaipu só começou na década de 1970, durante o governo do general Emílio Garrastazu Médici, e foi concluída nos anos 1980.<br><br>B) Correta. Criado pelo governo Castelo Branco em 1964, o Banco Central do Brasil passou a regular a política monetária do país.<br><br>C) Correta. O FGTS foi criado em 1966 para substituir a estabilidade no emprego, garantindo um fundo aos trabalhadores demitidos.<br><br>D) Correta. O Conselho Monetário Nacional (CMN) foi criado em 1964 para formular a política econômica e financeira do país.<br><br>E) Correta. O BNH foi criado em 1964 para financiar moradias populares e integrar políticas habitacionais.",
+  "explanationImage": null,
+  "year": 2018
+}

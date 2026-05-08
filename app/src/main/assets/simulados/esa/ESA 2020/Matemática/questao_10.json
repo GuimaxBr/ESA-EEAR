@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2020) Dado o polinômio p(x) = 4x⁴ + 3x⁵  - 5x + x² + 2. Analise as informações a seguir. <br>I. O grau do p(x) é de 5. <br>II. O coeficiente de x³  é zero. <br>III. O valor numérico de p(x) para x = -1 é 9. <br>IV. Um polinômio q(x) é igual a p(x) se, e somente se, possui mesmo grau de p(x) e os coeficientes iguais. <br>É <b>correto</b> o que se afirma em:",
+  "questionImage": null,
+  "options": [
+    "I, II e III apenas.",
+    "II, III e IV apenas.",
+    "I, II, III e IV.",
+    "I e II apenas.",
+    "III e IV apenas"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "P(x) = 3x⁵ + 4x⁴ +  x² - 5x + 2<br><br>I. O maior expoente é 5, logo grau 5. Verdadeiro<br><br>II. Não possui termo cúbico logo é nulo. Verdadeiro<br><br>III. P(-1) = 3 . (-1) ⁵  + 4(-1) ⁴  + (-1) ²  -  5(-1) + 2<br>    P(-1) = - 3 + 4 + 1 + 5 + 2 <br>    P(-1) = 9        Verdadeiro<br><br>IV. Dois polinômios são iguais, e somente se, os coeficientes de q e p forem iguais. Falso",
+  "explanationImage": null,
+  "year": 2020
+}

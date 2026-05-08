@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2023) Observando o Texto IV, pode-se afirmar que:",
+  "questionImage": "questao_2_enunciado.jpeg",
+  "options": [
+    "Possui a mesma métrica em todo o texto.",
+    "Faz referências claras à ideia de nação colonizada.",
+    "Identificam-se as seguintes figuras de linguagem: anáfora, hipérbato, assonância e aliteração.",
+    "Possui linguagem simples e acessível para a maioria da população brasileira.",
+    "Os sentimentos de perda e dor são exaltados."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Literatura",
+  "explanation": "(C) Correta - gabarito. Entre as figuras de linguagem exploradas nesse poema, estão a anáfora (repetição no início do verso), a partir da palavra “salve” nos dois primeiros versos; hipérbato (inversão da ordem direta), por exemplo, nos seguintes versos: “Contemplando o teu vulto sagrado /Compreendemos o nosso dever”; aliteração (repetição de consoantes), já desde os primeiros versos: “Salve, lindo pendão da esperança, “Salve, símbolo augusto da paz!” (repetição da letra “s” e até das letra “z” e “ç”, com a mesma fonética); e assonância (repetição de vogal com a mesma fonética), como é o caso da repetição da letra “i” com acento agudo em “símbolo” e “puríssimo”.",
+  "explanationImage": null,
+  "year": 2023
+}

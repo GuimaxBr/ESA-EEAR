@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2025) Sabendo-se que x é um número inteiro positivo e par e y é um número inteiro positivo e ímpar, analise as assertivas abaixo: <br> <br>I - 𝑥+𝑦 é um número ímpar. <br>II - 2𝑥+3𝑦 é um número ímpar. <br>III - 3𝑥+2𝑦 é um número ímpar. <br>IV - (𝑥-𝑦)² é um número ímpar. <br>Após analisar as assertivas, marque a alternativa <u><b>correta:</b></u>",
+  "questionImage": null,
+  "options": [
+    "Todas as assertivas estão corretas.",
+    "Somente II e III estão corretas.",
+    "Somente I, II e IV estão corretas.",
+    "Somente I e II estão corretas.",
+    "Somente II e IV estão corretas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "Como x é par e y é ímpar, podemos escrevê-los como x = 2p e y = 2q + 1, com p, q naturais. <br><br>I. Verdadeira. Veja que x + y = 2p + 2q + 1 = 2(p + q) + 1, ou seja, um número ímpar.<br><br>II. Verdadeira. Veja que 2x + 3y = 2 ⋅ 2p + 3 ⋅ (2q + 1) = 4p + 6q + 2 + 1 = 2(2p + 3q + 1) + 1, ou seja, um número ímpar.<br><br>III. Falsa. Veja que 3x + 2y = 3 ⋅ 2p + 2 ⋅ (2q + 1) = 2(3p + 2q + 1), ou seja, um número par.<br><br>IV. Verdadeira. Veja que (x - y)² = (2p - 2q - 1)² = (2p - 2q)² - 2 ⋅ (2p - 2q) + 1 = 2[2(p - q)² - (2p - 2q)] + 1, ou seja, um número ímpar.",
+  "explanationImage": null,
+  "year": 2025
+}

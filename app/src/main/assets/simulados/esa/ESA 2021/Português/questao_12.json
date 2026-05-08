@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "text": "(ESA 2021) Assinale a alternativa em que os vocábulos obedecem às mesmas regras de acentuação gráfica das palavras “temática” e “saúde”, respectivamente:",
+  "questionImage": null,
+  "options": [
+    "hífen, ótimo.",
+    "parabéns, mágico.",
+    "médico, conteúdo.",
+    "robótica, café.",
+    "revólver, faísca."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A) Incorreta. Hífen é acentuada pela regra das paroxítonas e ótimo pela regra das proparoxítonas.<br><br>B) Incorreta. Parabéns é acentuada pela regra das oxítonas e mágico pela regra das proparoxítonas.<br><br>C) Correta. Médico é acentuada por ser uma proparoxítona e toda proparoxítona é acentuada e “conteúdo” é acentuada por ter uma vogal ‘u’ tônica formando hiato com a sílaba anterior, assim como ocorre com as palavras em destaque no enunciado.<br><br>D) Incorreta. Robótica é acentuada pela regra das proparoxítonas, enquanto café é acentuada pela regra das oxítonas.<br><br>E) Incorreta. Revólver é acentuada pela regra das paroxítonas e faísca é acentuada pela regra do ‘i’ tônico seguido de s na mesma sílaba formando hiato com a sílaba anterior.",
+  "explanationImage": null,
+  "year": 2021
+}

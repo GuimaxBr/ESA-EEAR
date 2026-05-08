@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "text": "(ESA 2017) Sobre a chamada União Ibérica, podemos afirmar que:",
+  "questionImage": null,
+  "options": [
+    "Como consequência desse período, a Espanha passou a ser um adversário econômico de Portugal.",
+    "Como consequência desse período, os territórios antes dominados por Portugal passaram a ter como língua oficial o Espanhol.",
+    "Período entre 1580 e 1640 em que o Rei de Portugal, Filipe II, passou também a ser Rei da Espanha.",
+    "Período entre 1580 e 1640 em que o Rei da Espanha, Filipe II, passou também a ser Rei de Portugal.",
+    "Como consequência desse período, a França invade o território brasileiro em sua porção nordeste, a partir de 1624."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "História",
+  "explanation": "Período entre 1580 e 1640 em que o Rei de Espanha, Filipe II, passou também a ser o Rei de Portugal, dando origem ao período denominado União Ibérica pois as duas coroas da península Ibérica estavam concentradas em um só rei.",
+  "year": 2017
+}

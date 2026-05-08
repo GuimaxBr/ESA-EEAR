@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "text": "(ESA 2016) Assinale a alternativa em que a concordância foi efetuada conforme a norma padrão.",
+  "questionImage": null,
+  "options": [
+    "<b>Devem haver </b>outras formas de executar a missão.",
+    "Queria voltar a estudar, mas <b>faltava</b>-lhe recursos.",
+    "Não se <b>admi</b><b>tirá</b> exceções.",
+    "<b>Basta</b>-lhe duas ou três oportunidades para vencer.",
+    "<b>Fazi</b><b>a</b> dez anos que ele não vinha a São Paulo."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "O verbo “fazer” no sentido de tempo decorrido é impessoal, devendo ficar sempre na terceira pessoa do singular.",
+  "year": 2016
+}

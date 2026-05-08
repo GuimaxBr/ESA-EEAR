@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2018) Depois da invasão de Portugal pelas tropas napoleônicas, que colocou os portos portugueses sob controle francês, D. João determinou a abertura dos portos brasileiros. Essa medida tinha por objetivo",
+  "questionImage": null,
+  "options": [
+    "Permitir o comércio do Brasil com a França.",
+    "Recriar o pacto colonial.",
+    "Diminuir o poderio dos comerciantes ingleses no Brasil.",
+    "Atender às necessidades de comércio da Corte no Brasil.",
+    "Estimular a produção de navios no Brasil Colonial."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "História",
+  "explanation": "A) Incorreta. França estava em guerra com Portugal devido à invasão napoleônica, e o comércio com os franceses não foi incentivado.<br><br>B) Incorreta. O pacto colonial, que restringia o comércio do Brasil apenas a Portugal, foi rompido com a abertura dos portos.<br><br>C) Incorreta. Pelo contrário, a medida favoreceu os ingleses, que passaram a ter vantagens comerciais no Brasil, especialmente após os tratados de 1810.<br><br>D) Correta. Com a transferência da Corte portuguesa para o Brasil, tornou-se essencial permitir um fluxo maior de mercadorias e suprimentos para atender às demandas da nova sede do Império.<br><br>E) Incorreta. A medida não tinha relação com a indústria naval brasileira, mas sim com a abertura do comércio exterior.",
+  "explanationImage": null,
+  "year": 2018
+}

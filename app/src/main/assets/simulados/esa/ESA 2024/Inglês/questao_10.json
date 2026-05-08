@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2024) Read the sentence: <br> <br>&quot;The soldiers are marching as if their lives depend on it.&quot; <br> <br>Identify the modal verb in the phrase “as if their lives depend on it”.",
+  "questionImage": null,
+  "options": [
+    "lives",
+    "as",
+    "their",
+    "on",
+    "None of the above"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Inglês",
+  "explanation": "(A) ERRADA. A palavra “lives” é um substantivo plural (plural de life, vida). Na frase, “their lives” significa “as vidas deles”. Como substantivo, “lives” não pode ser um verbo, muito menos um verbo modal.<br><br>(B) ERRADA. “As” é uma conjunção aqui, usada como parte da locução “as if” (como se). Essa expressão introduz uma situação imaginária ou hipotética. Embora \"as if\" possa ocorrer com verbos modais em alguns contextos, a própria palavra “as” não é verbo e muito menos um verbo modal.<br><br>(C) ERRADA. Their” é um adjetivo possessivo que indica posse: “their lives” = “as vidas deles”. Assim como os outros possessivos (my, your, his, her, etc.), “their” acompanha um substantivo (lives) e não é, de forma alguma, um verbo, muito menos um modal verb.<br><br>(D) ERRADA. “On” é uma preposição. Ela indica relação entre termos, e aqui faz parte da locução “depend on” (depender de). Apesar de estar ligada ao verbo “depend”, ela própria não tem função verbal, e muito menos é um verbo modal.<br><br>(E) CERTA Essa é a única correta. Nenhuma das palavras apresentadas nas opções A, B, C ou D é um verbo modal.<br><br>Na oração “as if their lives depend on it”, o único verbo presente é “depend”, mas esse é um verbo principal (regular), não um modal.<br><br>Modal verbs típicos em inglês incluem: can, could, may, might, must, shall, should, will, would. Nenhum deles aparece na frase.",
+  "explanationImage": null,
+  "year": 2024
+}

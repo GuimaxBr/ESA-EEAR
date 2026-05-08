@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "text": "(ESA 2016) Assinale a alternativa em que os vocábulos estejam acentuados pela mesma razão.",
+  "questionImage": null,
+  "options": [
+    "parabéns, álbuns",
+    "exército, jóquei",
+    "hífen, também",
+    "chapéu, herói",
+    "lápis, país"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "As palavras \"chapéu\" e \"herói\" são oxítonas acentuadas por terminarem em ditongo semiaberto.<br>A palavra “parabéns” é acentuada por ser uma oxítona terminada em “-ens”; <br>a palavra “álbuns” é acentuada por ser uma paroxítona terminada em “-uns”.<br>A palavra “exército” é acentuada ser uma proparoxítona; <br>A palavra “jóquei” é acentuada por ser uma paroxítona terminada em ditongo oral.<br>A palavra “hífen” é acentuada por ser uma paroxítona terminada em “-n”; <br>A palavra “também” é acentuada por ser uma oxítona terminada em “-em”.<br>A palavra “lápis” é acentuada por ser uma paroxítona terminada em “-i” seguido de “s”; <br>A palavra “país” é acentuada por conter o hiato do “i” tônico, isolado em uma sílaba.",
+  "year": 2016
+}

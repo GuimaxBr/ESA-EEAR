@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "Dadas as matrizes A e B. Considerando que a equação matricial A X B = B tem <b>solução única</b>, podemos afirmar que:",
+  "questionImage": "questao_7_enunciado.jpeg",
+  "options": [
+    "k ≠ ± 1",
+    "k ≠ ± 2",
+    "k ≠ ± 4",
+    "k = ± 4",
+    "k = ± 2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_7_explicacao.jpeg",
+  "year": 2018
+}

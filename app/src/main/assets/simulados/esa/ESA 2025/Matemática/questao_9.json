@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2025) Considere a matriz real: <br>Sabendo-se que seu determinante é igual a -57 e que 𝒙 ∈ ℝ, pode-se concluir que 𝒙 é:",
+  "questionImage": "questao_9_enunciado.jpeg",
+  "options": [
+    "Um número negativo.",
+    "Um número múltiplo de 4.",
+    "Um número divisor de 9.",
+    "Um número primo.",
+    "Um número que possui 2 divisores inteiros."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_9_explicacao.jpeg",
+  "year": 2025
+}

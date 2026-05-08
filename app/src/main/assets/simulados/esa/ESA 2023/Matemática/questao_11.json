@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2023) No início do século passado, foi criado na matemática o gugol, número que inspirou o nome do famoso site de pesquisa. Sabendo que 1 gugol equivale a 10¹⁰⁰ e imaginando, hipoteticamente, um quadrado de área igual a 1 gugol, marque a alternativa que representa o valor da diagonal desse quadrado.",
+  "questionImage": null,
+  "options": [
+    "10⁵⁰√2",
+    "10⁵⁰√3",
+    "10¹⁰⁰√2",
+    "10¹⁰⁰√3",
+    "10⁵⁰∛3"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.jpeg",
+  "year": 2023
+}

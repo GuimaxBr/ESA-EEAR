@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2025) Choose the <b>correct</b> use of the infinitive or gerund to complete the dialogue. <br> <br> <br><b>NCO Academy student:</b> &quot;Good morning, Sir&quot; <br><b>Sergeant Major:</b> &quot;Why are you awake in uniform so early? Today is your day off. You can ___(sleep)___ until seven o’clock today. It’s worth ___(stay)___ in bed a little longer to recover from the exhausting week.&quot;<br><b>NCO Academy student:</b> &quot;I enjoy ___(learn)___ foreign languages, so I woke up early ___(study)___ English.&quot;<br><b>Sergeant Major:</b> I’m really proud of ___(see)___ you working so hard.",
+  "questionImage": null,
+  "options": [
+    "You can &quot;to sleep&quot; until seven o’clock.",
+    "It’s worth &quot;to stay&quot; in bed a little bit longer.",
+    "I enjoy &quot;learning&quot; foreign languages.",
+    "I woke up early &quot;learning&quot; English.",
+    "I’m really proud of &quot;to see&quot; you working hard."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) Errado.<br>Após modal verbs (como can, must, should), o verbo vem sem “to”.<br>Correto: You can sleep until seven o'clock.<br><br>(B) Errado.<br>Depois de worth, o verbo deve vir no gerúndio, não no infinitivo.<br>Correto: It's worth staying in bed a little bit longer.<br><br>(C) Correto<br>enjoy verbo de preferência pessoal, após verbo de preferência pessoal usamos o \"learning\"<br><br>(D) Errado.<br>A forma correta seria to learn English, pois para indicar propósito (motivo da ação), usa-se to + verbo (I woke up early to learn English).<br><br>(E) Errado.<br>Após a expressão proud of, usa-se gerúndio (verb + ing), não o infinitivo.<br>Correto: proud of seeing you working hard.",
+  "explanationImage": null,
+  "year": 2025
+}

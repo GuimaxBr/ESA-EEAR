@@ -1,0 +1,24 @@
+{
+  "id": 14,
+  "text": "(ESA 2021) O produto de todos os números reais que satisfazem a equação modular |3𝑥-12| = 18 é um número 𝑃. Então, o valor de 𝑃 é igual a:",
+  "questionImage": null,
+  "options": [
+    "-100",
+    "-20",
+    "-2",
+    "10",
+    "20"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "MATEMATICA",
+  "explanation": "",
+  "explanationImage": "questao_14_explicacao.jpeg",
+  "year": 2021
+}

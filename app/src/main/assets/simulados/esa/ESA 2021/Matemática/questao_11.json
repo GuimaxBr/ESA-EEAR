@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2021) Considere um triângulo retângulo ABC, retângulo em A. Sendo H o pé da altura relativa à hipotenusa e sabendo que AH = 6 cm e BH = 2 cm, o produto dos comprimentos dos catetos é igual a:",
+  "questionImage": null,
+  "options": [
+    "150 cm2",
+    "144 cm2",
+    "120 cm2",
+    "180 cm2",
+    "108 cm2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_11_explicacao.jpg",
+  "year": 2021
+}

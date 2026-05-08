@@ -1,0 +1,23 @@
+{
+  "id": 8,
+  "text": "(ESA 2017) Considere a frase: “Eduardo Ramos <b>andava,</b> após uma discussão, melancólico, já que não <b>encontrava</b> sua esposa em casa.” Os verbos em destaque são classificados respectivamente:",
+  "questionImage": null,
+  "options": [
+    "De ligação - intransitivo",
+    "De ligação - transitivo direto",
+    "Intransitivo - transitivo direto",
+    "transitivo direto - de ligação",
+    "intransitivo - transitivo direto"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "O verbo “andar”, nesse caso, é de ligação, pois denota estado. O verbo “encontrar” necessita, na frase, de um complemento e, por não exigir preposição, trata-se de um verbo transitivo direto.",
+  "year": 2017
+}

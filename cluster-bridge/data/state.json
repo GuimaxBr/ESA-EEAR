@@ -1,0 +1,15 @@
+{
+  "config": {
+    "publicBaseUrl": "http://localhost:8787",
+    "workerMaxLoadPercent": 50,
+    "chunkSizeBytes": 262144,
+    "staleLeaseMs": 30000,
+    "workerOfflineMs": 15000,
+    "workerPollMs": 1500,
+    "maxConcurrentChunksPerDevice": 1,
+    "updatedAt": "2026-04-11T22:17:24.072Z"
+  },
+  "devices": {},
+  "jobs": {},
+  "events": []
+}

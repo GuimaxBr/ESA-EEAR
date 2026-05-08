@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2022) Sobre o TEXTO I, analise as assertivas<br>I. O texto é composto por linguagem verbal e não-verbal. <br>II. A vestimenta da personagem não tem relação com a linguagem utilizada por ela. <br>III. A vestimenta da personagem em cada quadrinho está relacionada à linguagem utilizada por ela. <br> <br>Marque a alternativa correta.",
+  "questionImage": "questao_3_enunciado.png",
+  "options": [
+    "Todas estão corretas.",
+    "Apenas a assertiva I está correta.",
+    "Estão corretas as assertivas I e III.",
+    "Apenas a assertiva III está correta.",
+    "Todas estão incorretas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "Afirmação I: correta. O texto é híbrido, pois tem mistura de linguagem verbal e não verbal.<br>Afirmação II: incorreta. A vestimenta é importante, sim, na diferenciação. <br>Afirmação III: correta. No primeiro quadrinho, a personagem aparece com um monóloco, um bigode e a sua boca está fazendo um biquinho, o que são sinais de requinte. Já no segundo quadrinho, a personagem aparece uma roupa mais casual. As vestimentas também se relacionam ao registro de linguagem empregado: formal e informal, respectivamente.<br>Sequência correta: estão corretas as assertivas I e III.<br>Gabarito: C.",
+  "explanationImage": null,
+  "year": 2022
+}

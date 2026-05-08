@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2017) Em “Mas compreendi, num <b>lampejo.”</b>, a palavra em destaque tem o sentido de:",
+  "questionImage": null,
+  "options": [
+    "cegueira",
+    "escuro breve",
+    "clarão repentino e breve",
+    "noite",
+    "abadejo"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "A expressão é sinônima a lampejo e aponta para o sentido de “Mas compreendi”. Compreensão remete à clareza.",
+  "year": 2017
+}

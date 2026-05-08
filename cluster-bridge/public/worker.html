@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cluster Worker</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page worker-page">
+      <section class="panel auth-panel">
+        <div class="eyebrow">Worker Web</div>
+        <h1>Participar do cluster</h1>
+        <p class="muted">
+          Use esta pagina apenas em dispositivos autorizados. Ela pega uma tarefa por vez e respeita o limite configurado no painel.
+        </p>
+        <form id="worker-form" class="stack">
+          <label>
+            Nome do dispositivo
+            <input id="device-name" type="text" maxlength="32" placeholder="Ex.: Celular 01" required />
+          </label>
+          <button id="connect-button" type="submit">Conectar ao cluster</button>
+        </form>
+      </section>
+
+      <section id="worker-dashboard" class="dashboard" hidden>
+        <header class="dashboard-header">
+          <div>
+            <div class="eyebrow">Worker ativo</div>
+            <h1 id="worker-title">Aguardando...</h1>
+            <p class="muted" id="worker-subtitle">Nenhuma tarefa atribuida ainda.</p>
+          </div>
+        </header>
+
+        <section class="cards-grid">
+          <article class="panel stat-card">
+            <span class="stat-label">Carga alvo</span>
+            <strong id="worker-load" class="stat-value">0%</strong>
+          </article>
+          <article class="panel stat-card">
+            <span class="stat-label">Chunks concluidos</span>
+            <strong id="worker-completed" class="stat-value">0</strong>
+          </article>
+          <article class="panel stat-card">
+            <span class="stat-label">Ultimo processamento</span>
+            <strong id="worker-last-ms" class="stat-value">0 ms</strong>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="section-title-row">
+            <div>
+              <div class="eyebrow">Status</div>
+              <h2>Execucao atual</h2>
+            </div>
+          </div>
+          <div id="worker-log" class="list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/worker.js" type="module"></script>
+  </body>
+</html>

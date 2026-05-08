@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2021) Leia um fragmento da Carta de Pero Vaz de Caminha, a seguir. (A imagem é meramente ilustrativa) <br> <br> “Nela, até agora, não pudemos saber que haja ouro, nem prata, nem coisa alguma de metal ou ferro; nem lho vimos. Porém a terra em si é de muito bons ares [...]. Porém o melhor fruto que dela se pode tirar me parece que será salvar esta gente.” <br> <br>Nesse trecho, o relato de Caminha alinha-se ao <u>projeto colonizador da Coroa Portuguesa </u>para a nova terra, pois, essencialmente,",
+  "questionImage": "questao_10_enunciado.png",
+  "options": [
+    "demarca a superioridade europeia, para enfatizar a miséria dos indígenas.",
+    "descreve a exuberância das terras, para impressionar a Coroa Portuguesa.",
+    "evidencia a ausência de trabalho dos povos autóctones (povos nativos).",
+    "informa sobre o potencial econômico e a oportunidade de conversão católica.",
+    "realça somente a possibilidade da catequese para os povos nativos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Literatura",
+  "explanation": "A carta de Pero Vaz de Caminha é um marco na literatura quinhentista de informação, vertente da literatura colonial que tinha como função descrever as terras e os povos nativos. Atente-se para o uso do verbo “informar” logo no início dessa narrativa, seguido justamente de um comentário quanto às crenças religiosas dos indígenas. Atenção: por mais que riquezas ainda não tenham sido encontradas e esse fato se encontre na negativa, é justamente essa informação que vem no início do trecho, dando destaque para a principal finalidade do colonizador europeu nas terras. Isso porque eram motivados pelo contexto histórico das grandes navegações e do mercantilismo.",
+  "explanationImage": null,
+  "year": 2021
+}

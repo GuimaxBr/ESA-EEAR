@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "text": "(ESA 2022) Os Batalhões de Inteligência Militar desenvolvem formas para o envio de mensagens secretas, sendo uma delas os códigos matemáticos que seguem os passos abaixo: <br> <br>1. O destinatário e o remetente possuem uma matriz chave C; <br>2. O destinatário recebe do remetente uma matriz P, tal que MC = P, onde M é a matriz da mensagem a ser codificada; <br>3. Cada número da matriz M corresponde a uma letra do alfabeto: 1=𝑎,2=𝑏,3=𝑐,…,23=𝑧; <br>4. Consideramos o alfabeto com 23 letras, excluindo as letras k, w e y; <br>5. O número zero corresponde ao ponto de exclamação; <br>6. A mensagem é lida, encontrando a matriz M, fazendo correspondência número/letra e ordenando as letras por linhas da matriz conforme segue: m11 m12 m13 m21 m22 m23 m31 m32 m33. <br> <br>Considere as matrizes: <br>Com base nas informações descritas, qual alternativa apresenta a mensagem enviada por meio da matriz M?",
+  "questionImage": "questao_13_enunciado.jpeg",
+  "options": [
+    "Brasil!",
+    "Território!",
+    "Pantanal!",
+    "Montanha!",
+    "Guerreiro!"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "MATEMÁTICA",
+  "explanation": "",
+  "explanationImage": "questao_13_explicacao.png",
+  "year": 2022
+}

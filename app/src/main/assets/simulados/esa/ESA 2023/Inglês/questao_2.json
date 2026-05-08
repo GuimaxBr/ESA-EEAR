@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2023) What is the best option to fill in the blank? <br>&quot;A pistol is a sidearm. Soldiers can aim and fire it with one hand. Pistols are _____ than other firearms, making them useful in close combat.&quot;",
+  "questionImage": null,
+  "options": [
+    "small",
+    "the smallest",
+    "smaller",
+    "the smaller",
+    "smallest"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A)Errada. Pois \"small\" é o adjetivo na forma simples, e o contexto exige um comparativo. A frase compara pistolas com outras armas de fogo, e para isso usamos a forma comparativa: smaller.<br>🔁 Correto seria: Pistols are smaller than other firearms.<br>❌ \"Small\" não indica comparação.<br>Exemplo: This gun is small. (Esta arma é pequena - sem comparação)<br> <br>(B) Errada. Pois essa é a forma superlativa do adjetivo, usada para indicar o grau máximo dentro de um grupo.<br>❌ O texto não está dizendo que pistolas são as menores de todas, mas sim menores do que outras armas de fogo (comparativo entre dois grupos).<br>Exemplo de superlativo correto: The pistol is the smallest weapon in the arsenal.<br><br>(C) Certa. Pois \"smaller\" é o comparativo de superioridade do adjetivo \"small\", usado para comparar duas coisas (neste caso, pistolas e outras armas de fogo).<br>✔️ Pistols are smaller than other firearms.<br>Explicação gramatical: Para adjetivos curtos (com uma sílaba), forma-se o comparativo adicionando \"-er\".<br>Tradução da frase completa: Pistolas são menores do que outras armas de fogo.<br><br>(D) Errada. Pois usamos THE para o Superlativo e não para o comparativo.<br><br>(E) Errada. Pois essa é a forma superlativa do adjetivo, usada para indicar o grau máximo dentro de um grupo.<br>❌ O texto não está dizendo que pistolas são as menores de todas, mas sim menores do que outras armas de fogo (comparativo entre dois grupos).<br>Exemplo de superlativo correto: The pistol is the smallest weapon in the arsenal.",
+  "explanationImage": null,
+  "year": 2023
+}

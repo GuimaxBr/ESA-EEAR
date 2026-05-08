@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2019)  “_________ American?” Complete the space with the correct form of the verb and the pronoun.",
+  "questionImage": null,
+  "options": [
+    "Is you.",
+    "Are you.",
+    "You is.",
+    "Am you.",
+    "You are."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Inglês",
+  "explanation": "A) Incorreto. Is you - Errada. O verbo “to be” precisa concordar com o sujeito. “Is” é para “he/she/it”, não para “you”.<br><br>B) Correto. Are you - Correta. Essa é a forma correta da pergunta no presente com o verbo “to be” e o pronome “you”.<br><br>C) Incorreto. You is - Errada. Aqui a frase é afirmativa (não interrogativa), e além disso, “is” não combina com “you”.<br><br>D) Am you - Errada. “Am” é usado exclusivamente com “I”.<br><br>E) You are - Errada. Apesar de estar gramaticalmente correta como frase afirmativa, o enunciado exige uma pergunta, então a inversão é necessária: “Are you American?”",
+  "explanationImage": null,
+  "year": 2019
+}

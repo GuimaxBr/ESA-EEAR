@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2024) Qual a função sintática do termo em destaque no período: “Como o Otto pode ajudá-lo a ler revistas?”?",
+  "questionImage": "questao_7_enunciado.png",
+  "options": [
+    "Pronome oblíquo.",
+    "Objeto indireto.",
+    "Objeto direto.",
+    "Agente da passiva.",
+    "Substantivo."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Português",
+  "explanation": "(A) Incorreta, pois “-lo” é um pronome oblíquo átono com função sintática de objeto direto, mas a classificação solicitada na questão é quanto à função sintática, e não à classificação morfológica.<br><br>(B) Incorreta, pois o verbo \"ajudar\" não exige preposição, logo “-lo” funciona como objeto direto, não indireto.<br><br>(C) Correta, pois o pronome “-lo” exerce a função de objeto direto do verbo “ajudar”, uma vez que responde à pergunta “ajudar quem?”.<br><br>(D) Incorreta, já que a frase está na voz ativa e não passiva; portanto, não há agente da passiva.<br><br>(E) Incorreta, pois \"ajudá-lo\" contém o pronome “-lo”, que é um pronome oblíquo, não um substantivo.",
+  "explanationImage": null,
+  "year": 2024
+}

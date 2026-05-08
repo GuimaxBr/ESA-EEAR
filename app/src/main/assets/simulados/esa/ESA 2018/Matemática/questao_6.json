@@ -1,0 +1,23 @@
+{
+  "id": 6,
+  "text": "Adotando-se log 2 = x e log 3 = y , o valor de log₅120 será dado por:",
+  "questionImage": null,
+  "options": [
+    "(x+ 2y +1)/(1- y)",
+    "(x +2y) / (1 - y)",
+    "(4x + 3y) / (x + y)",
+    "(2x + y)/ (1- x)",
+    "(2x + y + 1)/(1 - x)"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "log ₅120 = log120/log5 <br>(log4.3.10)/ (log10/2) ⇒ (2log2+log3+log10)/ (log10-log2)<br>⇒ (2x+y+1)/(1-x)",
+  "year": 2018
+}

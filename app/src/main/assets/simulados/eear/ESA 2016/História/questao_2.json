@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2016) O Primeiro Governo Geral do Brasil foi instalado em:",
+  "questionImage": null,
+  "options": [
+    "São Luís.",
+    "Fortaleza.",
+    "Olinda.",
+    "Salvador.",
+    "Rio de Janeiro."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "História",
+  "explanation": "Salvador foi fundada para ser a sede do Governo Geral do Brasil.",
+  "year": 2016
+}

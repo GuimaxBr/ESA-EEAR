@@ -1,0 +1,23 @@
+{
+  "id": 4,
+  "text": "(ESA 2018) Considere o número complexo z = 2 + 2i. Dessa forma, z¹⁰⁰",
+  "questionImage": null,
+  "options": [
+    "É um número real negativo.",
+    "Tem argumento π/4",
+    "é um número real positivo",
+    "tem módulo igual a 1.",
+    "é um número imaginário puro."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "z¹⁰⁰ = [(2 + 2i)²] ⁵⁰ = [4 + 8i - 4)²] ⁵⁰  = [8i]⁵⁰ = 8⁵⁰  ∙ i⁵⁰  = 8⁵⁰  ∙ i² = - 8⁵⁰ <br><br>É um real negativo.",
+  "year": 2018
+}

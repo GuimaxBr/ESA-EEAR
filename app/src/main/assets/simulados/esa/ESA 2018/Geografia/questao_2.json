@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2018) O fenômeno influenciado pela massa de ar polar atlântica e responsável por provocar queda brusca de temperatura e ventos frios na Centro-Oeste do Brasil é chamado de:",
+  "questionImage": null,
+  "options": [
+    "Friagem",
+    "Convecção",
+    "Frente fria",
+    "Orográfica",
+    "Inversão térmica"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "A) A friagem é uma característica das regiões do Centro-Oeste e da Amazônia Ocidental, causada pela explosão de massas das regiões polares atlânticas que avançam até essas áreas, derrubando as temperaturas de forma abrupta, especialmente no inverno.<br><br>B) O processo de convecção ocorre quando o ar quente sobe, resfria-se em altitudes maiores e condensa-se, formando nuvens e ocorrências. Esse fenômeno é comum em regiões tropicais e não está relacionado à entrada de massas polares.<br><br>C) As frentes frias ocorrem quando uma massa de ar frio avança sobre uma região ocupada por ar quente, provocando chuvas e quedas de temperatura. Apesar de estar relacionado à friagem, a frente fria é um conceito mais amplo, enquanto a friagem refere-se especificamente ao impacto da frente fria na região Centro-Oeste e no sul da Amazônia.<br><br>D) O efeito orográfico está relacionado ao bloqueio que cadeias montanhosas exercem sobre massas de ar, provocando chuvas de relevo ou o resfriamento de massas ascendentes. Esse aspecto não tem relação direta com a friagem, pois o Centro-Oeste do Brasil e a Amazônia apresentam relevo predominantemente plano ou levemente ondulado.<br><br>E) A inversão térmica ocorre quando há aprisionamento de ar frio sob uma camada de ar quente, impedindo a dispersão de impurezas. Esse aspecto é comum em áreas urbanas e industriais e não está relacionado ao avanço de massas polares sobre o Brasil.",
+  "year": 2018
+}

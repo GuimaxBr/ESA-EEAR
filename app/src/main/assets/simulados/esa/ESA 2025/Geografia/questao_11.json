@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2025) O Brasil, por motivos diferentes, também apresenta uma das matrizes energéticas mais limpas do mundo. A respeito dessa afirmação, julgue os itens abaixo:<br>I. O país desenvolveu estratégias baseadas na exploração intensa de seus vastos recursos hídricos para a geração de eletricidade.<br>II. A produção comercial de biocombustíveis teve o Programa Nacional do Álcool (Proálcool) como tentativa de amenizar a dependência do Brasil em relação ao petróleo.<br>III. As usinas hidrelétricas, que têm a menor capacidade instalada de produção do país, produzem energias mais caras e com mais impactos ambientais, quando comparadas às usinas termelétricas e termonucleares.<br>IV. A instalação de termelétricas visa diversificar a matriz energética brasileira e evitar novas crises em várias regiões.<br>Marque a alternativa<b> correta</b>:",
+  "questionImage": null,
+  "options": [
+    "I, II e IV, apenas.",
+    "I, apenas.",
+    "III, apenas.",
+    "I e IV, apenas.",
+    "II e III, apenas."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "Afirmação I - Verdadeira: O Brasil tem uma matriz elétrica historicamente dependente de hidrelétricas, que aproveitam o grande potencial hídrico de rios como Paraná, São Francisco e Madeira. Desde a década de 1950, foram construídas grandes usinas (Itaipu, Tucuruí, Belo Monte, etc.), tornando a hidreletricidade responsável por uma parte majoritária da produção de energia elétrica. <br><br>Afirmação II - Verdadeira: O Proálcool foi criado em 1975, durante a crise do petróleo, como estratégia para reduzir a dependência externa de combustíveis fósseis. O programa incentivou a produção de etanol a partir da cana-de-açúcar e introduziu motores adaptados para esse combustível. Ele foi fundamental para desenvolver a cadeia produtiva dos biocombustíveis no Brasil, tornando o país referência mundial nessa área.<br><br>Afirmação III - Falsa: A afirmação contém várias distorções: Hidrelétricas não têm a menor capacidade instalada, pelo contrário - elas representam a maior parcela da potência elétrica instalada no Brasil.<br><br>O custo da energia hidrelétrica é geralmente mais baixo do que o das termelétricas, que dependem de combustíveis fósseis importados ou caros.<br><br>Embora hidrelétricas tenham impactos ambientais relevantes (alagamento de áreas, deslocamento de populações, alteração de ecossistemas), isso não significa que sejam mais impactantes do que termelétricas movidas a carvão ou óleo combustível, que emitem grandes quantidades de gases poluentes.<br><br>Afirmação IV - Verdadeira:  Após crises como o apagão de 2001, o governo brasileiro incentivou a instalação de termelétricas (gás natural, óleo combustível, carvão) para aumentar a segurança energética e evitar falta de energia em períodos de seca, quando a produção hidrelétrica cai.",
+  "explanationImage": null,
+  "year": 2025
+}

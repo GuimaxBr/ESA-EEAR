@@ -1,0 +1,23 @@
+{
+  "id": 12,
+  "text": "(ESA 2017) Se 2 + 3i é raiz de uma equação algébrica P(x) = 0, de coeficientes reais, então podemos afirmar que:",
+  "questionImage": null,
+  "options": [
+    "3 - 2i também é raiz da mesma equação.",
+    "2 - 3i também é raiz da mesma equação.",
+    "2 também é raiz da mesma equação.",
+    "- 3i também é raiz da mesma equação.",
+    "3 - 2i também é raiz da mesma equação."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "Se um número complexo z=a+bi , com a e b reais e b diferente de zero, é raiz de uma equação algébrica P(x) = 0, de coeficientes reais, então seu conjugado z=a-bi é também raiz da mesma equação.",
+  "year": 2017
+}

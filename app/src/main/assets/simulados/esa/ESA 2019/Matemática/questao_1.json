@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2019) Um cilindro equilátero é aquele cilindro reto que possui altura igual ao dobro do raio da base. Sabendo que o volume é calculado pela fórmula π.r².h, quanto mede o volume de um cilindro equilátero que possui raio igual a π?",
+  "questionImage": null,
+  "options": [
+    "4π²",
+    "6π",
+    "π",
+    "2π⁴",
+    "π⁶"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "V = π.r².h ⇒ π.π².2π. ⇒ 2π⁴",
+  "year": 2019
+}

@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2017) Em uma das OMSE do concurso da ESA, farão a prova 550 candidatos. O número de candidatos brasileiros natos está para o número de candidatos brasileiros naturalizados assim como 19 está para 3. Podemos afirmar que o número de candidatos naturalizados é igual a:",
+  "questionImage": null,
+  "options": [
+    "90",
+    "25",
+    "75",
+    "50",
+    "100"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Matemática",
+  "explanation": "Se a razão entre brasileiros natos e brasileiros naturalizados é 19:3, então, a cada 22 candidatos 3 são brasileiros naturalizados, dessa forma o número de brasileiros naturalizados é igual a (550/22) = 25.<br>Assim: 3x25= 75",
+  "explanationImage": null,
+  "year": 2017
+}

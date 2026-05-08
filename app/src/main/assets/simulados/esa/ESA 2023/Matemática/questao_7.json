@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2023) As bases de um trapézio isósceles medem 14 cm e 30 cm, respectivamente. A soma dos lados não paralelos é igual a 34 cm. Qual a altura desse trapézio?",
+  "questionImage": null,
+  "options": [
+    "15",
+    "12",
+    "20",
+    "17",
+    "25"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "matematica",
+  "explanation": "",
+  "explanationImage": "questao_7_explicacao.jpeg",
+  "year": 2023
+}

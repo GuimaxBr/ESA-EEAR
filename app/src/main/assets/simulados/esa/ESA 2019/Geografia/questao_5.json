@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2019) Em 1980, deu-se o estouro da corrida do ouro em Serra Pelada, localizada no estado de (o):",
+  "questionImage": null,
+  "options": [
+    "Acre",
+    "Paraná",
+    "Pará",
+    "Sergipe",
+    "Maranhão"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "A) Incorreta: O Acre está na região Norte, mas Serra Pelada não se localiza neste estado.<br><br>B) Incorreta: Serra Pelada não se localiza na região Sul do Brasil, e o Paraná não tem histórico significativo de grandes corridas do ouro no século XX.<br><br>C) Correta: A Serra Pelada ficou famosa na década de 1980 como o maior garimpo no céu aberto do mundo, atraindo milhares de garimpeiros em busca de ouro. O local está situado no sudeste do estado do Pará.<br><br>D) Incorreta: Sergipe, localizada na região Nordeste, não possui histórico de grandes jazidas de ouro comparáveis à de Serra Pelada.<br><br>E) Incorreta: Embora o Maranhão seja vizinho do Pará, Serra Pelada não está dentro do território maranhense.",
+  "explanationImage": null,
+  "year": 2019
+}

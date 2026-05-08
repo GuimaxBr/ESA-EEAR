@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "text": "(ESA 2017) Os valores de <b>k</b> de modo que o valor mínimo da função f(x) = x² + (2k - 1)x +1 seja -3 são:",
+  "questionImage": null,
+  "options": [
+    "5/4 e -1/4",
+    "5/2 e 3/2",
+    "-5/2 e -3/2",
+    "5/2 e -3/2",
+    "-5/2 e 3/2"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "Para que a função tenha ponto de mínimo o coeficiente de x² deve ser positivo. Como o coeficiente é a = 1 então f tem ponto de mínimo. Para calcular a ordenada do vértice da parábola tem-se Yv=-Δ/4a ⇒ - (b²-4ac)/4a. Dessa forma substituindo os valores de a, b, c e Yv, tem-se:",
+  "explanationImage": "questao_11_explicacao.jpeg",
+  "year": 2017
+}

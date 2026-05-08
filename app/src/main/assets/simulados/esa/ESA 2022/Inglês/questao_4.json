@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2022) Marque a opção que melhor completa o espaço em branco. <br> <br>“Colonel is a _______________ rank in the army but it is _______________ than General.”",
+  "questionImage": null,
+  "options": [
+    "highest - lowest",
+    "low - high",
+    "lowest - highest",
+    "highest - low",
+    "high - lower"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Inglês",
+  "explanation": "(A) incorreto: highest - lowest <br>Colonel is a highest rank → não é a mais alta.<br>it is lowest than General → “lowest” não combina com than (comparativo exige lower).<br> <br>(B) incorreto: low - high <br>Colonel is a low rank → coronel não é uma patente baixa.<br>ut it is high than General → deveria ser comparativo (higher).<br><br>(C) incorreto: lowest - highest <br>Colonel is a lowest rank → não é a mais baixa.<br>but it is highest than General → comparativo errado, deveria ser higher.<br><br>(D) incorreto: highest - low <br>Colonel is a highest rank →<br>but it is low than General → comparativo errado, deveria ser lower.<br><br>(E) Correto: high - lower <br><br>Colonel is a high rank (patente alta)<br>but it is lower than General (mais baixa do que General).",
+  "explanationImage": null,
+  "year": 2022
+}

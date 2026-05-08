@@ -1,0 +1,24 @@
+{
+  "id": 9,
+  "text": "(ESA 2022) Em uma determinada aula de Geometria Analítica, uma candidata do Concurso da ESA, da área da saúde, deparou-se com a seguinte situação 𝑥²+𝑦²=2𝑥+2𝑦-1. Ao desenvolver essa igualdade a estudante obteve:",
+  "questionImage": null,
+  "options": [
+    "Uma circunferência centrada na origem.",
+    "Uma circunferência de centro -1 e -1 e raio 2.",
+    "Uma circunferência de centro -1 e -1 e raio √2.",
+    "Uma circunferência de centro 1 e 1 e raio 1.",
+    "Nenhuma das alternativas anteriores."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "MATEMÁTICA",
+  "explanation": "x²+y²=2x+2y-1<br><br>Agrupando, temos: <br>(x²-2x+1) + (y²-2y+1) = 1<br>(x-1)²+(y-1)² = 1",
+  "explanationImage": null,
+  "year": 2022
+}

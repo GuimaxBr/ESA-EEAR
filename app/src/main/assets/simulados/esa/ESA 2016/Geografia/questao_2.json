@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2016) Os ventos alísios são correntes de ar que sopram constantemente das proximidades dos trópicos para o Equador. Em razão do movimento da Terra, os ventos, que se deslocam em linha reta, sofrem um desvio aparente na sua trajetória, chamado:",
+  "questionImage": null,
+  "options": [
+    "Efeito de Coriolis.",
+    "Massa de ar.",
+    "El Nino.",
+    "La Nina.",
+    "Doldrums."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Geografia",
+  "explanation": "A) Efeito de Coriolis é o desvio provocado pelo movimento de rotação da Terra.<br>B) Massa de ar são grandes porções de ar que se deslocam pela troposfera.<br>C) El Nino é o fenômeno que aquece as águas superficiais do Oceano Pacífico Equatorial.<br>D) La Nina é o resfriamento das águas superficiais do Oceano Pacífico Equatorial.<br>E) Doldrums é a calmaria equatorial nos oceanos Atlântico, Pacífico e Índico.",
+  "year": 2016
+}

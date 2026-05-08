@@ -1,0 +1,23 @@
+{
+  "id": 1,
+  "text": "(ESA 2018) O processo de integração funcional, que ocorre entre dois ou mais núcleos urbanos limítrofes cuja população compartilha a infraestrutura urbana e a rede de distribuição de bens e serviços, provoca uma dinâmica de fluxos, na qual muitos trabalhadores se movimentam diariamente entre os municípios da região metropolitana, retornando aos seus lares após a jornada de trabalho. Esse movimento pode ser denominado migração:",
+  "questionImage": null,
+  "options": [
+    "Perene",
+    "Inter-regional",
+    "Sazonal",
+    "Pendular",
+    "Êxodo-rural"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Geografia",
+  "explanation": "A) Incorreta. A migração perene refere-se a deslocações definitivas ou de longo prazo, em que os indivíduos mudam de forma permanente para outra localidade. No entanto, a questão trata de uma deslocação diária e recorrente, sem mudança definitiva de residência.<br><br>B) Incorreta: A migração inter-regional ocorre entre diferentes regiões geográficas do país, como uma deslocação do Nordeste para o Sudeste. No entanto, a questão menciona um deslocamento dentro de uma mesma região metropolitana, não caracterizando esse tipo de migração.<br><br>C) Incorreta: A migração sazonal ocorre por períodos específicos do ano, geralmente relacionada a atividades econômicas temporárias, como a colheita ou agrícola ou turismo. A questão descreve uma mudança diária e contínua, o que não corresponde à migração sazonal.<br><br>D) Correta: A migração pendular ocorre quando trabalhadores ou estudantes se deslocam diariamente entre diferentes municípios ou bairros, retornando para suas casas no mesmo dia. Esse é exatamente o caso descrito no anunciado, que menciona a movimentação diária de trabalhadores dentro de uma região metropolitana.<br><br>E) Incorreta: O êxodo rural é a mudança definitiva de população do campo para a cidade, motivada pela mecanização da agricultura, falta de oportunidades no meio rural e busca por empregos urbanos. A questão não trata dessas características, mas sim de um fluxo diário de trabalhadores.",
+  "year": 2018
+}

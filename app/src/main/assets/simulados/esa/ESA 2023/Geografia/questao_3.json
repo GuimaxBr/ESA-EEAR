@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2023) O 1º Pelotão da 2ª Companhia de Fuzileiros do 11º Batalhão de Infantaria de Montanha deslocar-se-á para o 72º Batalhão de Infantaria, sediado em Petrolina no estado de Pernambuco, a fim de realizar o Estágio de Adaptação e Operações na Caatinga (EAOC). O referido estágio terá duração de 2 semanas. O tipo de clima predominante na região do estado de Pernambuco é o clima Tropical Semiárido, que apresenta as seguintes características:",
+  "questionImage": null,
+  "options": [
+    "Elevada taxa de umidade, devido à presença dos rios e da vegetação da região, e altas temperaturas, por encontrar-se em baixa latitude. As chuvas são constantes, abundantes e bem distribuídas durante o ano.",
+    "É o clima mais representativo do Brasil, abrange maior parte da região Nordeste e apresenta as seguintes características marcantes: existência de duas estações bem definidas, temperaturas altas e amplitudes térmicas anuais elevadas devido à influência da continentalidade.",
+    "É o clima brasileiro com menor índice pluviométrico anual, o que causa o problema da estiagem. Há uma má distribuição das chuvas, que estão concentradas em alguns meses do ano. As médias térmicas estão em torno de 28º C, as temperaturas são elevadas e possui baixa umidade do ar no longo do ano.",
+    "Apresenta chuvas concentradas no inverno e médias térmicas elevadas. Nessa estação, no litoral nordestino, o encontro da Massa Tropical Atlântica (MTA), de ar quente e úmido, com a Massa Polar Atlântica (MPA), de ar frio e úmido, provoca chuvas frontais.",
+    "Sofre grande influência anual da Massa Tropical Atlântica (MTA), que é úmida. No inverno, a Massa Polar Atlântica (MPA) é responsável pelas baixas temperaturas e pelas geadas que costumam ocorrer nessa época."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Geografia",
+  "explanation": "(A) Incorreta. A taxa de umidade é baixa, logo, as chuvas não são constantes e nem abundantes.<br> <br>(B) Incorreta. O clima mais representativo do Brasil é o tropical (típico). “amplitudes térmicas anuais elevadas” ficou de forma exagerada.<br><br>(C) Correta. As precipitações anuais variam entre 250 mm e 750 mm.<br><br>(D) Incorreta. As chuvas se apresentam entre dezembro e abril. O encontro da mTa e da mPa pode provocar chuva frontal na zona da mata do sul da Bahia.<br><br>(E) Incorreta. A mTa pouco influencia no clima tropical semiárido. A geada não ocorre no Sertão.",
+  "explanationImage": null,
+  "year": 2023
+}

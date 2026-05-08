@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2021) A “Operação Carro - Pipa” destina-se combater a seca no Nordeste. Essa logística é feita através de caminhões tanque. Admitindo que esses tanques sejam cilíndricos (raio = 0,8m e altura 6,25m). Quantas viagens desses carros cheios (carradas) serão necessárias para abastecer totalmente uma cisterna comunitária, em forma de paralelepípedo retângulo, cujas dimensões são: 7mX6mX2m? (Considere π = 3)",
+  "questionImage": null,
+  "options": [
+    "5",
+    "6",
+    "4",
+    "7",
+    "3"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_6_explicacao.jpeg",
+  "year": 2021
+}

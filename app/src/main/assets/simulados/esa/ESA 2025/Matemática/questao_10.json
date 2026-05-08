@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2025) O COTER (Comando de Operações Terrestre) é formado por 8 Comandos Militares: CMO, CMP, CMNE, CMN, CMSE, CML, CMS e CMA. Todos eles possuem, em seus corpos permanentes, profissionais formados na ESA. Para caracterizar essa situação, foi criado um slogan como o da figura abaixo:<br>Permutando-se as siglas dos Comandos Militares e sabendo que CMA e CMO devem ficar juntas e CMNE e CMSE devem ficar separadas, quantos slogans diferentes podem ser formados?",
+  "questionImage": "questao_10_enunciado.png",
+  "options": [
+    "720",
+    "960",
+    "1440",
+    "2520",
+    "5040"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "Temos 8 objetos que podemos chamar de A, B, C, D, E, F, G, H. Tomando os oito objetos (A, B, C, D, E, F, G, H) dispostos, nessa ordem e no sentido horário, de tal forma que o primeiro esteja na parte superior do brasão, a permutação (B, C, D, E, F, G, H, A) também é válida, visto que o objeto acima do brasão é B, mas a ordem se manteve e o tratamento pela permutação circular desconsidera esse caso como um possível.<br><br>Dessa forma, mesmo que os objetos estejam distribuídos circularmente, o brasão da ESA no centro descaracteriza a permutação circular.<br><br>Sendo isso verdade, e queremos dois objetos, digamos A e B, juntos, tratemos os oito objetos como sete, assim, sua permutação é 7! ⋅ 2 = 10080 possibilidades, sendo a multiplicação por 2 o fator que leva a ordem AB ou BA em consideração.<br><br>Ainda, queremos, também, que dois objetos, digamos C e D, não fiquem juntos. Tratemos, então, como um bloco e descontemos a quantidade de casos em que ficam juntos do total. Ora, para esse caso, temos um total de 6! ⋅ 2 ⋅ 2 = 2880 possibilidades, sendo os dois fatores 2 os que levam AB, BA, CD e DC em consideração.<br><br>Finalmente, o total de casos pedidos é 10080 - 2880 = 7200, que não possui gabarito.<br><br>Logo, a questão é passível de anulação.",
+  "explanationImage": null,
+  "year": 2025
+}

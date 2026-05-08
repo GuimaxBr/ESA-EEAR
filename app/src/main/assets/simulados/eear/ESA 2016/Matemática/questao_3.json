@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2016) Duas esferas de raios 3 cm e √51cm fundem-se para formar uma esfera maior. Qual é o raio da nova esfera?",
+  "questionImage": null,
+  "options": [
+    "³√78",
+    "√36",
+    "√68",
+    "√104",
+    "√26"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "O volume da esfera é dado pela fórmula: v = (4/3).π.r³<br>A esfera 1 de raio 3cm tem v₁ = (4/3).π.3³ = 36πcm²<br>Já a esfera 2 de raio √51cm tem v₂ = (4/3).π.(√51)³ = 68πcm²<br>Fundindo a esfera 1 com a esfera 2 temos que o volume da nova esfera é: v = v₁ + v₂ =36π+68π =104πcm²<br>O raio da nova esfera é dada por: (4/3).π.r³ → 104π → r³ = (104.π.3)/4π = 78 → r=³√78",
+  "year": 2016
+}

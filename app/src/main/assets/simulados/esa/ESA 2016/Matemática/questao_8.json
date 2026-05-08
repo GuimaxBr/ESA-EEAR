@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2016) Utilizando os valores aproximados log2  = 0,30 e log3 = 0,48, encontramos para log ³√12 o valor de:",
+  "questionImage": null,
+  "options": [
+    "0,33",
+    "0,36",
+    "0,35",
+    "0,31",
+    "0,32"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.png",
+  "year": 2016
+}

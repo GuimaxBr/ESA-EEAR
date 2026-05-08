@@ -1,0 +1,24 @@
+{
+  "id": 10,
+  "text": "(ESA 2022) Choose the best alternative to fill in the box and complete the sentence correctly.",
+  "questionImage": "questao_10_enunciado.jpeg",
+  "options": [
+    "Is",
+    "Be",
+    "Are",
+    "Am",
+    "Was"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) Errada. O verbo to be a ser empregado deve concordar com o sujeito GUYS no plural, por isso, IS - to be no singular - está incorreto.<br> <br>(B) Errada. A opção B apresenta o TO BE sem conjugação, por isso está incorreta.<br><br>(C) Certa. O verbo to be no plural ARE está concordando com GUYS.<br><br>(D) Errada. O verbo to be a ser empregado deve concordar com o sujeito GUYS no plural, por isso, AM - to be no singular - está incorreto.<br><br>(E) Errada. O verbo to be a ser empregado deve concordar com o sujeito GUYS no plural, por isso, WAS - to be no singular - está incorreto.",
+  "explanationImage": null,
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2018) A República Velha vai de 1889 a 1930, o presidente <b>ci</b><b>vil</b> que teve todo seu mandato no século XIX foi:",
+  "questionImage": null,
+  "options": [
+    "Prudentes de Moraes",
+    "Floriano Peixoto",
+    "Campos Sales",
+    "Nilo Peçanha",
+    "Afonso Pena"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "História",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.png",
+  "year": 2018
+}

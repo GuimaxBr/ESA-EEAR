@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2023) “When Johnny comes marching home” is a popular song from the American Civil War (1861 - 1865) that expressed people’s longing for the return of their friends and relatives who were fighting in the war. It was written in 1863 by an Irish-American called Patrick Sarsfield Gilmore. <br><b>When Johnny comes marching home </b><br>By Patrick Sarsfield Gilmore <br>When Johnny comes marching home again <br>Hurrah! Hurrah! <br>We’ll give him a hearty welcome then <br>Hurrah! Hurrah! <br>The men will cheer and the boys will shout <br>The ladies they will all turn out <br>[…] <br>Read the song and choose the correct answer.",
+  "questionImage": null,
+  "options": [
+    "“Ladies” is the singular form of “lady”.",
+    "“Him” is a possessive pronoun.",
+    "“Then” is a demonstrative pronoun.",
+    "“When Johnny comes marching home” is in the Present Continuous tense.",
+    "“We’ll give, the men will cheer, the boys will shout and they will turn out” are in the Future Simple tense."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Inglês",
+  "explanation": "(A) Errada. “Ladies” é o plural da palavra “lady”. O singular é lady e o plural regular troca o -y por -ies, seguindo a regra gramatical para palavras terminadas em consoante + y.<br>Exemplo: lady → ladies<br>Tradução: As damas (ladies) todas sairão para vê-lo.<br> <br>(B) Errada. “Him” é um pronome pessoal no caso oblíquo (object pronoun), não um possessivo.<br>O pronome possessivo correspondente seria “his”.<br>Exemplo com “him”: We’ll give him a hearty welcome.<br>Tradução: Daremos a ele uma calorosa recepção.<br><br>(C) Errada. “Then” é um advérbio de tempo, e não um pronome demonstrativo.<br>Exemplo: We’ll give him a hearty welcome then.<br>Tradução: Daremos a ele uma recepção calorosa então.<br>Pronomes demonstrativos são: this, that, these, those.<br><br>(D) Errada. A estrutura “comes marching” está no Simple Present, e “marching” funciona como um particípio presente (ou forma de movimento simultâneo, um uso comum em inglês literário/musical).<br>“Johnny comes marching” = “Johnny volta marchando” (ação simultânea).<br>Present Continuous seria: Johnny is coming home.<br><br>(E) Certa. Todas as formas mencionadas usam o auxliar “will” seguido do verbo principal no infinitivo, característica típica do Future Simple Tense.<br>We’ll give = We will give<br>The men will cheer<br>The boys will shout<br>They will turn out<br>Tradução geral:<br>Nós daremos, os homens vibrarão, os meninos gritarão e eles aparecerão.",
+  "explanationImage": null,
+  "year": 2023
+}

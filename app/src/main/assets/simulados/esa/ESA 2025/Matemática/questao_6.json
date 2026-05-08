@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2025) Durante a prova para um concurso, um candidato deparou-se com a seguinte proposição composta: <br>P: <b>&quot;Se o candidato não foi eliminado da prova, então ele estudou e foi aprovado.&quot;</b><br>Com base em seus conhecimentos de Noções de Lógica, pode-se afirmar que:",
+  "questionImage": null,
+  "options": [
+    "Se ele não estudou e não foi aprovado, então o candidato foi eliminado da prova.",
+    "O candidato foi eliminado da prova e ele estudou ou foi reprovado",
+    "Se ele não estudou ou foi aprovado, então o candidato foi eliminado da prova.",
+    "Ele não estudou ou não foi aprovado, então o candidato não foi eliminado da prova.",
+    "Se ele não estudou ou não foi aprovado, então o candidato foi eliminado da prova."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "Sendo p: “o candidato não foi eliminado da prova”, q: “ele estudou” e r: “foi aprovado”, o enunciado é tal que p → (q ∧ r) que é equivalente à contrapositiva, isto é,<br><br>∼ (q ∧ r) →∼ q ≡∼ q ∨∼ r →∼ p<br><br>Ora, ~q: “ele não estudou”; ~r: “não foi aprovado” e ~p:“o candidato foi eliminado da prova”, que escrevendo por extenso nos deixa com a proposição<br><br>“Se ele não estudou ou não foi aprovado, então o candidato foi eliminado da prova.”",
+  "explanationImage": null,
+  "year": 2025
+}

@@ -1,0 +1,23 @@
+{
+  "id": 10,
+  "text": "(ESA 2016) Assinale a alternativa que preenche, de acordo com a norma padrão, as lacunas da seguinte frase: “O professor se referia _______ alunas dispostas ________ vencer qualquer obstáculo do dia ______ dia.”",
+  "questionImage": null,
+  "options": [
+    "às - a - a",
+    "às - a - à",
+    "às - à - a",
+    "as - à - à",
+    "as - a - à"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "1º) Haverá crase sempre que o termo regente exigir a preposição “a” e o termo regido admitir o artigo “a” ou “as”. Observe que quem se refere, refere-se “a”, ou seja, o verbo “referir” exige a presença da preposição. Além disso, a palavra “alunas” admite o artigo feminino (as alunas). Por isso, na primeira lacuna deve haver a crase devidamente indicada pelo acento grave.<br>2º) Não ocorre a crase antes de verbos. Assim, na segunda lacuna deve aparecer apenas a preposição exigida pelo termo “dispostas”, pois quem está disposto, está disposto “a” algo.<br>3º) Não ocorre crase nas expressões formada por palavras repetidas.",
+  "year": 2016
+}

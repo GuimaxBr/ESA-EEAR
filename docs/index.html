@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questoes ESA</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f4efe4;
+            --panel: #ffffff;
+            --ink: #142741;
+            --muted: #54657d;
+            --accent: #1f4e8c;
+            --line: #d8deea;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(180deg, #efe7d7 0%, #f8f5ee 100%);
+            color: var(--ink);
+        }
+
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 20px 64px;
+        }
+
+        .hero {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: 28px;
+            box-shadow: 0 18px 45px rgba(20, 39, 65, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: clamp(2rem, 6vw, 3.2rem);
+            line-height: 1.05;
+        }
+
+        p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.65;
+            font-size: 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: rgba(31, 78, 140, 0.06);
+            border: 1px solid rgba(31, 78, 140, 0.14);
+            border-radius: 18px;
+            padding: 18px;
+        }
+
+        .label {
+            display: inline-block;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(31, 78, 140, 0.1);
+            color: var(--accent);
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            color: var(--accent);
+        }
+
+        a {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="label">Questoes ESA</div>
+            <h1>Pagina pronta para publicar o app e validar anuncios.</h1>
+            <p>
+                Esta raiz web foi preparada para hospedar o arquivo <code>app-ads.txt</code> do aplicativo
+                Android Questoes ESA. Depois de publicar esta pasta em um dominio ou no GitHub Pages,
+                o AdMob podera validar a autorizacao de anuncios reais.
+            </p>
+
+            <div class="grid">
+                <article class="card">
+                    <strong>App ID</strong>
+                    <p>ca-app-pub-9677072903516668~4339368747</p>
+                </article>
+                <article class="card">
+                    <strong>Publisher ID</strong>
+                    <p>pub-9677072903516668</p>
+                </article>
+                <article class="card">
+                    <strong>Arquivo exigido</strong>
+                    <p><a href="./app-ads.txt">Abrir app-ads.txt</a></p>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2023) Em qual opção a expressão “em que” completa corretamente a lacuna, segundo a norma padrão?",
+  "questionImage": null,
+  "options": [
+    "A instrução _________ foi preparada ontem será ministrada amanhã.",
+    "Conversei com o Soldado _________ pediu dispensa.",
+    "A série _________ assisti contempla esta temática de superação.",
+    "O livro _________ folhas despencaram é muito intrigante.",
+    "A vila _________ se criou é sua referência."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "(A) Incorreta. A expressão \"em que\" não se encaixa naturalmente aqui. O termo adequado seria \"que\" ou \"a qual\", referindo-se à instrução: \"A instrução que foi preparada ontem será ministrada amanhã.\"<br> <br>(B) Incorreta. Novamente, \"em que\" não é apropriado para esta lacuna. Seria mais adequado usar \"que\" ou \"o qual\": \"Conversei com o Soldado que pediu dispensa.\"<br><br>(C) Incorreta. \"Em que\" também não é adequado aqui. A preposição \"a\" seguida de \"que\" seria mais correta: \"A série a que assisti contempla esta temática de superação.\"<br><br>(D) Incorreta: A expressão \"em que\" não se encaixa bem aqui; novamente, a expressão \"cujo\" ou \"cuja\" seria mais apropriada para indicar posse: \"O livro cujas folhas despencaram é muito intrigante.\"<br><br>(E) Correta: Aqui \"em que\" é a expressão adequada, pois indica o local onde algo ocorreu: \"A vila em que se criou é sua referência.\" A preposição \"em\" juntamente com \"que\" adequa-se para indicar o lugar de criação.",
+  "explanationImage": null,
+  "year": 2023
+}

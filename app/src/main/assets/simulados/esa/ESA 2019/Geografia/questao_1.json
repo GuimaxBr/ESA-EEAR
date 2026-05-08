@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2019) Em relação à produção de petróleo no Brasil é <b>co</b><b>rreto</b> afirmar que:",
+  "questionImage": null,
+  "options": [
+    "Ocorre em escudos cristalinos.",
+    "Um percentual muito expressivo das reservas encontra-se em áreas marítimas.",
+    "As maiores jazidas ficam nas regiões metropolitanas.",
+    "A produção em terra firme supera a produção off shore.",
+    "A Amazônia brasileira é maior área produtora."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Geografia",
+  "explanation": "A) Incorreto. Todo combustível fóssil é disposto em bacias sedimentares.<br>B) Correto. A maior parte das jazidas se encontram na plataforma continental, ou seja, nas áreas de mar.<br>C) Incorreto. As maiores jazidas ficam em porção oceânica.<br>D) Incorreto. A produção off shore (fora do continente) é maior.<br>E) Incorreto. A Amazônia brasileira é a maior produtora de gás natural dentro do cotinente. No aspecto geral, a maior produção acontece no oceano.",
+  "explanationImage": null,
+  "year": 2019
+}

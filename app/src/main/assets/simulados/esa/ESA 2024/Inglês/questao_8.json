@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2024) Read the text. <br> <br>The sergeant major addressed the battalion with a powerful speech. “Courage and discipline,” he said, “are the hallmarks of a true soldier.” The troops felt a surge of pride as they listened. <br> <br>Which part of the text contains a possessive case?",
+  "questionImage": null,
+  "options": [
+    "The sergeant major addressed the battalion with a powerful speech.",
+    "“Courage and discipline,” he said.",
+    "“are the hallmarks of a true soldier.”",
+    "The troops felt a surge of pride.",
+    "as they listened."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "(A) Não contém possessivo.<br><br>Aqui temos um sujeito (\"the sergeant major\") e um objeto (\"the battalion\"). A preposição \"with\" nessa frase tem o sentido de instrumento ou meio. Ou seja, ela indica \"por meio de que\" ou \"com o que\" o sujeito (o sergeant major) realizou a ação de falar ao batalhão.<br><br>(B) Não contém possessivo.<br><br>Aqui temos uma citação direta e um verbo dicendi (\"he said\"), mas nenhuma estrutura de posse.<br><br>(C) Certo. Esta frase contém um exemplo de caso possessivo indireto.<br><br>A expressão \"of a true soldier\" indica posse de forma equivalente a \"a true soldier's hallmarks\".<br><br>📌 Forma indireta do caso possessivo: usamos \"of\" + substantivo para indicar que algo pertence a alguém.<br><br>📌 Tradução: “são as marcas de um verdadeiro soldado.”<br><br>➡️ Portanto, é sim um caso possessivo, ainda que não use 's.<br><br>(D) Não contém possessivo.<br><br>Na estrutura “a surge of pride”, a preposição \"of\" tem a função de especificar o conteúdo, a natureza ou o tipo da “surge” (onda/surgimento) - não há aqui nenhuma noção de posse.<br><br>(E) Não contém possessivo.<br><br>É uma oração subordinada que indica tempo/modo, sem relação de posse.",
+  "explanationImage": null,
+  "year": 2024
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2025) Um Pelotão de Infantaria está no terreno representado pelo sistema de coordenadas retangulares abaixo. Sua localização é o ponto <b>P.</b> Em que distância o Pelotão se encontra da Avenida “A”?",
+  "questionImage": "questao_2_enunciado.png",
+  "options": [
+    "3,8km",
+    "2,7km",
+    "3,6km",
+    "2,4km",
+    "2,8km"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_2_explicacao.png",
+  "year": 2025
+}

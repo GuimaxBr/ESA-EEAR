@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2019) Nos anos 1624-1635, ocorreu a primeira tentativa dos holandeses de invadir e conquistar territórios do Nordeste brasileiro, que fracassou. Essa primeira invasão ocorreu na cidade de:",
+  "questionImage": null,
+  "options": [
+    "Salvador.",
+    "São Cristóvão.",
+    "Natal.",
+    "João Pessoa.",
+    "Recife."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "História",
+  "explanation": "Antes de lograr êxito na instalação da Nova Holanda em Pernambuco, os holandeses tentaram, sem sucesso, dominar a capital administrativa do Brasil, em 1624.",
+  "explanationImage": null,
+  "year": 2019
+}

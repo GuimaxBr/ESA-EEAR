@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2023) Assinale a alternativa correta quanto à concordância verbal e nominal.",
+  "questionImage": null,
+  "options": [
+    "A reunião foi marcada para meio-dia e meio.",
+    "Fazem anos que ele estuda.",
+    "As regras estão disponível para conhecimento de todos.",
+    "Segue anexos nos envelopes as solicitações.",
+    "Não é necessária a distribuição de panfletos."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "(A) Incorreta. Esta frase possui um erro comum na expressão do tempo. O correto seria \"meio-dia e meia\", já que \"meia\" refere-se à fração de hora e concorda em gênero com \"hora\", que é feminino.<br> <br>(B) Incorreta. A expressão \"faz anos\" deveria ser usada com o verbo no singular: \"Faz anos que ele estuda\", pois o verbo \"fazer\" indicando tempo decorrido é impessoal e, portanto, não varia.<br><br>(C) Incorreta. Aqui, há um erro de concordância nominal. O correto seria \"As regras estão disponíveis para conhecimento de todos\", com \"disponíveis\" concordando em número com \"as regras\".<br><br>(D) Incorreta. Nesta alternativa, há um problema de concordância verbal e nominal. O correto seria \"Seguem anexas nos envelopes as solicitações\", ajustando o verbo e o adjetivo ao plural.<br><br>(E) Correta. Esta frase está correta em termos de concordância verbal e nominal. O verbo \"é\" concorda com o sujeito singular (\"a distribuição\") e o adjetivo \"necessária\" concorda em gênero e número com \"a distribuição\", já que o nome encontra-se determinado pelo artigo “a”.",
+  "explanationImage": null,
+  "year": 2023
+}

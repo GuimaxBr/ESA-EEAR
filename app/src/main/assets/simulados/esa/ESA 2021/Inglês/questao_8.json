@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2021) Observe the extract below: <br>“Everybody’<u>s</u> <u>going</u> on holiday”, Bill said. He laughed. “It’s going to be wonderful. No work for two weeks” <br> <br>Choose the option in which you can observe the same verb tense as in the underlined words.",
+  "questionImage": null,
+  "options": [
+    "They are travel until Saturday.",
+    "We can playing basketball really well.",
+    "I am eating. Can you call me later?",
+    "She is going home every weekend.",
+    "I studying Japanese. It is fantastic!"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "A frase usa o presente contínuo (\"am eating\"), que é o mesmo tempo verbal de \"going\" no extrato (\"is/are going\"). O contexto de uma ação em andamento ou situação atual alinha-se com o uso do presente contínuo, tornando-a a escolha adequada.",
+  "explanationImage": null,
+  "year": 2021
+}

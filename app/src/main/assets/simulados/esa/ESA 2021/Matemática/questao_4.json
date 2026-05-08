@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2021) Assinale a alternativa cujo gráfico representa a função exponencial 𝑓(𝑥)=2 ͯ",
+  "questionImage": null,
+  "options": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "optionImages": [
+    "questao_4_alt_A.jpeg",
+    "questao_4_alt_B.jpeg",
+    "questao_4_alt_C.jpeg",
+    "questao_4_alt_D.jpeg",
+    "questao_4_alt_E.jpeg"
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_4_explicacao.png",
+  "year": 2021
+}

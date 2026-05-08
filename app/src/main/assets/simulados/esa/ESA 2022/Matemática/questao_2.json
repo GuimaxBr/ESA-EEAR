@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "text": "(ESA 2022) Em um determinado quartel, o comandante determinou que, no primeiro dia de treinamento da nova turma, os recrutas deveriam realizar 20 flexões de braço e aumentar 5 flexões por dia ao longo do curso. Mantida essas condições, em 2 meses, quantas flexões cada recruta terá executado? (Considere o mês com 30 dias)",
+  "questionImage": null,
+  "options": [
+    "10.500",
+    "8.225",
+    "2.805",
+    "3.350",
+    "10.050"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Matemática",
+  "explanation": "Note que o número de flexões segue uma PA de razão igual a 5 e termo inicial iguala 20.<br>Como cada mês terá 30 dias, dois meses terão 60 dias.<br>Assim, queremos achar a soma dos 60 primeiros termos dessa PA.<br>Sabemos que:<br>aₙ = a₁ + (n - 1)r<br><br>Então,<br>a₆₀ = 20 + (60 - 1). 5<br>a₆₀ = 315",
+  "explanationImage": "questao_2_explicacao.png",
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "text": "(ESA 2024) A ESA terá que elevar a cumeeira do telhado de sua garagem (ponto “C”) para possibilitar a entrada da nova viatura blindada adquirida pelo Exército Brasileiro. Para isso, deverá elevar a cumeeira do telhado da garagem do ponto “C” para o ponto “B”, de modo que a inclinação α do telhado seja dobrada. Sabe-se que: AD = 5m, CD = 1m e CÂD = α. Em quantos metros, aproximadamente, a cumeeira do telhado deverá ser elevada?",
+  "questionImage": "questao_8_enunciado.jpeg",
+  "options": [
+    "1,02",
+    "1,08",
+    "1,15",
+    "1,18",
+    "1,21"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_8_explicacao.jpeg",
+  "year": 2024
+}

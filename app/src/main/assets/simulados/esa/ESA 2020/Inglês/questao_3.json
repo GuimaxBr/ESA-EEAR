@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2020) <br><b>Brazilian Armed Forces</b><br>The Brazilian Armed Forces is the unified military organization formed by the Brazilian Army (including the Brazilian Army Aviation), the Brazilian Navy (including the Brazilian Marine Corps and Brazilian Naval Aviation) and Ihe Brazilian Air Force.<br>Brazil&#x27;s armed forces are the third largest in the Americas, after the United States and Colombia, and the largest in Latin America by the level of military equipment, with approximately 318,480 active-duty troops and officers. They are expanding their presence in the Amazon under the Northern Corridor (Calha Norte) program. In 1994, Brazilian troops joined United Nations (UN) peacekeeping forces in five countries.<br>The Brazilian military, especially the army, is more involved in civic-action programs, education, health care, and constructing roads, bridges, and railroads across the nation. The 1988 Constitution preserves the external and internal roles of the Armed Forces, but it places the military under presidential authority.<br>According to the text, it is <b>correct</b> to say that:",
+  "questionImage": null,
+  "options": [
+    "the Brazilian Marine Corps is part of the Brazilian Army.",
+    "the Brazilian Armed Forces is part of Brazilian Air Force.",
+    "the Brazilian Air Force is part of the Brazilian Armed Forces.",
+    "the Brazilian Naval Aviation is part of the Brazilian Air Force.",
+    "the Brazilian Army Aviation is part of the Brazilian Navy."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 2,
+  "subject": "Inglês",
+  "explanation": "Air Force is part of Armed Forces - Confirmada no trecho \"formed by the Army (...), Navy (...) and Air Force\".",
+  "year": 2020
+}

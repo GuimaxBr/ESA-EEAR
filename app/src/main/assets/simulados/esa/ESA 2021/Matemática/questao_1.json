@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "text": "(ESA 2021) A expressão que fornece o número de anagramas da palavra SARGENTO, onde as vogais aparecem em ordem alfabética, é:",
+  "questionImage": null,
+  "options": [
+    "8! / 3!",
+    "(8!-5!)/3!",
+    "(8!-3!)/5!",
+    "8!-3!",
+    "8!"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_1_explicacao.png",
+  "year": 2021
+}

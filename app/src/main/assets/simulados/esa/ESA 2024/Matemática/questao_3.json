@@ -1,0 +1,24 @@
+{
+  "id": 3,
+  "text": "(ESA 2024) A figura abaixo mostra o triângulo ABC circunscrito em uma circunferência de centro O e raio 3 cm. Determine o perímetro da região sombreada. Considere: BÂC = 90º, α = 30º e 𝜋=3,14.",
+  "questionImage": "questao_3_enunciado.png",
+  "options": [
+    "5,495 cm",
+    "11,495 cm",
+    "13,345 cm",
+    "19,345 cm",
+    "20,017 cm"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "",
+  "explanationImage": "questao_3_explicacao.jpeg",
+  "year": 2024
+}

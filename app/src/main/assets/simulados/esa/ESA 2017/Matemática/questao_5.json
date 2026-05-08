@@ -1,0 +1,23 @@
+{
+  "id": 5,
+  "text": "(ESA 2017) A geratriz de um cone circular reto de altura 8 cm é 10 cm; então a área da base desse cone é:",
+  "questionImage": null,
+  "options": [
+    "64π cm²",
+    "9π cm²",
+    "16π cm²",
+    "36π cm²",
+    "25π cm²"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Matemática",
+  "explanation": "Sabemos que a geratriz (g) do cone é 10 cm e a altura (h) é 8 cm, logo pelo Teorema de Pitágoras, temos:<br>g² = h² + r²<br>10² = 8² + r²<br>r² = 36<br>r = 6cm<br><br>Onde r é o raio da base do cone. Assim, a área da base desse cone é:<br>A = πr² = π.6² = 36 π cm²",
+  "year": 2017
+}

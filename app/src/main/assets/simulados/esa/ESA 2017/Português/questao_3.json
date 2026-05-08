@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "text": "(ESA 2017) O termo grifado tem valor de possessivo na alternativa:",
+  "questionImage": null,
+  "options": [
+    "Cortei-me <u>com</u> o papel da prova.",
+    "Os amigos <u>se</u> entreolharam e nada disseram.",
+    "Comprei-<u>lhes</u> um brinquedo pedagógico muito interessante.",
+    "Furtaram-<u>lhe</u> as carteiras e os passaportes.",
+    "Não permitirei que nada <u>me</u> impeça de ser feliz."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "o “lhes” é equivalente a “suas” e tem, portanto, valor possessivo.",
+  "year": 2017
+}

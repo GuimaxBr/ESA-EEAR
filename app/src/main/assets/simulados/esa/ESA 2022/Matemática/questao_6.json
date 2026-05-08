@@ -1,0 +1,24 @@
+{
+  "id": 6,
+  "text": "(ESA 2022) Um balão esférico está sendo inflado. Seu volume é dado em função do tempo (contado em minutos), através da seguinte relação 𝑉=2𝑡. Qual será o tempo necessário para que o balão infle, até atingir o volume de 18 𝑚3?",
+  "questionImage": null,
+  "options": [
+    "9 minutos",
+    "12 minutos",
+    "6 minutos",
+    "24 minutos",
+    "18 minutos"
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "MATEMÁTICA",
+  "explanation": "Queremos que o volume seja igual a 18m³, então vamos substituir esse valor na relação dada no enunciado:<br>V = 18<br>18 = 2t<br>t = 9 minutos",
+  "explanationImage": null,
+  "year": 2022
+}

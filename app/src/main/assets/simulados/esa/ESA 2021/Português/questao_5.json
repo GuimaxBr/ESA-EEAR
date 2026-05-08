@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2021) Observe a tira do Calvin a seguir. A função da linguagem predominante na fala de Calvin, por testar o canal de contato com outra pessoa, é a:",
+  "questionImage": "questao_5_enunciado.png",
+  "options": [
+    "conativa (apelativa).",
+    "metalinguística.",
+    "poética.",
+    "denotativa.",
+    "fática."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 4,
+  "subject": "Português",
+  "explanation": "A) Incorreta. A função conativa é também comumente referida como apelativa e se centra no receptor. O principal objetivo dessa função é convencer alguém de algo. Pode aparecer em publicidade e campanhas políticas principalmente. Os textos apelativos são majoritariamente em primeira ou segunda pessoa - singular e plural - e utiliza verbos no imperativo.<br><br>B) Incorreta. A função metalinguística foca no próprio código. Ela caracteriza textos que falam sobre o próprio texto ou sobre o ato da escrita. Além de poemas e artigos que falem sobre este ofício, há também os livros didáticos voltados para o estudo da língua, como gramáticas e dicionários.<br><br>C) Incorreta. A função poética foca na mensagem. O importante nela é o modo como se elabora o conteúdo, ou seja, a forma do texto importa tanto quanto seu conteúdo. É bastante comum na literatura, principalmente na lírica, mas não só. A função poética também se encontra muitas vezes, por exemplo, na publicidade. Caracteriza-se pelo uso constante da linguagem figurada.<br><br>D) Incorreta. A função referencial ou denotativa foca no referente, ou seja, situar no contexto do processo comunicacional. O objetivo aqui, portanto, é apenas informar os dados sem opinar sobre eles. Aparece no texto jornalístico, nos manuais, listas, bulas etc. Diferente da função conativa, não há o uso do imperativo. O objetivo não é convencer, mas sim informar.<br><br>E) Correto. O centro da função fática é o canal, ou seja, a preocupação é com o veículo de transmissão. O importante aqui não é o que nem como se fala, mas estabelecer contato. É comum aparecer em situações de teste de funcionamento do veículo, cumprimentos e saudações em geral. Na tirinha de Calvin, expressões como “oi”, “como vai”, “não?” ao telefone são um ótimo exemplo de função fática.",
+  "explanationImage": null,
+  "year": 2021
+}

@@ -1,0 +1,23 @@
+{
+  "id": 2,
+  "text": "(ESA 2020) O clima que se estende pela faixa litorânea do Nordeste ao Sudeste, com grande influencia da Massa Tropical (Ta), apresentando alta pluviosidade e elevadas médias térmicas. Trata-se do clima:",
+  "questionImage": null,
+  "options": [
+    "equatorial úmido.",
+    "litorâneo úmido.",
+    "tropical de altitude.",
+    "tropical semiárido.",
+    "subtropical úmido."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Geografia",
+  "explanation": "A) Incorreto. O Equatorial úmido está na Amazônia.<br><br>B) Correto. O litoral norte paulista é a região que apresenta o maior índice pluviométrico do Brasil.<br><br>C) Incorreto. O Tropical de altitude se encontra nas áreas tropicais onde a topografia é mais elevada.<br><br>D) Incorreto. O Tropical semiárido se encontra no Sertão.<br><br>E) Incorreto. O Subtropical se encontra no Sul do Trópico de Capricórnio",
+  "year": 2020
+}

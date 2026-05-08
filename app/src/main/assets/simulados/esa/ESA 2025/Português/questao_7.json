@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "text": "(ESA 2025) Em “Era<b> uma quarta-feira</b>”, a estrutura em destaque classifica-se como:",
+  "questionImage": null,
+  "options": [
+    "Predicativo.",
+    "Adjunto adverbial.",
+    "Aposto.",
+    "Sujeito.",
+    "Adjunto adnominal."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 0,
+  "subject": "Português",
+  "explanation": "(A) Correto. Pois “uma quarta-feira” é o predicativo neutro (ou do termo nulo que indica tempo), atribuindo uma característica ao sujeito subentendido. O verbo “era” é de ligação e o termo em destaque completa o seu sentido, indicando estado ou identificação - neste caso, classifica-se como predicativo.<br><br>(B) Incorreta. Pois adjunto adverbial indica circunstância (tempo, lugar, modo etc.), mas “uma quarta-feira” não expressa uma circunstância, e sim o estado temporal atribuído ao dia, completando o verbo de<br><br>(C) Incorreta. Porque aposto é um termo explicativo ou especificativo de um nome, o que não ocorre no trecho, já que não há outro substantivo a ser explicado.<br><br>(D) Incorreta. Pois o sujeito da oração é inexistente - o verbo ser aqui é impessoal quando indica tempo, e não há um termo que exerça função de sujeito. Portanto, “uma quarta-feira” não pode ser sujeito.<br><br>(E) Incorreta. Pois adjunto adnominal caracteriza um substantivo, o que não ocorre aqui. A expressão “uma quarta-feira” não qualifica nem determina outro nome, e sim completa o sentido do verbo era.",
+  "explanationImage": null,
+  "year": 2025
+}

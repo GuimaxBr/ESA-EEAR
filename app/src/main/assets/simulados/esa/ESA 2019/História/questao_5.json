@@ -1,0 +1,24 @@
+{
+  "id": 5,
+  "text": "(ESA 2019) No ano de 1930, foi rompido o acordo da política do café com leite, isto é, o desentendimento entre os partidários do Partido Republicano Paulista (PRP) e do Partido Republicano Mineiro (PRM). Nesse contexto histórico, que agitou a cena política nacional, nasceu a Aliança Liberal (AL), um agrupamento político que reunia líderes dos estados:",
+  "questionImage": null,
+  "options": [
+    "de Minas Gerais, do Mato Grosso e do Ceará.",
+    "de São Paulo, do Rio de Janeiro e do Rio Grande do Sul.",
+    "de São Paulo, da Bahia e de Pernambuco.",
+    "do Rio Grande do Sul, de Minas Gerais e da Paraíba.",
+    "do Rio de Janeiro, do Rio Grande do Sul e da Bahia."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "História",
+  "explanation": "Aliança Liberal foi uma chapa formada pelos estados que endossaram o candidato oposicionista na eleição de 1930, durante o governo Washington Luís. Ela foi composta pelo Rio Grande do Sul, cujo governante, Getúlio Vargas, era também o presidenciável; pela Paraíba, representada pelo candidato a vice, João Pessoa; e também por Minas Gerais. Embora tenham sido derrotados pelo candidato situacionista, Júlio Prestes, seus integrantes organizaram um golpe para ascenderem ao poder, a Revolução de 1930.",
+  "explanationImage": null,
+  "year": 2019
+}

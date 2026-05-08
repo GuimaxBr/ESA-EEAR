@@ -1,0 +1,23 @@
+{
+  "id": 9,
+  "text": "(ESA 2020) Marque a única opção em que a palavra escreve-se sem a letra h.",
+  "questionImage": null,
+  "options": [
+    "ediôndo.",
+    "pan-ispânico.",
+    "omilia.",
+    "desarmonia.",
+    "ecatombe."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 3,
+  "subject": "Português",
+  "explanation": "Quando o prefixo \"des-\" se une à palavra \"harmonia\", que originalmente tem a letra \"h\", além de não haver hífen, não haverá o \"h\".",
+  "year": 2020
+}

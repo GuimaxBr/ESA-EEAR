@@ -1,0 +1,24 @@
+{
+  "id": 4,
+  "text": "(ESA 2025) O humor da tirinha (Texto II) se encontra na expressão:",
+  "questionImage": "questao_4_enunciado.png",
+  "options": [
+    "“Caixinha de areia”.",
+    "“Às vezes”.",
+    "“Muito Inteligente”.",
+    "“Devo ser”.",
+    "“Uso o banheiro”."
+  ],
+  "optionImages": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "correctOption": 1,
+  "subject": "Português",
+  "explanation": "(A) Incorreto. Pois “caixinha de areia” apenas contextualiza o motivo do elogio feito ao gato, sendo um dado neutro e não humorístico.<br><br>(B) Correta. Pois o advérbio “às vezes” introduz o verdadeiro efeito humorístico da tirinha. O menino tenta se colocar acima do gato por usar o banheiro, mas a admissão de que “às vezes até dou descarga” quebra a lógica e revela o exagero infantil e a ironia da comparação. O humor decorre justamente dessa confissão involuntária que transforma uma suposta superioridade em algo risível.<br><br>(C) Incorreto. Pois “muito inteligente” apenas caracteriza o gato e serve de ponto de partida para o diálogo, mas não contém o elemento cômico em si.<br><br>(D) Incorreto. Pois a expressão “Devo ser” introduz a conclusão do personagem, mas o humor não está propriamente nela - e sim no exagero criado pela comparação anterior. O “devo ser” apenas fecha o raciocínio cômico, sem conter, isoladamente, o elemento de humor.<br><br>(E) Incorreto. Pois “uso o banheiro” é uma informação literal, que prepara o contraste com o comportamento do gato, mas não provoca riso por si só. É uma ação comum, sem carga de ironia ou exagero.",
+  "explanationImage": null,
+  "year": 2025
+}
