@@ -99,64 +99,15 @@
             z-index: 9999;
             pointer-events: none;
             overflow: hidden;
-            opacity: 0.48;
+            opacity: 0.52;
             mix-blend-mode: screen;
-            background-image:
-                radial-gradient(circle, rgba(247, 197, 69, 0.85) 0 1.35px, transparent 1.95px),
-                radial-gradient(circle, rgba(173, 217, 255, 0.48) 0 1px, transparent 1.7px);
-            background-size: 220px 260px, 360px 420px;
-            background-position: 18px 26px, 210px 72px;
             contain: strict;
         }
 
-        .spore-overlay::before,
-        .spore-overlay::after {
-            content: "";
-            position: absolute;
-            inset: -12%;
-            background-repeat: repeat;
-            will-change: transform;
-            transform: translate3d(0, 0, 0);
-        }
-
-        .spore-overlay::before {
-            opacity: 0.82;
-            background-image:
-                radial-gradient(circle, rgba(247, 197, 69, 0.82) 0 1.25px, transparent 2px),
-                radial-gradient(circle, rgba(255, 255, 255, 0.34) 0 0.9px, transparent 1.55px);
-            background-size: 240px 280px, 420px 460px;
-            background-position: 42px 80px, 180px 220px;
-            animation: sporeFloatA 34s linear infinite;
-        }
-
-        .spore-overlay::after {
-            opacity: 0.58;
-            background-image:
-                radial-gradient(circle, rgba(166, 212, 255, 0.48) 0 1px, transparent 1.75px),
-                radial-gradient(circle, rgba(247, 197, 69, 0.36) 0 0.8px, transparent 1.45px);
-            background-size: 320px 360px, 560px 620px;
-            background-position: 120px 160px, 60px 360px;
-            animation: sporeFloatB 52s linear infinite;
-        }
-
-        @keyframes sporeFloatA {
-            from {
-                transform: translate3d(-18px, -24px, 0);
-            }
-
-            to {
-                transform: translate3d(46px, 92px, 0);
-            }
-        }
-
-        @keyframes sporeFloatB {
-            from {
-                transform: translate3d(34px, -42px, 0);
-            }
-
-            to {
-                transform: translate3d(-58px, 118px, 0);
-            }
+        .spore-canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
         }
 
         .page-shell {
@@ -1384,10 +1335,13 @@
             .reveal.delay-2,
             .reveal.delay-3,
             .admin-fab,
-            .spore-overlay::before,
-            .spore-overlay::after {
+            .spore-overlay {
                 animation: none;
                 transition: none;
+            }
+
+            .spore-overlay {
+                display: none;
             }
         }
     </style>
@@ -1927,6 +1881,111 @@
                 pendingY: 0
             };
 
+            function initSporeField() {
+                const overlay = document.querySelector(".spore-overlay");
+                const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+                if (!overlay || reducedMotion.matches) {
+                    return;
+                }
+
+                const canvas = document.createElement("canvas");
+                canvas.className = "spore-canvas";
+                overlay.appendChild(canvas);
+
+                const context = canvas.getContext("2d", { alpha: true });
+                if (!context) {
+                    overlay.remove();
+                    return;
+                }
+
+                const colors = ["247, 197, 69", "173, 217, 255", "255, 255, 255"];
+                const spores = [];
+                let width = 0;
+                let height = 0;
+                let pixelRatio = 1;
+                let frame = 0;
+                let previousTime = performance.now();
+
+                const randomBetween = (min, max) => min + Math.random() * (max - min);
+
+                function resetSpore(spore, startAnywhere = false) {
+                    const enterFromLeft = Math.random() > 0.64;
+                    spore.x = enterFromLeft ? randomBetween(-90, width * 0.22) : randomBetween(-width * 0.16, width * 1.05);
+                    spore.y = startAnywhere ? randomBetween(-height * 0.08, height * 1.08) : randomBetween(-140, -16);
+                    spore.vx = randomBetween(-8, 18);
+                    spore.vy = randomBetween(9, 34);
+                    spore.radius = randomBetween(0.55, 1.65);
+                    spore.alpha = randomBetween(0.18, 0.58);
+                    spore.color = colors[Math.floor(Math.random() * colors.length)];
+                    spore.wave = randomBetween(5, 22);
+                    spore.phase = randomBetween(0, Math.PI * 2);
+                    spore.phaseSpeed = randomBetween(0.45, 1.25);
+                }
+
+                function resizeCanvas() {
+                    width = window.innerWidth;
+                    height = window.innerHeight;
+                    pixelRatio = Math.min(window.devicePixelRatio || 1, 1.75);
+                    canvas.width = Math.max(1, Math.floor(width * pixelRatio));
+                    canvas.height = Math.max(1, Math.floor(height * pixelRatio));
+                    canvas.style.width = `${width}px`;
+                    canvas.style.height = `${height}px`;
+                    context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
+
+                    const targetCount = Math.min(72, Math.max(28, Math.round((width * height) / 24000)));
+                    while (spores.length < targetCount) {
+                        const spore = {};
+                        resetSpore(spore, true);
+                        spores.push(spore);
+                    }
+                    spores.length = targetCount;
+                }
+
+                function draw(time) {
+                    const delta = Math.min((time - previousTime) / 1000, 0.04);
+                    previousTime = time;
+                    context.clearRect(0, 0, width, height);
+                    context.globalCompositeOperation = "screen";
+
+                    spores.forEach((spore) => {
+                        spore.phase += delta * spore.phaseSpeed;
+                        spore.x += (spore.vx + Math.sin(spore.phase) * spore.wave) * delta;
+                        spore.y += spore.vy * delta;
+
+                        if (spore.y > height + 48 || spore.x < -96 || spore.x > width + 96) {
+                            resetSpore(spore);
+                        }
+
+                        const glow = 0.58 + Math.sin(spore.phase) * 0.28;
+                        context.beginPath();
+                        context.fillStyle = `rgba(${spore.color}, ${Math.max(0.08, spore.alpha * glow)})`;
+                        context.arc(spore.x, spore.y, spore.radius, 0, Math.PI * 2);
+                        context.fill();
+                    });
+
+                    if (!document.hidden) {
+                        frame = requestAnimationFrame(draw);
+                    }
+                }
+
+                function start() {
+                    cancelAnimationFrame(frame);
+                    previousTime = performance.now();
+                    frame = requestAnimationFrame(draw);
+                }
+
+                resizeCanvas();
+                start();
+                window.addEventListener("resize", resizeCanvas, { passive: true });
+                document.addEventListener("visibilitychange", () => {
+                    if (document.hidden) {
+                        cancelAnimationFrame(frame);
+                    } else {
+                        start();
+                    }
+                });
+            }
+
             function loadSession() {
                 try {
                     const parsed = JSON.parse(sessionStorage.getItem(sessionKey) || "{}");
@@ -2456,6 +2515,7 @@
                 }
             }
 
+            initSporeField();
             applyState();
 
             document.querySelectorAll("img").forEach((image, index) => {
