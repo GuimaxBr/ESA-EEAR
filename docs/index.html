@@ -93,6 +93,22 @@
             max-width: 100%;
         }
 
+        .spore-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            pointer-events: none;
+            opacity: 0.38;
+            mix-blend-mode: screen;
+            background-image:
+                radial-gradient(circle, rgba(247, 197, 69, 0.85) 0 1.35px, transparent 1.95px),
+                radial-gradient(circle, rgba(173, 217, 255, 0.55) 0 1.05px, transparent 1.7px),
+                radial-gradient(circle, rgba(255, 255, 255, 0.36) 0 0.85px, transparent 1.45px),
+                radial-gradient(circle, rgba(247, 197, 69, 0.40) 0 0.7px, transparent 1.25px);
+            background-size: 180px 210px, 260px 280px, 380px 420px, 520px 560px;
+            background-position: 18px 26px, 88px 140px, 210px 72px, 44px 320px;
+        }
+
         .page-shell {
             position: relative;
             isolation: isolate;
@@ -938,6 +954,7 @@
             right: 24px;
             bottom: 24px;
             z-index: 50;
+            display: none;
             border: 0;
             border-radius: 999px;
             padding: 14px 18px;
@@ -1302,6 +1319,7 @@
     </style>
 </head>
 <body>
+    <div class="spore-overlay" aria-hidden="true"></div>
     <div class="page-shell">
         <header class="topbar">
             <div class="topbar-inner">
@@ -1620,8 +1638,6 @@
             </section>
         </main>
     </div>
-
-    <button class="admin-fab" type="button" id="adminFab">Gerencia</button>
 
     <div class="admin-layer" id="adminLayer" aria-hidden="true">
         <div class="admin-backdrop" data-admin-close="true"></div>
@@ -2126,7 +2142,9 @@
                 errorBox.textContent = "";
             }
 
-            fab.addEventListener("click", openLayer);
+            if (fab) {
+                fab.addEventListener("click", openLayer);
+            }
             layer.querySelectorAll("[data-admin-close='true']").forEach((button) => {
                 button.addEventListener("click", closeLayer);
             });
