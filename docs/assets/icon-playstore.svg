@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img" aria-label="Play Store">
+  <rect width="28" height="28" rx="9" fill="#57d29b"/>
+  <path d="M8.2 6.4v15.2c0 .7.8 1.1 1.4.7l12.2-7.6c.6-.4.6-1.2 0-1.6L9.6 5.7c-.6-.4-1.4 0-1.4.7z" fill="#06101f"/>
+  <path d="M9 6.4l6.5 7.5L9 21.6V6.4z" fill="#b8ffd9" opacity=".9"/>
+</svg>
