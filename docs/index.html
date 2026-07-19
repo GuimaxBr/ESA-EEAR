@@ -1001,7 +1001,22 @@
             }
 
             .team-photo {
-                aspect-ratio: 1 / 1.06;
+                aspect-ratio: 4 / 5;
+                display: grid;
+                place-items: center;
+            }
+
+            .team-photo img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+
+            .team-card::before {
+                background:
+                    linear-gradient(180deg, rgba(3, 11, 21, 0.12) 0%, rgba(3, 11, 21, 0.42) 46%, rgba(3, 11, 21, 0.94) 100%),
+                    radial-gradient(circle at top left, rgba(247, 197, 69, 0.10), transparent 28%);
             }
         }
 
