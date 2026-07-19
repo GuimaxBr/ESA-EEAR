@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questões ESA | Plataforma de preparação ESA e EEAR</title>
-    <link rel="icon" type="image/png" href="./assets/questoes-esa.png">
-    <link rel="shortcut icon" type="image/png" href="./assets/questoes-esa.png">
-    <link rel="apple-touch-icon" href="./assets/questoes-esa.png">
+    <link rel="icon" type="image/png" href="./assets/questoes-esa-icon.png">
+    <link rel="shortcut icon" type="image/png" href="./assets/questoes-esa-icon.png">
+    <link rel="apple-touch-icon" href="./assets/questoes-esa-icon.png">
     <meta
         name="description"
-        content="Questões ESA é uma plataforma de preparação para ESA e EEAR com simulados, progresso, ranking online, metas diárias, sincronização e rotina de estudo."
+        content="Questões ESA EEAR é um app de estudos para candidatos com questões, simulados, progresso, metas, ranking, modo batalha, redação e comunidade ativa."
     >
     <style>
         :root {
@@ -56,7 +56,7 @@
         body::before,
         body::after {
             content: "";
-            position: fixed;
+            position: absolute;
             inset: 0;
             pointer-events: none;
             z-index: -2;
@@ -75,6 +75,22 @@
             background-size: 34px 34px;
             mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), transparent 92%);
             z-index: -3;
+        }
+
+        .ambient-snow {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.20;
+            background-image:
+                radial-gradient(circle, rgba(247, 197, 69, 0.72) 0 1px, transparent 1.6px),
+                radial-gradient(circle, rgba(155, 205, 255, 0.50) 0 1px, transparent 1.4px),
+                radial-gradient(circle, rgba(255, 255, 255, 0.30) 0 0.8px, transparent 1.2px);
+            background-size: 220px 220px, 340px 340px, 520px 520px;
+            background-position: 12px 40px, 120px 80px, 60px 180px;
+            animation: softSnow 42s linear infinite;
+            transform: translateZ(0);
         }
 
         a {
@@ -116,7 +132,7 @@
             position: sticky;
             top: 0;
             z-index: 20;
-            backdrop-filter: blur(18px);
+            backdrop-filter: blur(10px);
             background: rgba(4, 13, 26, 0.72);
             border-bottom: 1px solid rgba(125, 180, 255, 0.10);
         }
@@ -225,7 +241,12 @@
             border: 1px solid var(--line);
             border-radius: var(--radius-xl);
             box-shadow: var(--shadow);
-            backdrop-filter: blur(22px);
+            backdrop-filter: blur(12px);
+        }
+
+        .section {
+            content-visibility: auto;
+            contain-intrinsic-size: 760px;
         }
 
         .hero-panel {
@@ -283,6 +304,36 @@
             line-height: 1.72;
         }
 
+        .hero-highlights {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            max-width: 680px;
+            margin-top: 22px;
+        }
+
+        .hero-highlight {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            min-height: 46px;
+            padding: 10px 12px;
+            border-radius: 16px;
+            color: #dbeaff;
+            background: rgba(125, 180, 255, 0.075);
+            border: 1px solid rgba(125, 180, 255, 0.13);
+        }
+
+        .hero-highlight::before {
+            content: "";
+            width: 9px;
+            height: 9px;
+            flex: 0 0 auto;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--accent-green), #d8ffe9);
+            box-shadow: 0 0 14px rgba(87, 210, 155, 0.42);
+        }
+
         .hero-actions {
             display: flex;
             flex-wrap: wrap;
@@ -319,6 +370,37 @@
             border: 1px solid rgba(125, 180, 255, 0.18);
         }
 
+        .button-store {
+            color: #06101f;
+            background: linear-gradient(135deg, #57d29b 0%, #b8ffd9 100%);
+            box-shadow: 0 18px 32px rgba(87, 210, 155, 0.22);
+        }
+
+        .social-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .social-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 13px;
+            border-radius: 999px;
+            color: var(--muted);
+            background: rgba(8, 20, 39, 0.52);
+            border: 1px solid rgba(125, 180, 255, 0.14);
+            transition: color 180ms ease, border-color 180ms ease, transform 180ms ease;
+        }
+
+        .social-pill:hover {
+            color: var(--ink);
+            border-color: rgba(247, 197, 69, 0.34);
+            transform: translateY(-1px);
+        }
+
         .hero-stats {
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -352,7 +434,7 @@
             padding: 24px;
             background:
                 linear-gradient(180deg, rgba(9, 25, 48, 0.94), rgba(7, 20, 38, 0.95)),
-                url("./assets/bote.jpg") center/cover no-repeat;
+                url("./assets/bote-optimized.webp") center/cover no-repeat;
         }
 
         .showcase-panel::before {
@@ -789,6 +871,16 @@
             }
         }
 
+        @keyframes softSnow {
+            from {
+                background-position: 12px 40px, 120px 80px, 60px 180px;
+            }
+
+            to {
+                background-position: 82px 420px, 40px 520px, 140px 680px;
+            }
+        }
+
         @media (max-width: 1120px) {
             .hero-grid,
             .signal-grid,
@@ -833,6 +925,7 @@
             }
 
             .hero-stats,
+            .hero-highlights,
             .dev-grid {
                 grid-template-columns: 1fr;
             }
@@ -851,9 +944,382 @@
                 aspect-ratio: 1 / 1.06;
             }
         }
+
+        .admin-fab {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            z-index: 50;
+            border: 0;
+            border-radius: 999px;
+            padding: 14px 18px;
+            font: inherit;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            color: #f4efe3;
+            background: linear-gradient(135deg, #7d1c17, #b48436);
+            box-shadow: 0 18px 32px rgba(8, 11, 16, 0.34);
+            cursor: pointer;
+        }
+
+        .admin-fab:hover {
+            transform: translateY(-2px);
+        }
+
+        .admin-layer {
+            position: fixed;
+            inset: 0;
+            z-index: 60;
+            display: none;
+        }
+
+        .admin-layer.is-open {
+            display: block;
+        }
+
+        .admin-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(7, 10, 14, 0.74);
+            backdrop-filter: blur(6px);
+        }
+
+        .admin-login,
+        .admin-drawer {
+            position: absolute;
+            background: #10161f;
+            color: #f7f3ea;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.36);
+        }
+
+        .admin-login {
+            top: 50%;
+            left: 50%;
+            width: min(420px, calc(100vw - 32px));
+            padding: 28px;
+            border-radius: 28px;
+            transform: translate(-50%, -50%);
+        }
+
+        .admin-drawer {
+            top: 0;
+            right: 0;
+            width: min(520px, 100vw);
+            height: 100%;
+            padding: 24px;
+            overflow-y: auto;
+            transform: translateX(100%);
+            transition: transform 220ms ease;
+        }
+
+        .admin-layer.is-authenticated .admin-drawer {
+            transform: translateX(0);
+        }
+
+        .admin-layer.is-authenticated .admin-login {
+            display: none;
+        }
+
+        .admin-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .admin-title {
+            margin: 0;
+            font-size: 1.05rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .admin-subtitle {
+            margin: 6px 0 0;
+            color: rgba(247, 243, 234, 0.7);
+            line-height: 1.5;
+        }
+
+        .admin-close,
+        .admin-action,
+        .admin-logout {
+            border: 0;
+            border-radius: 14px;
+            padding: 10px 14px;
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .admin-close,
+        .admin-logout {
+            color: #f7f3ea;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .admin-action.primary {
+            color: #f7f3ea;
+            background: linear-gradient(135deg, #9e3b20, #cb9c3e);
+        }
+
+        .admin-action.secondary {
+            color: #f7f3ea;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .admin-form,
+        .admin-actions,
+        .admin-fields {
+            display: grid;
+            gap: 16px;
+        }
+
+        .admin-fields {
+            margin-top: 20px;
+        }
+
+        .admin-field {
+            display: grid;
+            gap: 8px;
+            padding: 16px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .admin-field label,
+        .admin-field span {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: rgba(247, 243, 234, 0.78);
+        }
+
+        .admin-field input,
+        .admin-field textarea {
+            width: 100%;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(9, 12, 17, 0.92);
+            color: #f7f3ea;
+            padding: 12px 14px;
+            font: inherit;
+        }
+
+        .admin-field textarea {
+            min-height: 110px;
+            resize: vertical;
+        }
+
+        .admin-field input[type="file"] {
+            padding: 10px;
+        }
+
+        .admin-preview {
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .admin-preview img {
+            display: block;
+            width: 100%;
+            max-height: 180px;
+            object-fit: cover;
+        }
+
+        .admin-field-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .admin-mini-action {
+            border: 0;
+            border-radius: 12px;
+            padding: 10px 12px;
+            font: inherit;
+            font-weight: 700;
+            color: #f7f3ea;
+            background: rgba(255, 255, 255, 0.08);
+            cursor: pointer;
+        }
+
+        .cropper-layer {
+            position: fixed;
+            inset: 0;
+            z-index: 75;
+            display: none;
+        }
+
+        .cropper-layer.is-open {
+            display: block;
+        }
+
+        .cropper-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(4, 8, 14, 0.84);
+            backdrop-filter: blur(6px);
+        }
+
+        .cropper-panel {
+            position: absolute;
+            inset: 50% auto auto 50%;
+            width: min(760px, calc(100vw - 24px));
+            max-height: calc(100vh - 24px);
+            overflow-y: auto;
+            padding: 22px;
+            border-radius: 28px;
+            background: #0e1723;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.42);
+            transform: translate(-50%, -50%);
+        }
+
+        .cropper-viewport {
+            position: relative;
+            width: 100%;
+            min-height: 220px;
+            border-radius: 24px;
+            overflow: hidden;
+            background:
+                linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.04) 75%),
+                linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.04) 75%);
+            background-position: 0 0, 16px 16px;
+            background-size: 32px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            touch-action: none;
+            user-select: none;
+            cursor: grab;
+        }
+
+        .cropper-viewport.is-dragging {
+            cursor: grabbing;
+        }
+
+        .cropper-viewport img {
+            position: absolute;
+            inset: 50% auto auto 50%;
+            max-width: none;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        .cropper-frame {
+            position: absolute;
+            inset: 0;
+            border: 2px solid rgba(247, 197, 69, 0.88);
+            border-radius: 24px;
+            box-shadow: inset 0 0 0 9999px rgba(3, 7, 12, 0.34);
+            pointer-events: none;
+        }
+
+        .cropper-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.32) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.32) 1px, transparent 1px);
+            background-size: 33.333% 33.333%;
+            opacity: 0.35;
+            pointer-events: none;
+        }
+
+        .cropper-controls {
+            display: grid;
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .cropper-slider {
+            width: 100%;
+        }
+
+        .cropper-help,
+        .cropper-error {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .cropper-help {
+            color: rgba(247, 243, 234, 0.72);
+        }
+
+        .cropper-error {
+            min-height: 1.2em;
+            color: #ff9688;
+        }
+
+        .admin-note,
+        .admin-error {
+            margin: 0;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+
+        .admin-note {
+            color: rgba(247, 243, 234, 0.7);
+        }
+
+        .admin-error {
+            color: #ff8f7e;
+            min-height: 1.2em;
+        }
+
+        @media (max-width: 720px) {
+            .admin-fab {
+                right: 16px;
+                bottom: 16px;
+                padding: 12px 16px;
+            }
+
+            .admin-drawer {
+                width: 100vw;
+                padding: 18px;
+            }
+
+            .admin-login {
+                padding: 22px;
+            }
+
+            .cropper-panel {
+                width: calc(100vw - 18px);
+                padding: 18px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce), (pointer: coarse) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            .page-shell::before {
+                animation: none;
+            }
+
+            .ambient-snow {
+                animation: none;
+                opacity: 0.08;
+            }
+
+            .reveal,
+            .reveal.delay-1,
+            .reveal.delay-2,
+            .reveal.delay-3,
+            .admin-fab {
+                transition: none;
+            }
+        }
     </style>
 </head>
 <body>
+    <div class="ambient-snow" aria-hidden="true"></div>
     <div class="page-shell">
         <header class="topbar">
             <div class="topbar-inner">
@@ -868,10 +1334,10 @@
                 </a>
                 <nav class="nav" aria-label="Seções do site">
                     <a href="#plataforma">Plataforma</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener">Play Store</a>
                     <a href="#rotina-papiro">Rotina Papiro</a>
                     <a href="#funcionalidades">Funcionalidades</a>
                     <a href="#desenvolvedores">Desenvolvedores</a>
-                    <a href="./app-ads.txt">app-ads.txt</a>
                 </nav>
             </div>
         </header>
@@ -881,29 +1347,41 @@
                 <div class="hero-grid">
                     <article class="hero-panel reveal is-visible">
                         <span class="eyebrow">Operação aprovação</span>
-                        <h1>A tropa do seu estudo começa aqui.</h1>
+                        <h1>Estude para ESA e EEAR com ritmo de missão.</h1>
                         <p class="lead">
-                            O Questões ESA foi criado para transformar rotina em progresso real. Simulados por ano e
-                            matéria, ranking online, metas diárias, histórico, sargentômetro, sincronização em nuvem e
-                            uma experiência visual pensada para quem está construindo disciplina, constância e
-                            resultado.
+                            O Questões ESA EEAR transforma tempo ocioso em treino de verdade: questões focadas,
+                            simulados, revisão dos erros, metas diárias, ranking, modo batalha e ferramentas para
+                            acompanhar sua evolução até a prova.
                         </p>
+                        <div class="hero-highlights" aria-label="Principais recursos do app">
+                            <span class="hero-highlight">Banco de questões ESA e EEAR</span>
+                            <span class="hero-highlight">Simulados por prova, ano e matéria</span>
+                            <span class="hero-highlight">Progresso, metas e histórico de acertos</span>
+                            <span class="hero-highlight">Flash cards, redação e plano semanal</span>
+                            <span class="hero-highlight">Ranking online e Modo Batalha</span>
+                            <span class="hero-highlight">Grupo de estudos e comunidade ativa</span>
+                        </div>
                         <div class="hero-actions">
-                            <a class="button button-primary" href="#funcionalidades">Explorar a plataforma</a>
-                            <a class="button button-secondary" href="#desenvolvedores">Conhecer a equipe</a>
+                            <a class="button button-store" href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener">App disponível na Play Store</a>
+                            <a class="button button-primary" href="https://chat.whatsapp.com/FL1cGjB1ZvJ1Pzp5ZjGi1Z" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a>
+                            <a class="button button-secondary" href="#funcionalidades">Ver funcionalidades</a>
+                        </div>
+                        <div class="social-row" aria-label="Canais oficiais">
+                            <a class="social-pill" href="https://www.instagram.com/questoesesaeear/" target="_blank" rel="noopener">@questoesesaeear</a>
+                            <a class="social-pill" href="https://chat.whatsapp.com/FL1cGjB1ZvJ1Pzp5ZjGi1Z" target="_blank" rel="noopener">Grupo oficial no WhatsApp</a>
                         </div>
                         <div class="hero-stats">
                             <article class="stat-card reveal is-visible delay-1">
-                                <strong>ESA + EEAR</strong>
-                                <span>Estrutura preparada para organizar provas, evolução e constância de estudo.</span>
+                                <strong>Questões focadas</strong>
+                                <span>Conteúdo organizado para treinar com direção e revisar onde mais precisa melhorar.</span>
                             </article>
                             <article class="stat-card reveal is-visible delay-2">
-                                <strong>Ranking vivo</strong>
-                                <span>Presença, pontuação e tempo de estudo sincronizados para acompanhar quem está na luta.</span>
+                                <strong>Rotina guiada</strong>
+                                <span>Metas, lembretes, plano semanal e leitura do progresso para sustentar constância.</span>
                             </article>
                             <article class="stat-card reveal is-visible delay-3">
-                                <strong>Rotina forte</strong>
-                                <span>Metas, lembretes e ferramentas diárias para manter o preparo em movimento.</span>
+                                <strong>Comunidade ativa</strong>
+                                <span>Ranking, batalhas e grupo de estudos para manter o candidato em movimento.</span>
                             </article>
                         </div>
                     </article>
@@ -911,10 +1389,10 @@
                     <aside class="showcase-panel reveal is-visible delay-1" id="plataforma">
                         <div class="showcase-stack">
                             <div class="logo-card">
-                                <img src="./assets/questoes-esa.png" alt="Logo Questões ESA e EEAR">
+                                <img src="./assets/questoes-esa-optimized.webp" alt="Logo Questões ESA e EEAR" width="900" height="600" fetchpriority="high" decoding="async">
                             </div>
                             <div class="banner-card">
-                                <img src="./assets/banner-rotina-papiro.png" alt="Banner Rotina Papiro">
+                                <img src="./assets/banner-rotina-papiro-optimized.webp" alt="Banner Rotina Papiro" width="1200" height="675" loading="lazy" decoding="async">
                             </div>
                             <div class="showcase-note">
                                 <strong>Uma identidade de combate, disciplina e evolução.</strong>
@@ -942,7 +1420,7 @@
                     </div>
                     <div class="signal-grid">
                         <article class="signal-card image-card reveal delay-1">
-                            <img src="./assets/bote.jpg" alt="Cena de deslocamento em embarcação ao pôr do sol">
+                            <img src="./assets/bote-optimized.webp" alt="Cena de deslocamento em embarcação ao pôr do sol" width="900" height="1200" loading="lazy" decoding="async">
                             <div class="signal-overlay">
                                 <span class="signal-chip">Cenário de preparo</span>
                                 <h3>Preparação que atravessa o dia até a linha de chegada.</h3>
@@ -1089,7 +1567,7 @@
                     <div class="dev-grid">
                         <article class="team-card reveal delay-1">
                             <div class="team-photo">
-                                <img src="./assets/cb-guimaraes.jpg" alt="Cb Guimarães">
+                                <img src="./assets/cb-guimaraes-optimized.webp" alt="Cb Guimarães" width="332" height="720" loading="lazy" decoding="async">
                             </div>
                             <div class="team-copy">
                                 <span class="team-role">Cb Guimarães</span>
@@ -1103,7 +1581,7 @@
 
                         <article class="team-card reveal delay-2">
                             <div class="team-photo">
-                                <img src="./assets/sgt-estevao.png" alt="Sgt Estevão">
+                                <img src="./assets/sgt-estevao-optimized.webp" alt="Sgt Estevão" width="720" height="720" loading="lazy" decoding="async">
                             </div>
                             <div class="team-copy">
                                 <span class="team-role">Sgt Estevão</span>
@@ -1117,7 +1595,7 @@
 
                         <article class="team-card reveal delay-3">
                             <div class="team-photo">
-                                <img src="./assets/sd-sipriano.png" alt="Sd Sipriano">
+                                <img src="./assets/sd-sipriano-optimized.webp" alt="Sd Sipriano" width="688" height="618" loading="lazy" decoding="async">
                             </div>
                             <div class="team-copy">
                                 <span class="team-role">Sd Sipriano</span>
@@ -1136,19 +1614,20 @@
                 <div class="section-shell reveal">
                     <div class="closing-grid">
                         <div class="closing-copy">
-                            <span class="eyebrow">Infra de publicação</span>
-                            <h2>Site público, app pronto e validação já conectada.</h2>
+                            <span class="eyebrow">Acesso oficial</span>
+                            <h2>Baixe o app, entre na comunidade e mantenha sua rotina de estudo ativa.</h2>
                             <p>
-                                Esta landing também funciona como raiz oficial para o app-ads.txt, vinculando presença
-                                pública, identidade do projeto e infraestrutura necessária para AdMob e publicação.
+                                O Questões ESA EEAR foi feito para quem quer estudar com constância, acompanhar os
+                                próprios erros e transformar pequenos treinos diários em evolução real.
                             </p>
                             <div class="footer-meta">
-                                <span class="meta-pill">App ID: ca-app-pub-9677072903516668~4339368747</span>
-                                <span class="meta-pill">Publisher ID: pub-9677072903516668</span>
+                                <a class="meta-pill" href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener">Abrir na Play Store</a>
+                                <a class="meta-pill" href="https://chat.whatsapp.com/FL1cGjB1ZvJ1Pzp5ZjGi1Z" target="_blank" rel="noopener">Entrar no grupo do WhatsApp</a>
+                                <a class="meta-pill" href="https://www.instagram.com/questoesesaeear/" target="_blank" rel="noopener">Instagram @questoesesaeear</a>
                                 <a class="meta-pill" href="./app-ads.txt">Abrir app-ads.txt</a>
                             </div>
                             <p class="footer-note">
-                                Questões ESA | Plataforma Android para ESA e EEAR construída para estudo, ritmo e evolução.
+                                Questões ESA EEAR | App Android para estudo, ritmo, comunidade e evolução.
                             </p>
                         </div>
                         <div class="brand-mark" style="width: 96px; height: 96px; border-radius: 28px;">
@@ -1160,7 +1639,87 @@
         </main>
     </div>
 
-    <script>
+    <button class="admin-fab" type="button" id="adminFab">Gerencia</button>
+
+    <div class="admin-layer" id="adminLayer" aria-hidden="true">
+        <div class="admin-backdrop" data-admin-close="true"></div>
+
+        <section class="admin-login" aria-labelledby="adminLoginTitle">
+            <div class="admin-header">
+                <div>
+                    <h2 class="admin-title" id="adminLoginTitle">Modo gerencia</h2>
+                    <p class="admin-subtitle">Entre para trocar textos e imagens do site em modo simples.</p>
+                </div>
+                <button class="admin-close" type="button" data-admin-close="true">Fechar</button>
+            </div>
+
+            <form class="admin-form" id="adminLoginForm">
+                <div class="admin-field">
+                    <label for="adminUser">Login</label>
+                    <input id="adminUser" name="user" type="text" autocomplete="username">
+                </div>
+                <div class="admin-field">
+                    <label for="adminPass">Senha</label>
+                    <input id="adminPass" name="password" type="password" autocomplete="current-password">
+                </div>
+                <p class="admin-error" id="adminError"></p>
+                <button class="admin-action primary" type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <aside class="admin-drawer" aria-labelledby="adminPanelTitle">
+            <div class="admin-header">
+                <div>
+                    <h2 class="admin-title" id="adminPanelTitle">Painel de gerencia</h2>
+                    <p class="admin-subtitle">As alteracoes publicadas aqui ficam visiveis para todo mundo no site.</p>
+                </div>
+                <button class="admin-close" type="button" data-admin-close="true">Fechar</button>
+            </div>
+
+            <p class="admin-note">Troque textos, cole URLs de imagens ou envie arquivos locais para atualizar a pagina.</p>
+            <p class="admin-note" id="adminStatus">Carregando o conteudo publicado...</p>
+            <div class="admin-fields" id="adminFields"></div>
+            <div class="admin-actions">
+                <button class="admin-action primary" type="button" id="adminSave">Salvar alteracoes</button>
+                <button class="admin-action secondary" type="button" id="adminReset">Restaurar padrao</button>
+                <button class="admin-logout" type="button" id="adminLogout">Sair</button>
+            </div>
+        </aside>
+    </div>
+
+    <div class="cropper-layer" id="cropperLayer" aria-hidden="true">
+        <div class="cropper-backdrop" data-cropper-close="true"></div>
+        <section class="cropper-panel" aria-labelledby="cropperTitle">
+            <div class="admin-header">
+                <div>
+                    <h2 class="admin-title" id="cropperTitle">Recortar imagem</h2>
+                    <p class="admin-subtitle" id="cropperLabel">Ajuste o enquadramento antes de publicar.</p>
+                </div>
+                <button class="admin-close" type="button" data-cropper-close="true">Fechar</button>
+            </div>
+
+            <div class="cropper-viewport" id="cropperViewport">
+                <img id="cropperImage" alt="Imagem em edicao">
+                <div class="cropper-frame"></div>
+                <div class="cropper-grid"></div>
+            </div>
+
+            <div class="cropper-controls">
+                <div class="admin-field">
+                    <label for="cropperZoom">Zoom</label>
+                    <input class="cropper-slider" id="cropperZoom" type="range" min="1" max="3" step="0.01" value="1">
+                </div>
+                <p class="cropper-help">Arraste a imagem para reposicionar. O recorte respeita o formato do bloco que voce esta editando.</p>
+                <p class="cropper-error" id="cropperError"></p>
+                <div class="admin-field-actions">
+                    <button class="admin-mini-action" type="button" id="cropperReset">Reiniciar enquadramento</button>
+                    <button class="admin-action primary" type="button" id="cropperApply">Aplicar recorte</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="module">
         const observer = new IntersectionObserver((entries) => {
             for (const entry of entries) {
                 if (entry.isIntersecting) {
@@ -1178,6 +1737,674 @@
                 observer.observe(element);
             }
         });
+
+        (() => {
+            const cmsApiBase = "https://swaziland-serve-writing-brand.trycloudflare.com/api/site-content";
+            const cmsContentUrl = `${cmsApiBase}/landing`;
+            const cmsAuthUrl = `${cmsApiBase}/auth`;
+            const sessionKey = "questoes-esa-admin-session-v2";
+            const textConfig = [
+                { key: "brand-title", label: "Marca - titulo", selector: ".brand-title" },
+                { key: "brand-subtitle", label: "Marca - subtitulo", selector: ".brand-subtitle" },
+                { key: "hero-eyebrow", label: "Hero - apoio", selector: ".hero-panel .eyebrow" },
+                { key: "hero-title", label: "Hero - titulo", selector: ".hero-panel h1" },
+                { key: "hero-lead", label: "Hero - descricao", selector: ".hero-panel .lead" },
+                { key: "stat-1-title", label: "Hero - card 1 titulo", selector: ".hero-stats .stat-card:nth-of-type(1) strong" },
+                { key: "stat-1-text", label: "Hero - card 1 texto", selector: ".hero-stats .stat-card:nth-of-type(1) span" },
+                { key: "stat-2-title", label: "Hero - card 2 titulo", selector: ".hero-stats .stat-card:nth-of-type(2) strong" },
+                { key: "stat-2-text", label: "Hero - card 2 texto", selector: ".hero-stats .stat-card:nth-of-type(2) span" },
+                { key: "stat-3-title", label: "Hero - card 3 titulo", selector: ".hero-stats .stat-card:nth-of-type(3) strong" },
+                { key: "stat-3-text", label: "Hero - card 3 texto", selector: ".hero-stats .stat-card:nth-of-type(3) span" },
+                { key: "showcase-note-title", label: "Plataforma - nota titulo", selector: ".showcase-note strong" },
+                { key: "showcase-note-text", label: "Plataforma - nota texto", selector: ".showcase-note p" },
+                { key: "routine-title", label: "Rotina - titulo", selector: "#rotina-papiro .section-heading h2" },
+                { key: "routine-text", label: "Rotina - descricao", selector: "#rotina-papiro .section-heading > p" },
+                { key: "routine-chip", label: "Rotina - selo", selector: "#rotina-papiro .signal-overlay .signal-chip" },
+                { key: "routine-image-title", label: "Rotina - imagem titulo", selector: "#rotina-papiro .signal-overlay h3" },
+                { key: "routine-image-text", label: "Rotina - imagem texto", selector: "#rotina-papiro .signal-overlay p" },
+                { key: "mission-title", label: "Missao - titulo", selector: "#rotina-papiro .signal-copy h3" },
+                { key: "mission-text-1", label: "Missao - texto 1", selector: "#rotina-papiro .signal-copy > p:nth-of-type(1)" },
+                { key: "mission-text-2", label: "Missao - texto 2", selector: "#rotina-papiro .signal-copy > p:nth-of-type(2)" },
+                { key: "mission-quote", label: "Missao - frase", selector: "#rotina-papiro .quote" },
+                { key: "glass-1-title", label: "Missao - bloco 1 titulo", selector: "#rotina-papiro .glass-card:nth-of-type(1) strong" },
+                { key: "glass-1-text", label: "Missao - bloco 1 texto", selector: "#rotina-papiro .glass-card:nth-of-type(1) p" },
+                { key: "glass-2-title", label: "Missao - bloco 2 titulo", selector: "#rotina-papiro .glass-card:nth-of-type(2) strong" },
+                { key: "glass-2-text", label: "Missao - bloco 2 texto", selector: "#rotina-papiro .glass-card:nth-of-type(2) p" },
+                { key: "glass-3-title", label: "Missao - bloco 3 titulo", selector: "#rotina-papiro .glass-card:nth-of-type(3) strong" },
+                { key: "glass-3-text", label: "Missao - bloco 3 texto", selector: "#rotina-papiro .glass-card:nth-of-type(3) p" },
+                { key: "features-title", label: "Funcionalidades - titulo", selector: "#funcionalidades .section-heading h2" },
+                { key: "features-text", label: "Funcionalidades - descricao", selector: "#funcionalidades .section-heading > p" },
+                { key: "feature-1-title", label: "Funcionalidade 1 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(1) h3" },
+                { key: "feature-1-text", label: "Funcionalidade 1 - texto", selector: "#funcionalidades .feature-card:nth-of-type(1) p" },
+                { key: "feature-2-title", label: "Funcionalidade 2 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(2) h3" },
+                { key: "feature-2-text", label: "Funcionalidade 2 - texto", selector: "#funcionalidades .feature-card:nth-of-type(2) p" },
+                { key: "feature-3-title", label: "Funcionalidade 3 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(3) h3" },
+                { key: "feature-3-text", label: "Funcionalidade 3 - texto", selector: "#funcionalidades .feature-card:nth-of-type(3) p" },
+                { key: "feature-4-title", label: "Funcionalidade 4 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(4) h3" },
+                { key: "feature-4-text", label: "Funcionalidade 4 - texto", selector: "#funcionalidades .feature-card:nth-of-type(4) p" },
+                { key: "feature-5-title", label: "Funcionalidade 5 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(5) h3" },
+                { key: "feature-5-text", label: "Funcionalidade 5 - texto", selector: "#funcionalidades .feature-card:nth-of-type(5) p" },
+                { key: "feature-6-title", label: "Funcionalidade 6 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(6) h3" },
+                { key: "feature-6-text", label: "Funcionalidade 6 - texto", selector: "#funcionalidades .feature-card:nth-of-type(6) p" },
+                { key: "feature-7-title", label: "Funcionalidade 7 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(7) h3" },
+                { key: "feature-7-text", label: "Funcionalidade 7 - texto", selector: "#funcionalidades .feature-card:nth-of-type(7) p" },
+                { key: "feature-8-title", label: "Funcionalidade 8 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(8) h3" },
+                { key: "feature-8-text", label: "Funcionalidade 8 - texto", selector: "#funcionalidades .feature-card:nth-of-type(8) p" },
+                { key: "feature-9-title", label: "Funcionalidade 9 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(9) h3" },
+                { key: "feature-9-text", label: "Funcionalidade 9 - texto", selector: "#funcionalidades .feature-card:nth-of-type(9) p" },
+                { key: "team-title", label: "Equipe - titulo", selector: "#desenvolvedores .section-heading h2" },
+                { key: "team-text", label: "Equipe - descricao", selector: "#desenvolvedores .section-heading > p" },
+                { key: "team-1-role", label: "Equipe 1 - nome", selector: "#desenvolvedores .team-card:nth-of-type(1) .team-role" },
+                { key: "team-1-title", label: "Equipe 1 - titulo", selector: "#desenvolvedores .team-card:nth-of-type(1) h3" },
+                { key: "team-1-text", label: "Equipe 1 - texto", selector: "#desenvolvedores .team-card:nth-of-type(1) p" },
+                { key: "team-2-role", label: "Equipe 2 - nome", selector: "#desenvolvedores .team-card:nth-of-type(2) .team-role" },
+                { key: "team-2-title", label: "Equipe 2 - titulo", selector: "#desenvolvedores .team-card:nth-of-type(2) h3" },
+                { key: "team-2-text", label: "Equipe 2 - texto", selector: "#desenvolvedores .team-card:nth-of-type(2) p" },
+                { key: "team-3-role", label: "Equipe 3 - nome", selector: "#desenvolvedores .team-card:nth-of-type(3) .team-role" },
+                { key: "team-3-title", label: "Equipe 3 - titulo", selector: "#desenvolvedores .team-card:nth-of-type(3) h3" },
+                { key: "team-3-text", label: "Equipe 3 - texto", selector: "#desenvolvedores .team-card:nth-of-type(3) p" },
+                { key: "closing-eyebrow", label: "Encerramento - apoio", selector: ".closing-copy .eyebrow" },
+                { key: "closing-title", label: "Encerramento - titulo", selector: ".closing-copy h2" },
+                { key: "closing-text", label: "Encerramento - texto", selector: ".closing-copy > p:nth-of-type(1)" },
+                { key: "closing-note", label: "Encerramento - rodape", selector: ".footer-note" }
+            ];
+            const imageConfig = [
+                { key: "showcase-logo", label: "Plataforma - logo principal", selector: ".logo-card img" },
+                { key: "showcase-banner", label: "Plataforma - banner", selector: ".banner-card img" },
+                { key: "routine-image", label: "Rotina - imagem principal", selector: "#rotina-papiro .image-card img" },
+                { key: "team-1-image", label: "Equipe - foto 1", selector: "#desenvolvedores .team-card:nth-of-type(1) img" },
+                { key: "team-2-image", label: "Equipe - foto 2", selector: "#desenvolvedores .team-card:nth-of-type(2) img" },
+                { key: "team-3-image", label: "Equipe - foto 3", selector: "#desenvolvedores .team-card:nth-of-type(3) img" },
+                { key: "closing-image", label: "Encerramento - imagem", selector: ".closing-grid .brand-mark img" }
+            ];
+            const layer = document.getElementById("adminLayer");
+            const fab = document.getElementById("adminFab");
+            const fieldsHost = document.getElementById("adminFields");
+            const saveButton = document.getElementById("adminSave");
+            const resetButton = document.getElementById("adminReset");
+            const logoutButton = document.getElementById("adminLogout");
+            const loginForm = document.getElementById("adminLoginForm");
+            const errorBox = document.getElementById("adminError");
+            const statusBox = document.getElementById("adminStatus");
+            const cropperLayer = document.getElementById("cropperLayer");
+            const cropperViewport = document.getElementById("cropperViewport");
+            const cropperImage = document.getElementById("cropperImage");
+            const cropperZoom = document.getElementById("cropperZoom");
+            const cropperLabel = document.getElementById("cropperLabel");
+            const cropperError = document.getElementById("cropperError");
+            const cropperApplyButton = document.getElementById("cropperApply");
+            const cropperResetButton = document.getElementById("cropperReset");
+            const textFields = textConfig
+                .map((entry) => ({ ...entry, node: document.querySelector(entry.selector) }))
+                .filter((entry) => entry.node);
+            const imageFields = imageConfig
+                .map((entry) => ({ ...entry, node: document.querySelector(entry.selector) }))
+                .filter((entry) => entry.node);
+            const defaults = {
+                text: Object.fromEntries(textFields.map((entry) => [entry.key, entry.node.textContent.trim()])),
+                image: Object.fromEntries(imageFields.map((entry) => [entry.key, entry.node.getAttribute("src")]))
+            };
+            let state = { text: {}, image: {} };
+            let fieldsRendered = false;
+            const cropperState = {
+                entry: null,
+                preview: null,
+                urlInput: null,
+                source: "",
+                aspectRatio: 1,
+                zoom: 1,
+                x: 0,
+                y: 0,
+                dragging: false,
+                dragStartX: 0,
+                dragStartY: 0,
+                startX: 0,
+                startY: 0,
+                displayWidth: 0,
+                displayHeight: 0,
+                viewportWidth: 0,
+                viewportHeight: 0,
+                frameRequest: 0,
+                pendingX: 0,
+                pendingY: 0
+            };
+
+            function loadSession() {
+                try {
+                    const parsed = JSON.parse(sessionStorage.getItem(sessionKey) || "{}");
+                    return parsed && typeof parsed.authToken === "string" ? parsed : null;
+                } catch (error) {
+                    return null;
+                }
+            }
+
+            function saveSession(session) {
+                sessionStorage.setItem(sessionKey, JSON.stringify(session));
+            }
+
+            function clearSession() {
+                sessionStorage.removeItem(sessionKey);
+            }
+
+            function normalizeState(content) {
+                return {
+                    text: content && content.text && typeof content.text === "object" ? content.text : {},
+                    image: content && content.image && typeof content.image === "object" ? content.image : {}
+                };
+            }
+
+            function setStatus(message) {
+                statusBox.textContent = message;
+            }
+
+            function formatUpdatedAt(value) {
+                if (!value) {
+                    return "";
+                }
+                const date = new Date(value);
+                if (Number.isNaN(date.getTime())) {
+                    return value;
+                }
+                return date.toLocaleString("pt-BR");
+            }
+
+            function applyState() {
+                textFields.forEach((entry) => {
+                    entry.node.textContent = state.text[entry.key] || defaults.text[entry.key];
+                });
+
+                imageFields.forEach((entry) => {
+                    entry.node.setAttribute("src", state.image[entry.key] || defaults.image[entry.key]);
+                });
+            }
+
+            function buildTextField(entry) {
+                const wrapper = document.createElement("div");
+                const label = document.createElement("label");
+                const input = document.createElement("textarea");
+
+                wrapper.className = "admin-field";
+                label.textContent = entry.label;
+                input.value = state.text[entry.key] || defaults.text[entry.key];
+                input.addEventListener("input", () => {
+                    state.text[entry.key] = input.value.trim();
+                    entry.node.textContent = state.text[entry.key] || defaults.text[entry.key];
+                });
+
+                wrapper.append(label, input);
+                return wrapper;
+            }
+
+            function buildImageField(entry) {
+                const wrapper = document.createElement("div");
+                const label = document.createElement("label");
+                const urlInput = document.createElement("input");
+                const fileInput = document.createElement("input");
+                const previewFrame = document.createElement("div");
+                const preview = document.createElement("img");
+                const actions = document.createElement("div");
+                const cropButton = document.createElement("button");
+
+                wrapper.className = "admin-field";
+                label.textContent = entry.label;
+
+                urlInput.type = "url";
+                urlInput.placeholder = "Cole a URL da imagem";
+                urlInput.value = state.image[entry.key] || defaults.image[entry.key];
+                urlInput.addEventListener("input", () => {
+                    const value = urlInput.value.trim();
+                    state.image[entry.key] = value || defaults.image[entry.key];
+                    preview.src = state.image[entry.key];
+                    entry.node.setAttribute("src", state.image[entry.key]);
+                });
+
+                fileInput.type = "file";
+                fileInput.accept = "image/*";
+                fileInput.addEventListener("change", async () => {
+                    const [file] = fileInput.files || [];
+                    if (!file) {
+                        return;
+                    }
+
+                    const dataUrl = await readFileAsDataUrl(file);
+                    state.image[entry.key] = dataUrl;
+                    urlInput.value = dataUrl;
+                    preview.src = dataUrl;
+                    entry.node.setAttribute("src", dataUrl);
+                });
+
+                previewFrame.className = "admin-preview";
+                preview.src = state.image[entry.key] || defaults.image[entry.key];
+                preview.alt = entry.label;
+                previewFrame.append(preview);
+
+                actions.className = "admin-field-actions";
+
+                cropButton.type = "button";
+                cropButton.className = "admin-mini-action";
+                cropButton.textContent = "Editar recorte";
+                cropButton.addEventListener("click", async () => {
+                    try {
+                        await openCropper(entry, preview, urlInput);
+                    } catch (error) {
+                        cropperError.textContent = error instanceof Error ? error.message : "Nao foi possivel abrir o editor de recorte.";
+                        cropperLayer.classList.add("is-open");
+                        cropperLayer.setAttribute("aria-hidden", "false");
+                    }
+                });
+
+                actions.append(cropButton);
+                wrapper.append(label, urlInput, fileInput, previewFrame, actions);
+                return wrapper;
+            }
+
+            function readFileAsDataUrl(file) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = () => resolve(String(reader.result));
+                    reader.onerror = () => reject(reader.error);
+                    reader.readAsDataURL(file);
+                });
+            }
+
+            function renderFields(force = false) {
+                if (fieldsRendered && !force) {
+                    return;
+                }
+                fieldsHost.innerHTML = "";
+                textFields.forEach((entry) => fieldsHost.append(buildTextField(entry)));
+                imageFields.forEach((entry) => fieldsHost.append(buildImageField(entry)));
+                fieldsRendered = true;
+            }
+
+            function getImageSource(entry) {
+                return state.image[entry.key] || defaults.image[entry.key] || "";
+            }
+
+            function getCropAspectRatio(entry) {
+                const rect = entry.node.getBoundingClientRect();
+                if (rect.width > 1 && rect.height > 1) {
+                    return rect.width / rect.height;
+                }
+                return 1;
+            }
+
+            function clampCropOffsets() {
+                const maxX = Math.max(0, (cropperState.displayWidth - cropperState.viewportWidth) / 2);
+                const maxY = Math.max(0, (cropperState.displayHeight - cropperState.viewportHeight) / 2);
+                cropperState.x = Math.min(maxX, Math.max(-maxX, cropperState.x));
+                cropperState.y = Math.min(maxY, Math.max(-maxY, cropperState.y));
+            }
+
+            function renderCropperImage() {
+                if (!cropperImage.naturalWidth || !cropperState.entry) {
+                    return;
+                }
+
+                cropperState.viewportWidth = cropperViewport.clientWidth;
+                cropperState.viewportHeight = cropperViewport.clientHeight;
+                const fitScale = Math.max(
+                    cropperState.viewportWidth / cropperImage.naturalWidth,
+                    cropperState.viewportHeight / cropperImage.naturalHeight
+                );
+                cropperState.displayWidth = cropperImage.naturalWidth * fitScale * cropperState.zoom;
+                cropperState.displayHeight = cropperImage.naturalHeight * fitScale * cropperState.zoom;
+                clampCropOffsets();
+                cropperImage.style.width = `${cropperState.displayWidth}px`;
+                cropperImage.style.height = `${cropperState.displayHeight}px`;
+                cropperImage.style.left = `calc(50% + ${cropperState.x}px)`;
+                cropperImage.style.top = `calc(50% + ${cropperState.y}px)`;
+            }
+
+            function resetCropperView() {
+                cropperState.zoom = 1;
+                cropperState.x = 0;
+                cropperState.y = 0;
+                cropperZoom.value = "1";
+                renderCropperImage();
+            }
+
+            function closeCropper() {
+                cropperLayer.classList.remove("is-open");
+                cropperLayer.setAttribute("aria-hidden", "true");
+                cropperViewport.classList.remove("is-dragging");
+                cropperError.textContent = "";
+                cropperState.entry = null;
+                cropperState.preview = null;
+                cropperState.urlInput = null;
+                cropperState.dragging = false;
+            }
+
+            async function openCropper(entry, preview, urlInput) {
+                const source = getImageSource(entry);
+                if (!source) {
+                    cropperError.textContent = "Nenhuma imagem disponivel para recortar.";
+                    return;
+                }
+
+                cropperState.entry = entry;
+                cropperState.preview = preview;
+                cropperState.urlInput = urlInput;
+                cropperState.source = source;
+                cropperState.aspectRatio = getCropAspectRatio(entry);
+                cropperViewport.style.aspectRatio = String(cropperState.aspectRatio);
+                cropperLabel.textContent = `Ajuste o enquadramento de "${entry.label}".`;
+                cropperLayer.classList.add("is-open");
+                cropperLayer.setAttribute("aria-hidden", "false");
+                cropperError.textContent = "";
+
+                await loadCropperImage(source);
+                resetCropperView();
+            }
+
+            function loadCropperImage(source) {
+                return new Promise((resolve, reject) => {
+                    cropperImage.onload = () => {
+                        requestAnimationFrame(() => {
+                            renderCropperImage();
+                            resolve();
+                        });
+                    };
+                    cropperImage.onerror = () => reject(new Error("Nao foi possivel carregar a imagem para recorte."));
+                    cropperImage.crossOrigin = "anonymous";
+                    cropperImage.src = source;
+                });
+            }
+
+            function buildCroppedImageDataUrl() {
+                const canvas = document.createElement("canvas");
+                const outputWidth = 1600;
+                const outputHeight = Math.max(1, Math.round(outputWidth / cropperState.aspectRatio));
+                canvas.width = outputWidth;
+                canvas.height = outputHeight;
+                const context = canvas.getContext("2d");
+                const left = (cropperState.viewportWidth / 2) + cropperState.x - (cropperState.displayWidth / 2);
+                const top = (cropperState.viewportHeight / 2) + cropperState.y - (cropperState.displayHeight / 2);
+                const sourceX = ((0 - left) / cropperState.displayWidth) * cropperImage.naturalWidth;
+                const sourceY = ((0 - top) / cropperState.displayHeight) * cropperImage.naturalHeight;
+                const sourceWidth = (cropperState.viewportWidth / cropperState.displayWidth) * cropperImage.naturalWidth;
+                const sourceHeight = (cropperState.viewportHeight / cropperState.displayHeight) * cropperImage.naturalHeight;
+
+                context.drawImage(
+                    cropperImage,
+                    sourceX,
+                    sourceY,
+                    sourceWidth,
+                    sourceHeight,
+                    0,
+                    0,
+                    outputWidth,
+                    outputHeight
+                );
+
+                return canvas.toDataURL("image/png");
+            }
+
+            function openLayer() {
+                layer.classList.add("is-open");
+                if (loadSession()) {
+                    layer.classList.add("is-authenticated");
+                    renderFields(true);
+                } else {
+                    layer.classList.remove("is-authenticated");
+                }
+                layer.setAttribute("aria-hidden", "false");
+            }
+
+            function closeLayer() {
+                layer.classList.remove("is-open");
+                layer.setAttribute("aria-hidden", "true");
+                errorBox.textContent = "";
+            }
+
+            fab.addEventListener("click", openLayer);
+            layer.querySelectorAll("[data-admin-close='true']").forEach((button) => {
+                button.addEventListener("click", closeLayer);
+            });
+            cropperLayer.querySelectorAll("[data-cropper-close='true']").forEach((button) => {
+                button.addEventListener("click", closeCropper);
+            });
+
+            cropperZoom.addEventListener("input", () => {
+                cropperState.zoom = Number(cropperZoom.value);
+                renderCropperImage();
+            });
+
+            cropperResetButton.addEventListener("click", resetCropperView);
+
+            cropperApplyButton.addEventListener("click", () => {
+                if (!cropperState.entry || !cropperState.preview || !cropperState.urlInput) {
+                    return;
+                }
+
+                try {
+                    const cropped = buildCroppedImageDataUrl();
+                    state.image[cropperState.entry.key] = cropped;
+                    cropperState.preview.src = cropped;
+                    cropperState.urlInput.value = cropped;
+                    cropperState.entry.node.setAttribute("src", cropped);
+                    closeCropper();
+                } catch (error) {
+                    cropperError.textContent = "Nao foi possivel recortar essa imagem. Se ela veio de outro site, tente enviar o arquivo localmente.";
+                }
+            });
+
+            cropperViewport.addEventListener("pointerdown", (event) => {
+                if (!cropperState.entry) {
+                    return;
+                }
+
+                cropperState.dragging = true;
+                cropperState.dragStartX = event.clientX;
+                cropperState.dragStartY = event.clientY;
+                cropperState.startX = cropperState.x;
+                cropperState.startY = cropperState.y;
+                cropperViewport.classList.add("is-dragging");
+                cropperViewport.setPointerCapture(event.pointerId);
+            });
+
+            cropperViewport.addEventListener("pointermove", (event) => {
+                if (!cropperState.dragging) {
+                    return;
+                }
+
+                cropperState.pendingX = cropperState.startX + (event.clientX - cropperState.dragStartX);
+                cropperState.pendingY = cropperState.startY + (event.clientY - cropperState.dragStartY);
+                if (!cropperState.frameRequest) {
+                    cropperState.frameRequest = requestAnimationFrame(() => {
+                        cropperState.x = cropperState.pendingX;
+                        cropperState.y = cropperState.pendingY;
+                        cropperState.frameRequest = 0;
+                        renderCropperImage();
+                    });
+                }
+            });
+
+            function finishCropperDrag(event) {
+                if (event && cropperViewport.hasPointerCapture(event.pointerId)) {
+                    cropperViewport.releasePointerCapture(event.pointerId);
+                }
+                if (cropperState.frameRequest) {
+                    cancelAnimationFrame(cropperState.frameRequest);
+                    cropperState.frameRequest = 0;
+                }
+                cropperState.dragging = false;
+                cropperViewport.classList.remove("is-dragging");
+            }
+
+            cropperViewport.addEventListener("pointerup", finishCropperDrag);
+            cropperViewport.addEventListener("pointercancel", finishCropperDrag);
+            window.addEventListener("resize", () => {
+                if (cropperLayer.classList.contains("is-open")) {
+                    renderCropperImage();
+                }
+            });
+
+            loginForm.addEventListener("submit", async (event) => {
+                event.preventDefault();
+                const form = new FormData(loginForm);
+                const user = String(form.get("user") || "").trim();
+                const password = String(form.get("password") || "").trim();
+
+                try {
+                    setStatus("Validando acesso da gerencia...");
+                    const response = await fetch(cmsAuthUrl, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ user, password })
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok || !payload.ok) {
+                        throw new Error(payload.error || "Login ou senha invalidos.");
+                    }
+
+                    saveSession({
+                        user,
+                        authToken: btoa(`${user}:${password}`)
+                    });
+                    errorBox.textContent = "";
+                    layer.classList.add("is-authenticated");
+                    renderFields(true);
+                    setStatus("Gerencia liberada. Voce ja pode publicar alteracoes.");
+                } catch (error) {
+                    errorBox.textContent = error instanceof Error ? error.message : "Nao foi possivel entrar.";
+                    setStatus("Falha ao validar o acesso da gerencia.");
+                }
+            });
+
+            saveButton.addEventListener("click", async () => {
+                const session = loadSession();
+                if (!session) {
+                    errorBox.textContent = "Entre no modo gerencia antes de salvar.";
+                    layer.classList.remove("is-authenticated");
+                    return;
+                }
+
+                try {
+                    saveButton.disabled = true;
+                    resetButton.disabled = true;
+                    setStatus("Publicando alteracoes no site...");
+                    const response = await fetch(cmsContentUrl, {
+                        method: "PUT",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": `Basic ${session.authToken}`
+                        },
+                        body: JSON.stringify(state)
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        throw new Error(payload.error || "Nao foi possivel publicar o conteudo.");
+                    }
+
+                    state = normalizeState(payload.content);
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    setStatus(`Conteudo publicado com sucesso em ${formatUpdatedAt(payload.updatedAt)}.`);
+                } catch (error) {
+                    setStatus(error instanceof Error ? error.message : "Falha ao publicar o conteudo.");
+                } finally {
+                    saveButton.disabled = false;
+                    resetButton.disabled = false;
+                }
+            });
+
+            resetButton.addEventListener("click", async () => {
+                const session = loadSession();
+                if (!session) {
+                    errorBox.textContent = "Entre no modo gerencia antes de restaurar.";
+                    layer.classList.remove("is-authenticated");
+                    return;
+                }
+
+                try {
+                    resetButton.disabled = true;
+                    saveButton.disabled = true;
+                    setStatus("Restaurando o conteudo padrao publicado...");
+                    const response = await fetch(cmsContentUrl, {
+                        method: "PUT",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": `Basic ${session.authToken}`
+                        },
+                        body: JSON.stringify({ text: {}, image: {} })
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        throw new Error(payload.error || "Nao foi possivel restaurar o conteudo.");
+                    }
+
+                    state = normalizeState(payload.content);
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    setStatus("Conteudo padrao restaurado e publicado.");
+                } catch (error) {
+                    setStatus(error instanceof Error ? error.message : "Falha ao restaurar o conteudo.");
+                } finally {
+                    resetButton.disabled = false;
+                    saveButton.disabled = false;
+                }
+            });
+
+            logoutButton.addEventListener("click", () => {
+                clearSession();
+                layer.classList.remove("is-authenticated");
+                closeLayer();
+                setStatus("Sessao encerrada. O conteudo publicado continua no ar.");
+            });
+
+            async function refreshPublishedContent() {
+                try {
+                    setStatus("Carregando o conteudo publicado...");
+                    const response = await fetch(cmsContentUrl, {
+                        method: "GET",
+                        cache: "no-store"
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        throw new Error(payload.error || "Nao foi possivel carregar o conteudo publicado.");
+                    }
+
+                    state = normalizeState(payload.content);
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    if (payload.updatedAt) {
+                        setStatus(`Conteudo publicado carregado. Ultima atualizacao: ${formatUpdatedAt(payload.updatedAt)}.`);
+                    } else {
+                        setStatus("Conteudo publicado carregado.");
+                    }
+                } catch (error) {
+                    state = { text: {}, image: {} };
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    setStatus("Nao foi possivel carregar o servidor da gerencia. A pagina abriu com o conteudo padrao.");
+                }
+            }
+
+            applyState();
+            refreshPublishedContent();
+
+            document.querySelectorAll("img").forEach((image, index) => {
+                image.decoding = "async";
+                if (index > 2) {
+                    image.loading = "lazy";
+                }
+            });
+        })();
     </script>
 </body>
 </html>
