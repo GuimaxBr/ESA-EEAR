@@ -98,15 +98,65 @@
             inset: 0;
             z-index: 9999;
             pointer-events: none;
-            opacity: 0.38;
+            overflow: hidden;
+            opacity: 0.48;
             mix-blend-mode: screen;
             background-image:
                 radial-gradient(circle, rgba(247, 197, 69, 0.85) 0 1.35px, transparent 1.95px),
-                radial-gradient(circle, rgba(173, 217, 255, 0.55) 0 1.05px, transparent 1.7px),
-                radial-gradient(circle, rgba(255, 255, 255, 0.36) 0 0.85px, transparent 1.45px),
-                radial-gradient(circle, rgba(247, 197, 69, 0.40) 0 0.7px, transparent 1.25px);
-            background-size: 180px 210px, 260px 280px, 380px 420px, 520px 560px;
-            background-position: 18px 26px, 88px 140px, 210px 72px, 44px 320px;
+                radial-gradient(circle, rgba(173, 217, 255, 0.48) 0 1px, transparent 1.7px);
+            background-size: 220px 260px, 360px 420px;
+            background-position: 18px 26px, 210px 72px;
+            contain: strict;
+        }
+
+        .spore-overlay::before,
+        .spore-overlay::after {
+            content: "";
+            position: absolute;
+            inset: -12%;
+            background-repeat: repeat;
+            will-change: transform;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .spore-overlay::before {
+            opacity: 0.82;
+            background-image:
+                radial-gradient(circle, rgba(247, 197, 69, 0.82) 0 1.25px, transparent 2px),
+                radial-gradient(circle, rgba(255, 255, 255, 0.34) 0 0.9px, transparent 1.55px);
+            background-size: 240px 280px, 420px 460px;
+            background-position: 42px 80px, 180px 220px;
+            animation: sporeFloatA 34s linear infinite;
+        }
+
+        .spore-overlay::after {
+            opacity: 0.58;
+            background-image:
+                radial-gradient(circle, rgba(166, 212, 255, 0.48) 0 1px, transparent 1.75px),
+                radial-gradient(circle, rgba(247, 197, 69, 0.36) 0 0.8px, transparent 1.45px);
+            background-size: 320px 360px, 560px 620px;
+            background-position: 120px 160px, 60px 360px;
+            animation: sporeFloatB 52s linear infinite;
+        }
+
+        @keyframes sporeFloatA {
+            from {
+                transform: translate3d(-18px, -24px, 0);
+            }
+
+            to {
+                transform: translate3d(46px, 92px, 0);
+            }
+        }
+
+        @keyframes sporeFloatB {
+            from {
+                transform: translate3d(34px, -42px, 0);
+            }
+
+            to {
+                transform: translate3d(-58px, 118px, 0);
+            }
         }
 
         .page-shell {
@@ -1307,7 +1357,7 @@
             }
         }
 
-        @media (prefers-reduced-motion: reduce), (pointer: coarse) {
+        @media (prefers-reduced-motion: reduce) {
             html {
                 scroll-behavior: auto;
             }
@@ -1320,7 +1370,10 @@
             .reveal.delay-1,
             .reveal.delay-2,
             .reveal.delay-3,
-            .admin-fab {
+            .admin-fab,
+            .spore-overlay::before,
+            .spore-overlay::after {
+                animation: none;
                 transition: none;
             }
         }
