@@ -2,56 +2,17 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <base href="../">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questões ESA EEAR | Simulados, provas e aplicativo de estudos</title>
-    <link rel="canonical" href="https://questoes-esa-eear.pages.dev/">
+    <title>Gerência do site | Questões ESA EEAR</title>
     <link rel="icon" type="image/png" href="./assets/questoes-esa-icon.png">
     <link rel="shortcut icon" type="image/png" href="./assets/questoes-esa-icon.png">
     <link rel="apple-touch-icon" href="./assets/questoes-esa-icon.png">
     <meta
         name="description"
-        content="Aplicativo de questões, simulados e provas anteriores para ESA e EEAR, com ranking, metas, histórico de desempenho e ferramentas de estudo."
+        content="Questões ESA EEAR é um app de estudos para candidatos com questões, simulados, progresso, metas, ranking, modo batalha, redação e comunidade ativa."
     >
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#06101f">
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Questões ESA EEAR | Simulados, provas e aplicativo de estudos">
-    <meta property="og:description" content="Aplicativo de questões, simulados e provas anteriores para ESA e EEAR, com ranking, metas, histórico de desempenho e ferramentas de estudo.">
-    <meta property="og:url" content="https://questoes-esa-eear.pages.dev/">
-    <meta property="og:site_name" content="Questões ESA EEAR">
-    <meta property="og:image" content="https://questoes-esa-eear.pages.dev/assets/questoes-esa-optimized.webp">
-    <meta property="og:image:alt" content="Marca do aplicativo Questões ESA EEAR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Questões ESA EEAR | Simulados, provas e aplicativo de estudos">
-    <meta name="twitter:description" content="Aplicativo de questões, simulados e provas anteriores para ESA e EEAR, com ranking, metas, histórico de desempenho e ferramentas de estudo.">
-    <meta name="twitter:image" content="https://questoes-esa-eear.pages.dev/assets/questoes-esa-optimized.webp">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Questões ESA EEAR",
-      "operatingSystem": "Android",
-      "applicationCategory": "EducationalApplication",
-      "url": "https://questoes-esa-eear.pages.dev/",
-      "downloadUrl": "https://play.google.com/store/apps/details?id=com.guima.esa",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "BRL"
-      },
-      "sameAs": [
-        "https://www.instagram.com/questoesesaeear/",
-        "https://guimaxbr.github.io/ESA-EEAR/",
-        "https://play.google.com/store/apps/details?id=com.guima.esa"
-      ],
-      "publisher": {
-        "@type": "Organization",
-        "name": "Questões ESA EEAR",
-        "url": "https://questoes-esa-eear.pages.dev/"
-      }
-    }
-    </script>
     <style>
         :root {
             color-scheme: dark;
@@ -1016,6 +977,356 @@
             }
         }
 
+        .admin-fab {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            z-index: 50;
+            display: none;
+            border: 0;
+            border-radius: 999px;
+            padding: 14px 18px;
+            font: inherit;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            color: #f4efe3;
+            background: linear-gradient(135deg, #7d1c17, #b48436);
+            box-shadow: 0 18px 32px rgba(8, 11, 16, 0.34);
+            cursor: pointer;
+        }
+
+        .admin-fab:hover {
+            transform: translateY(-2px);
+        }
+
+        .admin-layer {
+            position: fixed;
+            inset: 0;
+            z-index: 60;
+            display: none;
+        }
+
+        .admin-layer.is-open {
+            display: block;
+        }
+
+        .admin-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(7, 10, 14, 0.74);
+            backdrop-filter: blur(6px);
+        }
+
+        .admin-login,
+        .admin-drawer {
+            position: absolute;
+            background: #10161f;
+            color: #f7f3ea;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.36);
+        }
+
+        .admin-login {
+            top: 50%;
+            left: 50%;
+            width: min(420px, calc(100vw - 32px));
+            padding: 28px;
+            border-radius: 28px;
+            transform: translate(-50%, -50%);
+        }
+
+        .admin-drawer {
+            top: 0;
+            right: 0;
+            width: min(520px, 100vw);
+            height: 100%;
+            padding: 24px;
+            overflow-y: auto;
+            transform: translateX(100%);
+            transition: transform 220ms ease;
+        }
+
+        .admin-layer.is-authenticated .admin-drawer {
+            transform: translateX(0);
+        }
+
+        .admin-layer.is-authenticated .admin-login {
+            display: none;
+        }
+
+        .admin-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .admin-title {
+            margin: 0;
+            font-size: 1.05rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .admin-subtitle {
+            margin: 6px 0 0;
+            color: rgba(247, 243, 234, 0.7);
+            line-height: 1.5;
+        }
+
+        .admin-close,
+        .admin-action,
+        .admin-logout {
+            border: 0;
+            border-radius: 14px;
+            padding: 10px 14px;
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .admin-close,
+        .admin-logout {
+            color: #f7f3ea;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .admin-action.primary {
+            color: #f7f3ea;
+            background: linear-gradient(135deg, #9e3b20, #cb9c3e);
+        }
+
+        .admin-action.secondary {
+            color: #f7f3ea;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .admin-form,
+        .admin-actions,
+        .admin-fields {
+            display: grid;
+            gap: 16px;
+        }
+
+        .admin-fields {
+            margin-top: 20px;
+        }
+
+        .admin-field {
+            display: grid;
+            gap: 8px;
+            padding: 16px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .admin-field label,
+        .admin-field span {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: rgba(247, 243, 234, 0.78);
+        }
+
+        .admin-field input,
+        .admin-field textarea {
+            width: 100%;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(9, 12, 17, 0.92);
+            color: #f7f3ea;
+            padding: 12px 14px;
+            font: inherit;
+        }
+
+        .admin-field textarea {
+            min-height: 110px;
+            resize: vertical;
+        }
+
+        .admin-field input[type="file"] {
+            padding: 10px;
+        }
+
+        .admin-preview {
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .admin-preview img {
+            display: block;
+            width: 100%;
+            max-height: 180px;
+            object-fit: cover;
+        }
+
+        .admin-field-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .admin-mini-action {
+            border: 0;
+            border-radius: 12px;
+            padding: 10px 12px;
+            font: inherit;
+            font-weight: 700;
+            color: #f7f3ea;
+            background: rgba(255, 255, 255, 0.08);
+            cursor: pointer;
+        }
+
+        .cropper-layer {
+            position: fixed;
+            inset: 0;
+            z-index: 75;
+            display: none;
+        }
+
+        .cropper-layer.is-open {
+            display: block;
+        }
+
+        .cropper-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(4, 8, 14, 0.84);
+            backdrop-filter: blur(6px);
+        }
+
+        .cropper-panel {
+            position: absolute;
+            inset: 50% auto auto 50%;
+            width: min(760px, calc(100vw - 24px));
+            max-height: calc(100vh - 24px);
+            overflow-y: auto;
+            padding: 22px;
+            border-radius: 28px;
+            background: #0e1723;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.42);
+            transform: translate(-50%, -50%);
+        }
+
+        .cropper-viewport {
+            position: relative;
+            width: 100%;
+            min-height: 220px;
+            border-radius: 24px;
+            overflow: hidden;
+            background:
+                linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.04) 75%),
+                linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.04) 75%);
+            background-position: 0 0, 16px 16px;
+            background-size: 32px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            touch-action: none;
+            user-select: none;
+            cursor: grab;
+        }
+
+        .cropper-viewport.is-dragging {
+            cursor: grabbing;
+        }
+
+        .cropper-viewport img {
+            position: absolute;
+            inset: 50% auto auto 50%;
+            max-width: none;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        .cropper-frame {
+            position: absolute;
+            inset: 0;
+            border: 2px solid rgba(247, 197, 69, 0.88);
+            border-radius: 24px;
+            box-shadow: inset 0 0 0 9999px rgba(3, 7, 12, 0.34);
+            pointer-events: none;
+        }
+
+        .cropper-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.32) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.32) 1px, transparent 1px);
+            background-size: 33.333% 33.333%;
+            opacity: 0.35;
+            pointer-events: none;
+        }
+
+        .cropper-controls {
+            display: grid;
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .cropper-slider {
+            width: 100%;
+        }
+
+        .cropper-help,
+        .cropper-error {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .cropper-help {
+            color: rgba(247, 243, 234, 0.72);
+        }
+
+        .cropper-error {
+            min-height: 1.2em;
+            color: #ff9688;
+        }
+
+        .admin-note,
+        .admin-error {
+            margin: 0;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+
+        .admin-note {
+            color: rgba(247, 243, 234, 0.7);
+        }
+
+        .admin-error {
+            color: #ff8f7e;
+            min-height: 1.2em;
+        }
+
+        @media (max-width: 720px) {
+            .admin-fab {
+                right: 16px;
+                bottom: 16px;
+                padding: 12px 16px;
+            }
+
+            .admin-drawer {
+                width: 100vw;
+                padding: 18px;
+            }
+
+            .admin-login {
+                padding: 22px;
+            }
+
+            .cropper-panel {
+                width: calc(100vw - 18px);
+                padding: 18px;
+            }
+        }
+
         @media (prefers-reduced-motion: reduce) {
             html {
                 scroll-behavior: auto;
@@ -1029,6 +1340,7 @@
             .reveal.delay-1,
             .reveal.delay-2,
             .reveal.delay-3,
+            .admin-fab,
             .spore-overlay {
                 animation: none;
                 transition: none;
@@ -1056,7 +1368,7 @@
                 </a>
                 <nav class="nav" aria-label="Seções do site">
                     <a href="#plataforma">Plataforma</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener">Baixar na Play Store</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener">Play Store</a>
                     <a href="#rotina-papiro">Rotina Papiro</a>
                     <a href="#funcionalidades">Funcionalidades</a>
                     <a href="#desenvolvedores">Desenvolvedores</a>
@@ -1084,12 +1396,12 @@
                             <span class="hero-highlight">Grupo de estudos e comunidade ativa</span>
                         </div>
                         <div class="hero-actions">
-                            <a class="button button-store link-icon link-play" href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-playstore.svg" alt="" aria-hidden="true">Baixar Questões ESA EEAR na Play Store</a>
+                            <a class="button button-store link-icon link-play" href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-playstore.svg" alt="" aria-hidden="true">App disponível na Play Store</a>
                             <a class="button button-primary link-icon link-whatsapp" href="https://chat.whatsapp.com/FL1cGjB1ZvJ1Pzp5ZjGi1Z" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-whatsapp.svg" alt="" aria-hidden="true">Entrar no grupo do WhatsApp</a>
                             <a class="button button-secondary" href="#funcionalidades">Ver funcionalidades</a>
                         </div>
                         <div class="social-row" aria-label="Canais oficiais">
-                            <a class="social-pill link-icon link-instagram" href="https://www.instagram.com/questoesesaeear/" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-instagram.svg" alt="" aria-hidden="true">Acompanhar Questões ESA EEAR no Instagram</a>
+                            <a class="social-pill link-icon link-instagram" href="https://www.instagram.com/questoesesaeear/" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-instagram.svg" alt="" aria-hidden="true">@questoesesaeear</a>
                             <a class="social-pill link-icon link-whatsapp" href="https://chat.whatsapp.com/FL1cGjB1ZvJ1Pzp5ZjGi1Z" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-whatsapp.svg" alt="" aria-hidden="true">Grupo oficial no WhatsApp</a>
                         </div>
                         <div class="hero-stats">
@@ -1339,10 +1651,9 @@
                                 próprios erros e transformar pequenos treinos diários em evolução real.
                             </p>
                             <div class="footer-meta">
-                                <a class="meta-pill link-icon link-play" href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-playstore.svg" alt="" aria-hidden="true">Baixar Questões ESA EEAR na Play Store</a>
+                                <a class="meta-pill link-icon link-play" href="https://play.google.com/store/apps/details?id=com.guima.esa" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-playstore.svg" alt="" aria-hidden="true">Abrir na Play Store</a>
                                 <a class="meta-pill link-icon link-whatsapp" href="https://chat.whatsapp.com/FL1cGjB1ZvJ1Pzp5ZjGi1Z" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-whatsapp.svg" alt="" aria-hidden="true">Entrar no grupo do WhatsApp</a>
-                                <a class="meta-pill link-icon link-instagram" href="https://www.instagram.com/questoesesaeear/" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-instagram.svg" alt="" aria-hidden="true">Acompanhar Questões ESA EEAR no Instagram</a>
-                                <a class="meta-pill" href="https://guimaxbr.github.io/ESA-EEAR/" target="_blank" rel="noopener">Site alternativo no GitHub Pages</a>
+                                <a class="meta-pill link-icon link-instagram" href="https://www.instagram.com/questoesesaeear/" target="_blank" rel="noopener"><img class="brand-link-icon" src="./assets/icon-instagram.svg" alt="" aria-hidden="true">Instagram @questoesesaeear</a>
                                 <a class="meta-pill" href="./app-ads.txt">Abrir app-ads.txt</a>
                             </div>
                             <p class="footer-note">
@@ -1358,12 +1669,220 @@
         </main>
     </div>
 
+    <div class="admin-layer is-open" id="adminLayer" aria-hidden="false">
+        <div class="admin-backdrop" data-admin-close="true"></div>
+
+        <section class="admin-login" aria-labelledby="adminLoginTitle">
+            <div class="admin-header">
+                <div>
+                    <h2 class="admin-title" id="adminLoginTitle">Modo gerencia</h2>
+                    <p class="admin-subtitle">Entre para trocar textos e imagens do site em modo simples.</p>
+                </div>
+                <button class="admin-close" type="button" data-admin-close="true">Fechar</button>
+            </div>
+
+            <form class="admin-form" id="adminLoginForm">
+                <div class="admin-field">
+                    <label for="adminUser">Login</label>
+                    <input id="adminUser" name="user" type="text" autocomplete="username">
+                </div>
+                <div class="admin-field">
+                    <label for="adminPass">Senha</label>
+                    <input id="adminPass" name="password" type="password" autocomplete="current-password">
+                </div>
+                <p class="admin-error" id="adminError"></p>
+                <button class="admin-action primary" type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <aside class="admin-drawer" aria-labelledby="adminPanelTitle">
+            <div class="admin-header">
+                <div>
+                    <h2 class="admin-title" id="adminPanelTitle">Painel de gerencia</h2>
+                    <p class="admin-subtitle">As alteracoes publicadas aqui ficam visiveis para todo mundo no site.</p>
+                </div>
+                <button class="admin-close" type="button" data-admin-close="true">Fechar</button>
+            </div>
+
+            <p class="admin-note">Troque textos, cole URLs de imagens ou envie arquivos locais para atualizar a pagina.</p>
+            <p class="admin-note" id="adminStatus">Carregando o conteudo publicado...</p>
+            <div class="admin-fields" id="adminFields"></div>
+            <div class="admin-actions">
+                <button class="admin-action primary" type="button" id="adminSave">Salvar alteracoes</button>
+                <button class="admin-action secondary" type="button" id="adminReset">Restaurar padrao</button>
+                <button class="admin-logout" type="button" id="adminLogout">Sair</button>
+            </div>
+        </aside>
+    </div>
+
+    <div class="cropper-layer" id="cropperLayer" aria-hidden="true">
+        <div class="cropper-backdrop" data-cropper-close="true"></div>
+        <section class="cropper-panel" aria-labelledby="cropperTitle">
+            <div class="admin-header">
+                <div>
+                    <h2 class="admin-title" id="cropperTitle">Recortar imagem</h2>
+                    <p class="admin-subtitle" id="cropperLabel">Ajuste o enquadramento antes de publicar.</p>
+                </div>
+                <button class="admin-close" type="button" data-cropper-close="true">Fechar</button>
+            </div>
+
+            <div class="cropper-viewport" id="cropperViewport">
+                <img id="cropperImage" alt="Imagem em edicao">
+                <div class="cropper-frame"></div>
+                <div class="cropper-grid"></div>
+            </div>
+
+            <div class="cropper-controls">
+                <div class="admin-field">
+                    <label for="cropperZoom">Zoom</label>
+                    <input class="cropper-slider" id="cropperZoom" type="range" min="1" max="3" step="0.01" value="1">
+                </div>
+                <p class="cropper-help">Arraste a imagem para reposicionar. O recorte respeita o formato do bloco que voce esta editando.</p>
+                <p class="cropper-error" id="cropperError"></p>
+                <div class="admin-field-actions">
+                    <button class="admin-mini-action" type="button" id="cropperReset">Reiniciar enquadramento</button>
+                    <button class="admin-action primary" type="button" id="cropperApply">Aplicar recorte</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <script type="module">
         document.querySelectorAll(".reveal").forEach((element) => {
             element.classList.add("is-visible");
         });
 
         (() => {
+            const cmsApiBase = "https://swaziland-serve-writing-brand.trycloudflare.com/api/site-content";
+            const cmsContentUrl = `${cmsApiBase}/landing`;
+            const cmsAuthUrl = `${cmsApiBase}/auth`;
+            const sessionKey = "questoes-esa-admin-session-v2";
+            const textConfig = [
+                { key: "brand-title", label: "Marca - titulo", selector: ".brand-title" },
+                { key: "brand-subtitle", label: "Marca - subtitulo", selector: ".brand-subtitle" },
+                { key: "hero-eyebrow", label: "Hero - apoio", selector: ".hero-panel .eyebrow" },
+                { key: "hero-title", label: "Hero - titulo", selector: ".hero-panel h1" },
+                { key: "hero-lead", label: "Hero - descricao", selector: ".hero-panel .lead" },
+                { key: "stat-1-title", label: "Hero - card 1 titulo", selector: ".hero-stats .stat-card:nth-of-type(1) strong" },
+                { key: "stat-1-text", label: "Hero - card 1 texto", selector: ".hero-stats .stat-card:nth-of-type(1) span" },
+                { key: "stat-2-title", label: "Hero - card 2 titulo", selector: ".hero-stats .stat-card:nth-of-type(2) strong" },
+                { key: "stat-2-text", label: "Hero - card 2 texto", selector: ".hero-stats .stat-card:nth-of-type(2) span" },
+                { key: "stat-3-title", label: "Hero - card 3 titulo", selector: ".hero-stats .stat-card:nth-of-type(3) strong" },
+                { key: "stat-3-text", label: "Hero - card 3 texto", selector: ".hero-stats .stat-card:nth-of-type(3) span" },
+                { key: "showcase-note-title", label: "Plataforma - nota titulo", selector: ".showcase-note strong" },
+                { key: "showcase-note-text", label: "Plataforma - nota texto", selector: ".showcase-note p" },
+                { key: "routine-title", label: "Rotina - titulo", selector: "#rotina-papiro .section-heading h2" },
+                { key: "routine-text", label: "Rotina - descricao", selector: "#rotina-papiro .section-heading > p" },
+                { key: "routine-chip", label: "Rotina - selo", selector: "#rotina-papiro .signal-overlay .signal-chip" },
+                { key: "routine-image-title", label: "Rotina - imagem titulo", selector: "#rotina-papiro .signal-overlay h3" },
+                { key: "routine-image-text", label: "Rotina - imagem texto", selector: "#rotina-papiro .signal-overlay p" },
+                { key: "mission-title", label: "Missao - titulo", selector: "#rotina-papiro .signal-copy h3" },
+                { key: "mission-text-1", label: "Missao - texto 1", selector: "#rotina-papiro .signal-copy > p:nth-of-type(1)" },
+                { key: "mission-text-2", label: "Missao - texto 2", selector: "#rotina-papiro .signal-copy > p:nth-of-type(2)" },
+                { key: "mission-quote", label: "Missao - frase", selector: "#rotina-papiro .quote" },
+                { key: "glass-1-title", label: "Missao - bloco 1 titulo", selector: "#rotina-papiro .glass-card:nth-of-type(1) strong" },
+                { key: "glass-1-text", label: "Missao - bloco 1 texto", selector: "#rotina-papiro .glass-card:nth-of-type(1) p" },
+                { key: "glass-2-title", label: "Missao - bloco 2 titulo", selector: "#rotina-papiro .glass-card:nth-of-type(2) strong" },
+                { key: "glass-2-text", label: "Missao - bloco 2 texto", selector: "#rotina-papiro .glass-card:nth-of-type(2) p" },
+                { key: "glass-3-title", label: "Missao - bloco 3 titulo", selector: "#rotina-papiro .glass-card:nth-of-type(3) strong" },
+                { key: "glass-3-text", label: "Missao - bloco 3 texto", selector: "#rotina-papiro .glass-card:nth-of-type(3) p" },
+                { key: "features-title", label: "Funcionalidades - titulo", selector: "#funcionalidades .section-heading h2" },
+                { key: "features-text", label: "Funcionalidades - descricao", selector: "#funcionalidades .section-heading > p" },
+                { key: "feature-1-title", label: "Funcionalidade 1 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(1) h3" },
+                { key: "feature-1-text", label: "Funcionalidade 1 - texto", selector: "#funcionalidades .feature-card:nth-of-type(1) p" },
+                { key: "feature-2-title", label: "Funcionalidade 2 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(2) h3" },
+                { key: "feature-2-text", label: "Funcionalidade 2 - texto", selector: "#funcionalidades .feature-card:nth-of-type(2) p" },
+                { key: "feature-3-title", label: "Funcionalidade 3 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(3) h3" },
+                { key: "feature-3-text", label: "Funcionalidade 3 - texto", selector: "#funcionalidades .feature-card:nth-of-type(3) p" },
+                { key: "feature-4-title", label: "Funcionalidade 4 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(4) h3" },
+                { key: "feature-4-text", label: "Funcionalidade 4 - texto", selector: "#funcionalidades .feature-card:nth-of-type(4) p" },
+                { key: "feature-5-title", label: "Funcionalidade 5 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(5) h3" },
+                { key: "feature-5-text", label: "Funcionalidade 5 - texto", selector: "#funcionalidades .feature-card:nth-of-type(5) p" },
+                { key: "feature-6-title", label: "Funcionalidade 6 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(6) h3" },
+                { key: "feature-6-text", label: "Funcionalidade 6 - texto", selector: "#funcionalidades .feature-card:nth-of-type(6) p" },
+                { key: "feature-7-title", label: "Funcionalidade 7 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(7) h3" },
+                { key: "feature-7-text", label: "Funcionalidade 7 - texto", selector: "#funcionalidades .feature-card:nth-of-type(7) p" },
+                { key: "feature-8-title", label: "Funcionalidade 8 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(8) h3" },
+                { key: "feature-8-text", label: "Funcionalidade 8 - texto", selector: "#funcionalidades .feature-card:nth-of-type(8) p" },
+                { key: "feature-9-title", label: "Funcionalidade 9 - titulo", selector: "#funcionalidades .feature-card:nth-of-type(9) h3" },
+                { key: "feature-9-text", label: "Funcionalidade 9 - texto", selector: "#funcionalidades .feature-card:nth-of-type(9) p" },
+                { key: "team-title", label: "Equipe - titulo", selector: "#desenvolvedores .section-heading h2" },
+                { key: "team-text", label: "Equipe - descricao", selector: "#desenvolvedores .section-heading > p" },
+                { key: "team-1-role", label: "Equipe 1 - nome", selector: "#desenvolvedores .team-card:nth-of-type(1) .team-role" },
+                { key: "team-1-title", label: "Equipe 1 - titulo", selector: "#desenvolvedores .team-card:nth-of-type(1) h3" },
+                { key: "team-1-text", label: "Equipe 1 - texto", selector: "#desenvolvedores .team-card:nth-of-type(1) p" },
+                { key: "team-2-role", label: "Equipe 2 - nome", selector: "#desenvolvedores .team-card:nth-of-type(2) .team-role" },
+                { key: "team-2-title", label: "Equipe 2 - titulo", selector: "#desenvolvedores .team-card:nth-of-type(2) h3" },
+                { key: "team-2-text", label: "Equipe 2 - texto", selector: "#desenvolvedores .team-card:nth-of-type(2) p" },
+                { key: "team-3-role", label: "Equipe 3 - nome", selector: "#desenvolvedores .team-card:nth-of-type(3) .team-role" },
+                { key: "team-3-title", label: "Equipe 3 - titulo", selector: "#desenvolvedores .team-card:nth-of-type(3) h3" },
+                { key: "team-3-text", label: "Equipe 3 - texto", selector: "#desenvolvedores .team-card:nth-of-type(3) p" },
+                { key: "closing-eyebrow", label: "Encerramento - apoio", selector: ".closing-copy .eyebrow" },
+                { key: "closing-title", label: "Encerramento - titulo", selector: ".closing-copy h2" },
+                { key: "closing-text", label: "Encerramento - texto", selector: ".closing-copy > p:nth-of-type(1)" },
+                { key: "closing-note", label: "Encerramento - rodape", selector: ".footer-note" }
+            ];
+            const imageConfig = [
+                { key: "showcase-logo", label: "Plataforma - logo principal", selector: ".logo-card img" },
+                { key: "showcase-banner", label: "Plataforma - banner", selector: ".banner-card img" },
+                { key: "routine-image", label: "Rotina - imagem principal", selector: "#rotina-papiro .image-card img" },
+                { key: "team-1-image", label: "Equipe - foto 1", selector: "#desenvolvedores .team-card:nth-of-type(1) img" },
+                { key: "team-2-image", label: "Equipe - foto 2", selector: "#desenvolvedores .team-card:nth-of-type(2) img" },
+                { key: "team-3-image", label: "Equipe - foto 3", selector: "#desenvolvedores .team-card:nth-of-type(3) img" },
+                { key: "closing-image", label: "Encerramento - imagem", selector: ".closing-grid .brand-mark img" }
+            ];
+            const layer = document.getElementById("adminLayer");
+            const fab = document.getElementById("adminFab");
+            const fieldsHost = document.getElementById("adminFields");
+            const saveButton = document.getElementById("adminSave");
+            const resetButton = document.getElementById("adminReset");
+            const logoutButton = document.getElementById("adminLogout");
+            const loginForm = document.getElementById("adminLoginForm");
+            const errorBox = document.getElementById("adminError");
+            const statusBox = document.getElementById("adminStatus");
+            const cropperLayer = document.getElementById("cropperLayer");
+            const cropperViewport = document.getElementById("cropperViewport");
+            const cropperImage = document.getElementById("cropperImage");
+            const cropperZoom = document.getElementById("cropperZoom");
+            const cropperLabel = document.getElementById("cropperLabel");
+            const cropperError = document.getElementById("cropperError");
+            const cropperApplyButton = document.getElementById("cropperApply");
+            const cropperResetButton = document.getElementById("cropperReset");
+            const textFields = textConfig
+                .map((entry) => ({ ...entry, node: document.querySelector(entry.selector) }))
+                .filter((entry) => entry.node);
+            const imageFields = imageConfig
+                .map((entry) => ({ ...entry, node: document.querySelector(entry.selector) }))
+                .filter((entry) => entry.node);
+            const defaults = {
+                text: Object.fromEntries(textFields.map((entry) => [entry.key, entry.node.textContent.trim()])),
+                image: Object.fromEntries(imageFields.map((entry) => [entry.key, entry.node.getAttribute("src")]))
+            };
+            let state = { text: {}, image: {} };
+            let fieldsRendered = false;
+            const cropperState = {
+                entry: null,
+                preview: null,
+                urlInput: null,
+                source: "",
+                aspectRatio: 1,
+                zoom: 1,
+                x: 0,
+                y: 0,
+                dragging: false,
+                dragStartX: 0,
+                dragStartY: 0,
+                startX: 0,
+                startY: 0,
+                displayWidth: 0,
+                displayHeight: 0,
+                viewportWidth: 0,
+                viewportHeight: 0,
+                frameRequest: 0,
+                pendingX: 0,
+                pendingY: 0
+            };
+
             function initSporeField() {
                 const overlay = document.querySelector(".spore-overlay");
                 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -1469,7 +1988,537 @@
                 });
             }
 
+            function loadSession() {
+                try {
+                    const parsed = JSON.parse(sessionStorage.getItem(sessionKey) || "{}");
+                    return parsed && typeof parsed.authToken === "string" ? parsed : null;
+                } catch (error) {
+                    return null;
+                }
+            }
+
+            function saveSession(session) {
+                sessionStorage.setItem(sessionKey, JSON.stringify(session));
+            }
+
+            function clearSession() {
+                sessionStorage.removeItem(sessionKey);
+            }
+
+            function normalizeState(content) {
+                return {
+                    text: content && content.text && typeof content.text === "object" ? content.text : {},
+                    image: content && content.image && typeof content.image === "object" ? content.image : {}
+                };
+            }
+
+            function setStatus(message) {
+                statusBox.textContent = message;
+            }
+
+            function formatUpdatedAt(value) {
+                if (!value) {
+                    return "";
+                }
+                const date = new Date(value);
+                if (Number.isNaN(date.getTime())) {
+                    return value;
+                }
+                return date.toLocaleString("pt-BR");
+            }
+
+            function applyState() {
+                textFields.forEach((entry) => {
+                    entry.node.textContent = state.text[entry.key] || defaults.text[entry.key];
+                });
+
+                imageFields.forEach((entry) => {
+                    entry.node.setAttribute("src", state.image[entry.key] || defaults.image[entry.key]);
+                });
+            }
+
+            function buildTextField(entry) {
+                const wrapper = document.createElement("div");
+                const label = document.createElement("label");
+                const input = document.createElement("textarea");
+
+                wrapper.className = "admin-field";
+                label.textContent = entry.label;
+                input.value = state.text[entry.key] || defaults.text[entry.key];
+                input.addEventListener("input", () => {
+                    state.text[entry.key] = input.value.trim();
+                    entry.node.textContent = state.text[entry.key] || defaults.text[entry.key];
+                });
+
+                wrapper.append(label, input);
+                return wrapper;
+            }
+
+            function buildImageField(entry) {
+                const wrapper = document.createElement("div");
+                const label = document.createElement("label");
+                const urlInput = document.createElement("input");
+                const fileInput = document.createElement("input");
+                const previewFrame = document.createElement("div");
+                const preview = document.createElement("img");
+                const actions = document.createElement("div");
+                const cropButton = document.createElement("button");
+
+                wrapper.className = "admin-field";
+                label.textContent = entry.label;
+
+                urlInput.type = "url";
+                urlInput.placeholder = "Cole a URL da imagem";
+                urlInput.value = state.image[entry.key] || defaults.image[entry.key];
+                urlInput.addEventListener("input", () => {
+                    const value = urlInput.value.trim();
+                    state.image[entry.key] = value || defaults.image[entry.key];
+                    preview.src = state.image[entry.key];
+                    entry.node.setAttribute("src", state.image[entry.key]);
+                });
+
+                fileInput.type = "file";
+                fileInput.accept = "image/*";
+                fileInput.addEventListener("change", async () => {
+                    const [file] = fileInput.files || [];
+                    if (!file) {
+                        return;
+                    }
+
+                    const dataUrl = await readFileAsDataUrl(file);
+                    state.image[entry.key] = dataUrl;
+                    urlInput.value = dataUrl;
+                    preview.src = dataUrl;
+                    entry.node.setAttribute("src", dataUrl);
+                });
+
+                previewFrame.className = "admin-preview";
+                preview.src = state.image[entry.key] || defaults.image[entry.key];
+                preview.alt = entry.label;
+                previewFrame.append(preview);
+
+                actions.className = "admin-field-actions";
+
+                cropButton.type = "button";
+                cropButton.className = "admin-mini-action";
+                cropButton.textContent = "Editar recorte";
+                cropButton.addEventListener("click", async () => {
+                    try {
+                        await openCropper(entry, preview, urlInput);
+                    } catch (error) {
+                        cropperError.textContent = error instanceof Error ? error.message : "Nao foi possivel abrir o editor de recorte.";
+                        cropperLayer.classList.add("is-open");
+                        cropperLayer.setAttribute("aria-hidden", "false");
+                    }
+                });
+
+                actions.append(cropButton);
+                wrapper.append(label, urlInput, fileInput, previewFrame, actions);
+                return wrapper;
+            }
+
+            function readFileAsDataUrl(file) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = () => resolve(String(reader.result));
+                    reader.onerror = () => reject(reader.error);
+                    reader.readAsDataURL(file);
+                });
+            }
+
+            function renderFields(force = false) {
+                if (fieldsRendered && !force) {
+                    return;
+                }
+                fieldsHost.innerHTML = "";
+                textFields.forEach((entry) => fieldsHost.append(buildTextField(entry)));
+                imageFields.forEach((entry) => fieldsHost.append(buildImageField(entry)));
+                fieldsRendered = true;
+            }
+
+            function getImageSource(entry) {
+                return state.image[entry.key] || defaults.image[entry.key] || "";
+            }
+
+            function getCropAspectRatio(entry) {
+                const rect = entry.node.getBoundingClientRect();
+                if (rect.width > 1 && rect.height > 1) {
+                    return rect.width / rect.height;
+                }
+                return 1;
+            }
+
+            function clampCropOffsets() {
+                const maxX = Math.max(0, (cropperState.displayWidth - cropperState.viewportWidth) / 2);
+                const maxY = Math.max(0, (cropperState.displayHeight - cropperState.viewportHeight) / 2);
+                cropperState.x = Math.min(maxX, Math.max(-maxX, cropperState.x));
+                cropperState.y = Math.min(maxY, Math.max(-maxY, cropperState.y));
+            }
+
+            function renderCropperImage() {
+                if (!cropperImage.naturalWidth || !cropperState.entry) {
+                    return;
+                }
+
+                cropperState.viewportWidth = cropperViewport.clientWidth;
+                cropperState.viewportHeight = cropperViewport.clientHeight;
+                const fitScale = Math.max(
+                    cropperState.viewportWidth / cropperImage.naturalWidth,
+                    cropperState.viewportHeight / cropperImage.naturalHeight
+                );
+                cropperState.displayWidth = cropperImage.naturalWidth * fitScale * cropperState.zoom;
+                cropperState.displayHeight = cropperImage.naturalHeight * fitScale * cropperState.zoom;
+                clampCropOffsets();
+                cropperImage.style.width = `${cropperState.displayWidth}px`;
+                cropperImage.style.height = `${cropperState.displayHeight}px`;
+                cropperImage.style.left = `calc(50% + ${cropperState.x}px)`;
+                cropperImage.style.top = `calc(50% + ${cropperState.y}px)`;
+            }
+
+            function resetCropperView() {
+                cropperState.zoom = 1;
+                cropperState.x = 0;
+                cropperState.y = 0;
+                cropperZoom.value = "1";
+                renderCropperImage();
+            }
+
+            function closeCropper() {
+                cropperLayer.classList.remove("is-open");
+                cropperLayer.setAttribute("aria-hidden", "true");
+                cropperViewport.classList.remove("is-dragging");
+                cropperError.textContent = "";
+                cropperState.entry = null;
+                cropperState.preview = null;
+                cropperState.urlInput = null;
+                cropperState.dragging = false;
+            }
+
+            async function openCropper(entry, preview, urlInput) {
+                const source = getImageSource(entry);
+                if (!source) {
+                    cropperError.textContent = "Nenhuma imagem disponivel para recortar.";
+                    return;
+                }
+
+                cropperState.entry = entry;
+                cropperState.preview = preview;
+                cropperState.urlInput = urlInput;
+                cropperState.source = source;
+                cropperState.aspectRatio = getCropAspectRatio(entry);
+                cropperViewport.style.aspectRatio = String(cropperState.aspectRatio);
+                cropperLabel.textContent = `Ajuste o enquadramento de "${entry.label}".`;
+                cropperLayer.classList.add("is-open");
+                cropperLayer.setAttribute("aria-hidden", "false");
+                cropperError.textContent = "";
+
+                await loadCropperImage(source);
+                resetCropperView();
+            }
+
+            function loadCropperImage(source) {
+                return new Promise((resolve, reject) => {
+                    cropperImage.onload = () => {
+                        requestAnimationFrame(() => {
+                            renderCropperImage();
+                            resolve();
+                        });
+                    };
+                    cropperImage.onerror = () => reject(new Error("Nao foi possivel carregar a imagem para recorte."));
+                    cropperImage.crossOrigin = "anonymous";
+                    cropperImage.src = source;
+                });
+            }
+
+            function buildCroppedImageDataUrl() {
+                const canvas = document.createElement("canvas");
+                const outputWidth = 1600;
+                const outputHeight = Math.max(1, Math.round(outputWidth / cropperState.aspectRatio));
+                canvas.width = outputWidth;
+                canvas.height = outputHeight;
+                const context = canvas.getContext("2d");
+                const left = (cropperState.viewportWidth / 2) + cropperState.x - (cropperState.displayWidth / 2);
+                const top = (cropperState.viewportHeight / 2) + cropperState.y - (cropperState.displayHeight / 2);
+                const sourceX = ((0 - left) / cropperState.displayWidth) * cropperImage.naturalWidth;
+                const sourceY = ((0 - top) / cropperState.displayHeight) * cropperImage.naturalHeight;
+                const sourceWidth = (cropperState.viewportWidth / cropperState.displayWidth) * cropperImage.naturalWidth;
+                const sourceHeight = (cropperState.viewportHeight / cropperState.displayHeight) * cropperImage.naturalHeight;
+
+                context.drawImage(
+                    cropperImage,
+                    sourceX,
+                    sourceY,
+                    sourceWidth,
+                    sourceHeight,
+                    0,
+                    0,
+                    outputWidth,
+                    outputHeight
+                );
+
+                return canvas.toDataURL("image/png");
+            }
+
+            function openLayer() {
+                layer.classList.add("is-open");
+                refreshPublishedContent();
+                if (loadSession()) {
+                    layer.classList.add("is-authenticated");
+                    renderFields(true);
+                } else {
+                    layer.classList.remove("is-authenticated");
+                }
+                layer.setAttribute("aria-hidden", "false");
+            }
+
+            function closeLayer() {
+                layer.classList.remove("is-open");
+                layer.setAttribute("aria-hidden", "true");
+                errorBox.textContent = "";
+            }
+
+            if (fab) {
+                fab.addEventListener("click", openLayer);
+            }
+            layer.querySelectorAll("[data-admin-close='true']").forEach((button) => {
+                button.addEventListener("click", closeLayer);
+            });
+            cropperLayer.querySelectorAll("[data-cropper-close='true']").forEach((button) => {
+                button.addEventListener("click", closeCropper);
+            });
+
+            cropperZoom.addEventListener("input", () => {
+                cropperState.zoom = Number(cropperZoom.value);
+                renderCropperImage();
+            });
+
+            cropperResetButton.addEventListener("click", resetCropperView);
+
+            cropperApplyButton.addEventListener("click", () => {
+                if (!cropperState.entry || !cropperState.preview || !cropperState.urlInput) {
+                    return;
+                }
+
+                try {
+                    const cropped = buildCroppedImageDataUrl();
+                    state.image[cropperState.entry.key] = cropped;
+                    cropperState.preview.src = cropped;
+                    cropperState.urlInput.value = cropped;
+                    cropperState.entry.node.setAttribute("src", cropped);
+                    closeCropper();
+                } catch (error) {
+                    cropperError.textContent = "Nao foi possivel recortar essa imagem. Se ela veio de outro site, tente enviar o arquivo localmente.";
+                }
+            });
+
+            cropperViewport.addEventListener("pointerdown", (event) => {
+                if (!cropperState.entry) {
+                    return;
+                }
+
+                cropperState.dragging = true;
+                cropperState.dragStartX = event.clientX;
+                cropperState.dragStartY = event.clientY;
+                cropperState.startX = cropperState.x;
+                cropperState.startY = cropperState.y;
+                cropperViewport.classList.add("is-dragging");
+                cropperViewport.setPointerCapture(event.pointerId);
+            });
+
+            cropperViewport.addEventListener("pointermove", (event) => {
+                if (!cropperState.dragging) {
+                    return;
+                }
+
+                cropperState.pendingX = cropperState.startX + (event.clientX - cropperState.dragStartX);
+                cropperState.pendingY = cropperState.startY + (event.clientY - cropperState.dragStartY);
+                if (!cropperState.frameRequest) {
+                    cropperState.frameRequest = requestAnimationFrame(() => {
+                        cropperState.x = cropperState.pendingX;
+                        cropperState.y = cropperState.pendingY;
+                        cropperState.frameRequest = 0;
+                        renderCropperImage();
+                    });
+                }
+            });
+
+            function finishCropperDrag(event) {
+                if (event && cropperViewport.hasPointerCapture(event.pointerId)) {
+                    cropperViewport.releasePointerCapture(event.pointerId);
+                }
+                if (cropperState.frameRequest) {
+                    cancelAnimationFrame(cropperState.frameRequest);
+                    cropperState.frameRequest = 0;
+                }
+                cropperState.dragging = false;
+                cropperViewport.classList.remove("is-dragging");
+            }
+
+            cropperViewport.addEventListener("pointerup", finishCropperDrag);
+            cropperViewport.addEventListener("pointercancel", finishCropperDrag);
+            window.addEventListener("resize", () => {
+                if (cropperLayer.classList.contains("is-open")) {
+                    renderCropperImage();
+                }
+            });
+
+            loginForm.addEventListener("submit", async (event) => {
+                event.preventDefault();
+                const form = new FormData(loginForm);
+                const user = String(form.get("user") || "").trim();
+                const password = String(form.get("password") || "").trim();
+
+                try {
+                    setStatus("Validando acesso da gerencia...");
+                    const response = await fetch(cmsAuthUrl, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ user, password })
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok || !payload.ok) {
+                        throw new Error(payload.error || "Login ou senha invalidos.");
+                    }
+
+                    saveSession({
+                        user,
+                        authToken: btoa(`${user}:${password}`)
+                    });
+                    errorBox.textContent = "";
+                    layer.classList.add("is-authenticated");
+                    renderFields(true);
+                    setStatus("Gerencia liberada. Voce ja pode publicar alteracoes.");
+                } catch (error) {
+                    errorBox.textContent = error instanceof Error ? error.message : "Nao foi possivel entrar.";
+                    setStatus("Falha ao validar o acesso da gerencia.");
+                }
+            });
+
+            saveButton.addEventListener("click", async () => {
+                const session = loadSession();
+                if (!session) {
+                    errorBox.textContent = "Entre no modo gerencia antes de salvar.";
+                    layer.classList.remove("is-authenticated");
+                    return;
+                }
+
+                try {
+                    saveButton.disabled = true;
+                    resetButton.disabled = true;
+                    setStatus("Publicando alteracoes no site...");
+                    const response = await fetch(cmsContentUrl, {
+                        method: "PUT",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": `Basic ${session.authToken}`
+                        },
+                        body: JSON.stringify(state)
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        throw new Error(payload.error || "Nao foi possivel publicar o conteudo.");
+                    }
+
+                    state = normalizeState(payload.content);
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    setStatus(`Conteudo publicado com sucesso em ${formatUpdatedAt(payload.updatedAt)}.`);
+                } catch (error) {
+                    setStatus(error instanceof Error ? error.message : "Falha ao publicar o conteudo.");
+                } finally {
+                    saveButton.disabled = false;
+                    resetButton.disabled = false;
+                }
+            });
+
+            resetButton.addEventListener("click", async () => {
+                const session = loadSession();
+                if (!session) {
+                    errorBox.textContent = "Entre no modo gerencia antes de restaurar.";
+                    layer.classList.remove("is-authenticated");
+                    return;
+                }
+
+                try {
+                    resetButton.disabled = true;
+                    saveButton.disabled = true;
+                    setStatus("Restaurando o conteudo padrao publicado...");
+                    const response = await fetch(cmsContentUrl, {
+                        method: "PUT",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": `Basic ${session.authToken}`
+                        },
+                        body: JSON.stringify({ text: {}, image: {} })
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        throw new Error(payload.error || "Nao foi possivel restaurar o conteudo.");
+                    }
+
+                    state = normalizeState(payload.content);
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    setStatus("Conteudo padrao restaurado e publicado.");
+                } catch (error) {
+                    setStatus(error instanceof Error ? error.message : "Falha ao restaurar o conteudo.");
+                } finally {
+                    resetButton.disabled = false;
+                    saveButton.disabled = false;
+                }
+            });
+
+            logoutButton.addEventListener("click", () => {
+                clearSession();
+                layer.classList.remove("is-authenticated");
+                closeLayer();
+                setStatus("Sessao encerrada. O conteudo publicado continua no ar.");
+            });
+
+            async function refreshPublishedContent() {
+                try {
+                    setStatus("Carregando o conteudo publicado...");
+                    const response = await fetch(cmsContentUrl, {
+                        method: "GET",
+                        cache: "no-store"
+                    });
+                    const payload = await response.json().catch(() => ({}));
+
+                    if (!response.ok) {
+                        throw new Error(payload.error || "Nao foi possivel carregar o conteudo publicado.");
+                    }
+
+                    state = normalizeState(payload.content);
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    if (payload.updatedAt) {
+                        setStatus(`Conteudo publicado carregado. Ultima atualizacao: ${formatUpdatedAt(payload.updatedAt)}.`);
+                    } else {
+                        setStatus("Conteudo publicado carregado.");
+                    }
+                } catch (error) {
+                    state = { text: {}, image: {} };
+                    applyState();
+                    if (loadSession()) {
+                        renderFields(true);
+                    }
+                    setStatus("Nao foi possivel carregar o servidor da gerencia. A pagina abriu com o conteudo padrao.");
+                }
+            }
+
             initSporeField();
+            applyState();
 
             document.querySelectorAll("img").forEach((image, index) => {
                 image.decoding = "async";

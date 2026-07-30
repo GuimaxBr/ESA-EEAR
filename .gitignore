@@ -20,6 +20,7 @@ local.properties
 app/google-services.json
 tmp_video/
 tmp_video_frames/
+docs-private/
 /dist
 **/__pycache__/
 tools/question_json_generator/build/
