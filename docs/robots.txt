@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://questoes-esa-eear.pages.dev/sitemap.xml
+Sitemap: https://guimaxbr.github.io/ESA-EEAR/sitemap.xml

@@ -109,6 +109,28 @@ Para anuncios reais serem validados pelo AdMob, publique esse arquivo na raiz do
 
 Se quiser usar GitHub Pages, publique a pasta `docs/`, pois ela ja contem um `index.html` e o `app-ads.txt` na raiz.
 
+## Publicacao do site estatico
+
+O site publico do projeto fica na pasta:
+
+```text
+docs/
+```
+
+Essa pasta contem o `index.html`, os assets publicos e arquivos de raiz como `app-ads.txt`, `robots.txt` e `sitemap.xml`.
+
+O GitHub Pages usa este mesmo repositorio e publica o conteudo da pasta `docs`.
+
+Para Cloudflare Pages, use:
+
+- repositorio: `GuimaxBr/ESA-EEAR`
+- branch de producao: `main`
+- framework preset: `None`
+- comando de build: vazio
+- diretorio de saida: `docs`
+
+Cada novo push na branch `main` deve acionar uma nova publicacao na Cloudflare Pages, desde que o projeto esteja conectado ao repositorio pelo dashboard da Cloudflare.
+
 ## Configuracao do Billing
 
 O produto premium atual esperado pelo app e:
